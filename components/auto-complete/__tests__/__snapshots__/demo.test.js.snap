@@ -11,7 +11,7 @@ exports[`renders ./components/auto-complete/demo/basic.md correctly 1`] = `
     aria-expanded="false"
     aria-haspopup="true"
     class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
     role="combobox"
   >
     <div
@@ -87,7 +87,7 @@ exports[`renders ./components/auto-complete/demo/certain-category.md correctly 1
       aria-expanded="false"
       aria-haspopup="true"
       class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
       role="combobox"
     >
       <div
@@ -185,7 +185,7 @@ exports[`renders ./components/auto-complete/demo/custom.md correctly 1`] = `
     aria-expanded="false"
     aria-haspopup="true"
     class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
     role="combobox"
   >
     <div
@@ -250,7 +250,7 @@ exports[`renders ./components/auto-complete/demo/non-case-sensitive.md correctly
     aria-expanded="false"
     aria-haspopup="true"
     class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
     role="combobox"
   >
     <div
@@ -322,7 +322,7 @@ exports[`renders ./components/auto-complete/demo/options.md correctly 1`] = `
     aria-expanded="false"
     aria-haspopup="true"
     class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
     role="combobox"
   >
     <div
@@ -398,7 +398,7 @@ exports[`renders ./components/auto-complete/demo/uncertain-category.md correctly
       aria-expanded="false"
       aria-haspopup="true"
       class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
       role="combobox"
     >
       <div

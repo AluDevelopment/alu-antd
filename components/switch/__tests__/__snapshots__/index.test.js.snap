@@ -2,7 +2,7 @@
 
 exports[`Switch should has click wave effect 1`] = `
 <button
-  ant-click-animating="true"
+  alu-click-animating="true"
   aria-checked="false"
   class="alu-switch"
   role="switch"

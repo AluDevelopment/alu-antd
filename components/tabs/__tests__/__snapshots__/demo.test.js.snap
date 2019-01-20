@@ -1538,7 +1538,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="true"
       class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
       role="combobox"
       tabindex="0"
     >
@@ -1580,7 +1580,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="true"
       class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
       role="combobox"
       tabindex="0"
     >
@@ -1622,7 +1622,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="true"
       class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
       role="combobox"
       tabindex="0"
     >
@@ -1664,7 +1664,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
       aria-expanded="false"
       aria-haspopup="true"
       class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
       role="combobox"
       tabindex="0"
     >
@@ -2220,7 +2220,7 @@ exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
         aria-expanded="false"
         aria-haspopup="true"
         class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
         role="combobox"
         tabindex="0"
       >

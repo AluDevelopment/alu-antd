@@ -10,7 +10,7 @@ exports[`Select Select Custom Icons should support customized icons 1`] = `
     aria-expanded="false"
     aria-haspopup="true"
     class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
     role="combobox"
     tabindex="0"
   >

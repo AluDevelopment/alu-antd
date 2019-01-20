@@ -54,7 +54,7 @@ export default class Wave extends React.Component<{ insertExtraNode?: boolean }>
       waveColor !== 'transparent'
     ) {
       extraNode.style.borderColor = waveColor;
-      styleForPesudo.innerHTML = `[ant-click-animating-without-extra-node]:after { border-color: ${waveColor}; }`;
+      styleForPesudo.innerHTML = `[alu-click-animating-without-extra-node]:after { border-color: ${waveColor}; }`;
       if (!document.body.contains(styleForPesudo)) {
         document.body.appendChild(styleForPesudo);
       }

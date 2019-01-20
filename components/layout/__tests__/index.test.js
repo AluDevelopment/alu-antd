@@ -27,7 +27,7 @@ describe('Layout', () => {
     expect(wrapper.find('.alu-layout').hasClass('alu-layout-has-sider')).toBe(true);
   });
 
-  it('detect ant-layout-sider-has-trigger class in sider when ant-layout-sider-trigger div tag exists', async () => {
+  it('detect alu-layout-sider-has-trigger class in sider when alu-layout-sider-trigger div tag exists', async () => {
     const wrapper = mount(
       <Layout>
         <div>
@@ -62,7 +62,7 @@ describe('Layout', () => {
     ).toBe('0 0 50%');
   });
 
-  it('detect ant-layout-sider-zero-width class in sider when its width is 0%', async () => {
+  it('detect alu-layout-sider-zero-width class in sider when its width is 0%', async () => {
     const wrapper = mount(
       <Layout>
         <div>
@@ -74,12 +74,12 @@ describe('Layout', () => {
     expect(wrapper.find('.alu-layout-sider').hasClass('alu-layout-sider-zero-width')).toBe(true);
   });
 
-  it('detect ant-layout-sider-dark as default theme', async () => {
+  it('detect alu-layout-sider-dark as default theme', async () => {
     const wrapper = mount(<Sider>Sider</Sider>);
     expect(wrapper.find('.alu-layout-sider').hasClass('alu-layout-sider-dark'));
   });
 
-  it('detect ant-layout-sider-light when set light theme', async () => {
+  it('detect alu-layout-sider-light when set light theme', async () => {
     const wrapper = mount(<Sider theme="light">Sider</Sider>);
     expect(wrapper.find('.alu-layout-sider').hasClass('alu-layout-sider-light'));
   });

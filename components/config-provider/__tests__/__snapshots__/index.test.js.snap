@@ -230,7 +230,7 @@ exports[`ConfigProvider components AutoComplete normal 1`] = `
     aria-expanded="false"
     aria-haspopup="true"
     class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
     role="combobox"
   >
     <div
@@ -2562,7 +2562,7 @@ exports[`ConfigProvider components Calendar normal 1`] = `
           aria-expanded="false"
           aria-haspopup="true"
           class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
           role="combobox"
           tabindex="0"
         >
@@ -2611,7 +2611,7 @@ exports[`ConfigProvider components Calendar normal 1`] = `
           aria-expanded="false"
           aria-haspopup="true"
           class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
           role="combobox"
           tabindex="0"
         >
@@ -3599,7 +3599,7 @@ exports[`ConfigProvider components Calendar normal 1`] = `
           aria-expanded="false"
           aria-haspopup="true"
           class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
           role="combobox"
           tabindex="0"
         >
@@ -3955,7 +3955,7 @@ exports[`ConfigProvider components Calendar prefixCls 1`] = `
           aria-expanded="false"
           aria-haspopup="true"
           class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
           role="combobox"
           tabindex="0"
         >
@@ -4004,7 +4004,7 @@ exports[`ConfigProvider components Calendar prefixCls 1`] = `
           aria-expanded="false"
           aria-haspopup="true"
           class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
           role="combobox"
           tabindex="0"
         >
@@ -4992,7 +4992,7 @@ exports[`ConfigProvider components Calendar prefixCls 1`] = `
           aria-expanded="false"
           aria-haspopup="true"
           class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
           role="combobox"
           tabindex="0"
         >
@@ -8656,7 +8656,7 @@ exports[`ConfigProvider components Pagination normal 1`] = `
           aria-expanded="false"
           aria-haspopup="true"
           class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
           role="combobox"
           tabindex="0"
         >
@@ -8786,7 +8786,7 @@ exports[`ConfigProvider components Pagination normal 1`] = `
           aria-expanded="false"
           aria-haspopup="true"
           class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
           role="combobox"
           tabindex="0"
         >
@@ -8921,7 +8921,7 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
           aria-expanded="false"
           aria-haspopup="true"
           class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
           role="combobox"
           tabindex="0"
         >
@@ -9051,7 +9051,7 @@ exports[`ConfigProvider components Pagination prefixCls 1`] = `
           aria-expanded="false"
           aria-haspopup="true"
           class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
           role="combobox"
           tabindex="0"
         >
@@ -10606,7 +10606,7 @@ Array [
       aria-expanded="true"
       aria-haspopup="true"
       class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
       role="combobox"
       tabindex="0"
     >

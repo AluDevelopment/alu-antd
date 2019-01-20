@@ -22,8 +22,8 @@ function getStyle() {
       padding: 0 24px;
     }
     #header,
-    #header .ant-select-selection,
-    #header .ant-menu {
+    #header .alu-select-selection,
+    #header .alu-menu {
       background: transparent;
     }
     #header #logo {
@@ -32,20 +32,20 @@ function getStyle() {
     #header .nav-phone-icon {
       display: none;
     }
-    #header #nav .ant-menu-item {
+    #header #nav .alu-menu-item {
       border-color: transparent;
     }
-    #header #nav .ant-menu-item.hide-in-home-page {
+    #header #nav .alu-menu-item.hide-in-home-page {
       display: none;
     }
-    #header .ant-row > div:last-child .header-lang-button {
+    #header .alu-row > div:last-child .header-lang-button {
       margin-right: 0;
     }
     footer .footer-wrap {
       width: 100%;
       padding: 0;
     }
-    footer .footer-wrap .ant-row {
+    footer .footer-wrap .alu-row {
       width: 100%;
       max-width: 1200px;
       padding: 86px 24px 93px 24px;
@@ -55,7 +55,7 @@ function getStyle() {
       #footer .footer-wrap{
         padding: 40px 24px
       }
-      footer .footer-wrap .ant-row {
+      footer .footer-wrap .alu-row {
         padding: 0;
       }
     }

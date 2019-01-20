@@ -549,7 +549,7 @@ exports[`renders ./components/form/demo/coordinated.md correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
               data-__field="[object Object]"
               data-__meta="[object Object]"
               role="combobox"
@@ -666,7 +666,7 @@ exports[`renders ./components/form/demo/customized-form-controls.md correctly 1`
                 aria-expanded="false"
                 aria-haspopup="true"
                 class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
                 role="combobox"
                 tabindex="0"
               >
@@ -1788,7 +1788,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
                     aria-expanded="false"
                     aria-haspopup="true"
                     class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
                     data-__field="[object Object]"
                     data-__meta="[object Object]"
                     role="combobox"
@@ -1878,7 +1878,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
               data-__field="[object Object]"
               data-__meta="[object Object]"
               role="combobox"
@@ -2555,7 +2555,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
               data-__field="[object Object]"
               data-__meta="[object Object]"
               role="combobox"
@@ -2634,7 +2634,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="alu-select-selection
-            ant-select-selection--multiple"
+            alu-select-selection--multiple"
               data-__field="[object Object]"
               data-__meta="[object Object]"
               role="combobox"
@@ -4183,7 +4183,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
               aria-expanded="false"
               aria-haspopup="true"
               class="alu-select-selection
-            ant-select-selection--single"
+            alu-select-selection--single"
               role="combobox"
               tabindex="0"
             >
