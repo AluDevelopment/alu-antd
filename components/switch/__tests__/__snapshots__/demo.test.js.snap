@@ -3,12 +3,12 @@
 exports[`renders ./components/switch/demo/basic.md correctly 1`] = `
 <button
   aria-checked="true"
-  class="ant-switch ant-switch-checked"
+  class="alu-switch alu-switch-checked"
   role="switch"
   type="button"
 >
   <span
-    class="ant-switch-inner"
+    class="alu-switch-inner"
   />
 </button>
 `;
@@ -17,18 +17,18 @@ exports[`renders ./components/switch/demo/disabled.md correctly 1`] = `
 <div>
   <button
     aria-checked="true"
-    class="ant-switch ant-switch-checked ant-switch-disabled"
+    class="alu-switch alu-switch-checked alu-switch-disabled"
     disabled=""
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     />
   </button>
   <br />
   <button
-    class="ant-btn ant-btn-primary"
+    class="alu-btn alu-btn-primary"
     type="button"
   >
     <span>
@@ -42,13 +42,13 @@ exports[`renders ./components/switch/demo/loading.md correctly 1`] = `
 <div>
   <button
     aria-checked="true"
-    class="ant-switch-loading ant-switch ant-switch-checked ant-switch-disabled"
+    class="alu-switch-loading alu-switch alu-switch-checked alu-switch-disabled"
     disabled=""
     role="switch"
     type="button"
   >
     <i
-      class="anticon anticon-loading ant-switch-loading-icon"
+      class="anticon anticon-loading alu-switch-loading-icon"
     >
       <svg
         aria-hidden="true"
@@ -65,19 +65,19 @@ exports[`renders ./components/switch/demo/loading.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     />
   </button>
   <br />
   <button
     aria-checked="false"
-    class="ant-switch-small ant-switch-loading ant-switch ant-switch-disabled"
+    class="alu-switch-small alu-switch-loading alu-switch alu-switch-disabled"
     disabled=""
     role="switch"
     type="button"
   >
     <i
-      class="anticon anticon-loading ant-switch-loading-icon"
+      class="anticon anticon-loading alu-switch-loading-icon"
     >
       <svg
         aria-hidden="true"
@@ -94,7 +94,7 @@ exports[`renders ./components/switch/demo/loading.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     />
   </button>
 </div>
@@ -104,23 +104,23 @@ exports[`renders ./components/switch/demo/size.md correctly 1`] = `
 <div>
   <button
     aria-checked="true"
-    class="ant-switch ant-switch-checked"
+    class="alu-switch alu-switch-checked"
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     />
   </button>
   <br />
   <button
     aria-checked="true"
-    class="ant-switch-small ant-switch ant-switch-checked"
+    class="alu-switch-small alu-switch alu-switch-checked"
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     />
   </button>
 </div>
@@ -130,12 +130,12 @@ exports[`renders ./components/switch/demo/text.md correctly 1`] = `
 <div>
   <button
     aria-checked="true"
-    class="ant-switch ant-switch-checked"
+    class="alu-switch alu-switch-checked"
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     >
       开
     </span>
@@ -143,12 +143,12 @@ exports[`renders ./components/switch/demo/text.md correctly 1`] = `
   <br />
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="alu-switch"
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     >
       0
     </span>
@@ -156,12 +156,12 @@ exports[`renders ./components/switch/demo/text.md correctly 1`] = `
   <br />
   <button
     aria-checked="true"
-    class="ant-switch ant-switch-checked"
+    class="alu-switch alu-switch-checked"
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     >
       <i
         class="anticon anticon-check"

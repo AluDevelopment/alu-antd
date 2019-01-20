@@ -31,7 +31,7 @@ ReactDOM.render(
 ````
 
 ````css
-.ant-input-number {
+.alu-input-number {
   margin-right: 10px;
 }
 ````

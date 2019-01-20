@@ -2,10 +2,10 @@
 
 exports[`renders ./components/empty/demo/basic.md correctly 1`] = `
 <div
-  class="ant-empty"
+  class="alu-empty"
 >
   <div
-    class="ant-empty-image"
+    class="alu-empty-image"
   >
     <img
       alt="No Data"
@@ -13,7 +13,7 @@ exports[`renders ./components/empty/demo/basic.md correctly 1`] = `
     />
   </div>
   <p
-    class="ant-empty-description"
+    class="alu-empty-description"
   >
     No Data
   </p>
@@ -24,18 +24,18 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
 <div>
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="alu-switch"
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     >
       default
     </span>
   </button>
   <div
-    class="ant-divider ant-divider-horizontal"
+    class="alu-divider alu-divider-horizontal"
   />
   <div
     class="config-provider"
@@ -44,7 +44,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
       Select
     </h3>
     <div
-      class="ant-select ant-select-enabled"
+      class="alu-select alu-select-enabled"
       style="width:200px"
     >
       <div
@@ -52,21 +52,21 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
         aria-controls=""
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         />
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -90,27 +90,27 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
     </h3>
     <span
       aria-haspopup="listbox"
-      class="ant-select ant-select-enabled"
+      class="alu-select alu-select-enabled"
       role="combobox"
       style="width:200px"
       tabindex="0"
     >
       <span
-        class="ant-select-selection ant-select-selection--single"
+        class="alu-select-selection alu-select-selection--single"
       >
         <span
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <span
-            class="ant-select-selection__placeholder"
+            class="alu-select-selection__placeholder"
           />
         </span>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           style="outline:none"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -133,22 +133,22 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
       Cascader
     </h3>
     <span
-      class="ant-cascader-picker ant-cascader-picker-show-search"
+      class="alu-cascader-picker alu-cascader-picker-show-search"
       style="width:200px"
       tabindex="0"
     >
       <span
-        class="ant-cascader-picker-label"
+        class="alu-cascader-picker-label"
       />
       <input
         autocomplete="off"
-        class="ant-input ant-cascader-input "
+        class="alu-input alu-cascader-input "
         placeholder="Please select"
         type="text"
         value=""
       />
       <i
-        class="anticon anticon-down ant-cascader-picker-arrow"
+        class="anticon anticon-down alu-cascader-picker-arrow"
       >
         <svg
           aria-hidden="true"
@@ -169,54 +169,54 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
       Transfer
     </h3>
     <div
-      class="ant-transfer"
+      class="alu-transfer"
     >
       <div
-        class="ant-transfer-list"
+        class="alu-transfer-list"
       >
         <div
-          class="ant-transfer-list-header"
+          class="alu-transfer-list-header"
         >
           <label
-            class="ant-checkbox-wrapper"
+            class="alu-checkbox-wrapper"
           >
             <span
-              class="ant-checkbox"
+              class="alu-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-header-selected"
+            class="alu-transfer-list-header-selected"
           >
             <span>
               0 item
             </span>
             <span
-              class="ant-transfer-list-header-title"
+              class="alu-transfer-list-header-title"
             />
           </span>
         </div>
         <div
-          class="ant-transfer-list-body"
+          class="alu-transfer-list-body"
         >
           <ul
-            class="ant-transfer-list-content"
+            class="alu-transfer-list-content"
           />
           <div
-            class="ant-transfer-list-body-not-found"
+            class="alu-transfer-list-body-not-found"
           >
             <div
-              class="ant-empty ant-empty-small"
+              class="alu-empty alu-empty-small"
             >
               <div
-                class="ant-empty-image"
+                class="alu-empty-image"
               >
                 <img
                   alt="No Data"
@@ -224,7 +224,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                 />
               </div>
               <p
-                class="ant-empty-description"
+                class="alu-empty-description"
               >
                 No Data
               </p>
@@ -233,10 +233,10 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-transfer-operation"
+        class="alu-transfer-operation"
       >
         <button
-          class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+          class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
           disabled=""
           type="button"
         >
@@ -259,7 +259,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
           </i>
         </button>
         <button
-          class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+          class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
           disabled=""
           type="button"
         >
@@ -283,51 +283,51 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
         </button>
       </div>
       <div
-        class="ant-transfer-list"
+        class="alu-transfer-list"
       >
         <div
-          class="ant-transfer-list-header"
+          class="alu-transfer-list-header"
         >
           <label
-            class="ant-checkbox-wrapper"
+            class="alu-checkbox-wrapper"
           >
             <span
-              class="ant-checkbox"
+              class="alu-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
           </label>
           <span
-            class="ant-transfer-list-header-selected"
+            class="alu-transfer-list-header-selected"
           >
             <span>
               0 item
             </span>
             <span
-              class="ant-transfer-list-header-title"
+              class="alu-transfer-list-header-title"
             />
           </span>
         </div>
         <div
-          class="ant-transfer-list-body"
+          class="alu-transfer-list-body"
         >
           <ul
-            class="ant-transfer-list-content"
+            class="alu-transfer-list-content"
           />
           <div
-            class="ant-transfer-list-body-not-found"
+            class="alu-transfer-list-body-not-found"
           >
             <div
-              class="ant-empty ant-empty-small"
+              class="alu-empty alu-empty-small"
             >
               <div
-                class="ant-empty-image"
+                class="alu-empty-image"
               >
                 <img
                   alt="No Data"
@@ -335,7 +335,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                 />
               </div>
               <p
-                class="ant-empty-description"
+                class="alu-empty-description"
               >
                 No Data
               </p>
@@ -348,23 +348,23 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
       Table
     </h3>
     <div
-      class="ant-table-wrapper"
+      class="alu-table-wrapper"
       style="margin-top:8px"
     >
       <div
-        class="ant-spin-nested-loading"
+        class="alu-spin-nested-loading"
       >
         <div
-          class="ant-spin-container"
+          class="alu-spin-container"
         >
           <div
-            class="ant-table ant-table-default ant-table-empty ant-table-scroll-position-left"
+            class="alu-table alu-table-default alu-table-empty alu-table-scroll-position-left"
           >
             <div
-              class="ant-table-content"
+              class="alu-table-content"
             >
               <div
-                class="ant-table-body"
+                class="alu-table-body"
               >
                 <table
                   class=""
@@ -374,7 +374,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                     <col />
                   </colgroup>
                   <thead
-                    class="ant-table-thead"
+                    class="alu-table-thead"
                   >
                     <tr>
                       <th
@@ -394,18 +394,18 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                     </tr>
                   </thead>
                   <tbody
-                    class="ant-table-tbody"
+                    class="alu-table-tbody"
                   />
                 </table>
               </div>
               <div
-                class="ant-table-placeholder"
+                class="alu-table-placeholder"
               >
                 <div
-                  class="ant-empty ant-empty-normal"
+                  class="alu-empty alu-empty-normal"
                 >
                   <div
-                    class="ant-empty-image"
+                    class="alu-empty-image"
                   >
                     <img
                       alt="No Data"
@@ -413,7 +413,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                     />
                   </div>
                   <p
-                    class="ant-empty-description"
+                    class="alu-empty-description"
                   >
                     No Data
                   </p>
@@ -428,22 +428,22 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
       List
     </h3>
     <div
-      class="ant-list ant-list-split"
+      class="alu-list alu-list-split"
     >
       <div
-        class="ant-spin-nested-loading"
+        class="alu-spin-nested-loading"
       >
         <div
-          class="ant-spin-container"
+          class="alu-spin-container"
         >
           <div
-            class="ant-list-empty-text"
+            class="alu-list-empty-text"
           >
             <div
-              class="ant-empty ant-empty-normal"
+              class="alu-empty alu-empty-normal"
             >
               <div
-                class="ant-empty-image"
+                class="alu-empty-image"
               >
                 <img
                   alt="No Data"
@@ -451,7 +451,7 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
                 />
               </div>
               <p
-                class="ant-empty-description"
+                class="alu-empty-description"
               >
                 No Data
               </p>
@@ -466,10 +466,10 @@ exports[`renders ./components/empty/demo/config-provider.md correctly 1`] = `
 
 exports[`renders ./components/empty/demo/customize.md correctly 1`] = `
 <div
-  class="ant-empty"
+  class="alu-empty"
 >
   <div
-    class="ant-empty-image"
+    class="alu-empty-image"
   >
     <img
       alt="empty"
@@ -477,7 +477,7 @@ exports[`renders ./components/empty/demo/customize.md correctly 1`] = `
     />
   </div>
   <p
-    class="ant-empty-description"
+    class="alu-empty-description"
   >
     <span>
       Customize 
@@ -489,10 +489,10 @@ exports[`renders ./components/empty/demo/customize.md correctly 1`] = `
     </span>
   </p>
   <div
-    class="ant-empty-footer"
+    class="alu-empty-footer"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="alu-btn alu-btn-primary"
       type="button"
     >
       <span>

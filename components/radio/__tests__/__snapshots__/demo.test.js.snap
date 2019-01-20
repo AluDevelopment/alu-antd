@@ -2,17 +2,17 @@
 
 exports[`renders ./components/radio/demo/basic.md correctly 1`] = `
 <label
-  class="ant-radio-wrapper"
+  class="alu-radio-wrapper"
 >
   <span
-    class="ant-radio"
+    class="alu-radio"
   >
     <input
-      class="ant-radio-input"
+      class="alu-radio-input"
       type="radio"
     />
     <span
-      class="ant-radio-inner"
+      class="alu-radio-inner"
     />
   </span>
   <span>
@@ -24,18 +24,18 @@ exports[`renders ./components/radio/demo/basic.md correctly 1`] = `
 exports[`renders ./components/radio/demo/disable.md correctly 1`] = `
 <div>
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-disabled"
+    class="alu-radio-wrapper alu-radio-wrapper-disabled"
   >
     <span
-      class="ant-radio ant-radio-disabled"
+      class="alu-radio alu-radio-disabled"
     >
       <input
-        class="ant-radio-input"
+        class="alu-radio-input"
         disabled=""
         type="radio"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -44,19 +44,19 @@ exports[`renders ./components/radio/demo/disable.md correctly 1`] = `
   </label>
   <br />
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-disabled"
+    class="alu-radio-wrapper alu-radio-wrapper-disabled"
   >
     <span
-      class="ant-radio ant-radio-checked ant-radio-disabled"
+      class="alu-radio alu-radio-checked alu-radio-disabled"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="alu-radio-input"
         disabled=""
         type="radio"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -67,7 +67,7 @@ exports[`renders ./components/radio/demo/disable.md correctly 1`] = `
     style="margin-top:20px"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="alu-btn alu-btn-primary"
       type="button"
     >
       <span>
@@ -82,22 +82,22 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
 <div>
   <div>
     <div
-      class="ant-radio-group ant-radio-group-outline"
+      class="alu-radio-group alu-radio-group-outline"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="alu-radio-button alu-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="a"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -105,18 +105,18 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="b"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -124,18 +124,18 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="c"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -143,18 +143,18 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="d"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -167,22 +167,22 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
     style="margin-top:16px"
   >
     <div
-      class="ant-radio-group ant-radio-group-outline"
+      class="alu-radio-group alu-radio-group-outline"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="alu-radio-button alu-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="a"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -190,19 +190,19 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-disabled"
       >
         <span
-          class="ant-radio-button ant-radio-button-disabled"
+          class="alu-radio-button alu-radio-button-disabled"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             disabled=""
             type="radio"
             value="b"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -210,18 +210,18 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="c"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -229,18 +229,18 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="d"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -253,23 +253,23 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
     style="margin-top:16px"
   >
     <div
-      class="ant-radio-group ant-radio-group-outline"
+      class="alu-radio-group alu-radio-group-outline"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked ant-radio-button-wrapper-disabled"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-checked alu-radio-button-wrapper-disabled"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked ant-radio-button-disabled"
+          class="alu-radio-button alu-radio-button-checked alu-radio-button-disabled"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             disabled=""
             type="radio"
             value="a"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -277,19 +277,19 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-disabled"
       >
         <span
-          class="ant-radio-button ant-radio-button-disabled"
+          class="alu-radio-button alu-radio-button-disabled"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             disabled=""
             type="radio"
             value="b"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -297,19 +297,19 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-disabled"
       >
         <span
-          class="ant-radio-button ant-radio-button-disabled"
+          class="alu-radio-button alu-radio-button-disabled"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             disabled=""
             type="radio"
             value="c"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -317,19 +317,19 @@ exports[`renders ./components/radio/demo/radiobutton.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-disabled"
       >
         <span
-          class="ant-radio-button ant-radio-button-disabled"
+          class="alu-radio-button alu-radio-button-disabled"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             disabled=""
             type="radio"
             value="d"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -345,22 +345,22 @@ exports[`renders ./components/radio/demo/radiobutton-solid.md correctly 1`] = `
 <div>
   <div>
     <div
-      class="ant-radio-group ant-radio-group-solid"
+      class="alu-radio-group alu-radio-group-solid"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="alu-radio-button alu-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="a"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -368,18 +368,18 @@ exports[`renders ./components/radio/demo/radiobutton-solid.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="b"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -387,18 +387,18 @@ exports[`renders ./components/radio/demo/radiobutton-solid.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="c"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -406,18 +406,18 @@ exports[`renders ./components/radio/demo/radiobutton-solid.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="d"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -430,21 +430,21 @@ exports[`renders ./components/radio/demo/radiobutton-solid.md correctly 1`] = `
     style="margin-top:16px"
   >
     <div
-      class="ant-radio-group ant-radio-group-solid"
+      class="alu-radio-group alu-radio-group-solid"
     >
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="a"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -452,19 +452,19 @@ exports[`renders ./components/radio/demo/radiobutton-solid.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-disabled"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-disabled"
       >
         <span
-          class="ant-radio-button ant-radio-button-disabled"
+          class="alu-radio-button alu-radio-button-disabled"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             disabled=""
             type="radio"
             value="b"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -472,19 +472,19 @@ exports[`renders ./components/radio/demo/radiobutton-solid.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="alu-radio-button alu-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="c"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -492,18 +492,18 @@ exports[`renders ./components/radio/demo/radiobutton-solid.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="d"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -517,22 +517,22 @@ exports[`renders ./components/radio/demo/radiobutton-solid.md correctly 1`] = `
 
 exports[`renders ./components/radio/demo/radiogroup.md correctly 1`] = `
 <div
-  class="ant-radio-group ant-radio-group-outline"
+  class="alu-radio-group alu-radio-group-outline"
 >
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-checked"
+    class="alu-radio-wrapper alu-radio-wrapper-checked"
   >
     <span
-      class="ant-radio ant-radio-checked"
+      class="alu-radio alu-radio-checked"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="alu-radio-input"
         type="radio"
         value="1"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -540,18 +540,18 @@ exports[`renders ./components/radio/demo/radiogroup.md correctly 1`] = `
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="alu-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="alu-radio"
     >
       <input
-        class="ant-radio-input"
+        class="alu-radio-input"
         type="radio"
         value="2"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -559,18 +559,18 @@ exports[`renders ./components/radio/demo/radiogroup.md correctly 1`] = `
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="alu-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="alu-radio"
     >
       <input
-        class="ant-radio-input"
+        class="alu-radio-input"
         type="radio"
         value="3"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -578,18 +578,18 @@ exports[`renders ./components/radio/demo/radiogroup.md correctly 1`] = `
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="alu-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="alu-radio"
     >
       <input
-        class="ant-radio-input"
+        class="alu-radio-input"
         type="radio"
         value="4"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -601,23 +601,23 @@ exports[`renders ./components/radio/demo/radiogroup.md correctly 1`] = `
 
 exports[`renders ./components/radio/demo/radiogroup-more.md correctly 1`] = `
 <div
-  class="ant-radio-group ant-radio-group-outline"
+  class="alu-radio-group alu-radio-group-outline"
 >
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-checked"
+    class="alu-radio-wrapper alu-radio-wrapper-checked"
     style="display:block;height:30px;line-height:30px"
   >
     <span
-      class="ant-radio ant-radio-checked"
+      class="alu-radio alu-radio-checked"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="alu-radio-input"
         type="radio"
         value="1"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -625,19 +625,19 @@ exports[`renders ./components/radio/demo/radiogroup-more.md correctly 1`] = `
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="alu-radio-wrapper"
     style="display:block;height:30px;line-height:30px"
   >
     <span
-      class="ant-radio"
+      class="alu-radio"
     >
       <input
-        class="ant-radio-input"
+        class="alu-radio-input"
         type="radio"
         value="2"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -645,19 +645,19 @@ exports[`renders ./components/radio/demo/radiogroup-more.md correctly 1`] = `
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="alu-radio-wrapper"
     style="display:block;height:30px;line-height:30px"
   >
     <span
-      class="ant-radio"
+      class="alu-radio"
     >
       <input
-        class="ant-radio-input"
+        class="alu-radio-input"
         type="radio"
         value="3"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -665,19 +665,19 @@ exports[`renders ./components/radio/demo/radiogroup-more.md correctly 1`] = `
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="alu-radio-wrapper"
     style="display:block;height:30px;line-height:30px"
   >
     <span
-      class="ant-radio"
+      class="alu-radio"
     >
       <input
-        class="ant-radio-input"
+        class="alu-radio-input"
         type="radio"
         value="4"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -690,22 +690,22 @@ exports[`renders ./components/radio/demo/radiogroup-more.md correctly 1`] = `
 exports[`renders ./components/radio/demo/radiogroup-options.md correctly 1`] = `
 <div>
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="alu-radio-group alu-radio-group-outline"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked"
+      class="alu-radio-wrapper alu-radio-wrapper-checked"
     >
       <span
-        class="ant-radio ant-radio-checked"
+        class="alu-radio alu-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="Apple"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -713,18 +713,18 @@ exports[`renders ./components/radio/demo/radiogroup-options.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="alu-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="alu-radio"
       >
         <input
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="Pear"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -732,18 +732,18 @@ exports[`renders ./components/radio/demo/radiogroup-options.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="alu-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="alu-radio"
       >
         <input
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="Orange"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -752,22 +752,22 @@ exports[`renders ./components/radio/demo/radiogroup-options.md correctly 1`] = `
     </label>
   </div>
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="alu-radio-group alu-radio-group-outline"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked"
+      class="alu-radio-wrapper alu-radio-wrapper-checked"
     >
       <span
-        class="ant-radio ant-radio-checked"
+        class="alu-radio alu-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="Apple"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -775,18 +775,18 @@ exports[`renders ./components/radio/demo/radiogroup-options.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="alu-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="alu-radio"
       >
         <input
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="Pear"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -794,18 +794,18 @@ exports[`renders ./components/radio/demo/radiogroup-options.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="alu-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="alu-radio"
       >
         <input
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="Orange"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -814,22 +814,22 @@ exports[`renders ./components/radio/demo/radiogroup-options.md correctly 1`] = `
     </label>
   </div>
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="alu-radio-group alu-radio-group-outline"
   >
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked"
+      class="alu-radio-wrapper alu-radio-wrapper-checked"
     >
       <span
-        class="ant-radio ant-radio-checked"
+        class="alu-radio alu-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="Apple"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -837,18 +837,18 @@ exports[`renders ./components/radio/demo/radiogroup-options.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="alu-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="alu-radio"
       >
         <input
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="Pear"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -856,18 +856,18 @@ exports[`renders ./components/radio/demo/radiogroup-options.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="alu-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="alu-radio"
       >
         <input
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="Orange"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -880,23 +880,23 @@ exports[`renders ./components/radio/demo/radiogroup-options.md correctly 1`] = `
 
 exports[`renders ./components/radio/demo/radiogroup-with-name.md correctly 1`] = `
 <div
-  class="ant-radio-group ant-radio-group-outline"
+  class="alu-radio-group alu-radio-group-outline"
 >
   <label
-    class="ant-radio-wrapper ant-radio-wrapper-checked"
+    class="alu-radio-wrapper alu-radio-wrapper-checked"
   >
     <span
-      class="ant-radio ant-radio-checked"
+      class="alu-radio alu-radio-checked"
     >
       <input
         checked=""
-        class="ant-radio-input"
+        class="alu-radio-input"
         name="radiogroup"
         type="radio"
         value="1"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -904,19 +904,19 @@ exports[`renders ./components/radio/demo/radiogroup-with-name.md correctly 1`] =
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="alu-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="alu-radio"
     >
       <input
-        class="ant-radio-input"
+        class="alu-radio-input"
         name="radiogroup"
         type="radio"
         value="2"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -924,19 +924,19 @@ exports[`renders ./components/radio/demo/radiogroup-with-name.md correctly 1`] =
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="alu-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="alu-radio"
     >
       <input
-        class="ant-radio-input"
+        class="alu-radio-input"
         name="radiogroup"
         type="radio"
         value="3"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -944,19 +944,19 @@ exports[`renders ./components/radio/demo/radiogroup-with-name.md correctly 1`] =
     </span>
   </label>
   <label
-    class="ant-radio-wrapper"
+    class="alu-radio-wrapper"
   >
     <span
-      class="ant-radio"
+      class="alu-radio"
     >
       <input
-        class="ant-radio-input"
+        class="alu-radio-input"
         name="radiogroup"
         type="radio"
         value="4"
       />
       <span
-        class="ant-radio-inner"
+        class="alu-radio-inner"
       />
     </span>
     <span>
@@ -970,22 +970,22 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
 <div>
   <div>
     <div
-      class="ant-radio-group ant-radio-group-outline ant-radio-group-large"
+      class="alu-radio-group alu-radio-group-outline alu-radio-group-large"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="alu-radio-button alu-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="a"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -993,18 +993,18 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="b"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -1012,18 +1012,18 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="c"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -1031,18 +1031,18 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="d"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -1055,22 +1055,22 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
     style="margin-top:16px"
   >
     <div
-      class="ant-radio-group ant-radio-group-outline"
+      class="alu-radio-group alu-radio-group-outline"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="alu-radio-button alu-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="a"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -1078,18 +1078,18 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="b"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -1097,18 +1097,18 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="c"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -1116,18 +1116,18 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="d"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -1140,22 +1140,22 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
     style="margin-top:16px"
   >
     <div
-      class="ant-radio-group ant-radio-group-outline ant-radio-group-small"
+      class="alu-radio-group alu-radio-group-outline alu-radio-group-small"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="alu-radio-button alu-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="a"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -1163,18 +1163,18 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="b"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -1182,18 +1182,18 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="c"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -1201,18 +1201,18 @@ exports[`renders ./components/radio/demo/size.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="d"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>

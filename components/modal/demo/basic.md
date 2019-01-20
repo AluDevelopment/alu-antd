@@ -64,7 +64,7 @@ ReactDOM.render(<App />, mountNode);
 ````
 
 <style>
-.ant-modal p {
+.alu-modal p {
   margin: 0;
 }
 </style>

@@ -2,22 +2,22 @@
 
 exports[`Table renders JSX correctly 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="alu-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="alu-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="alu-spin-container"
     >
       <div
-        class="ant-table ant-table-default ant-table-scroll-position-left"
+        class="alu-table alu-table-default alu-table-scroll-position-left"
       >
         <div
-          class="ant-table-content"
+          class="alu-table-content"
         >
           <div
-            class="ant-table-body"
+            class="alu-table-body"
           >
             <table
               class=""
@@ -28,7 +28,7 @@ exports[`Table renders JSX correctly 1`] = `
                 <col />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="alu-table-thead"
               >
                 <tr>
                   <th
@@ -66,17 +66,17 @@ exports[`Table renders JSX correctly 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="alu-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="alu-table-row alu-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
                     class=""
                   >
                     <span
-                      class="ant-table-row-indent indent-level-0"
+                      class="alu-table-row-indent indent-level-0"
                       style="padding-left:0px"
                     />
                     John
@@ -93,14 +93,14 @@ exports[`Table renders JSX correctly 1`] = `
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="alu-table-row alu-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
                     class=""
                   >
                     <span
-                      class="ant-table-row-indent indent-level-0"
+                      class="alu-table-row-indent indent-level-0"
                       style="padding-left:0px"
                     />
                     Jim

@@ -2,17 +2,17 @@
 
 exports[`renders ./components/skeleton/demo/active.md correctly 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-active"
+  class="alu-skeleton alu-skeleton-active"
 >
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width:38%"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li />
       <li />
@@ -26,17 +26,17 @@ exports[`renders ./components/skeleton/demo/active.md correctly 1`] = `
 
 exports[`renders ./components/skeleton/demo/basic.md correctly 1`] = `
 <div
-  class="ant-skeleton"
+  class="alu-skeleton"
 >
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width:38%"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li />
       <li />
@@ -61,7 +61,7 @@ exports[`renders ./components/skeleton/demo/children.md correctly 1`] = `
     </p>
   </div>
   <button
-    class="ant-btn"
+    class="alu-btn"
     type="button"
   >
     <span>
@@ -73,24 +73,24 @@ exports[`renders ./components/skeleton/demo/children.md correctly 1`] = `
 
 exports[`renders ./components/skeleton/demo/complex.md correctly 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="alu-skeleton alu-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="alu-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"
+      class="alu-skeleton-avatar alu-skeleton-avatar-lg alu-skeleton-avatar-circle"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width:50%"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li />
       <li />
@@ -105,48 +105,48 @@ exports[`renders ./components/skeleton/demo/list.md correctly 1`] = `
 <div>
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="alu-switch"
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     />
   </button>
   <div
-    class="ant-list ant-list-vertical ant-list-lg ant-list-split"
+    class="alu-list alu-list-vertical alu-list-lg alu-list-split"
   >
     <div
-      class="ant-spin-nested-loading"
+      class="alu-spin-nested-loading"
     >
       <div
-        class="ant-spin-container"
+        class="alu-spin-container"
       >
         <div
-          class="ant-list-item"
+          class="alu-list-item"
         >
           <div
-            class="ant-list-item-content ant-list-item-content-single"
+            class="alu-list-item-content alu-list-item-content-single"
           >
             <div
-              class="ant-skeleton ant-skeleton-with-avatar ant-skeleton-active"
+              class="alu-skeleton alu-skeleton-with-avatar alu-skeleton-active"
             >
               <div
-                class="ant-skeleton-header"
+                class="alu-skeleton-header"
               >
                 <span
-                  class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"
+                  class="alu-skeleton-avatar alu-skeleton-avatar-lg alu-skeleton-avatar-circle"
                 />
               </div>
               <div
-                class="ant-skeleton-content"
+                class="alu-skeleton-content"
               >
                 <h3
-                  class="ant-skeleton-title"
+                  class="alu-skeleton-title"
                   style="width:50%"
                 />
                 <ul
-                  class="ant-skeleton-paragraph"
+                  class="alu-skeleton-paragraph"
                 >
                   <li />
                   <li />
@@ -156,30 +156,30 @@ exports[`renders ./components/skeleton/demo/list.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-list-item"
+          class="alu-list-item"
         >
           <div
-            class="ant-list-item-content ant-list-item-content-single"
+            class="alu-list-item-content alu-list-item-content-single"
           >
             <div
-              class="ant-skeleton ant-skeleton-with-avatar ant-skeleton-active"
+              class="alu-skeleton alu-skeleton-with-avatar alu-skeleton-active"
             >
               <div
-                class="ant-skeleton-header"
+                class="alu-skeleton-header"
               >
                 <span
-                  class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"
+                  class="alu-skeleton-avatar alu-skeleton-avatar-lg alu-skeleton-avatar-circle"
                 />
               </div>
               <div
-                class="ant-skeleton-content"
+                class="alu-skeleton-content"
               >
                 <h3
-                  class="ant-skeleton-title"
+                  class="alu-skeleton-title"
                   style="width:50%"
                 />
                 <ul
-                  class="ant-skeleton-paragraph"
+                  class="alu-skeleton-paragraph"
                 >
                   <li />
                   <li />
@@ -189,30 +189,30 @@ exports[`renders ./components/skeleton/demo/list.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-list-item"
+          class="alu-list-item"
         >
           <div
-            class="ant-list-item-content ant-list-item-content-single"
+            class="alu-list-item-content alu-list-item-content-single"
           >
             <div
-              class="ant-skeleton ant-skeleton-with-avatar ant-skeleton-active"
+              class="alu-skeleton alu-skeleton-with-avatar alu-skeleton-active"
             >
               <div
-                class="ant-skeleton-header"
+                class="alu-skeleton-header"
               >
                 <span
-                  class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"
+                  class="alu-skeleton-avatar alu-skeleton-avatar-lg alu-skeleton-avatar-circle"
                 />
               </div>
               <div
-                class="ant-skeleton-content"
+                class="alu-skeleton-content"
               >
                 <h3
-                  class="ant-skeleton-title"
+                  class="alu-skeleton-title"
                   style="width:50%"
                 />
                 <ul
-                  class="ant-skeleton-paragraph"
+                  class="alu-skeleton-paragraph"
                 >
                   <li />
                   <li />

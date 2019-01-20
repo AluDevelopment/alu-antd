@@ -2,13 +2,13 @@
 
 exports[`Form should display custom message 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="alu-form alu-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item ant-form-item-with-help"
+    class="alu-row alu-form-item alu-form-item-with-help"
   >
     <div
-      class="ant-form-item-label"
+      class="alu-form-item-label"
     >
       <label
         class=""
@@ -19,13 +19,13 @@ exports[`Form should display custom message 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper"
+      class="alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control has-error"
+        class="alu-form-item-control has-error"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
             data-__field="[object Object]"
@@ -35,7 +35,7 @@ exports[`Form should display custom message 1`] = `
           />
         </span>
         <div
-          class="ant-form-explain show-help-enter"
+          class="alu-form-explain show-help-enter"
         >
           <span>
             Account does not exist, 
@@ -56,13 +56,13 @@ exports[`Form should display custom message 1`] = `
 
 exports[`Form should display two message 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="alu-form alu-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item ant-form-item-with-help"
+    class="alu-row alu-form-item alu-form-item-with-help"
   >
     <div
-      class="ant-form-item-label"
+      class="alu-form-item-label"
     >
       <label
         class=""
@@ -73,13 +73,13 @@ exports[`Form should display two message 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper"
+      class="alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control has-error"
+        class="alu-form-item-control has-error"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
             data-__field="[object Object]"
@@ -89,7 +89,7 @@ exports[`Form should display two message 1`] = `
           />
         </span>
         <div
-          class="ant-form-explain show-help-enter"
+          class="alu-form-explain show-help-enter"
         >
           Error message 1 Error message 2
         </div>
@@ -101,13 +101,13 @@ exports[`Form should display two message 1`] = `
 
 exports[`Form support error message with reactNode 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="alu-form alu-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item ant-form-item-with-help"
+    class="alu-row alu-form-item alu-form-item-with-help"
   >
     <div
-      class="ant-form-item-label"
+      class="alu-form-item-label"
     >
       <label
         class=""
@@ -118,13 +118,13 @@ exports[`Form support error message with reactNode 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper"
+      class="alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control has-error"
+        class="alu-form-item-control has-error"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
             data-__field="[object Object]"
@@ -134,7 +134,7 @@ exports[`Form support error message with reactNode 1`] = `
           />
         </span>
         <div
-          class="ant-form-explain show-help-enter"
+          class="alu-form-explain show-help-enter"
         >
           <div>
             Error 1

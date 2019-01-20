@@ -34,26 +34,26 @@ describe('WeekPicker', () => {
     expect(extraNode.text()).toBe('date');
 
     wrapper
-      .find('.ant-calendar-month-select')
+      .find('.alu-calendar-month-select')
       .hostNodes()
       .simulate('click');
-    extraNode = wrapper.find('.ant-calendar-month-panel .extra-node');
+    extraNode = wrapper.find('.alu-calendar-month-panel .extra-node');
     expect(extraNode.length).toBe(1);
     expect(extraNode.text()).toBe('month');
 
     wrapper
-      .find('.ant-calendar-year-select')
+      .find('.alu-calendar-year-select')
       .hostNodes()
       .simulate('click');
-    extraNode = wrapper.find('.ant-calendar-year-panel .extra-node');
+    extraNode = wrapper.find('.alu-calendar-year-panel .extra-node');
     expect(extraNode.length).toBe(1);
     expect(extraNode.text()).toBe('year');
 
     wrapper
-      .find('.ant-calendar-year-panel-decade-select')
+      .find('.alu-calendar-year-panel-decade-select')
       .hostNodes()
       .simulate('click');
-    extraNode = wrapper.find('.ant-calendar-decade-panel .extra-node');
+    extraNode = wrapper.find('.alu-calendar-decade-panel .extra-node');
     expect(extraNode.length).toBe(1);
     expect(extraNode.text()).toBe('decade');
   });

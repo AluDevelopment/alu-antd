@@ -46,7 +46,7 @@ ReactDOM.render(
 ````
 
 ````css
-.ant-tag {
+.alu-tag {
   margin-bottom: 8px;
 }
 ````

@@ -130,7 +130,7 @@ The following APIs are shared by DatePicker, MonthPicker, RangePicker, WeekPicke
 | onOk | callback when click ok button | function(dates: [moment](http://momentjs.com/)\[]) | - |
 
 <style>
-.code-box-demo .ant-calendar-picker {
+.code-box-demo .alu-calendar-picker {
   margin: 0 8px 12px 0;
 }
 </style>

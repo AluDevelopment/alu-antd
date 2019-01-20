@@ -2,16 +2,16 @@
 
 exports[`renders ./components/comment/demo/basic.md correctly 1`] = `
 <div
-  class="ant-comment"
+  class="alu-comment"
 >
   <div
-    class="ant-comment-inner"
+    class="alu-comment-inner"
   >
     <div
-      class="ant-comment-avatar"
+      class="alu-comment-avatar"
     >
       <span
-        class="ant-avatar ant-avatar-circle ant-avatar-image"
+        class="alu-avatar alu-avatar-circle alu-avatar-image"
       >
         <img
           alt="Han Solo"
@@ -20,20 +20,20 @@ exports[`renders ./components/comment/demo/basic.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-comment-content"
+      class="alu-comment-content"
     >
       <div
-        class="ant-comment-content-author"
+        class="alu-comment-content-author"
       >
         <span
-          class="ant-comment-content-author-name"
+          class="alu-comment-content-author-name"
         >
           <a>
             Han Solo
           </a>
         </span>
         <span
-          class="ant-comment-content-author-time"
+          class="alu-comment-content-author-time"
         >
           <span>
             a few seconds ago
@@ -41,14 +41,14 @@ exports[`renders ./components/comment/demo/basic.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-comment-content-detail"
+        class="alu-comment-content-detail"
       >
         <p>
           We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.
         </p>
       </div>
       <ul
-        class="ant-comment-actions"
+        class="alu-comment-actions"
       >
         <li>
           <span>
@@ -116,16 +116,16 @@ exports[`renders ./components/comment/demo/basic.md correctly 1`] = `
 exports[`renders ./components/comment/demo/editor.md correctly 1`] = `
 <div>
   <div
-    class="ant-comment"
+    class="alu-comment"
   >
     <div
-      class="ant-comment-inner"
+      class="alu-comment-inner"
     >
       <div
-        class="ant-comment-avatar"
+        class="alu-comment-avatar"
       >
         <span
-          class="ant-avatar ant-avatar-circle ant-avatar-image"
+          class="alu-avatar alu-avatar-circle alu-avatar-image"
         >
           <img
             alt="Han Solo"
@@ -134,29 +134,29 @@ exports[`renders ./components/comment/demo/editor.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-comment-content"
+        class="alu-comment-content"
       >
         <div
-          class="ant-comment-content-author"
+          class="alu-comment-content-author"
         />
         <div
-          class="ant-comment-content-detail"
+          class="alu-comment-content-detail"
         >
           <div>
             <div
-              class="ant-row ant-form-item"
+              class="alu-row alu-form-item"
             >
               <div
-                class="ant-form-item-control-wrapper"
+                class="alu-form-item-control-wrapper"
               >
                 <div
-                  class="ant-form-item-control"
+                  class="alu-form-item-control"
                 >
                   <span
-                    class="ant-form-item-children"
+                    class="alu-form-item-children"
                   >
                     <textarea
-                      class="ant-input"
+                      class="alu-input"
                       rows="4"
                     />
                   </span>
@@ -164,19 +164,19 @@ exports[`renders ./components/comment/demo/editor.md correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-row ant-form-item"
+              class="alu-row alu-form-item"
             >
               <div
-                class="ant-form-item-control-wrapper"
+                class="alu-form-item-control-wrapper"
               >
                 <div
-                  class="ant-form-item-control"
+                  class="alu-form-item-control"
                 >
                   <span
-                    class="ant-form-item-children"
+                    class="alu-form-item-children"
                   >
                     <button
-                      class="ant-btn ant-btn-primary"
+                      class="alu-btn alu-btn-primary"
                       type="submit"
                     >
                       <span>
@@ -197,45 +197,45 @@ exports[`renders ./components/comment/demo/editor.md correctly 1`] = `
 
 exports[`renders ./components/comment/demo/list.md correctly 1`] = `
 <div
-  class="ant-list comment-list ant-list-split"
+  class="alu-list comment-list alu-list-split"
 >
   <div
-    class="ant-list-header"
+    class="alu-list-header"
   >
     2 replies
   </div>
   <div
-    class="ant-spin-nested-loading"
+    class="alu-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="alu-spin-container"
     >
       <div
-        class="ant-comment"
+        class="alu-comment"
       >
         <div
-          class="ant-comment-inner"
+          class="alu-comment-inner"
         >
           <div
-            class="ant-comment-avatar"
+            class="alu-comment-avatar"
           >
             <img
               src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
             />
           </div>
           <div
-            class="ant-comment-content"
+            class="alu-comment-content"
           >
             <div
-              class="ant-comment-content-author"
+              class="alu-comment-content-author"
             >
               <span
-                class="ant-comment-content-author-name"
+                class="alu-comment-content-author-name"
               >
                 Han Solo
               </span>
               <span
-                class="ant-comment-content-author-time"
+                class="alu-comment-content-author-time"
               >
                 <span>
                   a day ago
@@ -243,14 +243,14 @@ exports[`renders ./components/comment/demo/list.md correctly 1`] = `
               </span>
             </div>
             <div
-              class="ant-comment-content-detail"
+              class="alu-comment-content-detail"
             >
               <p>
                 We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.
               </p>
             </div>
             <ul
-              class="ant-comment-actions"
+              class="alu-comment-actions"
             >
               <li>
                 <span>
@@ -262,31 +262,31 @@ exports[`renders ./components/comment/demo/list.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-comment"
+        class="alu-comment"
       >
         <div
-          class="ant-comment-inner"
+          class="alu-comment-inner"
         >
           <div
-            class="ant-comment-avatar"
+            class="alu-comment-avatar"
           >
             <img
               src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
             />
           </div>
           <div
-            class="ant-comment-content"
+            class="alu-comment-content"
           >
             <div
-              class="ant-comment-content-author"
+              class="alu-comment-content-author"
             >
               <span
-                class="ant-comment-content-author-name"
+                class="alu-comment-content-author-name"
               >
                 Han Solo
               </span>
               <span
-                class="ant-comment-content-author-time"
+                class="alu-comment-content-author-time"
               >
                 <span>
                   2 days ago
@@ -294,14 +294,14 @@ exports[`renders ./components/comment/demo/list.md correctly 1`] = `
               </span>
             </div>
             <div
-              class="ant-comment-content-detail"
+              class="alu-comment-content-detail"
             >
               <p>
                 We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure), to help people create their product prototypes beautifully and efficiently.
               </p>
             </div>
             <ul
-              class="ant-comment-actions"
+              class="alu-comment-actions"
             >
               <li>
                 <span>
@@ -319,16 +319,16 @@ exports[`renders ./components/comment/demo/list.md correctly 1`] = `
 
 exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
 <div
-  class="ant-comment"
+  class="alu-comment"
 >
   <div
-    class="ant-comment-inner"
+    class="alu-comment-inner"
   >
     <div
-      class="ant-comment-avatar"
+      class="alu-comment-avatar"
     >
       <span
-        class="ant-avatar ant-avatar-circle ant-avatar-image"
+        class="alu-avatar alu-avatar-circle alu-avatar-image"
       >
         <img
           alt="Han Solo"
@@ -337,13 +337,13 @@ exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-comment-content"
+      class="alu-comment-content"
     >
       <div
-        class="ant-comment-content-author"
+        class="alu-comment-content-author"
       >
         <span
-          class="ant-comment-content-author-name"
+          class="alu-comment-content-author-name"
         >
           <a>
             Han Solo
@@ -351,14 +351,14 @@ exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
         </span>
       </div>
       <div
-        class="ant-comment-content-detail"
+        class="alu-comment-content-detail"
       >
         <p>
           We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure).
         </p>
       </div>
       <ul
-        class="ant-comment-actions"
+        class="alu-comment-actions"
       >
         <li>
           <span>
@@ -369,19 +369,19 @@ exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-comment-nested"
+    class="alu-comment-nested"
   >
     <div
-      class="ant-comment"
+      class="alu-comment"
     >
       <div
-        class="ant-comment-inner"
+        class="alu-comment-inner"
       >
         <div
-          class="ant-comment-avatar"
+          class="alu-comment-avatar"
         >
           <span
-            class="ant-avatar ant-avatar-circle ant-avatar-image"
+            class="alu-avatar alu-avatar-circle alu-avatar-image"
           >
             <img
               alt="Han Solo"
@@ -390,13 +390,13 @@ exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
           </span>
         </div>
         <div
-          class="ant-comment-content"
+          class="alu-comment-content"
         >
           <div
-            class="ant-comment-content-author"
+            class="alu-comment-content-author"
           >
             <span
-              class="ant-comment-content-author-name"
+              class="alu-comment-content-author-name"
             >
               <a>
                 Han Solo
@@ -404,14 +404,14 @@ exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
             </span>
           </div>
           <div
-            class="ant-comment-content-detail"
+            class="alu-comment-content-detail"
           >
             <p>
               We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure).
             </p>
           </div>
           <ul
-            class="ant-comment-actions"
+            class="alu-comment-actions"
           >
             <li>
               <span>
@@ -422,19 +422,19 @@ exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-comment-nested"
+        class="alu-comment-nested"
       >
         <div
-          class="ant-comment"
+          class="alu-comment"
         >
           <div
-            class="ant-comment-inner"
+            class="alu-comment-inner"
           >
             <div
-              class="ant-comment-avatar"
+              class="alu-comment-avatar"
             >
               <span
-                class="ant-avatar ant-avatar-circle ant-avatar-image"
+                class="alu-avatar alu-avatar-circle alu-avatar-image"
               >
                 <img
                   alt="Han Solo"
@@ -443,13 +443,13 @@ exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
               </span>
             </div>
             <div
-              class="ant-comment-content"
+              class="alu-comment-content"
             >
               <div
-                class="ant-comment-content-author"
+                class="alu-comment-content-author"
               >
                 <span
-                  class="ant-comment-content-author-name"
+                  class="alu-comment-content-author-name"
                 >
                   <a>
                     Han Solo
@@ -457,14 +457,14 @@ exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
                 </span>
               </div>
               <div
-                class="ant-comment-content-detail"
+                class="alu-comment-content-detail"
               >
                 <p>
                   We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure).
                 </p>
               </div>
               <ul
-                class="ant-comment-actions"
+                class="alu-comment-actions"
               >
                 <li>
                   <span>
@@ -476,16 +476,16 @@ exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-comment"
+          class="alu-comment"
         >
           <div
-            class="ant-comment-inner"
+            class="alu-comment-inner"
           >
             <div
-              class="ant-comment-avatar"
+              class="alu-comment-avatar"
             >
               <span
-                class="ant-avatar ant-avatar-circle ant-avatar-image"
+                class="alu-avatar alu-avatar-circle alu-avatar-image"
               >
                 <img
                   alt="Han Solo"
@@ -494,13 +494,13 @@ exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
               </span>
             </div>
             <div
-              class="ant-comment-content"
+              class="alu-comment-content"
             >
               <div
-                class="ant-comment-content-author"
+                class="alu-comment-content-author"
               >
                 <span
-                  class="ant-comment-content-author-name"
+                  class="alu-comment-content-author-name"
                 >
                   <a>
                     Han Solo
@@ -508,14 +508,14 @@ exports[`renders ./components/comment/demo/nested.md correctly 1`] = `
                 </span>
               </div>
               <div
-                class="ant-comment-content-detail"
+                class="alu-comment-content-detail"
               >
                 <p>
                   We supply a series of design principles, practical patterns and high quality design resources (Sketch and Axure).
                 </p>
               </div>
               <ul
-                class="ant-comment-actions"
+                class="alu-comment-actions"
               >
                 <li>
                   <span>

@@ -212,7 +212,7 @@ ReactDOM.render(<EditableTable />, mountNode);
 ```
 
 ```css
-.editable-row .ant-form-explain {
+.editable-row .alu-form-explain {
   position: absolute;
   font-size: 12px;
   margin-top: -4px;

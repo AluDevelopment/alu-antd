@@ -2,24 +2,24 @@
 
 exports[`Skeleton avatar shape 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="alu-skeleton alu-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="alu-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"
+      class="alu-skeleton-avatar alu-skeleton-avatar-lg alu-skeleton-avatar-circle"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width: 50%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li />
       <li />
@@ -30,24 +30,24 @@ exports[`Skeleton avatar shape 1`] = `
 
 exports[`Skeleton avatar shape 2`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="alu-skeleton alu-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="alu-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-square"
+      class="alu-skeleton-avatar alu-skeleton-avatar-lg alu-skeleton-avatar-square"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width: 50%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li />
       <li />
@@ -58,24 +58,24 @@ exports[`Skeleton avatar shape 2`] = `
 
 exports[`Skeleton avatar size 1`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="alu-skeleton alu-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="alu-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-sm ant-skeleton-avatar-circle"
+      class="alu-skeleton-avatar alu-skeleton-avatar-sm alu-skeleton-avatar-circle"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width: 50%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li />
       <li />
@@ -86,24 +86,24 @@ exports[`Skeleton avatar size 1`] = `
 
 exports[`Skeleton avatar size 2`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="alu-skeleton alu-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="alu-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-circle"
+      class="alu-skeleton-avatar alu-skeleton-avatar-circle"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width: 50%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li />
       <li />
@@ -114,24 +114,24 @@ exports[`Skeleton avatar size 2`] = `
 
 exports[`Skeleton avatar size 3`] = `
 <div
-  class="ant-skeleton ant-skeleton-with-avatar"
+  class="alu-skeleton alu-skeleton-with-avatar"
 >
   <div
-    class="ant-skeleton-header"
+    class="alu-skeleton-header"
   >
     <span
-      class="ant-skeleton-avatar ant-skeleton-avatar-lg ant-skeleton-avatar-circle"
+      class="alu-skeleton-avatar alu-skeleton-avatar-lg alu-skeleton-avatar-circle"
     />
   </div>
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width: 50%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li />
       <li />
@@ -142,17 +142,17 @@ exports[`Skeleton avatar size 3`] = `
 
 exports[`Skeleton paragraph rows 1`] = `
 <div
-  class="ant-skeleton"
+  class="alu-skeleton"
 >
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width: 38%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li />
       <li />
@@ -168,17 +168,17 @@ exports[`Skeleton paragraph rows 1`] = `
 
 exports[`Skeleton paragraph width 1`] = `
 <div
-  class="ant-skeleton"
+  class="alu-skeleton"
 >
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width: 38%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li />
       <li />
@@ -192,17 +192,17 @@ exports[`Skeleton paragraph width 1`] = `
 
 exports[`Skeleton paragraph width 2`] = `
 <div
-  class="ant-skeleton"
+  class="alu-skeleton"
 >
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width: 38%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li
         style="width: 28%;"
@@ -218,17 +218,17 @@ exports[`Skeleton paragraph width 2`] = `
 
 exports[`Skeleton title width 1`] = `
 <div
-  class="ant-skeleton"
+  class="alu-skeleton"
 >
   <div
-    class="ant-skeleton-content"
+    class="alu-skeleton-content"
   >
     <h3
-      class="ant-skeleton-title"
+      class="alu-skeleton-title"
       style="width: 93%;"
     />
     <ul
-      class="ant-skeleton-paragraph"
+      class="alu-skeleton-paragraph"
     >
       <li />
       <li />

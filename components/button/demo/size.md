@@ -34,12 +34,13 @@ class ButtonSize extends React.Component {
     return (
       <div>
         <Radio.Group value={size} onChange={this.handleSizeChange}>
+          <Radio.Button value="xlarge">xLarge</Radio.Button>
           <Radio.Button value="large">Large</Radio.Button>
           <Radio.Button value="default">Default</Radio.Button>
           <Radio.Button value="small">Small</Radio.Button>
         </Radio.Group>
         <br /><br />
-        <Button type="primary" size={size}>Primary</Button>
+        <Button type="primary" size={size} subtitle={size==='large'||size==='default'?'subtitle':''}>Primary</Button>
         <Button size={size}>Normal</Button>
         <Button type="dashed" size={size}>Dashed</Button>
         <Button type="danger" size={size}>Danger</Button>

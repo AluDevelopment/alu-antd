@@ -29,7 +29,7 @@ ReactDOM.render(
 ````
 
 <style>
-.ant-badge-not-a-wrapper:not(.ant-badge-status) {
+.alu-badge-not-a-wrapper:not(.alu-badge-status) {
   margin-right: 8px;
 }
 </style>

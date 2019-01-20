@@ -68,7 +68,7 @@ ReactDOM.render(
 #components-button-demo-button-group h4:first-child {
   margin-top: 0;
 }
-#components-button-demo-button-group .ant-btn-group {
+#components-button-demo-button-group .alu-btn-group {
   margin-right: 8px;
 }
 </style>

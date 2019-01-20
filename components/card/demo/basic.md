@@ -47,5 +47,5 @@ ReactDOM.render(
 .code-box-demo p {
   margin: 0;
 }
-#components-card-demo-basic .ant-card { margin-bottom: 30px; }
+#components-card-demo-basic .alu-card { margin-bottom: 30px; }
 </style>

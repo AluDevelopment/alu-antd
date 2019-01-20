@@ -2,22 +2,22 @@
 
 exports[`Table.sorter renders sorter icon correctly 1`] = `
 <thead
-  class="ant-table-thead"
+  class="alu-table-thead"
 >
   <tr>
     <th
-      class="ant-table-column-has-actions ant-table-column-has-sorters"
+      class="alu-table-column-has-actions alu-table-column-has-sorters"
     >
       <div
-        class="ant-table-column-sorters"
+        class="alu-table-column-sorters"
         title="Name"
       >
         Name
         <div
-          class="ant-table-column-sorter"
+          class="alu-table-column-sorter"
         >
           <i
-            class="anticon anticon-caret-up ant-table-column-sorter-up off"
+            class="anticon anticon-caret-up alu-table-column-sorter-up off"
           >
             <svg
               aria-hidden="true"
@@ -34,7 +34,7 @@ exports[`Table.sorter renders sorter icon correctly 1`] = `
             </svg>
           </i>
           <i
-            class="anticon anticon-caret-down ant-table-column-sorter-down off"
+            class="anticon anticon-caret-down alu-table-column-sorter-down off"
           >
             <svg
               aria-hidden="true"

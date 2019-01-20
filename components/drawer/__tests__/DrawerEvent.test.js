@@ -41,12 +41,12 @@ class DrawerEventTester extends React.Component {
 describe('Drawer', () => {
   it('render correctly', () => {
     const wrapper = mount(<DrawerEventTester />);
-    const body = wrapper.find('.ant-drawer-body').exists();
+    const body = wrapper.find('.alu-drawer-body').exists();
 
     expect(body).toBe(true);
-    wrapper.find('button.ant-btn').simulate('click');
+    wrapper.find('button.alu-btn').simulate('click');
 
-    const content = wrapper.find('.ant-drawer-body').getDOMNode().innerHTML;
+    const content = wrapper.find('.alu-drawer-body').getDOMNode().innerHTML;
     expect(content).toBe('Here is content of Drawer');
 
     expect(wrapper.render()).toMatchSnapshot();
@@ -55,52 +55,52 @@ describe('Drawer', () => {
   it('mask trigger onClose', () => {
     const wrapper = mount(<DrawerEventTester />);
 
-    wrapper.find('button.ant-btn').simulate('click');
+    wrapper.find('button.alu-btn').simulate('click');
     expect(wrapper.instance().state.visible).toBe(true);
 
-    wrapper.find('.ant-drawer-mask').simulate('click');
+    wrapper.find('.alu-drawer-mask').simulate('click');
     expect(wrapper.instance().state.visible).toBe(false);
   });
 
   it('close button trigger onClose', () => {
     const wrapper = mount(<DrawerEventTester />);
 
-    wrapper.find('button.ant-btn').simulate('click');
+    wrapper.find('button.alu-btn').simulate('click');
     expect(wrapper.instance().state.visible).toBe(true);
 
-    wrapper.find('.ant-drawer-close').simulate('click');
+    wrapper.find('.alu-drawer-close').simulate('click');
     expect(wrapper.instance().state.visible).toBe(false);
   });
 
   it('maskClosable no trigger onClose', () => {
     const wrapper = mount(<DrawerEventTester maskClosable={false} />);
 
-    wrapper.find('button.ant-btn').simulate('click');
+    wrapper.find('button.alu-btn').simulate('click');
     expect(wrapper.instance().state.visible).toBe(true);
 
-    wrapper.find('.ant-drawer-mask').simulate('click');
+    wrapper.find('.alu-drawer-mask').simulate('click');
     expect(wrapper.instance().state.visible).toBe(true);
   });
 
   it('destroyOnClose is true onClose', () => {
     const wrapper = mount(<DrawerEventTester destroyOnClose />);
-    wrapper.find('button.ant-btn').simulate('click');
-    expect(wrapper.find('.ant-drawer-wrapper-body').exists()).toBe(true);
+    wrapper.find('button.alu-btn').simulate('click');
+    expect(wrapper.find('.alu-drawer-wrapper-body').exists()).toBe(true);
 
     wrapper.setState({
       visible: false,
     });
-    wrapper.find('.ant-drawer-wrapper-body').simulate('transitionend');
-    expect(wrapper.find('.ant-drawer-wrapper-body').exists()).toBe(false);
+    wrapper.find('.alu-drawer-wrapper-body').simulate('transitionend');
+    expect(wrapper.find('.alu-drawer-wrapper-body').exists()).toBe(false);
   });
 
   it('no mask and no closable', () => {
     const wrapper = mount(<DrawerEventTester destroyOnClose />);
 
-    wrapper.find('button.ant-btn').simulate('click');
+    wrapper.find('button.alu-btn').simulate('click');
     expect(wrapper.instance().state.visible).toBe(true);
 
-    wrapper.find('.ant-drawer-close').simulate('click');
+    wrapper.find('.alu-drawer-close').simulate('click');
     expect(wrapper.instance().state.visible).toBe(false);
   });
 });

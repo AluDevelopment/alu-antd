@@ -81,11 +81,11 @@ ReactDOM.render(
 .code-box-demo .demo {
   overflow: auto;
 }
-.code-box-demo .ant-btn {
+.code-box-demo .alu-btn {
   margin-right: 8px;
   margin-bottom: 8px;
 }
-#components-popover-demo-placement .ant-btn {
+#components-popover-demo-placement .alu-btn {
   width: 70px;
   text-align: center;
   padding: 0;

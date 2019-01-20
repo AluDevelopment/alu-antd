@@ -2,18 +2,18 @@
 
 exports[`renders ./components/mention/demo/async.md correctly 1`] = `
 <div
-  class="ant-mention-wrapper"
+  class="alu-mention-wrapper"
   style="width:100%"
 >
   <div
-    class="ant-mention-editor oneline"
+    class="alu-mention-editor oneline"
     style="width:100%"
   >
     <div
-      class="ant-mention-toolbar"
+      class="alu-mention-toolbar"
     />
     <div
-      class="ant-mention-editor-wrapper"
+      class="alu-mention-editor-wrapper"
       style="width:100%"
     >
       <div
@@ -63,18 +63,18 @@ exports[`renders ./components/mention/demo/async.md correctly 1`] = `
 
 exports[`renders ./components/mention/demo/avatar.md correctly 1`] = `
 <div
-  class="ant-mention-wrapper"
+  class="alu-mention-wrapper"
   style="width:100%"
 >
   <div
-    class="ant-mention-editor oneline"
+    class="alu-mention-editor oneline"
     style="width:100%"
   >
     <div
-      class="ant-mention-toolbar"
+      class="alu-mention-toolbar"
     />
     <div
-      class="ant-mention-editor-wrapper"
+      class="alu-mention-editor-wrapper"
       style="width:100%"
     >
       <div
@@ -124,18 +124,18 @@ exports[`renders ./components/mention/demo/avatar.md correctly 1`] = `
 
 exports[`renders ./components/mention/demo/basic.md correctly 1`] = `
 <div
-  class="ant-mention-wrapper"
+  class="alu-mention-wrapper"
   style="width:100%"
 >
   <div
-    class="ant-mention-editor oneline"
+    class="alu-mention-editor oneline"
     style="width:100%"
   >
     <div
-      class="ant-mention-toolbar"
+      class="alu-mention-toolbar"
     />
     <div
-      class="ant-mention-editor-wrapper"
+      class="alu-mention-editor-wrapper"
       style="width:100%"
     >
       <div
@@ -189,16 +189,16 @@ exports[`renders ./components/mention/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/mention/demo/controllder-simple.md correctly 1`] = `
 <div
-  class="ant-mention-wrapper"
+  class="alu-mention-wrapper"
 >
   <div
-    class="ant-mention-editor oneline"
+    class="alu-mention-editor oneline"
   >
     <div
-      class="ant-mention-toolbar"
+      class="alu-mention-toolbar"
     />
     <div
-      class="ant-mention-editor-wrapper"
+      class="alu-mention-editor-wrapper"
     >
       <div
         class="DraftEditor-root"
@@ -251,13 +251,13 @@ exports[`renders ./components/mention/demo/controllder-simple.md correctly 1`] =
 
 exports[`renders ./components/mention/demo/controlled.md correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="alu-form alu-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
         class=""
@@ -268,25 +268,25 @@ exports[`renders ./components/mention/demo/controlled.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-16 ant-form-item-control-wrapper"
+      class="alu-col-16 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control has-success"
+        class="alu-form-item-control has-success"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-mention-wrapper"
+            class="alu-mention-wrapper"
           >
             <div
-              class="ant-mention-editor oneline"
+              class="alu-mention-editor oneline"
             >
               <div
-                class="ant-mention-toolbar"
+                class="alu-mention-toolbar"
               />
               <div
-                class="ant-mention-editor-wrapper"
+                class="alu-mention-editor-wrapper"
               >
                 <div
                   class="DraftEditor-root"
@@ -340,19 +340,19 @@ exports[`renders ./components/mention/demo/controlled.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-14 ant-col-offset-6 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-col-offset-6 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <button
-            class="ant-btn ant-btn-primary"
+            class="alu-btn alu-btn-primary"
             type="button"
           >
             <span>
@@ -361,7 +361,7 @@ exports[`renders ./components/mention/demo/controlled.md correctly 1`] = `
           </button>
              
           <button
-            class="ant-btn"
+            class="alu-btn"
             type="button"
           >
             <span>
@@ -377,18 +377,18 @@ exports[`renders ./components/mention/demo/controlled.md correctly 1`] = `
 
 exports[`renders ./components/mention/demo/custom-tag.md correctly 1`] = `
 <div
-  class="ant-mention-wrapper"
+  class="alu-mention-wrapper"
   style="width:100%"
 >
   <div
-    class="ant-mention-editor oneline"
+    class="alu-mention-editor oneline"
     style="width:100%"
   >
     <div
-      class="ant-mention-toolbar"
+      class="alu-mention-toolbar"
     />
     <div
-      class="ant-mention-editor-wrapper"
+      class="alu-mention-editor-wrapper"
       style="width:100%"
     >
       <div
@@ -449,18 +449,18 @@ exports[`renders ./components/mention/demo/custom-tag.md correctly 1`] = `
 
 exports[`renders ./components/mention/demo/multilines.md correctly 1`] = `
 <div
-  class="ant-mention-wrapper multilines"
+  class="alu-mention-wrapper multilines"
   style="width:100%;height:100px"
 >
   <div
-    class="ant-mention-editor"
+    class="alu-mention-editor"
     style="width:100%;height:100px"
   >
     <div
-      class="ant-mention-toolbar"
+      class="alu-mention-toolbar"
     />
     <div
-      class="ant-mention-editor-wrapper"
+      class="alu-mention-editor-wrapper"
       style="width:100%;height:100px"
     >
       <div
@@ -510,18 +510,18 @@ exports[`renders ./components/mention/demo/multilines.md correctly 1`] = `
 
 exports[`renders ./components/mention/demo/multiple-trigger.md correctly 1`] = `
 <div
-  class="ant-mention-wrapper"
+  class="alu-mention-wrapper"
   style="width:100%"
 >
   <div
-    class="ant-mention-editor oneline"
+    class="alu-mention-editor oneline"
     style="width:100%"
   >
     <div
-      class="ant-mention-toolbar"
+      class="alu-mention-toolbar"
     />
     <div
-      class="ant-mention-editor-wrapper"
+      class="alu-mention-editor-wrapper"
       style="width:100%"
     >
       <div
@@ -582,18 +582,18 @@ exports[`renders ./components/mention/demo/multiple-trigger.md correctly 1`] = `
 
 exports[`renders ./components/mention/demo/placement.md correctly 1`] = `
 <div
-  class="ant-mention-placement-top ant-mention-wrapper"
+  class="alu-mention-placement-top alu-mention-wrapper"
   style="width:100%"
 >
   <div
-    class="ant-mention-editor oneline"
+    class="alu-mention-editor oneline"
     style="width:100%"
   >
     <div
-      class="ant-mention-toolbar"
+      class="alu-mention-toolbar"
     />
     <div
-      class="ant-mention-editor-wrapper"
+      class="alu-mention-editor-wrapper"
       style="width:100%"
     >
       <div
@@ -643,7 +643,7 @@ exports[`renders ./components/mention/demo/placement.md correctly 1`] = `
 
 exports[`renders ./components/mention/demo/popupContainer.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="alu-btn alu-btn-primary"
   type="button"
 >
   <span>
@@ -658,18 +658,18 @@ exports[`renders ./components/mention/demo/readonly.md correctly 1`] = `
     style="margin-bottom:10px"
   >
     <div
-      class="ant-mention-wrapper disabled"
+      class="alu-mention-wrapper disabled"
       style="width:100%"
     >
       <div
-        class="ant-mention-editor readonly oneline"
+        class="alu-mention-editor readonly oneline"
         style="width:100%"
       >
         <div
-          class="ant-mention-toolbar"
+          class="alu-mention-toolbar"
         />
         <div
-          class="ant-mention-editor-wrapper"
+          class="alu-mention-editor-wrapper"
           style="width:100%"
         >
           <div
@@ -730,18 +730,18 @@ exports[`renders ./components/mention/demo/readonly.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-mention-wrapper readonly"
+    class="alu-mention-wrapper readonly"
     style="width:100%"
   >
     <div
-      class="ant-mention-editor readonly oneline"
+      class="alu-mention-editor readonly oneline"
       style="width:100%"
     >
       <div
-        class="ant-mention-toolbar"
+        class="alu-mention-toolbar"
       />
       <div
-        class="ant-mention-editor-wrapper"
+        class="alu-mention-editor-wrapper"
         style="width:100%"
       >
         <div

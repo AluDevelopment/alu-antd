@@ -2,7 +2,7 @@
 
 exports[`Table.filter override custom filter correctly 1`] = `
 <div
-  className="ant-dropdown-custom-view"
+  className="alu-dropdown-custom-view"
   id="customFilter"
 >
   <span
@@ -29,7 +29,7 @@ exports[`Table.filter override custom filter correctly 1`] = `
 exports[`Table.filter renders custom content correctly 1`] = `
 <div>
   <div
-    class="ant-dropdown  ant-dropdown-placement-bottomRight  ant-dropdown-hidden"
+    class="alu-dropdown  alu-dropdown-placement-bottomRight  alu-dropdown-hidden"
   >
     <div>
       <div
@@ -44,7 +44,7 @@ exports[`Table.filter renders custom content correctly 1`] = `
 
 exports[`Table.filter renders custom filter icon correctly 1`] = `
 <span
-  class="ant-table-filter-icon ant-table-filter-selected ant-dropdown-trigger"
+  class="alu-table-filter-icon alu-table-filter-selected alu-dropdown-trigger"
   style=""
   title="Filter menu"
 >
@@ -54,7 +54,7 @@ exports[`Table.filter renders custom filter icon correctly 1`] = `
 
 exports[`Table.filter renders custom filter icon correctly 2`] = `
 <span
-  class="ant-table-filter-icon ant-dropdown-trigger"
+  class="alu-table-filter-icon alu-dropdown-trigger"
   style=""
   title="Filter menu"
 >
@@ -64,22 +64,22 @@ exports[`Table.filter renders custom filter icon correctly 2`] = `
 
 exports[`Table.filter renders filter correctly 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="alu-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="alu-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="alu-spin-container"
     >
       <div
-        class="ant-table ant-table-default ant-table-scroll-position-left"
+        class="alu-table alu-table-default alu-table-scroll-position-left"
       >
         <div
-          class="ant-table-content"
+          class="alu-table-content"
         >
           <div
-            class="ant-table-body"
+            class="alu-table-body"
           >
             <table
               class=""
@@ -88,17 +88,17 @@ exports[`Table.filter renders filter correctly 1`] = `
                 <col />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="alu-table-thead"
               >
                 <tr>
                   <th
-                    class="ant-table-column-has-actions ant-table-column-has-filters"
+                    class="alu-table-column-has-actions alu-table-column-has-filters"
                   >
                     <div>
                       Name
                     </div>
                     <i
-                      class="anticon anticon-filter ant-dropdown-trigger"
+                      class="anticon anticon-filter alu-dropdown-trigger"
                       title="Filter menu"
                     >
                       <svg
@@ -119,59 +119,59 @@ exports[`Table.filter renders filter correctly 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="alu-table-tbody"
               >
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="alu-table-row alu-table-row-level-0"
                   data-row-key="0"
                 >
                   <td
-                    class="ant-table-column-has-actions ant-table-column-has-filters"
+                    class="alu-table-column-has-actions alu-table-column-has-filters"
                   >
                     <span
-                      class="ant-table-row-indent indent-level-0"
+                      class="alu-table-row-indent indent-level-0"
                       style="padding-left:0px"
                     />
                     Jack
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="alu-table-row alu-table-row-level-0"
                   data-row-key="1"
                 >
                   <td
-                    class="ant-table-column-has-actions ant-table-column-has-filters"
+                    class="alu-table-column-has-actions alu-table-column-has-filters"
                   >
                     <span
-                      class="ant-table-row-indent indent-level-0"
+                      class="alu-table-row-indent indent-level-0"
                       style="padding-left:0px"
                     />
                     Lucy
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="alu-table-row alu-table-row-level-0"
                   data-row-key="2"
                 >
                   <td
-                    class="ant-table-column-has-actions ant-table-column-has-filters"
+                    class="alu-table-column-has-actions alu-table-column-has-filters"
                   >
                     <span
-                      class="ant-table-row-indent indent-level-0"
+                      class="alu-table-row-indent indent-level-0"
                       style="padding-left:0px"
                     />
                     Tom
                   </td>
                 </tr>
                 <tr
-                  class="ant-table-row ant-table-row-level-0"
+                  class="alu-table-row alu-table-row-level-0"
                   data-row-key="3"
                 >
                   <td
-                    class="ant-table-column-has-actions ant-table-column-has-filters"
+                    class="alu-table-column-has-actions alu-table-column-has-filters"
                   >
                     <span
-                      class="ant-table-row-indent indent-level-0"
+                      class="alu-table-row-indent indent-level-0"
                       style="padding-left:0px"
                     />
                     Jerry
@@ -190,32 +190,32 @@ exports[`Table.filter renders filter correctly 1`] = `
 exports[`Table.filter renders menu correctly 1`] = `
 <div>
   <div
-    class="ant-dropdown  ant-dropdown-placement-bottomRight  ant-dropdown-hidden"
+    class="alu-dropdown  alu-dropdown-placement-bottomRight  alu-dropdown-hidden"
   >
     <div
-      class="ant-table-filter-dropdown"
+      class="alu-table-filter-dropdown"
     >
       <ul
-        class="ant-dropdown-menu  ant-dropdown-menu-root ant-dropdown-menu-vertical"
+        class="alu-dropdown-menu  alu-dropdown-menu-root alu-dropdown-menu-vertical"
         role="menu"
         tabindex="0"
       >
         <li
-          class="ant-dropdown-menu-item"
+          class="alu-dropdown-menu-item"
           role="menuitem"
         >
           <label
-            class="ant-checkbox-wrapper"
+            class="alu-checkbox-wrapper"
           >
             <span
-              class="ant-checkbox"
+              class="alu-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
           </label>
@@ -224,21 +224,21 @@ exports[`Table.filter renders menu correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-dropdown-menu-item"
+          class="alu-dropdown-menu-item"
           role="menuitem"
         >
           <label
-            class="ant-checkbox-wrapper"
+            class="alu-checkbox-wrapper"
           >
             <span
-              class="ant-checkbox"
+              class="alu-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
           </label>
@@ -247,32 +247,32 @@ exports[`Table.filter renders menu correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-dropdown-menu-submenu ant-dropdown-menu-submenu-vertical"
+          class="alu-dropdown-menu-submenu alu-dropdown-menu-submenu-vertical"
           role="menuitem"
         >
           <div
             aria-expanded="false"
             aria-haspopup="true"
-            class="ant-dropdown-menu-submenu-title"
+            class="alu-dropdown-menu-submenu-title"
             title="Title"
           >
             Title
             <i
-              class="ant-dropdown-menu-submenu-arrow"
+              class="alu-dropdown-menu-submenu-arrow"
             />
           </div>
         </li>
       </ul>
       <div
-        class="ant-table-filter-dropdown-btns"
+        class="alu-table-filter-dropdown-btns"
       >
         <a
-          class="ant-table-filter-dropdown-link confirm"
+          class="alu-table-filter-dropdown-link confirm"
         >
           OK
         </a>
         <a
-          class="ant-table-filter-dropdown-link clear"
+          class="alu-table-filter-dropdown-link clear"
         >
           Reset
         </a>
@@ -285,32 +285,32 @@ exports[`Table.filter renders menu correctly 1`] = `
 exports[`Table.filter renders radio filter correctly 1`] = `
 <div>
   <div
-    class="ant-dropdown  ant-dropdown-placement-bottomRight  ant-dropdown-hidden"
+    class="alu-dropdown  alu-dropdown-placement-bottomRight  alu-dropdown-hidden"
   >
     <div
-      class="ant-table-filter-dropdown"
+      class="alu-table-filter-dropdown"
     >
       <ul
-        class="ant-dropdown-menu  ant-dropdown-menu-root ant-dropdown-menu-vertical"
+        class="alu-dropdown-menu  alu-dropdown-menu-root alu-dropdown-menu-vertical"
         role="menu"
         tabindex="0"
       >
         <li
-          class="ant-dropdown-menu-item"
+          class="alu-dropdown-menu-item"
           role="menuitem"
         >
           <label
-            class="ant-radio-wrapper"
+            class="alu-radio-wrapper"
           >
             <span
-              class="ant-radio"
+              class="alu-radio"
             >
               <input
-                class="ant-radio-input"
+                class="alu-radio-input"
                 type="radio"
               />
               <span
-                class="ant-radio-inner"
+                class="alu-radio-inner"
               />
             </span>
           </label>
@@ -319,21 +319,21 @@ exports[`Table.filter renders radio filter correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-dropdown-menu-item"
+          class="alu-dropdown-menu-item"
           role="menuitem"
         >
           <label
-            class="ant-radio-wrapper"
+            class="alu-radio-wrapper"
           >
             <span
-              class="ant-radio"
+              class="alu-radio"
             >
               <input
-                class="ant-radio-input"
+                class="alu-radio-input"
                 type="radio"
               />
               <span
-                class="ant-radio-inner"
+                class="alu-radio-inner"
               />
             </span>
           </label>
@@ -342,32 +342,32 @@ exports[`Table.filter renders radio filter correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-dropdown-menu-submenu ant-dropdown-menu-submenu-vertical"
+          class="alu-dropdown-menu-submenu alu-dropdown-menu-submenu-vertical"
           role="menuitem"
         >
           <div
             aria-expanded="false"
             aria-haspopup="true"
-            class="ant-dropdown-menu-submenu-title"
+            class="alu-dropdown-menu-submenu-title"
             title="Title"
           >
             Title
             <i
-              class="ant-dropdown-menu-submenu-arrow"
+              class="alu-dropdown-menu-submenu-arrow"
             />
           </div>
         </li>
       </ul>
       <div
-        class="ant-table-filter-dropdown-btns"
+        class="alu-table-filter-dropdown-btns"
       >
         <a
-          class="ant-table-filter-dropdown-link confirm"
+          class="alu-table-filter-dropdown-link confirm"
         >
           OK
         </a>
         <a
-          class="ant-table-filter-dropdown-link clear"
+          class="alu-table-filter-dropdown-link clear"
         >
           Reset
         </a>

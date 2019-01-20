@@ -20,6 +20,9 @@ const ButtonGroup: React.SFC<ButtonGroupProps> = props => (
       // small => sm
       let sizeCls = '';
       switch (size) {
+        case 'xlarge':
+          sizeCls = 'xl';
+          break;
         case 'large':
           sizeCls = 'lg';
           break;

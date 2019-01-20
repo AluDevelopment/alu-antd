@@ -74,11 +74,11 @@ describe('Table.sorter', () => {
     const wrapper = mount(createTable());
 
     // ascend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Jerry', 'Lucy', 'Tom']);
 
     // descend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
   });
 
@@ -113,21 +113,21 @@ describe('Table.sorter', () => {
     const wrapper = mount(createTable({ onChange: handleChange }));
 
     // ascent
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     const sorter1 = handleChange.mock.calls[0][2];
     expect(sorter1.column.dataIndex).toBe('name');
     expect(sorter1.order).toBe('ascend');
     expect(sorter1.field).toBe('name');
     expect(sorter1.columnKey).toBe('name');
 
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     const sorter2 = handleChange.mock.calls[1][2];
     expect(sorter2.column.dataIndex).toBe('name');
     expect(sorter2.order).toBe('descend');
     expect(sorter2.field).toBe('name');
     expect(sorter2.columnKey).toBe('name');
 
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     const sorter3 = handleChange.mock.calls[2][2];
     expect(sorter3.column).toBe(undefined);
     expect(sorter3.order).toBe(undefined);
@@ -184,9 +184,9 @@ describe('Table.sorter', () => {
     ];
     const wrapper = mount(<Table columns={columns} dataSource={testData} />);
     expect(wrapper.find('.custom-title').text()).toEqual('');
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     expect(wrapper.find('.custom-title').text()).toEqual('ascend');
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     expect(wrapper.find('.custom-title').text()).toEqual('descend');
   });
 
@@ -211,19 +211,19 @@ describe('Table.sorter', () => {
       { key: 3, name: 'Jerry', age: 22 },
     ];
     const wrapper = mount(<Table columns={columns} dataSource={testData} />);
-    const nameColumn = wrapper.find('.ant-table-column-sorters').at(0);
-    const ageColumn = wrapper.find('.ant-table-column-sorters').at(1);
+    const nameColumn = wrapper.find('.alu-table-column-sorters').at(0);
+    const ageColumn = wrapper.find('.alu-table-column-sorters').at(1);
     // sort name
     nameColumn.simulate('click');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' on');
     expect(
       ageColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
@@ -231,13 +231,13 @@ describe('Table.sorter', () => {
     ageColumn.simulate('click');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
     expect(
       ageColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' on');
@@ -281,16 +281,16 @@ describe('Table.sorter', () => {
     }
 
     const wrapper = mount(<TableTest />);
-    const nameColumn = wrapper.find('.ant-table-column-sorters').at(0);
+    const nameColumn = wrapper.find('.alu-table-column-sorters').at(0);
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
@@ -298,13 +298,13 @@ describe('Table.sorter', () => {
     nameColumn.simulate('click');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' on');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
@@ -312,13 +312,13 @@ describe('Table.sorter', () => {
     nameColumn.simulate('click');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' on');
@@ -326,13 +326,13 @@ describe('Table.sorter', () => {
     nameColumn.simulate('click');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
@@ -377,16 +377,16 @@ describe('Table.sorter', () => {
     }
 
     const wrapper = mount(<TableTest />);
-    const nameColumn = wrapper.find('.ant-table-column-sorters').at(0);
+    const nameColumn = wrapper.find('.alu-table-column-sorters').at(0);
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
@@ -394,13 +394,13 @@ describe('Table.sorter', () => {
     nameColumn.simulate('click');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' on');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
@@ -408,13 +408,13 @@ describe('Table.sorter', () => {
     nameColumn.simulate('click');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' on');
@@ -422,13 +422,13 @@ describe('Table.sorter', () => {
     nameColumn.simulate('click');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
@@ -476,16 +476,16 @@ describe('Table.sorter', () => {
     }
 
     const wrapper = mount(<TableTest />);
-    const nameColumn = wrapper.find('.ant-table-column-sorters').at(0);
+    const nameColumn = wrapper.find('.alu-table-column-sorters').at(0);
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
@@ -493,13 +493,13 @@ describe('Table.sorter', () => {
     nameColumn.simulate('click');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' on');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
@@ -507,13 +507,13 @@ describe('Table.sorter', () => {
     nameColumn.simulate('click');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' on');
@@ -521,13 +521,13 @@ describe('Table.sorter', () => {
     nameColumn.simulate('click');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-up')
+        .find('.alu-table-column-sorter-up')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
     expect(
       nameColumn
-        .find('.ant-table-column-sorter-down')
+        .find('.alu-table-column-sorter-down')
         .at(0)
         .getDOMNode().className,
     ).toContain(' off');
@@ -541,15 +541,15 @@ describe('Table.sorter', () => {
     );
 
     // descend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
 
     // ascend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Jerry', 'Lucy', 'Tom']);
 
     // cancel sort
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy', 'Tom', 'Jerry']);
   });
 
@@ -561,11 +561,11 @@ describe('Table.sorter', () => {
     );
 
     // descend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
 
     // cancel sort
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy', 'Tom', 'Jerry']);
   });
 
@@ -580,11 +580,11 @@ describe('Table.sorter', () => {
     );
 
     // descend
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Tom', 'Lucy', 'Jack', 'Jerry']);
 
     // cancel sort
-    wrapper.find('.ant-table-column-sorters').simulate('click');
+    wrapper.find('.alu-table-column-sorters').simulate('click');
     expect(renderedNames(wrapper)).toEqual(['Jack', 'Lucy', 'Tom', 'Jerry']);
   });
 });

@@ -3,29 +3,29 @@
 exports[`renders ./components/tree-select/demo/basic.md correctly 1`] = `
 <span
   aria-haspopup="listbox"
-  class="ant-select ant-select-enabled ant-select-allow-clear"
+  class="alu-select alu-select-enabled alu-select-allow-clear"
   role="combobox"
   style="width:300px"
   tabindex="0"
 >
   <span
-    class="ant-select-selection ant-select-selection--single"
+    class="alu-select-selection alu-select-selection--single"
   >
     <span
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <span
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
       >
         Please select
       </span>
     </span>
     <span
-      class="ant-select-arrow"
+      class="alu-select-arrow"
       style="outline:none"
     >
       <i
-        class="anticon anticon-down ant-select-arrow-icon"
+        class="anticon anticon-down alu-select-arrow-icon"
       >
         <svg
           aria-hidden="true"
@@ -49,29 +49,29 @@ exports[`renders ./components/tree-select/demo/basic.md correctly 1`] = `
 exports[`renders ./components/tree-select/demo/checkable.md correctly 1`] = `
 <span
   aria-haspopup="listbox"
-  class="ant-select ant-select-enabled"
+  class="alu-select alu-select-enabled"
   role="combobox"
   style="width:300px"
   tabindex="-1"
 >
   <span
-    class="ant-select-selection ant-select-selection--multiple"
+    class="alu-select-selection alu-select-selection--multiple"
   >
     <ul
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <li
-        class="ant-select-selection__choice"
+        class="alu-select-selection__choice"
         role="menuitem"
         style="user-select:none;-webkit-user-select:none"
         title="Node1"
         unselectable="unselectable"
       >
         <span
-          class="ant-select-selection__choice__remove"
+          class="alu-select-selection__choice__remove"
         >
           <i
-            class="anticon anticon-close ant-select-remove-icon"
+            class="anticon anticon-close alu-select-remove-icon"
           >
             <svg
               aria-hidden="true"
@@ -89,27 +89,27 @@ exports[`renders ./components/tree-select/demo/checkable.md correctly 1`] = `
           </i>
         </span>
         <span
-          class="ant-select-selection__choice__content"
+          class="alu-select-selection__choice__content"
         >
           Node1
         </span>
       </li>
       <li
-        class="ant-select-search ant-select-search--inline"
+        class="alu-select-search alu-select-search--inline"
       >
         <span
-          class="ant-select-search__field__wrap"
+          class="alu-select-search__field__wrap"
         >
           <input
             aria-autocomplete="list"
             aria-label="filter select"
             aria-multiline="false"
-            class="ant-select-search__field"
+            class="alu-select-search__field"
             type="text"
             value=""
           />
           <span
-            class="ant-select-search__field__mirror"
+            class="alu-select-search__field__mirror"
           >
              
           </span>
@@ -117,7 +117,7 @@ exports[`renders ./components/tree-select/demo/checkable.md correctly 1`] = `
       </li>
     </ul>
     <span
-      class="ant-select-search__field__placeholder"
+      class="alu-select-search__field__placeholder"
       style="display:none"
     >
       Please select
@@ -129,33 +129,33 @@ exports[`renders ./components/tree-select/demo/checkable.md correctly 1`] = `
 exports[`renders ./components/tree-select/demo/multiple.md correctly 1`] = `
 <span
   aria-haspopup="listbox"
-  class="ant-select ant-select-enabled ant-select-allow-clear"
+  class="alu-select alu-select-enabled alu-select-allow-clear"
   role="combobox"
   style="width:300px"
   tabindex="-1"
 >
   <span
-    class="ant-select-selection ant-select-selection--multiple"
+    class="alu-select-selection alu-select-selection--multiple"
   >
     <ul
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <li
-        class="ant-select-search ant-select-search--inline"
+        class="alu-select-search alu-select-search--inline"
       >
         <span
-          class="ant-select-search__field__wrap"
+          class="alu-select-search__field__wrap"
         >
           <input
             aria-autocomplete="list"
             aria-label="filter select"
             aria-multiline="false"
-            class="ant-select-search__field"
+            class="alu-select-search__field"
             type="text"
             value=""
           />
           <span
-            class="ant-select-search__field__mirror"
+            class="alu-select-search__field__mirror"
           >
              
           </span>
@@ -163,7 +163,7 @@ exports[`renders ./components/tree-select/demo/multiple.md correctly 1`] = `
       </li>
     </ul>
     <span
-      class="ant-select-search__field__placeholder"
+      class="alu-select-search__field__placeholder"
       style="display:block"
     >
       Please select
@@ -175,25 +175,25 @@ exports[`renders ./components/tree-select/demo/multiple.md correctly 1`] = `
 exports[`renders ./components/tree-select/demo/suffix.md correctly 1`] = `
 <span
   aria-haspopup="listbox"
-  class="ant-select ant-select-enabled ant-select-allow-clear"
+  class="alu-select alu-select-enabled alu-select-allow-clear"
   role="combobox"
   style="width:300px"
   tabindex="0"
 >
   <span
-    class="ant-select-selection ant-select-selection--single"
+    class="alu-select-selection alu-select-selection--single"
   >
     <span
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <span
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
       >
         Please select
       </span>
     </span>
     <span
-      class="ant-select-arrow"
+      class="alu-select-arrow"
       style="outline:none"
     >
       <i
@@ -221,29 +221,29 @@ exports[`renders ./components/tree-select/demo/suffix.md correctly 1`] = `
 exports[`renders ./components/tree-select/demo/treeData.md correctly 1`] = `
 <span
   aria-haspopup="listbox"
-  class="ant-select ant-select-enabled"
+  class="alu-select alu-select-enabled"
   role="combobox"
   style="width:300px"
   tabindex="0"
 >
   <span
-    class="ant-select-selection ant-select-selection--single"
+    class="alu-select-selection alu-select-selection--single"
   >
     <span
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <span
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
       >
         Please select
       </span>
     </span>
     <span
-      class="ant-select-arrow"
+      class="alu-select-arrow"
       style="outline:none"
     >
       <i
-        class="anticon anticon-down ant-select-arrow-icon"
+        class="anticon anticon-down alu-select-arrow-icon"
       >
         <svg
           aria-hidden="true"

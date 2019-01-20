@@ -2,12 +2,12 @@
 
 exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
 <ul
-  class="ant-rate"
+  class="alu-rate"
   role="radiogroup"
   tabindex="0"
 >
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="alu-rate-star alu-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -17,7 +17,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -38,7 +38,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -61,7 +61,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="alu-rate-star alu-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -71,7 +71,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -92,7 +92,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -115,7 +115,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="alu-rate-star alu-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -125,7 +125,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -146,7 +146,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -169,7 +169,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="alu-rate-star alu-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -179,7 +179,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -200,7 +200,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -223,7 +223,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="alu-rate-star alu-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -233,7 +233,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -254,7 +254,7 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -282,12 +282,12 @@ exports[`renders ./components/rate/demo/basic.md correctly 1`] = `
 exports[`renders ./components/rate/demo/character.md correctly 1`] = `
 <div>
   <ul
-    class="ant-rate"
+    class="alu-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -297,7 +297,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-heart"
@@ -318,7 +318,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-heart"
@@ -341,7 +341,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -351,7 +351,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-heart"
@@ -372,7 +372,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-heart"
@@ -395,7 +395,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -405,7 +405,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-heart"
@@ -426,7 +426,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-heart"
@@ -449,7 +449,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -459,7 +459,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-heart"
@@ -480,7 +480,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-heart"
@@ -503,7 +503,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -513,7 +513,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-heart"
@@ -534,7 +534,7 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-heart"
@@ -559,13 +559,13 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
   </ul>
   <br />
   <ul
-    class="ant-rate"
+    class="alu-rate"
     role="radiogroup"
     style="font-size:36px"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -575,19 +575,19 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -597,19 +597,19 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -619,19 +619,19 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -641,19 +641,19 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           A
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -663,12 +663,12 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           A
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           A
         </div>
@@ -677,12 +677,12 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
   </ul>
   <br />
   <ul
-    class="ant-rate"
+    class="alu-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -692,19 +692,19 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -714,19 +714,19 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -736,19 +736,19 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -758,19 +758,19 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           好
         </div>
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -780,12 +780,12 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           好
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           好
         </div>
@@ -798,12 +798,12 @@ exports[`renders ./components/rate/demo/character.md correctly 1`] = `
 exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
 <div>
   <ul
-    class="ant-rate"
+    class="alu-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="alu-rate-star alu-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -813,7 +813,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -834,7 +834,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -857,7 +857,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="alu-rate-star alu-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -867,7 +867,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -888,7 +888,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -911,7 +911,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="alu-rate-star alu-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -921,7 +921,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -942,7 +942,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -965,7 +965,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -975,7 +975,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -996,7 +996,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -1019,7 +1019,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -1029,7 +1029,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -1050,7 +1050,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -1076,12 +1076,12 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
    allowClear: true
   <br />
   <ul
-    class="ant-rate"
+    class="alu-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="alu-rate-star alu-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1091,7 +1091,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -1112,7 +1112,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -1135,7 +1135,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="alu-rate-star alu-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1145,7 +1145,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -1166,7 +1166,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -1189,7 +1189,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="alu-rate-star alu-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1199,7 +1199,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -1220,7 +1220,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -1243,7 +1243,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -1253,7 +1253,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -1274,7 +1274,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -1297,7 +1297,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -1307,7 +1307,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -1328,7 +1328,7 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -1357,12 +1357,12 @@ exports[`renders ./components/rate/demo/clear.md correctly 1`] = `
 
 exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
 <ul
-  class="ant-rate ant-rate-disabled"
+  class="alu-rate alu-rate-disabled"
   role="radiogroup"
   tabindex="-1"
 >
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="alu-rate-star alu-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -1372,7 +1372,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -1393,7 +1393,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -1416,7 +1416,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="alu-rate-star alu-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -1426,7 +1426,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -1447,7 +1447,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -1470,7 +1470,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="alu-rate-star alu-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -1480,7 +1480,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -1501,7 +1501,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -1524,7 +1524,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="alu-rate-star alu-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -1534,7 +1534,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -1555,7 +1555,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -1578,7 +1578,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="alu-rate-star alu-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -1588,7 +1588,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -1609,7 +1609,7 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -1636,12 +1636,12 @@ exports[`renders ./components/rate/demo/disabled.md correctly 1`] = `
 
 exports[`renders ./components/rate/demo/half.md correctly 1`] = `
 <ul
-  class="ant-rate"
+  class="alu-rate"
   role="radiogroup"
   tabindex="0"
 >
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="alu-rate-star alu-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -1651,7 +1651,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -1672,7 +1672,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -1695,7 +1695,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-full"
+    class="alu-rate-star alu-rate-star-full"
   >
     <div
       aria-checked="true"
@@ -1705,7 +1705,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -1726,7 +1726,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -1749,7 +1749,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-half ant-rate-star-active"
+    class="alu-rate-star alu-rate-star-half alu-rate-star-active"
   >
     <div
       aria-checked="true"
@@ -1759,7 +1759,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -1780,7 +1780,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -1803,7 +1803,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="alu-rate-star alu-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -1813,7 +1813,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -1834,7 +1834,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -1857,7 +1857,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-rate-star ant-rate-star-zero"
+    class="alu-rate-star alu-rate-star-zero"
   >
     <div
       aria-checked="false"
@@ -1867,7 +1867,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
       tabindex="0"
     >
       <div
-        class="ant-rate-star-first"
+        class="alu-rate-star-first"
       >
         <i
           class="anticon anticon-star"
@@ -1888,7 +1888,7 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-rate-star-second"
+        class="alu-rate-star-second"
       >
         <i
           class="anticon anticon-star"
@@ -1916,12 +1916,12 @@ exports[`renders ./components/rate/demo/half.md correctly 1`] = `
 exports[`renders ./components/rate/demo/text.md correctly 1`] = `
 <span>
   <ul
-    class="ant-rate"
+    class="alu-rate"
     role="radiogroup"
     tabindex="0"
   >
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="alu-rate-star alu-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1931,7 +1931,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -1952,7 +1952,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -1975,7 +1975,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="alu-rate-star alu-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -1985,7 +1985,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -2006,7 +2006,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -2029,7 +2029,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-full"
+      class="alu-rate-star alu-rate-star-full"
     >
       <div
         aria-checked="true"
@@ -2039,7 +2039,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -2060,7 +2060,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -2083,7 +2083,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -2093,7 +2093,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -2114,7 +2114,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -2137,7 +2137,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
       </div>
     </li>
     <li
-      class="ant-rate-star ant-rate-star-zero"
+      class="alu-rate-star alu-rate-star-zero"
     >
       <div
         aria-checked="false"
@@ -2147,7 +2147,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
         tabindex="0"
       >
         <div
-          class="ant-rate-star-first"
+          class="alu-rate-star-first"
         >
           <i
             class="anticon anticon-star"
@@ -2168,7 +2168,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
           </i>
         </div>
         <div
-          class="ant-rate-star-second"
+          class="alu-rate-star-second"
         >
           <i
             class="anticon anticon-star"
@@ -2192,7 +2192,7 @@ exports[`renders ./components/rate/demo/text.md correctly 1`] = `
     </li>
   </ul>
   <span
-    class="ant-rate-text"
+    class="alu-rate-text"
   >
     normal
   </span>

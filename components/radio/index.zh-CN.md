@@ -37,6 +37,7 @@ title: Radio
 | value | 用于设置当前选中的值 | any | - |
 | onChange | 选项变化时的回调函数 | Function(e:Event) | - |
 | buttonStyle | RadioButton 的风格样式，目前有描边和填色两种风格 | `outline` \| `solid` | `outline` |
+| border | RadioGroup 的边框（横向） | boolean | false |
 
 ## 方法
 

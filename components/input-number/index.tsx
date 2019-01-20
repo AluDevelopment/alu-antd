@@ -56,8 +56,8 @@ export default class InputNumber extends React.Component<InputNumberProps, any> 
       },
       className,
     );
-    const upIcon = <Icon type="up" className={`${prefixCls}-handler-up-inner`} />;
-    const downIcon = <Icon type="down" className={`${prefixCls}-handler-down-inner`} />;
+    const upIcon = <Icon type="plus" className={`${prefixCls}-handler-up-inner`} />;
+    const downIcon = <Icon type="minus" className={`${prefixCls}-handler-down-inner`} />;
 
     return (
       <RcInputNumber

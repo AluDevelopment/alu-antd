@@ -39,7 +39,7 @@ export default class Wave extends React.Component<{ insertExtraNode?: boolean }>
     const { insertExtraNode } = this.props;
     this.extraNode = document.createElement('div');
     const extraNode = this.extraNode;
-    extraNode.className = 'ant-click-animating-node';
+    extraNode.className = 'alu-click-animating-node';
     const attributeName = this.getAttributeName();
     node.removeAttribute(attributeName);
     node.setAttribute(attributeName, 'true');
@@ -106,7 +106,7 @@ export default class Wave extends React.Component<{ insertExtraNode?: boolean }>
 
   getAttributeName() {
     const { insertExtraNode } = this.props;
-    return insertExtraNode ? 'ant-click-animating' : 'ant-click-animating-without-extra-node';
+    return insertExtraNode ? 'alu-click-animating' : 'alu-click-animating-without-extra-node';
   }
 
   resetEffect(node: HTMLElement) {

@@ -2,15 +2,15 @@
 
 exports[`renders ./components/collapse/demo/accordion.md correctly 1`] = `
 <div
-  class="ant-collapse"
+  class="alu-collapse"
   role="tablist"
 >
   <div
-    class="ant-collapse-item"
+    class="alu-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="tab"
       tabindex="0"
     >
@@ -35,11 +35,11 @@ exports[`renders ./components/collapse/demo/accordion.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="alu-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="tab"
       tabindex="0"
     >
@@ -64,11 +64,11 @@ exports[`renders ./components/collapse/demo/accordion.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="alu-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="tab"
       tabindex="0"
     >
@@ -97,14 +97,14 @@ exports[`renders ./components/collapse/demo/accordion.md correctly 1`] = `
 
 exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
 <div
-  class="ant-collapse"
+  class="alu-collapse"
 >
   <div
-    class="ant-collapse-item ant-collapse-item-active"
+    class="alu-collapse-item alu-collapse-item-active"
   >
     <div
       aria-expanded="true"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -128,10 +128,10 @@ exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
       This is panel header 1
     </div>
     <div
-      class="ant-collapse-content ant-collapse-content-active"
+      class="alu-collapse-content alu-collapse-content-active"
     >
       <div
-        class="ant-collapse-content-box"
+        class="alu-collapse-content-box"
       >
         <p>
           
@@ -144,11 +144,11 @@ exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="alu-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -173,11 +173,11 @@ exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item ant-collapse-item-disabled"
+    class="alu-collapse-item alu-collapse-item-disabled"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="-1"
     >
@@ -206,14 +206,14 @@ exports[`renders ./components/collapse/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
 <div
-  class="ant-collapse ant-collapse-borderless"
+  class="alu-collapse alu-collapse-borderless"
 >
   <div
-    class="ant-collapse-item ant-collapse-item-active"
+    class="alu-collapse-item alu-collapse-item-active"
   >
     <div
       aria-expanded="true"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -237,10 +237,10 @@ exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
       This is panel header 1
     </div>
     <div
-      class="ant-collapse-content ant-collapse-content-active"
+      class="alu-collapse-content alu-collapse-content-active"
     >
       <div
-        class="ant-collapse-content-box"
+        class="alu-collapse-content-box"
       >
         <p
           style="padding-left:24px"
@@ -251,11 +251,11 @@ exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="alu-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -280,11 +280,11 @@ exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="alu-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -313,15 +313,15 @@ exports[`renders ./components/collapse/demo/borderless.md correctly 1`] = `
 
 exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
 <div
-  class="ant-collapse ant-collapse-borderless"
+  class="alu-collapse alu-collapse-borderless"
 >
   <div
-    class="ant-collapse-item ant-collapse-item-active"
+    class="alu-collapse-item alu-collapse-item-active"
     style="background:#f7f7f7;border-radius:4px;margin-bottom:24px;border:0;overflow:hidden"
   >
     <div
       aria-expanded="true"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -345,10 +345,10 @@ exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
       This is panel header 1
     </div>
     <div
-      class="ant-collapse-content ant-collapse-content-active"
+      class="alu-collapse-content alu-collapse-content-active"
     >
       <div
-        class="ant-collapse-content-box"
+        class="alu-collapse-content-box"
       >
         <p>
           
@@ -361,12 +361,12 @@ exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="alu-collapse-item"
     style="background:#f7f7f7;border-radius:4px;margin-bottom:24px;border:0;overflow:hidden"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -391,12 +391,12 @@ exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="alu-collapse-item"
     style="background:#f7f7f7;border-radius:4px;margin-bottom:24px;border:0;overflow:hidden"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -425,14 +425,14 @@ exports[`renders ./components/collapse/demo/custom.md correctly 1`] = `
 
 exports[`renders ./components/collapse/demo/mix.md correctly 1`] = `
 <div
-  class="ant-collapse"
+  class="alu-collapse"
 >
   <div
-    class="ant-collapse-item"
+    class="alu-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -457,11 +457,11 @@ exports[`renders ./components/collapse/demo/mix.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="alu-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -486,11 +486,11 @@ exports[`renders ./components/collapse/demo/mix.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item"
+    class="alu-collapse-item"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -519,14 +519,14 @@ exports[`renders ./components/collapse/demo/mix.md correctly 1`] = `
 
 exports[`renders ./components/collapse/demo/noarrow.md correctly 1`] = `
 <div
-  class="ant-collapse"
+  class="alu-collapse"
 >
   <div
-    class="ant-collapse-item ant-collapse-item-active"
+    class="alu-collapse-item alu-collapse-item-active"
   >
     <div
       aria-expanded="true"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >
@@ -550,10 +550,10 @@ exports[`renders ./components/collapse/demo/noarrow.md correctly 1`] = `
       This is panel header with arrow icon
     </div>
     <div
-      class="ant-collapse-content ant-collapse-content-active"
+      class="alu-collapse-content alu-collapse-content-active"
     >
       <div
-        class="ant-collapse-content-box"
+        class="alu-collapse-content-box"
       >
         <p>
           
@@ -566,11 +566,11 @@ exports[`renders ./components/collapse/demo/noarrow.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-collapse-item ant-collapse-no-arrow"
+    class="alu-collapse-item alu-collapse-no-arrow"
   >
     <div
       aria-expanded="false"
-      class="ant-collapse-header"
+      class="alu-collapse-header"
       role="button"
       tabindex="0"
     >

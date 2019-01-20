@@ -829,7 +829,7 @@ export default class Table<T> extends React.Component<TableProps<T>, TableState<
             selectedKeys={colFilters}
             confirmFilter={this.handleFilter}
             prefixCls={`${prefixCls}-filter`}
-            dropdownPrefixCls={dropdownPrefixCls || 'ant-dropdown'}
+            dropdownPrefixCls={dropdownPrefixCls || 'alu-dropdown'}
             getPopupContainer={this.getPopupContainer}
             key="filter-dropdown"
           />

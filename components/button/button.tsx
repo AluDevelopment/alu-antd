@@ -44,7 +44,7 @@ const ButtonTypes = tuple('default', 'primary', 'ghost', 'dashed', 'danger');
 export type ButtonType = (typeof ButtonTypes)[number];
 const ButtonShapes = tuple('circle', 'circle-outline');
 export type ButtonShape = (typeof ButtonShapes)[number];
-const ButtonSizes = tuple('large', 'default', 'small');
+const ButtonSizes = tuple('xlarge', 'large', 'default', 'small');
 export type ButtonSize = (typeof ButtonSizes)[number];
 const ButtonHTMLTypes = tuple('submit', 'button', 'reset');
 export type ButtonHTMLType = (typeof ButtonHTMLTypes)[number];
@@ -59,6 +59,8 @@ export interface BaseButtonProps {
   className?: string;
   ghost?: boolean;
   block?: boolean;
+  spaceInCN?: boolean;
+  subtitle?: string;
   children?: React.ReactNode;
 }
 
@@ -90,6 +92,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
     loading: false,
     ghost: false,
     block: false,
+    spaceInCN: false,
   };
 
   static propTypes = {
@@ -102,6 +105,8 @@ class Button extends React.Component<ButtonProps, ButtonState> {
     className: PropTypes.string,
     icon: PropTypes.string,
     block: PropTypes.bool,
+    spaceInCN: PropTypes.bool,
+    subtitle: PropTypes.string,
   };
 
   static getDerivedStateFromProps(nextProps: ButtonProps, prevState: ButtonState) {
@@ -187,8 +192,8 @@ class Button extends React.Component<ButtonProps, ButtonState> {
   };
 
   isNeedInserted() {
-    const { icon, children } = this.props;
-    return React.Children.count(children) === 1 && !icon;
+    const { icon, children, spaceInCN } = this.props;
+    return !!spaceInCN && React.Children.count(children) === 1 && !icon;
   }
 
   renderButton = ({ getPrefixCls }: ConfigConsumerProps) => {
@@ -201,6 +206,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
       children,
       icon,
       ghost,
+      subtitle,
       loading: _loadingProp,
       block,
       ...rest
@@ -213,6 +219,9 @@ class Button extends React.Component<ButtonProps, ButtonState> {
     // small => sm
     let sizeCls = '';
     switch (size) {
+      case 'xlarge':
+        sizeCls = 'xl';
+        break;
       case 'large':
         sizeCls = 'lg';
         break;
@@ -231,6 +240,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
       [`${prefixCls}-background-ghost`]: ghost,
       [`${prefixCls}-two-chinese-chars`]: hasTwoCNChar,
       [`${prefixCls}-block`]: block,
+      [`${prefixCls}-subtitle`]: subtitle,
     });
 
     const iconType = loading ? 'loading' : icon;
@@ -251,12 +261,13 @@ class Button extends React.Component<ButtonProps, ButtonState> {
         >
           {iconNode}
           {kids}
+          {subtitle && <span>{subtitle}</span>}
         </a>
       );
     }
 
     // React does not recognize the `htmlType` prop on a DOM element. Here we pick it out of `rest`.
-    const { htmlType, ...otherProps } = rest as NativeButtonProps;
+    const { htmlType, spaceInCN, ...otherProps } = rest as NativeButtonProps;
 
     return (
       <Wave>
@@ -269,6 +280,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
         >
           {iconNode}
           {kids}
+          {subtitle && <span>{subtitle}</span>}
         </button>
       </Wave>
     );

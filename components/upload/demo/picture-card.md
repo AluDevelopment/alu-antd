@@ -44,7 +44,7 @@ class PicturesWall extends React.Component {
     const uploadButton = (
       <div>
         <Icon type="plus" />
-        <div className="ant-upload-text">Upload</div>
+        <div className="alu-upload-text">Upload</div>
       </div>
     );
     return (
@@ -71,12 +71,12 @@ ReactDOM.render(<PicturesWall />, mountNode);
 
 ````css
 /* you can make up upload button and sample style by using stylesheets */
-.ant-upload-select-picture-card i {
+.alu-upload-select-picture-card i {
   font-size: 32px;
   color: #999;
 }
 
-.ant-upload-select-picture-card .ant-upload-text {
+.alu-upload-select-picture-card .alu-upload-text {
   margin-top: 8px;
   color: #666;
 }

@@ -35,7 +35,7 @@ ReactDOM.render(
 ````
 
 <style>
-.code-box-demo .ant-btn {
+.code-box-demo .alu-btn {
   margin-right: 1em;
 }
 </style>

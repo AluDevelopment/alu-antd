@@ -2,56 +2,56 @@
 
 exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
 <div
-  class="ant-transfer"
+  class="alu-transfer"
 >
   <div
-    class="ant-transfer-list ant-transfer-list-with-footer"
+    class="alu-transfer-list alu-transfer-list-with-footer"
     style="width:250px;height:300px"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="alu-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="alu-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           0 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body ant-transfer-list-body-with-search"
+      class="alu-transfer-list-body alu-transfer-list-body-with-search"
     >
       <div
-        class="ant-transfer-list-body-search-wrapper"
+        class="alu-transfer-list-body-search-wrapper"
       >
         <div>
           <input
-            class="ant-input ant-transfer-list-search"
+            class="alu-input alu-transfer-list-search"
             placeholder="Search here"
             type="text"
             value=""
           />
           <span
-            class="ant-transfer-list-search-action"
+            class="alu-transfer-list-search-action"
           >
             <i
               class="anticon anticon-search"
@@ -74,16 +74,16 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
         </div>
       </div>
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       />
       <div
-        class="ant-transfer-list-body-not-found"
+        class="alu-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-small"
+          class="alu-empty alu-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="alu-empty-image"
           >
             <img
               alt="No Data"
@@ -91,7 +91,7 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
             />
           </div>
           <p
-            class="ant-empty-description"
+            class="alu-empty-description"
           >
             No Data
           </p>
@@ -99,10 +99,10 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-transfer-list-footer"
+      class="alu-transfer-list-footer"
     >
       <button
-        class="ant-btn ant-btn-sm"
+        class="alu-btn alu-btn-sm"
         style="float:right;margin:5px"
         type="button"
       >
@@ -113,10 +113,10 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="alu-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm"
+      class="alu-btn alu-btn-primary alu-btn-sm"
       disabled=""
       type="button"
     >
@@ -142,7 +142,7 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm"
+      class="alu-btn alu-btn-primary alu-btn-sm"
       disabled=""
       type="button"
     >
@@ -169,53 +169,53 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-list ant-transfer-list-with-footer"
+    class="alu-transfer-list alu-transfer-list-with-footer"
     style="width:250px;height:300px"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="alu-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="alu-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           0 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body ant-transfer-list-body-with-search"
+      class="alu-transfer-list-body alu-transfer-list-body-with-search"
     >
       <div
-        class="ant-transfer-list-body-search-wrapper"
+        class="alu-transfer-list-body-search-wrapper"
       >
         <div>
           <input
-            class="ant-input ant-transfer-list-search"
+            class="alu-input alu-transfer-list-search"
             placeholder="Search here"
             type="text"
             value=""
           />
           <span
-            class="ant-transfer-list-search-action"
+            class="alu-transfer-list-search-action"
           >
             <i
               class="anticon anticon-search"
@@ -238,16 +238,16 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
         </div>
       </div>
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       />
       <div
-        class="ant-transfer-list-body-not-found"
+        class="alu-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-small"
+          class="alu-empty alu-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="alu-empty-image"
           >
             <img
               alt="No Data"
@@ -255,7 +255,7 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
             />
           </div>
           <p
-            class="ant-empty-description"
+            class="alu-empty-description"
           >
             No Data
           </p>
@@ -263,10 +263,10 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-transfer-list-footer"
+      class="alu-transfer-list-footer"
     >
       <button
-        class="ant-btn ant-btn-sm"
+        class="alu-btn alu-btn-sm"
         style="float:right;margin:5px"
         type="button"
       >
@@ -282,47 +282,47 @@ exports[`renders ./components/transfer/demo/advanced.md correctly 1`] = `
 exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
 <div>
   <div
-    class="ant-transfer"
+    class="alu-transfer"
   >
     <div
-      class="ant-transfer-list"
+      class="alu-transfer-list"
     >
       <div
-        class="ant-transfer-list-header"
+        class="alu-transfer-list-header"
       >
         <label
-          class="ant-checkbox-wrapper"
+          class="alu-checkbox-wrapper"
         >
           <span
-            class="ant-checkbox"
+            class="alu-checkbox"
           >
             <input
-              class="ant-checkbox-input"
+              class="alu-checkbox-input"
               type="checkbox"
             />
             <span
-              class="ant-checkbox-inner"
+              class="alu-checkbox-inner"
             />
           </span>
         </label>
         <span
-          class="ant-transfer-list-header-selected"
+          class="alu-transfer-list-header-selected"
         >
           <span>
             14 items
           </span>
           <span
-            class="ant-transfer-list-header-title"
+            class="alu-transfer-list-header-title"
           >
             Source
           </span>
         </span>
       </div>
       <div
-        class="ant-transfer-list-body"
+        class="alu-transfer-list-body"
       >
         <ul
-          class="ant-transfer-list-content"
+          class="alu-transfer-list-content"
         >
           <div
             class="LazyLoad"
@@ -384,10 +384,10 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-transfer-operation"
+      class="alu-transfer-operation"
     >
       <button
-        class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+        class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
         disabled=""
         type="button"
       >
@@ -410,7 +410,7 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
         </i>
       </button>
       <button
-        class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+        class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
         disabled=""
         type="button"
       >
@@ -434,44 +434,44 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-transfer-list"
+      class="alu-transfer-list"
     >
       <div
-        class="ant-transfer-list-header"
+        class="alu-transfer-list-header"
       >
         <label
-          class="ant-checkbox-wrapper"
+          class="alu-checkbox-wrapper"
         >
           <span
-            class="ant-checkbox"
+            class="alu-checkbox"
           >
             <input
-              class="ant-checkbox-input"
+              class="alu-checkbox-input"
               type="checkbox"
             />
             <span
-              class="ant-checkbox-inner"
+              class="alu-checkbox-inner"
             />
           </span>
         </label>
         <span
-          class="ant-transfer-list-header-selected"
+          class="alu-transfer-list-header-selected"
         >
           <span>
             6 items
           </span>
           <span
-            class="ant-transfer-list-header-title"
+            class="alu-transfer-list-header-title"
           >
             Target
           </span>
         </span>
       </div>
       <div
-        class="ant-transfer-list-body"
+        class="alu-transfer-list-body"
       >
         <ul
-          class="ant-transfer-list-content"
+          class="alu-transfer-list-content"
         >
           <div
             class="LazyLoad"
@@ -503,13 +503,13 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
   </div>
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="alu-switch"
     role="switch"
     style="margin-top:16px"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     >
       disabled
     </span>
@@ -519,55 +519,55 @@ exports[`renders ./components/transfer/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
 <div
-  class="ant-transfer"
+  class="alu-transfer"
 >
   <div
-    class="ant-transfer-list"
+    class="alu-transfer-list"
     style="width:300px;height:300px"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="alu-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="alu-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           0 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="alu-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       />
       <div
-        class="ant-transfer-list-body-not-found"
+        class="alu-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-small"
+          class="alu-empty alu-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="alu-empty-image"
           >
             <img
               alt="No Data"
@@ -575,7 +575,7 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
             />
           </div>
           <p
-            class="ant-empty-description"
+            class="alu-empty-description"
           >
             No Data
           </p>
@@ -584,10 +584,10 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="alu-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -610,7 +610,7 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
       </i>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -634,52 +634,52 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-list"
+    class="alu-transfer-list"
     style="width:300px;height:300px"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="alu-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="alu-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           0 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="alu-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       />
       <div
-        class="ant-transfer-list-body-not-found"
+        class="alu-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-small"
+          class="alu-empty alu-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="alu-empty-image"
           >
             <img
               alt="No Data"
@@ -687,7 +687,7 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
             />
           </div>
           <p
-            class="ant-empty-description"
+            class="alu-empty-description"
           >
             No Data
           </p>
@@ -700,54 +700,54 @@ exports[`renders ./components/transfer/demo/custom-item.md correctly 1`] = `
 
 exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
 <div
-  class="ant-transfer"
+  class="alu-transfer"
 >
   <div
-    class="ant-transfer-list"
+    class="alu-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="alu-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="alu-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           0 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="alu-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       />
       <div
-        class="ant-transfer-list-body-not-found"
+        class="alu-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-small"
+          class="alu-empty alu-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="alu-empty-image"
           >
             <img
               alt="No Data"
@@ -755,7 +755,7 @@ exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
             />
           </div>
           <p
-            class="ant-empty-description"
+            class="alu-empty-description"
           >
             No Data
           </p>
@@ -764,10 +764,10 @@ exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="alu-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -790,7 +790,7 @@ exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
       </i>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -814,51 +814,51 @@ exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-list"
+    class="alu-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="alu-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="alu-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           0 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="alu-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       />
       <div
-        class="ant-transfer-list-body-not-found"
+        class="alu-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-small"
+          class="alu-empty alu-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="alu-empty-image"
           >
             <img
               alt="No Data"
@@ -866,7 +866,7 @@ exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
             />
           </div>
           <p
-            class="ant-empty-description"
+            class="alu-empty-description"
           >
             No Data
           </p>
@@ -879,55 +879,55 @@ exports[`renders ./components/transfer/demo/large-data.md correctly 1`] = `
 
 exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
 <div
-  class="ant-transfer"
+  class="alu-transfer"
 >
   <div
-    class="ant-transfer-list"
+    class="alu-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="alu-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="alu-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           0 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body ant-transfer-list-body-with-search"
+      class="alu-transfer-list-body alu-transfer-list-body-with-search"
     >
       <div
-        class="ant-transfer-list-body-search-wrapper"
+        class="alu-transfer-list-body-search-wrapper"
       >
         <div>
           <input
-            class="ant-input ant-transfer-list-search"
+            class="alu-input alu-transfer-list-search"
             placeholder="Search here"
             type="text"
             value=""
           />
           <span
-            class="ant-transfer-list-search-action"
+            class="alu-transfer-list-search-action"
           >
             <i
               class="anticon anticon-search"
@@ -950,16 +950,16 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
         </div>
       </div>
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       />
       <div
-        class="ant-transfer-list-body-not-found"
+        class="alu-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-small"
+          class="alu-empty alu-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="alu-empty-image"
           >
             <img
               alt="No Data"
@@ -967,7 +967,7 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
             />
           </div>
           <p
-            class="ant-empty-description"
+            class="alu-empty-description"
           >
             No Data
           </p>
@@ -976,10 +976,10 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="alu-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -1002,7 +1002,7 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
       </i>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -1026,52 +1026,52 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-list"
+    class="alu-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="alu-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="alu-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           0 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body ant-transfer-list-body-with-search"
+      class="alu-transfer-list-body alu-transfer-list-body-with-search"
     >
       <div
-        class="ant-transfer-list-body-search-wrapper"
+        class="alu-transfer-list-body-search-wrapper"
       >
         <div>
           <input
-            class="ant-input ant-transfer-list-search"
+            class="alu-input alu-transfer-list-search"
             placeholder="Search here"
             type="text"
             value=""
           />
           <span
-            class="ant-transfer-list-search-action"
+            class="alu-transfer-list-search-action"
           >
             <i
               class="anticon anticon-search"
@@ -1094,16 +1094,16 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
         </div>
       </div>
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       />
       <div
-        class="ant-transfer-list-body-not-found"
+        class="alu-transfer-list-body-not-found"
       >
         <div
-          class="ant-empty ant-empty-small"
+          class="alu-empty alu-empty-small"
         >
           <div
-            class="ant-empty-image"
+            class="alu-empty-image"
           >
             <img
               alt="No Data"
@@ -1111,7 +1111,7 @@ exports[`renders ./components/transfer/demo/search.md correctly 1`] = `
             />
           </div>
           <p
-            class="ant-empty-description"
+            class="alu-empty-description"
           >
             No Data
           </p>

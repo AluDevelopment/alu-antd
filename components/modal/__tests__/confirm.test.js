@@ -34,7 +34,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onOk,
     });
     // first Modal
-    $$('.ant-btn')[0].click();
+    $$('.alu-btn')[0].click();
     expect(onCancel.mock.calls.length).toBe(1);
     expect(onOk.mock.calls.length).toBe(0);
   });
@@ -47,7 +47,7 @@ describe('Modal.confirm triggers callbacks correctly', () => {
       onOk,
     });
     // second Modal
-    $$('.ant-btn-primary')[0].click();
+    $$('.alu-btn-primary')[0].click();
     expect(onCancel.mock.calls.length).toBe(0);
     expect(onOk.mock.calls.length).toBe(1);
   });
@@ -55,14 +55,14 @@ describe('Modal.confirm triggers callbacks correctly', () => {
   it('should allow Modal.comfirm without onCancel been set', () => {
     open();
     // Third Modal
-    $$('.ant-btn')[0].click();
+    $$('.alu-btn')[0].click();
     expect(errorSpy).not.toHaveBeenCalled();
   });
 
   it('should allow Modal.comfirm without onOk been set', () => {
     open();
     // Fourth Modal
-    $$('.ant-btn-primary')[0].click();
+    $$('.alu-btn-primary')[0].click();
     expect(errorSpy).not.toHaveBeenCalled();
   });
 
@@ -70,25 +70,25 @@ describe('Modal.confirm triggers callbacks correctly', () => {
     it('shows animation when close', () => {
       jest.useFakeTimers();
       open();
-      $$('.ant-btn')[0].click();
-      expect($$('.ant-modal-confirm')).toHaveLength(1);
+      $$('.alu-btn')[0].click();
+      expect($$('.alu-modal-confirm')).toHaveLength(1);
       jest.runAllTimers();
-      expect($$('.ant-modal-confirm')).toHaveLength(0);
+      expect($$('.alu-modal-confirm')).toHaveLength(0);
       jest.useRealTimers();
     });
   }
 
   it('ok only', () => {
     open({ okCancel: false });
-    expect($$('.ant-btn')).toHaveLength(1);
-    expect($$('.ant-btn')[0].innerHTML).toContain('OK');
+    expect($$('.alu-btn')).toHaveLength(1);
+    expect($$('.alu-btn')[0].innerHTML).toContain('OK');
   });
 
   it('allows extra props on buttons', () => {
     open({ okButtonProps: { disabled: true }, cancelButtonProps: { 'data-test': 'baz' } });
-    expect($$('.ant-btn')).toHaveLength(2);
-    expect($$('.ant-btn')[0].attributes['data-test'].value).toBe('baz');
-    expect($$('.ant-btn')[1].disabled).toBe(true);
+    expect($$('.alu-btn')).toHaveLength(2);
+    expect($$('.alu-btn')[0].attributes['data-test'].value).toBe('baz');
+    expect($$('.alu-btn')[1].disabled).toBe(true);
   });
 
   it('trigger onCancel once when click on cancel button', () => {
@@ -98,10 +98,10 @@ describe('Modal.confirm triggers callbacks correctly', () => {
         title: 'title',
         content: 'content',
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-      $$('.ant-btn')[0].click();
+      expect($$(`.alu-modal-confirm-${type}`)).toHaveLength(1);
+      $$('.alu-btn')[0].click();
       jest.runAllTimers();
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+      expect($$(`.alu-modal-confirm-${type}`)).toHaveLength(0);
     });
     jest.useRealTimers();
   });
@@ -113,16 +113,16 @@ describe('Modal.confirm triggers callbacks correctly', () => {
         title: 'title',
         content: 'content',
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-      expect($$('.ant-modal-confirm-title')[0].innerHTML).toBe('title');
-      expect($$('.ant-modal-confirm-content')[0].innerHTML).toBe('content');
+      expect($$(`.alu-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$('.alu-modal-confirm-title')[0].innerHTML).toBe('title');
+      expect($$('.alu-modal-confirm-content')[0].innerHTML).toBe('content');
       instance.update({
         title: 'new title',
         content: 'new content',
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
-      expect($$('.ant-modal-confirm-title')[0].innerHTML).toBe('new title');
-      expect($$('.ant-modal-confirm-content')[0].innerHTML).toBe('new content');
+      expect($$(`.alu-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$('.alu-modal-confirm-title')[0].innerHTML).toBe('new title');
+      expect($$('.alu-modal-confirm-content')[0].innerHTML).toBe('new content');
       instance.destroy();
       jest.runAllTimers();
     });
@@ -136,10 +136,10 @@ describe('Modal.confirm triggers callbacks correctly', () => {
         title: 'title',
         content: 'content',
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$(`.alu-modal-confirm-${type}`)).toHaveLength(1);
       instance.destroy();
       jest.runAllTimers();
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+      expect($$(`.alu-modal-confirm-${type}`)).toHaveLength(0);
     });
     jest.useRealTimers();
   });
@@ -151,12 +151,12 @@ describe('Modal.confirm triggers callbacks correctly', () => {
         title: 'title',
         content: 'content',
       });
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(1);
+      expect($$(`.alu-modal-confirm-${type}`)).toHaveLength(1);
     });
     Modal.destroyAll();
     ['info', 'success', 'warning', 'error'].forEach((type) => {
       jest.runAllTimers();
-      expect($$(`.ant-modal-confirm-${type}`)).toHaveLength(0);
+      expect($$(`.alu-modal-confirm-${type}`)).toHaveLength(0);
     });
     jest.useRealTimers();
   });

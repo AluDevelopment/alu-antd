@@ -106,7 +106,7 @@ class Sider extends React.Component<SiderProps, SiderState> {
 
   constructor(props: SiderProps) {
     super(props);
-    this.uniqueId = generateId('ant-sider-');
+    this.uniqueId = generateId('alu-sider-');
     let matchMedia;
     if (typeof window !== 'undefined') {
       matchMedia = window.matchMedia;

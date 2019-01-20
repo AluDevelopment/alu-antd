@@ -6,16 +6,16 @@ exports[`renders ./components/divider/demo/horizontal.md correctly 1`] = `
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
   </p>
   <div
-    class="ant-divider ant-divider-horizontal"
+    class="alu-divider alu-divider-horizontal"
   />
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
   </p>
   <div
-    class="ant-divider ant-divider-horizontal ant-divider-with-text"
+    class="alu-divider alu-divider-horizontal alu-divider-with-text"
   >
     <span
-      class="ant-divider-inner-text"
+      class="alu-divider-inner-text"
     >
       With Text
     </span>
@@ -24,7 +24,7 @@ exports[`renders ./components/divider/demo/horizontal.md correctly 1`] = `
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
   </p>
   <div
-    class="ant-divider ant-divider-horizontal ant-divider-dashed"
+    class="alu-divider alu-divider-horizontal alu-divider-dashed"
   />
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
@@ -35,10 +35,10 @@ exports[`renders ./components/divider/demo/horizontal.md correctly 1`] = `
 exports[`renders ./components/divider/demo/orientation.md correctly 1`] = `
 <div>
   <div
-    class="ant-divider ant-divider-horizontal ant-divider-with-text-left"
+    class="alu-divider alu-divider-horizontal alu-divider-with-text-left"
   >
     <span
-      class="ant-divider-inner-text"
+      class="alu-divider-inner-text"
     >
       Left Text
     </span>
@@ -47,10 +47,10 @@ exports[`renders ./components/divider/demo/orientation.md correctly 1`] = `
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonne merninisti licere mihi ista probare, quae sunt a te dicta? Refert tamen, quo modo.
   </p>
   <div
-    class="ant-divider ant-divider-horizontal ant-divider-with-text-right"
+    class="alu-divider alu-divider-horizontal alu-divider-with-text-right"
   >
     <span
-      class="ant-divider-inner-text"
+      class="alu-divider-inner-text"
     >
       Right Text
     </span>
@@ -65,7 +65,7 @@ exports[`renders ./components/divider/demo/vertical.md correctly 1`] = `
 <div>
   Text
   <div
-    class="ant-divider ant-divider-vertical"
+    class="alu-divider alu-divider-vertical"
   />
   <a
     href="#"
@@ -73,7 +73,7 @@ exports[`renders ./components/divider/demo/vertical.md correctly 1`] = `
     Link
   </a>
   <div
-    class="ant-divider ant-divider-vertical"
+    class="alu-divider alu-divider-vertical"
   />
   <a
     href="#"

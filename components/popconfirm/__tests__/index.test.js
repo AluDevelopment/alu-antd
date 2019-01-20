@@ -46,7 +46,7 @@ describe('Popconfirm', () => {
 
     const popup = popconfirm.instance().getPopupDomNode();
     expect(popup).not.toBe(null);
-    expect(popup.className).toContain('ant-popover-placement-top');
+    expect(popup.className).toContain('alu-popover-placement-top');
     expect(popup.innerHTML).toMatchSnapshot();
     expect(popup.innerHTML).toMatchSnapshot();
   });
@@ -61,10 +61,10 @@ describe('Popconfirm', () => {
     expect(popconfirm.instance().getPopupDomNode()).toBeFalsy();
     popconfirm.setProps({ visible: true });
     expect(popconfirm.instance().getPopupDomNode()).toBeTruthy();
-    expect(popconfirm.instance().getPopupDomNode().className).not.toContain('ant-popover-hidden');
+    expect(popconfirm.instance().getPopupDomNode().className).not.toContain('alu-popover-hidden');
     popconfirm.setProps({ visible: false });
     jest.runAllTimers();
-    expect(popconfirm.instance().getPopupDomNode().className).toContain('ant-popover-hidden');
+    expect(popconfirm.instance().getPopupDomNode().className).toContain('alu-popover-hidden');
     jest.useRealTimers();
   });
 
@@ -84,12 +84,12 @@ describe('Popconfirm', () => {
     );
     const triggerNode = popconfirm.find('span').at(0);
     triggerNode.simulate('click');
-    popconfirm.find('.ant-btn-primary').simulate('click');
+    popconfirm.find('.alu-btn-primary').simulate('click');
     expect(confirm).toHaveBeenCalled();
     expect(onVisibleChange).toHaveBeenLastCalledWith(false, eventObject);
     triggerNode.simulate('click');
     popconfirm
-      .find('.ant-btn')
+      .find('.alu-btn')
       .at(0)
       .simulate('click');
     expect(cancel).toHaveBeenCalled();

@@ -9,7 +9,7 @@ describe('Switch', () => {
   it('should has click wave effect', async () => {
     const wrapper = mount(<Switch />);
     wrapper
-      .find('.ant-switch')
+      .find('.alu-switch')
       .getDOMNode()
       .click();
     await new Promise(resolve => setTimeout(resolve, 0));

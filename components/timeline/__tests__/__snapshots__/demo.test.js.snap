@@ -2,46 +2,46 @@
 
 exports[`renders ./components/timeline/demo/alternate.md correctly 1`] = `
 <ul
-  class="ant-timeline ant-timeline-alternate"
+  class="alu-timeline alu-timeline-alternate"
 >
   <li
-    class="ant-timeline-item ant-timeline-item-left"
+    class="alu-timeline-item alu-timeline-item-left"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-right"
+    class="alu-timeline-item alu-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-green"
+      class="alu-timeline-item-head alu-timeline-item-head-green"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Solve initial network problems 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-left"
+    class="alu-timeline-item alu-timeline-item-left"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-custom alu-timeline-item-head-blue"
     >
       <i
         class="anticon anticon-clock-circle-o"
@@ -66,49 +66,49 @@ exports[`renders ./components/timeline/demo/alternate.md correctly 1`] = `
       </i>
     </div>
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-right"
+    class="alu-timeline-item alu-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-red"
+      class="alu-timeline-item-head alu-timeline-item-head-red"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Network problems being solved 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-left"
+    class="alu-timeline-item alu-timeline-item-left"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-last ant-timeline-item-right"
+    class="alu-timeline-item alu-timeline-item-last alu-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-custom alu-timeline-item-head-blue"
     >
       <i
         class="anticon anticon-clock-circle-o"
@@ -133,7 +133,7 @@ exports[`renders ./components/timeline/demo/alternate.md correctly 1`] = `
       </i>
     </div>
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Technical testing 2015-09-01
     </div>
@@ -143,64 +143,64 @@ exports[`renders ./components/timeline/demo/alternate.md correctly 1`] = `
 
 exports[`renders ./components/timeline/demo/basic.md correctly 1`] = `
 <ul
-  class="ant-timeline"
+  class="alu-timeline"
 >
   <li
-    class="ant-timeline-item"
+    class="alu-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="alu-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Solve initial network problems 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="alu-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Technical testing 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-last"
+    class="alu-timeline-item alu-timeline-item-last"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Network problems being solved 2015-09-01
     </div>
@@ -210,49 +210,49 @@ exports[`renders ./components/timeline/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/timeline/demo/color.md correctly 1`] = `
 <ul
-  class="ant-timeline"
+  class="alu-timeline"
 >
   <li
-    class="ant-timeline-item"
+    class="alu-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-green"
+      class="alu-timeline-item-head alu-timeline-item-head-green"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="alu-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-green"
+      class="alu-timeline-item-head alu-timeline-item-head-green"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="alu-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-red"
+      class="alu-timeline-item-head alu-timeline-item-head-red"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       <p>
         Solve initial network problems 1
@@ -266,16 +266,16 @@ exports[`renders ./components/timeline/demo/color.md correctly 1`] = `
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-last"
+    class="alu-timeline-item alu-timeline-item-last"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       <p>
         Technical testing 1
@@ -293,46 +293,46 @@ exports[`renders ./components/timeline/demo/color.md correctly 1`] = `
 
 exports[`renders ./components/timeline/demo/custom.md correctly 1`] = `
 <ul
-  class="ant-timeline"
+  class="alu-timeline"
 >
   <li
-    class="ant-timeline-item"
+    class="alu-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="alu-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Solve initial network problems 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item"
+    class="alu-timeline-item"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-red"
+      class="alu-timeline-item-head alu-timeline-item-head-custom alu-timeline-item-head-red"
     >
       <i
         class="anticon anticon-clock-circle-o"
@@ -357,22 +357,22 @@ exports[`renders ./components/timeline/demo/custom.md correctly 1`] = `
       </i>
     </div>
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Technical testing 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-last"
+    class="alu-timeline-item alu-timeline-item-last"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Network problems being solved 2015-09-01
     </div>
@@ -383,61 +383,61 @@ exports[`renders ./components/timeline/demo/custom.md correctly 1`] = `
 exports[`renders ./components/timeline/demo/pending.md correctly 1`] = `
 <div>
   <ul
-    class="ant-timeline ant-timeline-pending"
+    class="alu-timeline alu-timeline-pending"
   >
     <li
-      class="ant-timeline-item"
+      class="alu-timeline-item"
     >
       <div
-        class="ant-timeline-item-tail"
+        class="alu-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-blue"
+        class="alu-timeline-item-head alu-timeline-item-head-blue"
       />
       <div
-        class="ant-timeline-item-content"
+        class="alu-timeline-item-content"
       >
         Create a services site 2015-09-01
       </div>
     </li>
     <li
-      class="ant-timeline-item"
+      class="alu-timeline-item"
     >
       <div
-        class="ant-timeline-item-tail"
+        class="alu-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-blue"
+        class="alu-timeline-item-head alu-timeline-item-head-blue"
       />
       <div
-        class="ant-timeline-item-content"
+        class="alu-timeline-item-content"
       >
         Solve initial network problems 2015-09-01
       </div>
     </li>
     <li
-      class="ant-timeline-item ant-timeline-item-last"
+      class="alu-timeline-item alu-timeline-item-last"
     >
       <div
-        class="ant-timeline-item-tail"
+        class="alu-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-blue"
+        class="alu-timeline-item-head alu-timeline-item-head-blue"
       />
       <div
-        class="ant-timeline-item-content"
+        class="alu-timeline-item-content"
       >
         Technical testing 2015-09-01
       </div>
     </li>
     <li
-      class="ant-timeline-item ant-timeline-item-pending"
+      class="alu-timeline-item alu-timeline-item-pending"
     >
       <div
-        class="ant-timeline-item-tail"
+        class="alu-timeline-item-tail"
       />
       <div
-        class="ant-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-blue"
+        class="alu-timeline-item-head alu-timeline-item-head-custom alu-timeline-item-head-blue"
       >
         <i
           class="anticon anticon-loading"
@@ -458,14 +458,14 @@ exports[`renders ./components/timeline/demo/pending.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-timeline-item-content"
+        class="alu-timeline-item-content"
       >
         Recording...
       </div>
     </li>
   </ul>
   <button
-    class="ant-btn ant-btn-primary"
+    class="alu-btn alu-btn-primary"
     style="margin-top:16px"
     type="button"
   >
@@ -478,46 +478,46 @@ exports[`renders ./components/timeline/demo/pending.md correctly 1`] = `
 
 exports[`renders ./components/timeline/demo/right.md correctly 1`] = `
 <ul
-  class="ant-timeline ant-timeline-right"
+  class="alu-timeline alu-timeline-right"
 >
   <li
-    class="ant-timeline-item ant-timeline-item-right"
+    class="alu-timeline-item alu-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Create a services site 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-right"
+    class="alu-timeline-item alu-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Solve initial network problems 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-right"
+    class="alu-timeline-item alu-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-custom ant-timeline-item-head-red"
+      class="alu-timeline-item-head alu-timeline-item-head-custom alu-timeline-item-head-red"
     >
       <i
         class="anticon anticon-clock-circle-o"
@@ -542,22 +542,22 @@ exports[`renders ./components/timeline/demo/right.md correctly 1`] = `
       </i>
     </div>
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Technical testing 2015-09-01
     </div>
   </li>
   <li
-    class="ant-timeline-item ant-timeline-item-last ant-timeline-item-right"
+    class="alu-timeline-item alu-timeline-item-last alu-timeline-item-right"
   >
     <div
-      class="ant-timeline-item-tail"
+      class="alu-timeline-item-tail"
     />
     <div
-      class="ant-timeline-item-head ant-timeline-item-head-blue"
+      class="alu-timeline-item-head alu-timeline-item-head-blue"
     />
     <div
-      class="ant-timeline-item-content"
+      class="alu-timeline-item-content"
     >
       Network problems being solved 2015-09-01
     </div>

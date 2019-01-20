@@ -2,11 +2,11 @@
 
 exports[`Layout renders string width correctly 1`] = `
 <div
-  class="ant-layout-sider ant-layout-sider-dark"
+  class="alu-layout-sider alu-layout-sider-dark"
   style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
 >
   <div
-    class="ant-layout-sider-children"
+    class="alu-layout-sider-children"
   >
     Sider
   </div>

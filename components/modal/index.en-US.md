@@ -96,7 +96,7 @@ modal.destroy();
 ```
 
 <style>
-.code-box-demo .ant-btn {
+.code-box-demo .alu-btn {
   margin-right: 8px;
 }
 </style>

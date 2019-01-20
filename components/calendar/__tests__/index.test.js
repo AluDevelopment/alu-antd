@@ -9,7 +9,7 @@ describe('Calendar', () => {
     const onSelect = jest.fn();
     const wrapper = mount(<Calendar onSelect={onSelect} />);
     wrapper
-      .find('.ant-fullcalendar-cell')
+      .find('.alu-fullcalendar-cell')
       .at(0)
       .simulate('click');
     expect(onSelect).toBeCalledWith(expect.anything());
@@ -46,7 +46,7 @@ describe('Calendar', () => {
       .simulate('click');
     const elem = wrapper
       .find('[title="February 20, 2018"]')
-      .hasClass('ant-fullcalendar-disabled-cell');
+      .hasClass('alu-fullcalendar-disabled-cell');
     expect(elem).toEqual(true);
     expect(onSelect.mock.calls.length).toBe(0);
   });
@@ -66,19 +66,19 @@ describe('Calendar', () => {
       wrapper
         .find('[title="Jan"]')
         .at(0)
-        .hasClass('ant-fullcalendar-month-panel-cell-disabled'),
+        .hasClass('alu-fullcalendar-month-panel-cell-disabled'),
     ).toBe(true);
     expect(
       wrapper
         .find('[title="Feb"]')
         .at(0)
-        .hasClass('ant-fullcalendar-month-panel-cell-disabled'),
+        .hasClass('alu-fullcalendar-month-panel-cell-disabled'),
     ).toBe(false);
     expect(
       wrapper
         .find('[title="Jun"]')
         .at(0)
-        .hasClass('ant-fullcalendar-month-panel-cell-disabled'),
+        .hasClass('alu-fullcalendar-month-panel-cell-disabled'),
     ).toBe(true);
     wrapper
       .find('[title="Jan"]')
@@ -95,19 +95,19 @@ describe('Calendar', () => {
     const validRange = [Moment('2017-02-02'), Moment('2018-05-18')];
     const wrapper = mount(<Calendar validRange={validRange} />);
     wrapper
-      .find('.ant-fullcalendar-year-select')
+      .find('.alu-fullcalendar-year-select')
       .hostNodes()
       .simulate('click');
     wrapper
-      .find('.ant-select-dropdown-menu-item')
+      .find('.alu-select-dropdown-menu-item')
       .first()
       .simulate('click');
     wrapper
-      .find('.ant-fullcalendar-month-select')
+      .find('.alu-fullcalendar-month-select')
       .hostNodes()
       .simulate('click');
     // 2 years and 11 months
-    expect(wrapper.find('.ant-select-dropdown-menu-item').length).toBe(13);
+    expect(wrapper.find('.alu-select-dropdown-menu-item').length).toBe(13);
   });
 
   it('getDateRange should returns a disabledDate function', () => {

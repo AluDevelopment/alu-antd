@@ -5,11 +5,33 @@
 @radio-group-prefix-cls: ~'@{radio-prefix-cls}-group';
 @radio-inner-prefix-cls: ~'@{radio-prefix-cls}-inner';
 @radio-duration: 0.3s;
+@radio-focused-outline: 3px solid fade(@radio-dot-color, 6%);
 
 .@{radio-group-prefix-cls} {
   .reset-component;
   display: inline-block;
   line-height: unset;
+  &-border {
+    border-radius: @border-radius-base;
+    border: 1px solid @border-color-base;
+    .@{radio-prefix-cls}-wrapper {
+      text-align: center;
+      min-width: 90px;
+      padding: 0 10px;
+      margin-right: 0;
+      height: @btn-height-base - 2px;
+      line-height: @btn-height-base - 2px;
+      border-right: 1px solid @border-color-base;
+      &:last-child {
+        border-right: none;
+      }
+      &:hover {
+        .@{radio-inner-prefix-cls} {
+          border-color: @radio-dot-color;
+        }
+      }
+    }
+  }
 }
 
 // 一般状态
@@ -29,15 +51,19 @@
   display: inline-block;
   position: relative;
   line-height: 1;
-  vertical-align: sub;
+  vertical-align: text-bottom;
   cursor: pointer;
+
   .@{radio-prefix-cls}-wrapper:hover &,
-  &:hover,
-  &-focused {
-    .@{radio-inner-prefix-cls} {
-      border-color: @radio-dot-color;
-    }
+  &:hover .@{radio-inner-prefix-cls},
+  &-input:focus + .@{radio-inner-prefix-cls} {
+    border-color: @radio-dot-color;
   }
+
+  &-input:focus + .@{radio-inner-prefix-cls} {
+    box-shadow: 0 0 0 3px fade(@radio-dot-color, 8%);
+  }
+
   &-checked:after {
     position: absolute;
     top: 0;
@@ -51,13 +77,15 @@
     animation-fill-mode: both;
     visibility: hidden;
   }
+
   &:hover:after,
   .@{radio-prefix-cls}-wrapper:hover &:after {
     visibility: visible;
   }
+
   &-inner {
     &:after {
-      @radio-dot-size: @radio-size - 8px;
+      @radio-dot-size: @radio-size - 6px;
       position: absolute;
       width: @radio-dot-size;
       height: @radio-dot-size;
@@ -143,7 +171,7 @@ span.@{radio-prefix-cls} + * {
   line-height: @btn-height-base - 2px;
   color: @radio-button-color;
   display: inline-block;
-  transition: all 0.3s ease;
+  transition: color 0.3s, background 0.3s, border-color 0.3s;
   cursor: pointer;
   border: @border-width-base @border-style-base @border-color-base;
   border-left: 0;
@@ -202,10 +230,13 @@ span.@{radio-prefix-cls} + * {
     border-radius: @border-radius-base;
   }
 
-  &:hover,
-  &-focused {
+  &:hover {
     color: @radio-dot-color;
     position: relative;
+  }
+
+  &:focus-within {
+    outline: @radio-focused-outline;
   }
 
   .@{radio-prefix-cls}-inner,
@@ -243,6 +274,10 @@ span.@{radio-prefix-cls} + * {
       box-shadow: -1px 0 0 0 @radio-button-active-color;
       color: @radio-button-active-color;
     }
+
+    &:focus-within {
+      outline: @radio-focused-outline;
+    }
   }
 
   .@{radio-group-prefix-cls}-solid &-checked:not(&-disabled) {
@@ -258,6 +293,9 @@ span.@{radio-prefix-cls} + * {
       border-color: @radio-button-active-color;
       background: @radio-button-active-color;
       color: @component-background;
+    }
+    &:focus-within {
+      outline: @radio-focused-outline;
     }
   }
 
@@ -280,7 +318,7 @@ span.@{radio-prefix-cls} + * {
 
   &-disabled&-checked {
     color: @text-color-inverse;
-    background-color: fade(@black, 90%);
+    background-color: tint(@black, 90%);
     border-color: @border-color-base;
     box-shadow: none;
   }

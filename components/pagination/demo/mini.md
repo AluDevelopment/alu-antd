@@ -31,7 +31,7 @@ ReactDOM.render(
 ````
 
 <style>
-#components-pagination-demo-mini .ant-pagination:not(:last-child) {
+#components-pagination-demo-mini .alu-pagination:not(:last-child) {
   margin-bottom: 24px;
 }
 </style>

@@ -155,7 +155,7 @@ describe('Transfer', () => {
     const handleSelectChange = jest.fn();
     const wrapper = mount(<Transfer {...listCommonProps} onSelectChange={handleSelectChange} />);
     wrapper
-      .find('.ant-transfer-list-header input[type="checkbox"]')
+      .find('.alu-transfer-list-header input[type="checkbox"]')
       .filterWhere(n => !n.prop('checked'))
       .simulate('change');
     expect(handleSelectChange).toHaveBeenCalledWith(['a'], ['b']);
@@ -165,7 +165,7 @@ describe('Transfer', () => {
     const handleSelectChange = jest.fn();
     const wrapper = mount(<Transfer {...listCommonProps} onSelectChange={handleSelectChange} />);
     wrapper
-      .find('.ant-transfer-list-header input[type="checkbox"]')
+      .find('.alu-transfer-list-header input[type="checkbox"]')
       .filterWhere(n => n.prop('checked'))
       .simulate('change');
     expect(handleSelectChange).toHaveBeenCalledWith([], []);
@@ -192,7 +192,7 @@ describe('Transfer', () => {
     wrapper
       .find(TransferList)
       .at(0)
-      .find('.ant-transfer-list-header-selected > span')
+      .find('.alu-transfer-list-header-selected > span')
       .at(0)
       .first()
       .text()
@@ -230,7 +230,7 @@ describe('Transfer', () => {
       wrapper
         .find(TransferList)
         .at(0)
-        .find('.ant-transfer-list-search')
+        .find('.alu-transfer-list-search')
         .at(0)
         .prop('placeholder'),
     ).toEqual('Search');
@@ -239,7 +239,7 @@ describe('Transfer', () => {
       wrapper
         .find(TransferList)
         .at(0)
-        .find('.ant-transfer-list-body-not-found')
+        .find('.alu-transfer-list-body-not-found')
         .at(0)
         .text(),
     ).toEqual('Nothing');
@@ -254,7 +254,7 @@ describe('Transfer', () => {
       wrapper
         .find(TransferList)
         .at(0)
-        .find('.ant-transfer-list-search')
+        .find('.alu-transfer-list-search')
         .at(0)
         .prop('placeholder'),
     ).toEqual('old2');
@@ -263,7 +263,7 @@ describe('Transfer', () => {
       wrapper
         .find(TransferList)
         .at(0)
-        .find('.ant-transfer-list-body-not-found')
+        .find('.alu-transfer-list-body-not-found')
         .at(0)
         .text(),
     ).toEqual('old1');
@@ -301,7 +301,7 @@ describe('Transfer', () => {
     wrapper
       .find(TransferList)
       .at(0)
-      .find('.ant-transfer-list-header input[type="checkbox"]')
+      .find('.alu-transfer-list-header input[type="checkbox"]')
       .filterWhere(n => !n.prop('checked'))
       .simulate('change');
     expect(handleSelectChange).toHaveBeenCalledWith(['1'], []);
@@ -334,7 +334,7 @@ describe('Transfer', () => {
     wrapper
       .find(TransferList)
       .at(0)
-      .find('.ant-transfer-list-header input[type="checkbox"]')
+      .find('.alu-transfer-list-header input[type="checkbox"]')
       .filterWhere(n => !n.prop('checked'))
       .simulate('change');
     wrapper
@@ -371,13 +371,13 @@ describe('Transfer', () => {
     wrapper
       .find(TransferList)
       .at(0)
-      .find('.ant-transfer-list-header input[type="checkbox"]')
+      .find('.alu-transfer-list-header input[type="checkbox"]')
       .simulate('change');
     expect(handleSelectChange).toHaveBeenLastCalledWith(['b', 'a'], []);
     wrapper
       .find(TransferList)
       .at(0)
-      .find('.ant-transfer-list-header input[type="checkbox"]')
+      .find('.alu-transfer-list-header input[type="checkbox"]')
       .simulate('change');
     expect(handleSelectChange).toHaveBeenLastCalledWith(['b'], []);
   });
@@ -425,10 +425,10 @@ describe('Transfer', () => {
       />,
     );
 
-    const wrapper = component.find('.ant-transfer');
-    const listSource = component.find('.ant-transfer-list').first();
-    const listTarget = component.find('.ant-transfer-list').last();
-    const operation = component.find('.ant-transfer-operation').first();
+    const wrapper = component.find('.alu-transfer');
+    const listSource = component.find('.alu-transfer-list').first();
+    const listTarget = component.find('.alu-transfer-list').last();
+    const operation = component.find('.alu-transfer-operation').first();
 
     expect(wrapper.prop('style')).toHaveProperty('backgroundColor', 'red');
     expect(listSource.prop('style')).toHaveProperty('backgroundColor', 'blue');

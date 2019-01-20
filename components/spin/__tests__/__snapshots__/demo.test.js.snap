@@ -2,10 +2,10 @@
 
 exports[`renders ./components/spin/demo/basic.md correctly 1`] = `
 <div
-  class="ant-spin ant-spin-spinning"
+  class="alu-spin alu-spin-spinning"
 >
   <span
-    class="ant-spin-dot ant-spin-dot-spin"
+    class="alu-spin-dot alu-spin-dot-spin"
   >
     <i />
     <i />
@@ -17,10 +17,10 @@ exports[`renders ./components/spin/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/spin/demo/custom-indicator.md correctly 1`] = `
 <div
-  class="ant-spin ant-spin-spinning"
+  class="alu-spin alu-spin-spinning"
 >
   <i
-    class="anticon anticon-loading ant-spin-dot"
+    class="anticon anticon-loading alu-spin-dot"
     style="font-size:24px"
   >
     <svg
@@ -43,22 +43,22 @@ exports[`renders ./components/spin/demo/custom-indicator.md correctly 1`] = `
 exports[`renders ./components/spin/demo/delayAndDebounce.md correctly 1`] = `
 <div>
   <div
-    class="ant-spin-nested-loading"
+    class="alu-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="alu-spin-container"
     >
       <div
-        class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon"
+        class="alu-alert alu-alert-info alu-alert-with-description alu-alert-no-icon"
         data-show="true"
       >
         <span
-          class="ant-alert-message"
+          class="alu-alert-message"
         >
           Alert message title
         </span>
         <span
-          class="ant-alert-description"
+          class="alu-alert-description"
         >
           Further details about the context of this alert.
         </span>
@@ -71,12 +71,12 @@ exports[`renders ./components/spin/demo/delayAndDebounce.md correctly 1`] = `
     Loading state：
     <button
       aria-checked="false"
-      class="ant-switch"
+      class="alu-switch"
       role="switch"
       type="button"
     >
       <span
-        class="ant-switch-inner"
+        class="alu-switch-inner"
       />
     </button>
   </div>
@@ -88,10 +88,10 @@ exports[`renders ./components/spin/demo/inside.md correctly 1`] = `
   class="example"
 >
   <div
-    class="ant-spin ant-spin-spinning"
+    class="alu-spin alu-spin-spinning"
   >
     <span
-      class="ant-spin-dot ant-spin-dot-spin"
+      class="alu-spin-dot alu-spin-dot-spin"
     >
       <i />
       <i />
@@ -105,22 +105,22 @@ exports[`renders ./components/spin/demo/inside.md correctly 1`] = `
 exports[`renders ./components/spin/demo/nested.md correctly 1`] = `
 <div>
   <div
-    class="ant-spin-nested-loading"
+    class="alu-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="alu-spin-container"
     >
       <div
-        class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon"
+        class="alu-alert alu-alert-info alu-alert-with-description alu-alert-no-icon"
         data-show="true"
       >
         <span
-          class="ant-alert-message"
+          class="alu-alert-message"
         >
           Alert message title
         </span>
         <span
-          class="ant-alert-description"
+          class="alu-alert-description"
         >
           Further details about the context of this alert.
         </span>
@@ -133,12 +133,12 @@ exports[`renders ./components/spin/demo/nested.md correctly 1`] = `
     Loading state：
     <button
       aria-checked="false"
-      class="ant-switch"
+      class="alu-switch"
       role="switch"
       type="button"
     >
       <span
-        class="ant-switch-inner"
+        class="alu-switch-inner"
       />
     </button>
   </div>
@@ -148,10 +148,10 @@ exports[`renders ./components/spin/demo/nested.md correctly 1`] = `
 exports[`renders ./components/spin/demo/size.md correctly 1`] = `
 <div>
   <div
-    class="ant-spin ant-spin-sm ant-spin-spinning"
+    class="alu-spin alu-spin-sm alu-spin-spinning"
   >
     <span
-      class="ant-spin-dot ant-spin-dot-spin"
+      class="alu-spin-dot alu-spin-dot-spin"
     >
       <i />
       <i />
@@ -160,10 +160,10 @@ exports[`renders ./components/spin/demo/size.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-spin ant-spin-spinning"
+    class="alu-spin alu-spin-spinning"
   >
     <span
-      class="ant-spin-dot ant-spin-dot-spin"
+      class="alu-spin-dot alu-spin-dot-spin"
     >
       <i />
       <i />
@@ -172,10 +172,10 @@ exports[`renders ./components/spin/demo/size.md correctly 1`] = `
     </span>
   </div>
   <div
-    class="ant-spin ant-spin-lg ant-spin-spinning"
+    class="alu-spin alu-spin-lg alu-spin-spinning"
   >
     <span
-      class="ant-spin-dot ant-spin-dot-spin"
+      class="alu-spin-dot alu-spin-dot-spin"
     >
       <i />
       <i />
@@ -188,14 +188,14 @@ exports[`renders ./components/spin/demo/size.md correctly 1`] = `
 
 exports[`renders ./components/spin/demo/tip.md correctly 1`] = `
 <div
-  class="ant-spin-nested-loading"
+  class="alu-spin-nested-loading"
 >
   <div>
     <div
-      class="ant-spin ant-spin-spinning ant-spin-show-text"
+      class="alu-spin alu-spin-spinning alu-spin-show-text"
     >
       <span
-        class="ant-spin-dot ant-spin-dot-spin"
+        class="alu-spin-dot alu-spin-dot-spin"
       >
         <i />
         <i />
@@ -203,26 +203,26 @@ exports[`renders ./components/spin/demo/tip.md correctly 1`] = `
         <i />
       </span>
       <div
-        class="ant-spin-text"
+        class="alu-spin-text"
       >
         Loading...
       </div>
     </div>
   </div>
   <div
-    class="ant-spin-container ant-spin-blur"
+    class="alu-spin-container alu-spin-blur"
   >
     <div
-      class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon"
+      class="alu-alert alu-alert-info alu-alert-with-description alu-alert-no-icon"
       data-show="true"
     >
       <span
-        class="ant-alert-message"
+        class="alu-alert-message"
       >
         Alert message title
       </span>
       <span
-        class="ant-alert-description"
+        class="alu-alert-description"
       >
         Further details about the context of this alert.
       </span>

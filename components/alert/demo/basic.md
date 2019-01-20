@@ -23,7 +23,7 @@ ReactDOM.render(
 ````
 
 <style>
-.ant-alert {
+.alu-alert {
   margin-bottom: 16px;
 }
 </style>

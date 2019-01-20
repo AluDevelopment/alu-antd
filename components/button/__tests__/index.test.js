@@ -53,17 +53,17 @@ describe('Button', () => {
         <Text>按钮</Text>
       </Button>,
     );
-    expect(wrapper.find('.ant-btn').hasClass('ant-btn-two-chinese-chars')).toBe(true);
+    expect(wrapper.find('.alu-btn').hasClass('alu-btn-two-chinese-chars')).toBe(true);
     wrapper.setProps({
       children: <Text>大按钮</Text>,
     });
     wrapper.update();
-    expect(wrapper.find('.ant-btn').hasClass('ant-btn-two-chinese-chars')).toBe(false);
+    expect(wrapper.find('.alu-btn').hasClass('alu-btn-two-chinese-chars')).toBe(false);
     wrapper.setProps({
       children: <Text>按钮</Text>,
     });
     wrapper.update();
-    expect(wrapper.find('.ant-btn').hasClass('ant-btn-two-chinese-chars')).toBe(true);
+    expect(wrapper.find('.alu-btn').hasClass('alu-btn-two-chinese-chars')).toBe(true);
   });
 
   it('have static property for type detecting', () => {
@@ -93,7 +93,7 @@ describe('Button', () => {
     }
     const wrapper = mount(<DefaultButton />);
     wrapper.simulate('click');
-    expect(wrapper.find('.ant-btn-loading').length).toBe(1);
+    expect(wrapper.find('.alu-btn-loading').length).toBe(1);
   });
 
   it('should change loading state with delay', () => {
@@ -118,7 +118,7 @@ describe('Button', () => {
     }
     const wrapper = mount(<DefaultButton />);
     wrapper.simulate('click');
-    expect(wrapper.hasClass('ant-btn-loading')).toBe(false);
+    expect(wrapper.hasClass('alu-btn-loading')).toBe(false);
   });
 
   it('should support link button', () => {
@@ -142,7 +142,7 @@ describe('Button', () => {
   it('should has click wave effect', async () => {
     const wrapper = mount(<Button type="primary">button</Button>);
     wrapper
-      .find('.ant-btn')
+      .find('.alu-btn')
       .getDOMNode()
       .click();
     await new Promise(resolve => setTimeout(resolve, 0));

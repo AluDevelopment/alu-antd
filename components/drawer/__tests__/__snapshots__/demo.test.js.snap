@@ -3,7 +3,7 @@
 exports[`renders ./components/drawer/demo/basic-right.md correctly 1`] = `
 <div>
   <button
-    class="ant-btn ant-btn-primary"
+    class="alu-btn alu-btn-primary"
     type="button"
   >
     <span>
@@ -16,7 +16,7 @@ exports[`renders ./components/drawer/demo/basic-right.md correctly 1`] = `
 exports[`renders ./components/drawer/demo/form-in-drawer.md correctly 1`] = `
 <div>
   <button
-    class="ant-btn ant-btn-primary"
+    class="alu-btn alu-btn-primary"
     type="button"
   >
     <i
@@ -46,7 +46,7 @@ exports[`renders ./components/drawer/demo/form-in-drawer.md correctly 1`] = `
 exports[`renders ./components/drawer/demo/multi-level-drawer.md correctly 1`] = `
 <div>
   <button
-    class="ant-btn ant-btn-primary"
+    class="alu-btn alu-btn-primary"
     type="button"
   >
     <span>
@@ -59,22 +59,22 @@ exports[`renders ./components/drawer/demo/multi-level-drawer.md correctly 1`] = 
 exports[`renders ./components/drawer/demo/placement.md correctly 1`] = `
 <div>
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="alu-radio-group alu-radio-group-outline"
     style="margin-right:8px"
   >
     <label
-      class="ant-radio-wrapper"
+      class="alu-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="alu-radio"
       >
         <input
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="top"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -82,18 +82,18 @@ exports[`renders ./components/drawer/demo/placement.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="alu-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="alu-radio"
       >
         <input
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="right"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -101,18 +101,18 @@ exports[`renders ./components/drawer/demo/placement.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-wrapper"
+      class="alu-radio-wrapper"
     >
       <span
-        class="ant-radio"
+        class="alu-radio"
       >
         <input
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="bottom"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -120,19 +120,19 @@ exports[`renders ./components/drawer/demo/placement.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-wrapper ant-radio-wrapper-checked"
+      class="alu-radio-wrapper alu-radio-wrapper-checked"
     >
       <span
-        class="ant-radio ant-radio-checked"
+        class="alu-radio alu-radio-checked"
       >
         <input
           checked=""
-          class="ant-radio-input"
+          class="alu-radio-input"
           type="radio"
           value="left"
         />
         <span
-          class="ant-radio-inner"
+          class="alu-radio-inner"
         />
       </span>
       <span>
@@ -141,7 +141,7 @@ exports[`renders ./components/drawer/demo/placement.md correctly 1`] = `
     </label>
   </div>
   <button
-    class="ant-btn ant-btn-primary"
+    class="alu-btn alu-btn-primary"
     type="button"
   >
     <span>
@@ -154,25 +154,25 @@ exports[`renders ./components/drawer/demo/placement.md correctly 1`] = `
 exports[`renders ./components/drawer/demo/user-profile.md correctly 1`] = `
 <div>
   <div
-    class="ant-list ant-list-split ant-list-bordered"
+    class="alu-list alu-list-split alu-list-bordered"
   >
     <div
-      class="ant-spin-nested-loading"
+      class="alu-spin-nested-loading"
     >
       <div
-        class="ant-spin-container"
+        class="alu-spin-container"
       >
         <div
-          class="ant-list-item"
+          class="alu-list-item"
         >
           <div
-            class="ant-list-item-meta"
+            class="alu-list-item-meta"
           >
             <div
-              class="ant-list-item-meta-avatar"
+              class="alu-list-item-meta-avatar"
             >
               <span
-                class="ant-avatar ant-avatar-circle ant-avatar-image"
+                class="alu-avatar alu-avatar-circle alu-avatar-image"
               >
                 <img
                   src="https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png"
@@ -180,10 +180,10 @@ exports[`renders ./components/drawer/demo/user-profile.md correctly 1`] = `
               </span>
             </div>
             <div
-              class="ant-list-item-meta-content"
+              class="alu-list-item-meta-content"
             >
               <h4
-                class="ant-list-item-meta-title"
+                class="alu-list-item-meta-title"
               >
                 <a
                   href="https://ant.design/index-cn"
@@ -192,14 +192,14 @@ exports[`renders ./components/drawer/demo/user-profile.md correctly 1`] = `
                 </a>
               </h4>
               <div
-                class="ant-list-item-meta-description"
+                class="alu-list-item-meta-description"
               >
                 Progresser AFX
               </div>
             </div>
           </div>
           <ul
-            class="ant-list-item-action"
+            class="alu-list-item-action"
           >
             <li>
               <a>
@@ -209,16 +209,16 @@ exports[`renders ./components/drawer/demo/user-profile.md correctly 1`] = `
           </ul>
         </div>
         <div
-          class="ant-list-item"
+          class="alu-list-item"
         >
           <div
-            class="ant-list-item-meta"
+            class="alu-list-item-meta"
           >
             <div
-              class="ant-list-item-meta-avatar"
+              class="alu-list-item-meta-avatar"
             >
               <span
-                class="ant-avatar ant-avatar-circle ant-avatar-image"
+                class="alu-avatar alu-avatar-circle alu-avatar-image"
               >
                 <img
                   src="https://gw.alipayobjects.com/zos/rmsportal/BiazfanxmamNRoxxVxka.png"
@@ -226,10 +226,10 @@ exports[`renders ./components/drawer/demo/user-profile.md correctly 1`] = `
               </span>
             </div>
             <div
-              class="ant-list-item-meta-content"
+              class="alu-list-item-meta-content"
             >
               <h4
-                class="ant-list-item-meta-title"
+                class="alu-list-item-meta-title"
               >
                 <a
                   href="https://ant.design/index-cn"
@@ -238,14 +238,14 @@ exports[`renders ./components/drawer/demo/user-profile.md correctly 1`] = `
                 </a>
               </h4>
               <div
-                class="ant-list-item-meta-description"
+                class="alu-list-item-meta-description"
               >
                 Progresser AFX
               </div>
             </div>
           </div>
           <ul
-            class="ant-list-item-action"
+            class="alu-list-item-action"
           >
             <li>
               <a>

@@ -2,16 +2,16 @@
 
 exports[`Badge should be compatible with borderColor style 1`] = `
 <span
-  class="ant-badge ant-badge-not-a-wrapper"
+  class="alu-badge alu-badge-not-a-wrapper"
 >
   <sup
-    class="ant-scroll-number ant-badge-count"
+    class="alu-scroll-number alu-badge-count"
     data-show="true"
     style="background-color:#fff;color:#999;border-color:#d9d9d9;box-shadow:0 0 0 1px #d9d9d9 inset"
     title="4"
   >
     <span
-      class="ant-scroll-number-only"
+      class="alu-scroll-number-only"
       style="transition:none;-ms-transform:translateY(-1400%);-webkit-transform:translateY(-1400%);transform:translateY(-1400%)"
     >
       <p
@@ -178,7 +178,7 @@ exports[`Badge should render when count is changed 1`] = `
 >
   <Consumer>
     <span
-      className="ant-badge ant-badge-not-a-wrapper"
+      className="alu-badge alu-badge-not-a-wrapper"
     >
       <Animate
         animation={Object {}}
@@ -203,7 +203,7 @@ exports[`Badge should render when count is changed 1`] = `
           transitionName=""
         >
           <ScrollNumber
-            className="ant-badge-count ant-badge-multiple-words"
+            className="alu-badge-count alu-badge-multiple-words"
             count={10}
             data-show={true}
             key="scrollNumber"
@@ -213,12 +213,12 @@ exports[`Badge should render when count is changed 1`] = `
           >
             <Consumer>
               <sup
-                className="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+                className="alu-scroll-number alu-badge-count alu-badge-multiple-words"
                 data-show={true}
                 title={10}
               >
                 <span
-                  className="ant-scroll-number-only"
+                  className="alu-scroll-number-only"
                   key="0"
                   style={
                     Object {
@@ -429,7 +429,7 @@ exports[`Badge should render when count is changed 2`] = `
 >
   <Consumer>
     <span
-      className="ant-badge ant-badge-not-a-wrapper"
+      className="alu-badge alu-badge-not-a-wrapper"
     >
       <Animate
         animation={Object {}}
@@ -454,7 +454,7 @@ exports[`Badge should render when count is changed 2`] = `
           transitionName=""
         >
           <ScrollNumber
-            className="ant-badge-count ant-badge-multiple-words"
+            className="alu-badge-count alu-badge-multiple-words"
             count={11}
             data-show={true}
             key="scrollNumber"
@@ -464,12 +464,12 @@ exports[`Badge should render when count is changed 2`] = `
           >
             <Consumer>
               <sup
-                className="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+                className="alu-scroll-number alu-badge-count alu-badge-multiple-words"
                 data-show={true}
                 title={11}
               >
                 <span
-                  className="ant-scroll-number-only"
+                  className="alu-scroll-number-only"
                   key="1"
                   style={
                     Object {
@@ -662,7 +662,7 @@ exports[`Badge should render when count is changed 2`] = `
                   </p>
                 </span>
                 <span
-                  className="ant-scroll-number-only"
+                  className="alu-scroll-number-only"
                   key="0"
                   style={
                     Object {
@@ -873,7 +873,7 @@ exports[`Badge should render when count is changed 3`] = `
 >
   <Consumer>
     <span
-      className="ant-badge ant-badge-not-a-wrapper"
+      className="alu-badge alu-badge-not-a-wrapper"
     >
       <Animate
         animation={Object {}}
@@ -898,7 +898,7 @@ exports[`Badge should render when count is changed 3`] = `
           transitionName=""
         >
           <ScrollNumber
-            className="ant-badge-count ant-badge-multiple-words"
+            className="alu-badge-count alu-badge-multiple-words"
             count={11}
             data-show={true}
             key="scrollNumber"
@@ -908,12 +908,12 @@ exports[`Badge should render when count is changed 3`] = `
           >
             <Consumer>
               <sup
-                className="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+                className="alu-scroll-number alu-badge-count alu-badge-multiple-words"
                 data-show={true}
                 title={11}
               >
                 <span
-                  className="ant-scroll-number-only"
+                  className="alu-scroll-number-only"
                   key="1"
                   style={
                     Object {
@@ -1106,7 +1106,7 @@ exports[`Badge should render when count is changed 3`] = `
                   </p>
                 </span>
                 <span
-                  className="ant-scroll-number-only"
+                  className="alu-scroll-number-only"
                   key="0"
                   style={
                     Object {
@@ -1317,7 +1317,7 @@ exports[`Badge should render when count is changed 4`] = `
 >
   <Consumer>
     <span
-      className="ant-badge ant-badge-not-a-wrapper"
+      className="alu-badge alu-badge-not-a-wrapper"
     >
       <Animate
         animation={Object {}}
@@ -1342,7 +1342,7 @@ exports[`Badge should render when count is changed 4`] = `
           transitionName=""
         >
           <ScrollNumber
-            className="ant-badge-count ant-badge-multiple-words"
+            className="alu-badge-count alu-badge-multiple-words"
             count={10}
             data-show={true}
             key="scrollNumber"
@@ -1352,12 +1352,12 @@ exports[`Badge should render when count is changed 4`] = `
           >
             <Consumer>
               <sup
-                className="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+                className="alu-scroll-number alu-badge-count alu-badge-multiple-words"
                 data-show={true}
                 title={10}
               >
                 <span
-                  className="ant-scroll-number-only"
+                  className="alu-scroll-number-only"
                   key="1"
                   style={
                     Object {
@@ -1550,7 +1550,7 @@ exports[`Badge should render when count is changed 4`] = `
                   </p>
                 </span>
                 <span
-                  className="ant-scroll-number-only"
+                  className="alu-scroll-number-only"
                   key="0"
                   style={
                     Object {
@@ -1761,7 +1761,7 @@ exports[`Badge should render when count is changed 5`] = `
 >
   <Consumer>
     <span
-      className="ant-badge ant-badge-not-a-wrapper"
+      className="alu-badge alu-badge-not-a-wrapper"
     >
       <Animate
         animation={Object {}}
@@ -1786,7 +1786,7 @@ exports[`Badge should render when count is changed 5`] = `
           transitionName=""
         >
           <ScrollNumber
-            className="ant-badge-count"
+            className="alu-badge-count"
             count={9}
             data-show={true}
             key="scrollNumber"
@@ -1796,12 +1796,12 @@ exports[`Badge should render when count is changed 5`] = `
           >
             <Consumer>
               <sup
-                className="ant-scroll-number ant-badge-count"
+                className="alu-scroll-number alu-badge-count"
                 data-show={true}
                 title={9}
               >
                 <span
-                  className="ant-scroll-number-only"
+                  className="alu-scroll-number-only"
                   key="1"
                   style={
                     Object {
@@ -1994,7 +1994,7 @@ exports[`Badge should render when count is changed 5`] = `
                   </p>
                 </span>
                 <span
-                  className="ant-scroll-number-only"
+                  className="alu-scroll-number-only"
                   key="0"
                   style={
                     Object {
@@ -2198,14 +2198,14 @@ exports[`Badge should render when count is changed 5`] = `
 
 exports[`Badge should support offset when count is a ReactNode 1`] = `
 <span
-  class="ant-badge"
+  class="alu-badge"
 >
   <a
     class="head-example"
     href="#"
   />
   <span
-    class="ant-scroll-number-custom-component custom"
+    class="alu-scroll-number-custom-component custom"
     style="right:-10px;margin-top:20px;color:#f5222d"
   />
 </span>

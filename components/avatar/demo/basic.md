@@ -36,7 +36,7 @@ ReactDOM.render(
 ````
 
 <style>
-#components-avatar-demo-basic .ant-avatar {
+#components-avatar-demo-basic .alu-avatar {
   margin-top: 16px;
   margin-right: 16px;
 }

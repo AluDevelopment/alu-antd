@@ -2,22 +2,22 @@
 
 exports[`Table renders empty table 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="alu-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="alu-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="alu-spin-container"
     >
       <div
-        class="ant-table ant-table-default ant-table-empty ant-table-scroll-position-left"
+        class="alu-table alu-table-default alu-table-empty alu-table-scroll-position-left"
       >
         <div
-          class="ant-table-content"
+          class="alu-table-content"
         >
           <div
-            class="ant-table-body"
+            class="alu-table-body"
           >
             <table
               class=""
@@ -33,7 +33,7 @@ exports[`Table renders empty table 1`] = `
                 <col />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="alu-table-thead"
               >
                 <tr>
                   <th
@@ -95,18 +95,18 @@ exports[`Table renders empty table 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="alu-table-tbody"
               />
             </table>
           </div>
           <div
-            class="ant-table-placeholder"
+            class="alu-table-placeholder"
           >
             <div
-              class="ant-empty ant-empty-normal"
+              class="alu-empty alu-empty-normal"
             >
               <div
-                class="ant-empty-image"
+                class="alu-empty-image"
               >
                 <img
                   alt="No Data"
@@ -114,7 +114,7 @@ exports[`Table renders empty table 1`] = `
                 />
               </div>
               <p
-                class="ant-empty-description"
+                class="alu-empty-description"
               >
                 No Data
               </p>
@@ -129,22 +129,22 @@ exports[`Table renders empty table 1`] = `
 
 exports[`Table renders empty table with custom emptyText 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="alu-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="alu-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="alu-spin-container"
     >
       <div
-        class="ant-table ant-table-default ant-table-empty ant-table-scroll-position-left"
+        class="alu-table alu-table-default alu-table-empty alu-table-scroll-position-left"
       >
         <div
-          class="ant-table-content"
+          class="alu-table-content"
         >
           <div
-            class="ant-table-body"
+            class="alu-table-body"
           >
             <table
               class=""
@@ -160,7 +160,7 @@ exports[`Table renders empty table with custom emptyText 1`] = `
                 <col />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="alu-table-thead"
               >
                 <tr>
                   <th
@@ -222,12 +222,12 @@ exports[`Table renders empty table with custom emptyText 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="alu-table-tbody"
               />
             </table>
           </div>
           <div
-            class="ant-table-placeholder"
+            class="alu-table-placeholder"
           >
             custom empty text 
           </div>
@@ -240,25 +240,25 @@ exports[`Table renders empty table with custom emptyText 1`] = `
 
 exports[`Table renders empty table with fixed columns 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="alu-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="alu-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="alu-spin-container"
     >
       <div
-        class="ant-table ant-table-default ant-table-empty ant-table-scroll-position-left"
+        class="alu-table alu-table-default alu-table-empty alu-table-scroll-position-left"
       >
         <div
-          class="ant-table-content"
+          class="alu-table-content"
         >
           <div
-            class="ant-table-scroll"
+            class="alu-table-scroll"
           >
             <div
-              class="ant-table-body"
+              class="alu-table-body"
             >
               <table
                 class=""
@@ -283,18 +283,18 @@ exports[`Table renders empty table with fixed columns 1`] = `
                   />
                 </colgroup>
                 <thead
-                  class="ant-table-thead"
+                  class="alu-table-thead"
                 >
                   <tr>
                     <th
-                      class="ant-table-fixed-columns-in-body"
+                      class="alu-table-fixed-columns-in-body"
                     >
                       <div>
                         Full Name
                       </div>
                     </th>
                     <th
-                      class="ant-table-fixed-columns-in-body"
+                      class="alu-table-fixed-columns-in-body"
                     >
                       <div>
                         Age
@@ -357,7 +357,7 @@ exports[`Table renders empty table with fixed columns 1`] = `
                       </div>
                     </th>
                     <th
-                      class="ant-table-fixed-columns-in-body"
+                      class="alu-table-fixed-columns-in-body"
                     >
                       <div>
                         Action
@@ -366,18 +366,18 @@ exports[`Table renders empty table with fixed columns 1`] = `
                   </tr>
                 </thead>
                 <tbody
-                  class="ant-table-tbody"
+                  class="alu-table-tbody"
                 />
               </table>
             </div>
             <div
-              class="ant-table-placeholder"
+              class="alu-table-placeholder"
             >
               <div
-                class="ant-empty ant-empty-normal"
+                class="alu-empty alu-empty-normal"
               >
                 <div
-                  class="ant-empty-image"
+                  class="alu-empty-image"
                 >
                   <img
                     alt="No Data"
@@ -385,7 +385,7 @@ exports[`Table renders empty table with fixed columns 1`] = `
                   />
                 </div>
                 <p
-                  class="ant-empty-description"
+                  class="alu-empty-description"
                 >
                   No Data
                 </p>
@@ -393,17 +393,17 @@ exports[`Table renders empty table with fixed columns 1`] = `
             </div>
           </div>
           <div
-            class="ant-table-fixed-left"
+            class="alu-table-fixed-left"
           >
             <div
-              class="ant-table-body-outer"
+              class="alu-table-body-outer"
               style="-webkit-transform:translate3d (0, 0, 0)"
             >
               <div
-                class="ant-table-body-inner"
+                class="alu-table-body-inner"
               >
                 <table
-                  class="ant-table-fixed"
+                  class="alu-table-fixed"
                 >
                   <colgroup>
                     <col
@@ -414,7 +414,7 @@ exports[`Table renders empty table with fixed columns 1`] = `
                     />
                   </colgroup>
                   <thead
-                    class="ant-table-thead"
+                    class="alu-table-thead"
                   >
                     <tr>
                       <th
@@ -434,24 +434,24 @@ exports[`Table renders empty table with fixed columns 1`] = `
                     </tr>
                   </thead>
                   <tbody
-                    class="ant-table-tbody"
+                    class="alu-table-tbody"
                   />
                 </table>
               </div>
             </div>
           </div>
           <div
-            class="ant-table-fixed-right"
+            class="alu-table-fixed-right"
           >
             <div
-              class="ant-table-body-outer"
+              class="alu-table-body-outer"
               style="-webkit-transform:translate3d (0, 0, 0)"
             >
               <div
-                class="ant-table-body-inner"
+                class="alu-table-body-inner"
               >
                 <table
-                  class="ant-table-fixed"
+                  class="alu-table-fixed"
                 >
                   <colgroup>
                     <col
@@ -459,7 +459,7 @@ exports[`Table renders empty table with fixed columns 1`] = `
                     />
                   </colgroup>
                   <thead
-                    class="ant-table-thead"
+                    class="alu-table-thead"
                   >
                     <tr>
                       <th
@@ -472,7 +472,7 @@ exports[`Table renders empty table with fixed columns 1`] = `
                     </tr>
                   </thead>
                   <tbody
-                    class="ant-table-tbody"
+                    class="alu-table-tbody"
                   />
                 </table>
               </div>
@@ -487,17 +487,17 @@ exports[`Table renders empty table with fixed columns 1`] = `
 
 exports[`Table renders empty table without emptyText when loading 1`] = `
 <div
-  class="ant-table-wrapper"
+  class="alu-table-wrapper"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="alu-spin-nested-loading"
   >
     <div>
       <div
-        class="ant-spin ant-spin-spinning ant-table-without-pagination ant-table-spin-holder"
+        class="alu-spin alu-spin-spinning alu-table-without-pagination alu-table-spin-holder"
       >
         <span
-          class="ant-spin-dot ant-spin-dot-spin"
+          class="alu-spin-dot alu-spin-dot-spin"
         >
           <i />
           <i />
@@ -507,16 +507,16 @@ exports[`Table renders empty table without emptyText when loading 1`] = `
       </div>
     </div>
     <div
-      class="ant-spin-container ant-spin-blur"
+      class="alu-spin-container alu-spin-blur"
     >
       <div
-        class="ant-table ant-table-default ant-table-empty ant-table-scroll-position-left"
+        class="alu-table alu-table-default alu-table-empty alu-table-scroll-position-left"
       >
         <div
-          class="ant-table-content"
+          class="alu-table-content"
         >
           <div
-            class="ant-table-body"
+            class="alu-table-body"
           >
             <table
               class=""
@@ -532,7 +532,7 @@ exports[`Table renders empty table without emptyText when loading 1`] = `
                 <col />
               </colgroup>
               <thead
-                class="ant-table-thead"
+                class="alu-table-thead"
               >
                 <tr>
                   <th
@@ -594,12 +594,12 @@ exports[`Table renders empty table without emptyText when loading 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-table-tbody"
+                class="alu-table-tbody"
               />
             </table>
           </div>
           <div
-            class="ant-table-placeholder"
+            class="alu-table-placeholder"
           />
         </div>
       </div>

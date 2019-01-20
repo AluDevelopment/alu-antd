@@ -105,19 +105,19 @@ ReactDOM.render(<Complete />, mountNode);
   width: 100%;
 }
 
-.global-search.ant-select-auto-complete .ant-select-selection--single {
+.global-search.alu-select-auto-complete .alu-select-selection--single {
   margin-right: -46px;
 }
 
-.global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input:not(:last-child) {
+.global-search.alu-select-auto-complete .alu-input-affix-wrapper .alu-input:not(:last-child) {
   padding-right: 62px;
 }
 
-.global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input-suffix {
+.global-search.alu-select-auto-complete .alu-input-affix-wrapper .alu-input-suffix {
   right: 0;
 }
 
-.global-search.ant-select-auto-complete .ant-input-affix-wrapper .ant-input-suffix button {
+.global-search.alu-select-auto-complete .alu-input-affix-wrapper .alu-input-suffix button {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }

@@ -26,6 +26,7 @@ function getCheckedValue(children: React.ReactNode) {
 
 class RadioGroup extends React.Component<RadioGroupProps, RadioGroupState> {
   static defaultProps = {
+    border: false,
     disabled: false,
     buttonStyle: 'outline' as RadioGroupButtonStyle,
   };
@@ -95,6 +96,7 @@ class RadioGroup extends React.Component<RadioGroupProps, RadioGroupState> {
       onChange(ev);
     }
   };
+
   renderGroup = ({ getPrefixCls }: ConfigConsumerProps) => {
     const props = this.props;
     const { prefixCls: customizePrefixCls, className = '', options, buttonStyle } = props;
@@ -105,6 +107,7 @@ class RadioGroup extends React.Component<RadioGroupProps, RadioGroupState> {
       `${groupPrefixCls}-${buttonStyle}`,
       {
         [`${groupPrefixCls}-${props.size}`]: props.size,
+        [`${groupPrefixCls}-border`]: props.border,
       },
       className,
     );

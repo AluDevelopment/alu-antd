@@ -3,20 +3,20 @@
 exports[`renders ./components/time-picker/demo/12hours.md correctly 1`] = `
 <div>
   <span
-    class="ant-time-picker "
+    class="alu-time-picker "
   >
     <input
-      class="ant-time-picker-input"
+      class="alu-time-picker-input"
       id=""
       placeholder="Select time"
       type="text"
       value=""
     />
     <span
-      class="ant-time-picker-icon"
+      class="alu-time-picker-icon"
     >
       <i
-        class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+        class="anticon anticon-clock-circle alu-time-picker-clock-icon"
       >
         <svg
           aria-hidden="true"
@@ -38,20 +38,20 @@ exports[`renders ./components/time-picker/demo/12hours.md correctly 1`] = `
     </span>
   </span>
   <span
-    class="ant-time-picker "
+    class="alu-time-picker "
   >
     <input
-      class="ant-time-picker-input"
+      class="alu-time-picker-input"
       id=""
       placeholder="Select time"
       type="text"
       value=""
     />
     <span
-      class="ant-time-picker-icon"
+      class="alu-time-picker-icon"
     >
       <i
-        class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+        class="anticon anticon-clock-circle alu-time-picker-clock-icon"
       >
         <svg
           aria-hidden="true"
@@ -73,20 +73,20 @@ exports[`renders ./components/time-picker/demo/12hours.md correctly 1`] = `
     </span>
   </span>
   <span
-    class="ant-time-picker "
+    class="alu-time-picker "
   >
     <input
-      class="ant-time-picker-input"
+      class="alu-time-picker-input"
       id=""
       placeholder="Select time"
       type="text"
       value=""
     />
     <span
-      class="ant-time-picker-icon"
+      class="alu-time-picker-icon"
     >
       <i
-        class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+        class="anticon anticon-clock-circle alu-time-picker-clock-icon"
       >
         <svg
           aria-hidden="true"
@@ -112,20 +112,20 @@ exports[`renders ./components/time-picker/demo/12hours.md correctly 1`] = `
 
 exports[`renders ./components/time-picker/demo/addon.md correctly 1`] = `
 <span
-  class="ant-time-picker "
+  class="alu-time-picker "
 >
   <input
-    class="ant-time-picker-input"
+    class="alu-time-picker-input"
     id=""
     placeholder="Select time"
     type="text"
     value=""
   />
   <span
-    class="ant-time-picker-icon"
+    class="alu-time-picker-icon"
   >
     <i
-      class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+      class="anticon anticon-clock-circle alu-time-picker-clock-icon"
     >
       <svg
         aria-hidden="true"
@@ -150,20 +150,20 @@ exports[`renders ./components/time-picker/demo/addon.md correctly 1`] = `
 
 exports[`renders ./components/time-picker/demo/basic.md correctly 1`] = `
 <span
-  class="ant-time-picker "
+  class="alu-time-picker "
 >
   <input
-    class="ant-time-picker-input"
+    class="alu-time-picker-input"
     id=""
     placeholder="Select time"
     type="text"
     value=""
   />
   <span
-    class="ant-time-picker-icon"
+    class="alu-time-picker-icon"
   >
     <i
-      class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+      class="anticon anticon-clock-circle alu-time-picker-clock-icon"
     >
       <svg
         aria-hidden="true"
@@ -188,10 +188,10 @@ exports[`renders ./components/time-picker/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/time-picker/demo/disabled.md correctly 1`] = `
 <span
-  class="ant-time-picker "
+  class="alu-time-picker "
 >
   <input
-    class="ant-time-picker-input"
+    class="alu-time-picker-input"
     disabled=""
     id=""
     placeholder="Select time"
@@ -199,10 +199,10 @@ exports[`renders ./components/time-picker/demo/disabled.md correctly 1`] = `
     value="12:08:23"
   />
   <span
-    class="ant-time-picker-icon"
+    class="alu-time-picker-icon"
   >
     <i
-      class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+      class="anticon anticon-clock-circle alu-time-picker-clock-icon"
     >
       <svg
         aria-hidden="true"
@@ -227,20 +227,20 @@ exports[`renders ./components/time-picker/demo/disabled.md correctly 1`] = `
 
 exports[`renders ./components/time-picker/demo/hide-column.md correctly 1`] = `
 <span
-  class="ant-time-picker "
+  class="alu-time-picker "
 >
   <input
-    class="ant-time-picker-input"
+    class="alu-time-picker-input"
     id=""
     placeholder="Select time"
     type="text"
     value="12:08"
   />
   <span
-    class="ant-time-picker-icon"
+    class="alu-time-picker-icon"
   >
     <i
-      class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+      class="anticon anticon-clock-circle alu-time-picker-clock-icon"
     >
       <svg
         aria-hidden="true"
@@ -265,20 +265,20 @@ exports[`renders ./components/time-picker/demo/hide-column.md correctly 1`] = `
 
 exports[`renders ./components/time-picker/demo/interval-options.md correctly 1`] = `
 <span
-  class="ant-time-picker "
+  class="alu-time-picker "
 >
   <input
-    class="ant-time-picker-input"
+    class="alu-time-picker-input"
     id=""
     placeholder="Select time"
     type="text"
     value=""
   />
   <span
-    class="ant-time-picker-icon"
+    class="alu-time-picker-icon"
   >
     <i
-      class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+      class="anticon anticon-clock-circle alu-time-picker-clock-icon"
     >
       <svg
         aria-hidden="true"
@@ -304,20 +304,20 @@ exports[`renders ./components/time-picker/demo/interval-options.md correctly 1`]
 exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
 <div>
   <span
-    class="ant-time-picker ant-time-picker-large"
+    class="alu-time-picker alu-time-picker-large"
   >
     <input
-      class="ant-time-picker-input"
+      class="alu-time-picker-input"
       id=""
       placeholder="Select time"
       type="text"
       value="12:08:23"
     />
     <span
-      class="ant-time-picker-icon"
+      class="alu-time-picker-icon"
     >
       <i
-        class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+        class="anticon anticon-clock-circle alu-time-picker-clock-icon"
       >
         <svg
           aria-hidden="true"
@@ -339,20 +339,20 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
     </span>
   </span>
   <span
-    class="ant-time-picker "
+    class="alu-time-picker "
   >
     <input
-      class="ant-time-picker-input"
+      class="alu-time-picker-input"
       id=""
       placeholder="Select time"
       type="text"
       value="12:08:23"
     />
     <span
-      class="ant-time-picker-icon"
+      class="alu-time-picker-icon"
     >
       <i
-        class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+        class="anticon anticon-clock-circle alu-time-picker-clock-icon"
       >
         <svg
           aria-hidden="true"
@@ -374,20 +374,20 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
     </span>
   </span>
   <span
-    class="ant-time-picker ant-time-picker-small"
+    class="alu-time-picker alu-time-picker-small"
   >
     <input
-      class="ant-time-picker-input"
+      class="alu-time-picker-input"
       id=""
       placeholder="Select time"
       type="text"
       value="12:08:23"
     />
     <span
-      class="ant-time-picker-icon"
+      class="alu-time-picker-icon"
     >
       <i
-        class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+        class="anticon anticon-clock-circle alu-time-picker-clock-icon"
       >
         <svg
           aria-hidden="true"
@@ -413,20 +413,20 @@ exports[`renders ./components/time-picker/demo/size.md correctly 1`] = `
 
 exports[`renders ./components/time-picker/demo/suffix.md correctly 1`] = `
 <span
-  class="ant-time-picker "
+  class="alu-time-picker "
 >
   <input
-    class="ant-time-picker-input"
+    class="alu-time-picker-input"
     id=""
     placeholder="Select time"
     type="text"
     value=""
   />
   <span
-    class="ant-time-picker-icon"
+    class="alu-time-picker-icon"
   >
     <i
-      class="anticon anticon-smile ant-time-picker-clock-icon"
+      class="anticon anticon-smile alu-time-picker-clock-icon"
     >
       <svg
         aria-hidden="true"
@@ -448,20 +448,20 @@ exports[`renders ./components/time-picker/demo/suffix.md correctly 1`] = `
 
 exports[`renders ./components/time-picker/demo/value.md correctly 1`] = `
 <span
-  class="ant-time-picker "
+  class="alu-time-picker "
 >
   <input
-    class="ant-time-picker-input"
+    class="alu-time-picker-input"
     id=""
     placeholder="Select time"
     type="text"
     value=""
   />
   <span
-    class="ant-time-picker-icon"
+    class="alu-time-picker-icon"
   >
     <i
-      class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+      class="anticon anticon-clock-circle alu-time-picker-clock-icon"
     >
       <svg
         aria-hidden="true"

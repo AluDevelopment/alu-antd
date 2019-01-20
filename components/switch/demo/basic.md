@@ -27,7 +27,7 @@ ReactDOM.render(
 ````
 
 <style>
-.ant-switch {
+.alu-switch {
   margin-bottom: 8px;
 }
 </style>

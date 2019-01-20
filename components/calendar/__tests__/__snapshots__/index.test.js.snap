@@ -2,29 +2,29 @@
 
 exports[`Calendar Calendar should support locale 1`] = `
 <div
-  class=" ant-fullcalendar-fullscreen"
+  class=" alu-fullcalendar-fullscreen"
 >
   <div
-    class="ant-fullcalendar-header"
+    class="alu-fullcalendar-header"
   >
     <div
-      class="ant-fullcalendar-year-select ant-select ant-select-enabled"
+      class="alu-fullcalendar-year-select alu-select alu-select-enabled"
     >
       <div
         aria-autocomplete="list"
         aria-controls="test-uuid"
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <div
-            class="ant-select-selection-selected-value"
+            class="alu-select-selection-selected-value"
             style="display: block; opacity: 1;"
             title="2018年"
           >
@@ -32,11 +32,11 @@ exports[`Calendar Calendar should support locale 1`] = `
           </div>
         </div>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -56,23 +56,23 @@ exports[`Calendar Calendar should support locale 1`] = `
       </div>
     </div>
     <div
-      class="ant-fullcalendar-month-select ant-select ant-select-enabled"
+      class="alu-fullcalendar-month-select alu-select alu-select-enabled"
     >
       <div
         aria-autocomplete="list"
         aria-controls="test-uuid"
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <div
-            class="ant-select-selection-selected-value"
+            class="alu-select-selection-selected-value"
             style="display: block; opacity: 1;"
             title="Oct"
           >
@@ -80,11 +80,11 @@ exports[`Calendar Calendar should support locale 1`] = `
           </div>
         </div>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -104,22 +104,22 @@ exports[`Calendar Calendar should support locale 1`] = `
       </div>
     </div>
     <div
-      class="ant-radio-group ant-radio-group-outline ant-radio-group-default"
+      class="alu-radio-group alu-radio-group-outline alu-radio-group-default"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="alu-radio-button alu-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="date"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -127,18 +127,18 @@ exports[`Calendar Calendar should support locale 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="month"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -148,15 +148,15 @@ exports[`Calendar Calendar should support locale 1`] = `
     </div>
   </div>
   <div
-    class="ant-fullcalendar ant-fullcalendar-full ant-fullcalendar-fullscreen"
+    class="alu-fullcalendar alu-fullcalendar-full alu-fullcalendar-fullscreen"
     tabindex="0"
   >
     <div
-      class="ant-fullcalendar-calendar-body"
+      class="alu-fullcalendar-calendar-body"
     >
       <table
         cellspacing="0"
-        class="ant-fullcalendar-table"
+        class="alu-fullcalendar-table"
         role="grid"
       >
         <thead>
@@ -164,78 +164,78 @@ exports[`Calendar Calendar should support locale 1`] = `
             role="row"
           >
             <th
-              class="ant-fullcalendar-column-header"
+              class="alu-fullcalendar-column-header"
               role="columnheader"
               title="Sun"
             >
               <span
-                class="ant-fullcalendar-column-header-inner"
+                class="alu-fullcalendar-column-header-inner"
               >
                 Su
               </span>
             </th>
             <th
-              class="ant-fullcalendar-column-header"
+              class="alu-fullcalendar-column-header"
               role="columnheader"
               title="Mon"
             >
               <span
-                class="ant-fullcalendar-column-header-inner"
+                class="alu-fullcalendar-column-header-inner"
               >
                 Mo
               </span>
             </th>
             <th
-              class="ant-fullcalendar-column-header"
+              class="alu-fullcalendar-column-header"
               role="columnheader"
               title="Tue"
             >
               <span
-                class="ant-fullcalendar-column-header-inner"
+                class="alu-fullcalendar-column-header-inner"
               >
                 Tu
               </span>
             </th>
             <th
-              class="ant-fullcalendar-column-header"
+              class="alu-fullcalendar-column-header"
               role="columnheader"
               title="Wed"
             >
               <span
-                class="ant-fullcalendar-column-header-inner"
+                class="alu-fullcalendar-column-header-inner"
               >
                 We
               </span>
             </th>
             <th
-              class="ant-fullcalendar-column-header"
+              class="alu-fullcalendar-column-header"
               role="columnheader"
               title="Thu"
             >
               <span
-                class="ant-fullcalendar-column-header-inner"
+                class="alu-fullcalendar-column-header-inner"
               >
                 Th
               </span>
             </th>
             <th
-              class="ant-fullcalendar-column-header"
+              class="alu-fullcalendar-column-header"
               role="columnheader"
               title="Fri"
             >
               <span
-                class="ant-fullcalendar-column-header-inner"
+                class="alu-fullcalendar-column-header-inner"
               >
                 Fr
               </span>
             </th>
             <th
-              class="ant-fullcalendar-column-header"
+              class="alu-fullcalendar-column-header"
               role="columnheader"
               title="Sat"
             >
               <span
-                class="ant-fullcalendar-column-header-inner"
+                class="alu-fullcalendar-column-header-inner"
               >
                 Sa
               </span>
@@ -243,135 +243,135 @@ exports[`Calendar Calendar should support locale 1`] = `
           </tr>
         </thead>
         <tbody
-          class="ant-fullcalendar-tbody"
+          class="alu-fullcalendar-tbody"
         >
           <tr
             class=""
             role="row"
           >
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-last-month-cell ant-fullcalendar-last-day-of-month"
+              class="alu-fullcalendar-cell alu-fullcalendar-last-month-cell alu-fullcalendar-last-day-of-month"
               role="gridcell"
               title="September 30, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   30
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 1, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   01
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 2, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   02
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 3, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   03
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 4, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   04
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 5, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   05
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 6, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   06
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
@@ -381,259 +381,259 @@ exports[`Calendar Calendar should support locale 1`] = `
             role="row"
           >
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 7, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   07
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 8, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   08
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 9, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   09
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 10, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   10
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 11, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   11
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 12, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   12
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 13, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   13
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
           </tr>
           <tr
-            class="ant-fullcalendar-current-week ant-fullcalendar-active-week"
+            class="alu-fullcalendar-current-week alu-fullcalendar-active-week"
             role="row"
           >
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 14, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   14
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 15, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   15
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 16, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   16
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 17, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   17
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 18, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   18
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-today ant-fullcalendar-selected-day"
+              class="alu-fullcalendar-cell alu-fullcalendar-today alu-fullcalendar-selected-day"
               role="gridcell"
               title="October 19, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   19
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 20, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   20
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
@@ -643,128 +643,128 @@ exports[`Calendar Calendar should support locale 1`] = `
             role="row"
           >
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 21, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   21
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 22, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   22
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 23, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   23
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 24, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   24
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 25, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   25
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 26, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   26
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 27, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   27
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
@@ -774,128 +774,128 @@ exports[`Calendar Calendar should support locale 1`] = `
             role="row"
           >
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 28, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   28
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 29, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   29
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell"
+              class="alu-fullcalendar-cell"
               role="gridcell"
               title="October 30, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   30
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-last-day-of-month"
+              class="alu-fullcalendar-cell alu-fullcalendar-last-day-of-month"
               role="gridcell"
               title="October 31, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   31
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+              class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
               role="gridcell"
               title="November 1, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   01
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+              class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
               role="gridcell"
               title="November 2, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   02
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+              class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
               role="gridcell"
               title="November 3, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   03
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
@@ -905,128 +905,128 @@ exports[`Calendar Calendar should support locale 1`] = `
             role="row"
           >
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+              class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
               role="gridcell"
               title="November 4, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   04
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+              class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
               role="gridcell"
               title="November 5, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   05
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+              class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
               role="gridcell"
               title="November 6, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   06
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+              class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
               role="gridcell"
               title="November 7, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   07
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+              class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
               role="gridcell"
               title="November 8, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   08
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+              class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
               role="gridcell"
               title="November 9, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   09
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>
             <td
-              class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+              class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
               role="gridcell"
               title="November 10, 2018"
             >
               <div
-                class="ant-fullcalendar-date"
+                class="alu-fullcalendar-date"
               >
                 <div
-                  class="ant-fullcalendar-value"
+                  class="alu-fullcalendar-value"
                 >
                   10
                 </div>
                 <div
-                  class="ant-fullcalendar-content"
+                  class="alu-fullcalendar-content"
                 />
               </div>
             </td>

@@ -2,7 +2,7 @@
 @import '../color/colors';
 
 // The prefix to use on all css classes from ant.
-@ant-prefix : ant;
+@ant-prefix : alu;
 
 // -------- Colors -----------
 @primary-color : @blue-6;
@@ -50,9 +50,9 @@
 @text-color-dark : fade(@white, 85%);
 @text-color-secondary-dark: fade(@white, 65%);
 @font-variant-base : tabular-nums;
-@font-size-base : 14px;
+@font-size-base : 16px;
 @font-size-lg : @font-size-base + 2px;
-@font-size-sm : 12px;
+@font-size-sm : 14px;
 @line-height-base : 1.5;
 @border-radius-base : 4px;
 @border-radius-sm : 2px;
@@ -99,7 +99,7 @@
 @ease-in-out-quint : cubic-bezier(0.86, 0, 0.07, 1);
 
 // Border color
-@border-color-base : hsv(0, 0, 85%); // base border outline a component
+@border-color-base : #c0c0c0; // base border outline a component
 @border-color-split : hsv(0, 0, 91%); // split border inside a component
 @border-color-inverse: @white;
 @border-width-base : 1px; // width of the border for a component
@@ -132,6 +132,9 @@
 @btn-font-weight : 400;
 @btn-border-radius-base : @border-radius-base;
 @btn-border-radius-sm : @border-radius-base;
+@btn-shadow: 0 2px 0 rgba(0, 0, 0, .015);
+@btn-primary-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+@btn-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
 
 @btn-primary-color : #fff;
 @btn-primary-bg : @primary-color;
@@ -149,23 +152,27 @@
 @btn-disable-border : @border-color-base;
 
 @btn-padding-base : 0 @padding-md - 1px;
-@btn-font-size-lg : @font-size-lg;
-@btn-font-size-sm : @font-size-base;
+@btn-font-size-xl : 24px;
+@btn-font-size-lg : 24px;
+@btn-font-size-base : 18px;
+@btn-font-size-sm : 16px;
 @btn-padding-lg : @btn-padding-base;
 @btn-padding-sm : 0 @padding-xs - 1px;
 
-@btn-height-base : 32px;
-@btn-height-lg : 40px;
-@btn-height-sm : 24px;
+@btn-height-base : 40px;
+@btn-height-lg : 54px;
+@btn-height-xl : 60px;
+@btn-height-sm : 32px;
 
 @btn-circle-size : @btn-height-base;
+@btn-circle-size-xl : @btn-height-xl;
 @btn-circle-size-lg : @btn-height-lg;
 @btn-circle-size-sm : @btn-height-sm;
 
 @btn-group-border : @primary-5;
 
 // Checkbox
-@checkbox-size : 16px;
+@checkbox-size : 18px;
 @checkbox-color : @primary-color;
 @checkbox-check-color : #fff;
 @checkbox-border-width : @border-width-base;
@@ -174,7 +181,7 @@
 @empty-font-size: @font-size-base;
 
 // Radio
-@radio-size : 16px;
+@radio-size : 18px;
 @radio-dot-color : @primary-color;
 
 // Radio buttons
@@ -269,9 +276,9 @@
 
 // Input
 // ---
-@input-height-base : 32px;
-@input-height-lg : 40px;
-@input-height-sm : 24px;
+@input-height-base : 40px;
+@input-height-lg : 54px;
+@input-height-sm : 32px;
 @input-padding-horizontal : @control-padding-horizontal - 1px;
 @input-padding-horizontal-base: @input-padding-horizontal;
 @input-padding-horizontal-sm : @control-padding-horizontal-sm - 1px;
@@ -502,7 +509,7 @@
 @slider-handle-color: @primary-3;
 @slider-handle-color-hover: @primary-4;
 @slider-handle-color-focus: tint(@primary-color, 20%);
-@slider-handle-color-focus-shadow: tint(@primary-color, 50%);
+@slider-handle-color-focus-shadow: fade(@primary-color, 20%);
 @slider-handle-color-tooltip-open: @primary-color;
 @slider-dot-border-color: @border-color-split;
 @slider-dot-border-color-active: tint(@primary-color, 50%);

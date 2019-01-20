@@ -25,8 +25,8 @@
 
 .button-variant-primary(@color; @background) {
   .button-color(@color; @background; @background);
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  text-shadow: @btn-text-shadow;
+  box-shadow: @btn-primary-shadow;
 
   &:hover,
   &:focus {
@@ -133,6 +133,11 @@
     }
   }
   // size
+  &-xl > .@{btnClassName},
+  &-xl > span > .@{btnClassName} {
+    .button-size(@btn-height-xl; @btn-padding-lg; @btn-font-size-xl; 0);
+    line-height: @btn-height-xl - 2px;
+  }
   &-lg > .@{btnClassName},
   &-lg > span > .@{btnClassName} {
     .button-size(@btn-height-lg; @btn-padding-lg; @btn-font-size-lg; 0);
@@ -140,10 +145,10 @@
   }
   &-sm > .@{btnClassName},
   &-sm > span > .@{btnClassName} {
-    .button-size(@btn-height-sm; @btn-padding-sm; @font-size-base; 0);
+    .button-size(@btn-height-sm; @btn-padding-sm; @btn-font-size-sm; 0);
     line-height: @btn-height-sm - 2px;
     > .@{iconfont-css-prefix} {
-      font-size: @font-size-base;
+      font-size: @btn-font-size-sm;
     }
   }
 }
@@ -158,11 +163,13 @@
   background-image: none;
   border: @border-width-base @border-style-base transparent;
   white-space: nowrap;
-  .button-size(@btn-height-base; @btn-padding-base; @font-size-base; @btn-border-radius-base);
+  .button-size(@btn-height-base; @btn-padding-base; @btn-font-size-base; @btn-border-radius-base);
+  min-width: 120px;
   user-select: none;
   transition: all 0.3s @ease-in-out;
   position: relative;
-  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.015);
+  box-shadow: @btn-shadow;
+  vertical-align: middle;
   > .@{iconfont-css-prefix} {
     line-height: 1;
   }
@@ -185,11 +192,16 @@
       pointer-events: none;
     }
   }
+  &-xl {
+    .button-size(@btn-height-xl; @btn-padding-lg; @btn-font-size-lg; @btn-border-radius-base);
+    min-width: 500px;
+  }
   &-lg {
     .button-size(@btn-height-lg; @btn-padding-lg; @btn-font-size-lg; @btn-border-radius-base);
   }
   &-sm {
     .button-size(@btn-height-sm; @btn-padding-sm; @btn-font-size-sm; @btn-border-radius-sm);
+    min-width: 80px;
   }
 }
 // primary button style
@@ -223,17 +235,22 @@
 // circle button: the content only contains icon
 .btn-circle(@btnClassName: btn) {
   .square(@btn-circle-size);
-  .button-size(@btn-circle-size; 0; @font-size-base + 2px; 50%);
+  .button-size(@btn-circle-size; 0; @btn-font-size-base + 2px; 50%);
+  min-width: auto;
+  &.@{btnClassName}-xl {
+    .square(@btn-circle-size-xl);
+    .button-size(@btn-circle-size-xl; 0; @btn-font-size-xl + 2px; 50%);
+  }
   &.@{btnClassName}-lg {
     .square(@btn-circle-size-lg);
     .button-size(@btn-circle-size-lg; 0; @btn-font-size-lg + 2px; 50%);
   }
   &.@{btnClassName}-sm {
     .square(@btn-circle-size-sm);
-    .button-size(@btn-circle-size-sm; 0; @font-size-base; 50%);
+    .button-size(@btn-circle-size-sm; 0; @btn-font-size-sm; 50%);
   }
 }
-// Horizontal button groups styl
+// Horizontal button groups style
 // --------------------------------------------------
 .btn-group(@btnClassName: btn) {
   .button-group-base(@btnClassName);

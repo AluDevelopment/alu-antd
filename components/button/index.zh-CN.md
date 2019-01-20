@@ -31,6 +31,8 @@ subtitle: 按钮
 | type | 设置按钮类型，可选值为 `primary` `dashed` `danger`(版本 2.7 中增加) 或者不设 | string | - |
 | onClick | 点击按钮时的回调 | (event) => void | - |
 | block | 将按钮宽度调整为其父宽度的选项 | boolean | `false` |
+| spaceInCN | 设置中文之间是否默认插入空格 | boolean | `false` |
+| subtitle | 设置按钮副标题（小字） | string | - |
 
 支持原生 button 的其他所有属性。
 
@@ -39,11 +41,11 @@ subtitle: 按钮
 `<Button href="http://example.com">Hello world!</Button>` 则会渲染为 `<a href="http://example.com"><span>Hello world!</span></a>`。
 
 <style>
-[id^="components-button-demo-"] .ant-btn {
+[id^="components-button-demo-"] .alu-btn {
   margin-right: 8px;
   margin-bottom: 12px;
 }
-[id^="components-button-demo-"] .ant-btn-group > .ant-btn {
+[id^="components-button-demo-"] .alu-btn-group > .alu-btn {
   margin-right: 0;
 }
 </style>

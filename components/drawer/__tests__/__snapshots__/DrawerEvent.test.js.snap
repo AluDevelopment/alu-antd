@@ -3,7 +3,7 @@
 exports[`Drawer render correctly 1`] = `
 <div>
   <button
-    class="ant-btn"
+    class="alu-btn"
     type="button"
   >
     <span>
@@ -14,28 +14,28 @@ exports[`Drawer render correctly 1`] = `
     class=""
   >
     <div
-      class="ant-drawer ant-drawer-right ant-drawer-open"
+      class="alu-drawer alu-drawer-right alu-drawer-open"
     >
       <div
-        class="ant-drawer-mask"
+        class="alu-drawer-mask"
       />
       <div
-        class="ant-drawer-content-wrapper"
+        class="alu-drawer-content-wrapper"
         style="width: 256px;"
       >
         <div
-          class="ant-drawer-content"
+          class="alu-drawer-content"
         >
           <div
-            class="ant-drawer-wrapper-body"
+            class="alu-drawer-wrapper-body"
             style="overflow: auto; height: 100%;"
           >
             <div
-              class="ant-drawer-header"
+              class="alu-drawer-header"
             >
               <button
                 aria-label="Close"
-                class="ant-drawer-close"
+                class="alu-drawer-close"
               >
                 <i
                   class="anticon anticon-close"
@@ -57,7 +57,7 @@ exports[`Drawer render correctly 1`] = `
               </button>
             </div>
             <div
-              class="ant-drawer-body"
+              class="alu-drawer-body"
             >
               Here is content of Drawer
             </div>

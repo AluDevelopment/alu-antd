@@ -3,12 +3,12 @@
 exports[`renders ./components/tag/demo/basic.md correctly 1`] = `
 <div>
   <div
-    class="ant-tag"
+    class="alu-tag"
   >
     Tag 1
   </div>
   <div
-    class="ant-tag"
+    class="alu-tag"
   >
     <a
       href="https://github.com/ant-design/ant-design/issues/1862"
@@ -17,7 +17,7 @@ exports[`renders ./components/tag/demo/basic.md correctly 1`] = `
     </a>
   </div>
   <div
-    class="ant-tag"
+    class="alu-tag"
   >
     Tag 2
     <i
@@ -39,7 +39,7 @@ exports[`renders ./components/tag/demo/basic.md correctly 1`] = `
     </i>
   </div>
   <div
-    class="ant-tag"
+    class="alu-tag"
   >
     Prevent Default
     <i
@@ -66,17 +66,17 @@ exports[`renders ./components/tag/demo/basic.md correctly 1`] = `
 exports[`renders ./components/tag/demo/checkable.md correctly 1`] = `
 <div>
   <div
-    class="ant-tag ant-tag-checkable ant-tag-checkable-checked"
+    class="alu-tag alu-tag-checkable alu-tag-checkable-checked"
   >
     Tag1
   </div>
   <div
-    class="ant-tag ant-tag-checkable ant-tag-checkable-checked"
+    class="alu-tag alu-tag-checkable alu-tag-checkable-checked"
   >
     Tag2
   </div>
   <div
-    class="ant-tag ant-tag-checkable ant-tag-checkable-checked"
+    class="alu-tag alu-tag-checkable alu-tag-checkable-checked"
   >
     Tag3
   </div>
@@ -92,57 +92,57 @@ exports[`renders ./components/tag/demo/colorful.md correctly 1`] = `
   </h4>
   <div>
     <div
-      class="ant-tag ant-tag-magenta"
+      class="alu-tag alu-tag-magenta"
     >
       magenta
     </div>
     <div
-      class="ant-tag ant-tag-red"
+      class="alu-tag alu-tag-red"
     >
       red
     </div>
     <div
-      class="ant-tag ant-tag-volcano"
+      class="alu-tag alu-tag-volcano"
     >
       volcano
     </div>
     <div
-      class="ant-tag ant-tag-orange"
+      class="alu-tag alu-tag-orange"
     >
       orange
     </div>
     <div
-      class="ant-tag ant-tag-gold"
+      class="alu-tag alu-tag-gold"
     >
       gold
     </div>
     <div
-      class="ant-tag ant-tag-lime"
+      class="alu-tag alu-tag-lime"
     >
       lime
     </div>
     <div
-      class="ant-tag ant-tag-green"
+      class="alu-tag alu-tag-green"
     >
       green
     </div>
     <div
-      class="ant-tag ant-tag-cyan"
+      class="alu-tag alu-tag-cyan"
     >
       cyan
     </div>
     <div
-      class="ant-tag ant-tag-blue"
+      class="alu-tag alu-tag-blue"
     >
       blue
     </div>
     <div
-      class="ant-tag ant-tag-geekblue"
+      class="alu-tag alu-tag-geekblue"
     >
       geekblue
     </div>
     <div
-      class="ant-tag ant-tag-purple"
+      class="alu-tag alu-tag-purple"
     >
       purple
     </div>
@@ -154,25 +154,25 @@ exports[`renders ./components/tag/demo/colorful.md correctly 1`] = `
   </h4>
   <div>
     <div
-      class="ant-tag ant-tag-has-color"
+      class="alu-tag alu-tag-has-color"
       style="background-color:#f50"
     >
       #f50
     </div>
     <div
-      class="ant-tag ant-tag-has-color"
+      class="alu-tag alu-tag-has-color"
       style="background-color:#2db7f5"
     >
       #2db7f5
     </div>
     <div
-      class="ant-tag ant-tag-has-color"
+      class="alu-tag alu-tag-has-color"
       style="background-color:#87d068"
     >
       #87d068
     </div>
     <div
-      class="ant-tag ant-tag-has-color"
+      class="alu-tag alu-tag-has-color"
       style="background-color:#108ee9"
     >
       #108ee9
@@ -184,12 +184,12 @@ exports[`renders ./components/tag/demo/colorful.md correctly 1`] = `
 exports[`renders ./components/tag/demo/control.md correctly 1`] = `
 <div>
   <div
-    class="ant-tag"
+    class="alu-tag"
   >
     Unremovable
   </div>
   <div
-    class="ant-tag"
+    class="alu-tag"
   >
     Tag 2
     <i
@@ -211,7 +211,7 @@ exports[`renders ./components/tag/demo/control.md correctly 1`] = `
     </i>
   </div>
   <div
-    class="ant-tag"
+    class="alu-tag"
   >
     Tag 3
     <i
@@ -233,7 +233,7 @@ exports[`renders ./components/tag/demo/control.md correctly 1`] = `
     </i>
   </div>
   <div
-    class="ant-tag"
+    class="alu-tag"
     style="background:#fff;border-style:dashed"
   >
     <i
@@ -261,7 +261,7 @@ exports[`renders ./components/tag/demo/control.md correctly 1`] = `
 exports[`renders ./components/tag/demo/controlled.md correctly 1`] = `
 <div>
   <div
-    class="ant-tag"
+    class="alu-tag"
   >
     Movies
     <i
@@ -284,7 +284,7 @@ exports[`renders ./components/tag/demo/controlled.md correctly 1`] = `
   </div>
   <br />
   <button
-    class="ant-btn ant-btn-sm"
+    class="alu-btn alu-btn-sm"
     type="button"
   >
     <span>
@@ -302,22 +302,22 @@ exports[`renders ./components/tag/demo/hot-tags.md correctly 1`] = `
     Categories:
   </h6>
   <div
-    class="ant-tag ant-tag-checkable"
+    class="alu-tag alu-tag-checkable"
   >
     Movies
   </div>
   <div
-    class="ant-tag ant-tag-checkable"
+    class="alu-tag alu-tag-checkable"
   >
     Books
   </div>
   <div
-    class="ant-tag ant-tag-checkable"
+    class="alu-tag alu-tag-checkable"
   >
     Music
   </div>
   <div
-    class="ant-tag ant-tag-checkable"
+    class="alu-tag alu-tag-checkable"
   >
     Sports
   </div>

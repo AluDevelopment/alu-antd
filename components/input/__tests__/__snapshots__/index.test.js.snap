@@ -8,10 +8,10 @@ exports[`Input allowClear should change type when click 1`] = `
 >
   <Consumer>
     <span
-      className="ant-input-affix-wrapper"
+      className="alu-input-affix-wrapper"
     >
       <input
-        className="ant-input"
+        className="alu-input"
         disabled={false}
         onChange={[Function]}
         onKeyDown={[Function]}
@@ -20,17 +20,17 @@ exports[`Input allowClear should change type when click 1`] = `
         value="111"
       />
       <span
-        className="ant-input-suffix"
+        className="alu-input-suffix"
       >
         <Icon
-          className="ant-input-clear-icon"
+          className="alu-input-clear-icon"
           onClick={[Function]}
           role="button"
           theme="filled"
           type="close-circle"
         >
           <i
-            className="anticon anticon-close-circle ant-input-clear-icon"
+            className="aluicon anticon-close-circle alu-input-clear-icon"
             onClick={[Function]}
             role="button"
           >
@@ -70,10 +70,10 @@ exports[`Input allowClear should change type when click 2`] = `
 >
   <Consumer>
     <span
-      className="ant-input-affix-wrapper"
+      className="alu-input-affix-wrapper"
     >
       <input
-        className="ant-input"
+        className="alu-input"
         disabled={false}
         onChange={[Function]}
         onKeyDown={[Function]}
@@ -82,7 +82,7 @@ exports[`Input allowClear should change type when click 2`] = `
         value=""
       />
       <span
-        className="ant-input-suffix"
+        className="alu-input-suffix"
       />
     </span>
   </Consumer>
@@ -97,7 +97,7 @@ exports[`Input should support maxLength 1`] = `
 >
   <Consumer>
     <input
-      className="ant-input"
+      className="alu-input"
       disabled={false}
       maxLength={3}
       onChange={[Function]}
@@ -118,12 +118,12 @@ exports[`Input.Password should change type when click 1`] = `
 >
   <Input
     action="click"
-    className="ant-input-password"
+    className="alu-input-password"
     disabled={false}
     prefixCls="ant-input"
     suffix={
       <Icon
-        className="ant-input-password-icon"
+        className="alu-input-password-icon"
         onClick={[Function]}
         type="eye"
       />
@@ -132,11 +132,11 @@ exports[`Input.Password should change type when click 1`] = `
   >
     <Consumer>
       <span
-        className="ant-input-password ant-input-affix-wrapper"
+        className="alu-input-password alu-input-affix-wrapper"
       >
         <input
           action="click"
-          className="ant-input"
+          className="alu-input"
           disabled={false}
           onChange={[Function]}
           onKeyDown={[Function]}
@@ -145,16 +145,16 @@ exports[`Input.Password should change type when click 1`] = `
           value="111"
         />
         <span
-          className="ant-input-suffix"
+          className="alu-input-suffix"
         >
           <Icon
-            className="ant-input-password-icon"
+            className="alu-input-password-icon"
             key="passwordIcon"
             onClick={[Function]}
             type="eye"
           >
             <i
-              className="anticon anticon-eye ant-input-password-icon"
+              className="aluicon anticon-eye alu-input-password-icon"
               onClick={[Function]}
             >
               <IconReact
@@ -195,12 +195,12 @@ exports[`Input.Password should change type when click 2`] = `
 >
   <Input
     action="click"
-    className="ant-input-password"
+    className="alu-input-password"
     disabled={false}
     prefixCls="ant-input"
     suffix={
       <Icon
-        className="ant-input-password-icon"
+        className="alu-input-password-icon"
         onClick={[Function]}
         type="eye-invisible"
       />
@@ -209,11 +209,11 @@ exports[`Input.Password should change type when click 2`] = `
   >
     <Consumer>
       <span
-        className="ant-input-password ant-input-affix-wrapper"
+        className="alu-input-password alu-input-affix-wrapper"
       >
         <input
           action="click"
-          className="ant-input"
+          className="alu-input"
           disabled={false}
           onChange={[Function]}
           onKeyDown={[Function]}
@@ -222,16 +222,16 @@ exports[`Input.Password should change type when click 2`] = `
           value="111"
         />
         <span
-          className="ant-input-suffix"
+          className="alu-input-suffix"
         >
           <Icon
-            className="ant-input-password-icon"
+            className="alu-input-password-icon"
             key="passwordIcon"
             onClick={[Function]}
             type="eye-invisible"
           >
             <i
-              className="anticon anticon-eye-invisible ant-input-password-icon"
+              className="aluicon anticon-eye-invisible alu-input-password-icon"
               onClick={[Function]}
             >
               <IconReact
@@ -276,12 +276,12 @@ exports[`Input.Password should change type when click 3`] = `
 >
   <Input
     action="click"
-    className="ant-input-password"
+    className="alu-input-password"
     disabled={false}
     prefixCls="ant-input"
     suffix={
       <Icon
-        className="ant-input-password-icon"
+        className="alu-input-password-icon"
         onClick={[Function]}
         type="eye"
       />
@@ -290,11 +290,11 @@ exports[`Input.Password should change type when click 3`] = `
   >
     <Consumer>
       <span
-        className="ant-input-password ant-input-affix-wrapper"
+        className="alu-input-password alu-input-affix-wrapper"
       >
         <input
           action="click"
-          className="ant-input"
+          className="alu-input"
           disabled={false}
           onChange={[Function]}
           onKeyDown={[Function]}
@@ -303,16 +303,16 @@ exports[`Input.Password should change type when click 3`] = `
           value="111"
         />
         <span
-          className="ant-input-suffix"
+          className="alu-input-suffix"
         >
           <Icon
-            className="ant-input-password-icon"
+            className="alu-input-password-icon"
             key="passwordIcon"
             onClick={[Function]}
             type="eye"
           >
             <i
-              className="anticon anticon-eye ant-input-password-icon"
+              className="aluicon anticon-eye alu-input-password-icon"
               onClick={[Function]}
             >
               <IconReact
@@ -351,7 +351,7 @@ exports[`Input.Search should support suffix 1`] = `
 >
   <Consumer>
     <Input
-      className="ant-input-search"
+      className="alu-input-search"
       disabled={false}
       onPressEnter={[Function]}
       prefixCls="ant-input"
@@ -359,7 +359,7 @@ exports[`Input.Search should support suffix 1`] = `
         Array [
           "suffix",
           <Icon
-            className="ant-input-search-icon"
+            className="alu-input-search-icon"
             onClick={[Function]}
             type="search"
           />,
@@ -369,10 +369,10 @@ exports[`Input.Search should support suffix 1`] = `
     >
       <Consumer>
         <span
-          className="ant-input-search ant-input-affix-wrapper"
+          className="alu-input-search alu-input-affix-wrapper"
         >
           <input
-            className="ant-input"
+            className="alu-input"
             disabled={false}
             onChange={[Function]}
             onKeyDown={[Function]}
@@ -381,17 +381,17 @@ exports[`Input.Search should support suffix 1`] = `
             value=""
           />
           <span
-            className="ant-input-suffix"
+            className="alu-input-suffix"
           >
             suffix
             <Icon
-              className="ant-input-search-icon"
+              className="alu-input-search-icon"
               key="searchIcon"
               onClick={[Function]}
               type="search"
             >
               <i
-                className="anticon anticon-search ant-input-search-icon"
+                className="aluicon anticon-search alu-input-search-icon"
                 onClick={[Function]}
               >
                 <IconReact
@@ -430,7 +430,7 @@ exports[`TextArea should support disabled 1`] = `
 >
   <Consumer>
     <textarea
-      className="ant-input ant-input-disabled"
+      className="alu-input alu-input-disabled"
       disabled={true}
       onChange={[Function]}
       onKeyDown={[Function]}
@@ -446,7 +446,7 @@ exports[`TextArea should support maxLength 1`] = `
 >
   <Consumer>
     <textarea
-      className="ant-input"
+      className="alu-input"
       maxLength={10}
       onChange={[Function]}
       onKeyDown={[Function]}

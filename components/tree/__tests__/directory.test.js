@@ -34,14 +34,14 @@ describe('Directory Tree', () => {
 
       wrapper
         .find(TreeNode)
-        .find('.ant-tree-node-content-wrapper')
+        .find('.alu-tree-node-content-wrapper')
         .at(0)
         .simulate('click');
       expect(wrapper.render()).toMatchSnapshot();
       jest.runAllTimers();
       wrapper
         .find(TreeNode)
-        .find('.ant-tree-node-content-wrapper')
+        .find('.alu-tree-node-content-wrapper')
         .at(0)
         .simulate('click');
       expect(wrapper.render()).toMatchSnapshot();
@@ -52,14 +52,14 @@ describe('Directory Tree', () => {
 
       wrapper
         .find(TreeNode)
-        .find('.ant-tree-node-content-wrapper')
+        .find('.alu-tree-node-content-wrapper')
         .at(0)
         .simulate('doubleClick');
       expect(wrapper.render()).toMatchSnapshot();
       jest.runAllTimers();
       wrapper
         .find(TreeNode)
-        .find('.ant-tree-node-content-wrapper')
+        .find('.alu-tree-node-content-wrapper')
         .at(0)
         .simulate('doubleClick');
       expect(wrapper.render()).toMatchSnapshot();
@@ -94,7 +94,7 @@ describe('Directory Tree', () => {
 
           wrapper
             .find(TreeNode)
-            .find('.ant-tree-node-content-wrapper')
+            .find('.alu-tree-node-content-wrapper')
             .at(0)
             .simulate(action);
           jest.runAllTimers();
@@ -141,7 +141,7 @@ describe('Directory Tree', () => {
 
     wrapper
       .find(TreeNode)
-      .find('.ant-tree-node-content-wrapper')
+      .find('.alu-tree-node-content-wrapper')
       .at(0)
       .simulate('click');
 
@@ -151,7 +151,7 @@ describe('Directory Tree', () => {
 
     wrapper
       .find(TreeNode)
-      .find('.ant-tree-node-content-wrapper')
+      .find('.alu-tree-node-content-wrapper')
       .at(1)
       .simulate('click');
     expect(wrapper.render()).toMatchSnapshot();
@@ -161,7 +161,7 @@ describe('Directory Tree', () => {
 
     wrapper
       .find(TreeNode)
-      .find('.ant-tree-node-content-wrapper')
+      .find('.alu-tree-node-content-wrapper')
       .at(4)
       .simulate('click');
     expect(wrapper.render()).toMatchSnapshot();

@@ -26,7 +26,7 @@ describe('Input.Search', () => {
 
   it('should disable enter button when disabled prop is true', () => {
     const wrapper = mount(<Search placeholder="input search text" enterButton disabled />);
-    expect(wrapper.find('.ant-btn-primary[disabled]')).toHaveLength(1);
+    expect(wrapper.find('.alu-btn-primary[disabled]')).toHaveLength(1);
   });
 
   it('should trigger onSearch when click search icon', () => {

@@ -27,7 +27,7 @@ ReactDOM.render(
 ````
 
 <style>
-.ant-badge:not(.ant-badge-not-a-wrapper) {
+.alu-badge:not(.alu-badge-not-a-wrapper) {
   margin-right: 20px;
 }
 .head-example {

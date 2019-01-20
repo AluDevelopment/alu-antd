@@ -33,7 +33,7 @@ ReactDOM.render(
 
 ````css
 /* For demo */
-.ant-carousel .slick-slide {
+.alu-carousel .slick-slide {
   text-align: center;
   height: 160px;
   line-height: 160px;
@@ -41,7 +41,7 @@ ReactDOM.render(
   overflow: hidden;
 }
 
-.ant-carousel .slick-slide h3 {
+.alu-carousel .slick-slide h3 {
   color: #fff;
 }
 ````

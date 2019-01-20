@@ -4,15 +4,15 @@ exports[`Switch should has click wave effect 1`] = `
 <button
   ant-click-animating="true"
   aria-checked="false"
-  class="ant-switch"
+  class="alu-switch"
   role="switch"
   type="button"
 >
   <span
-    class="ant-switch-inner"
+    class="alu-switch-inner"
   />
   <div
-    class="ant-click-animating-node"
+    class="alu-click-animating-node"
     style="border-color: buttonface;"
   />
 </button>

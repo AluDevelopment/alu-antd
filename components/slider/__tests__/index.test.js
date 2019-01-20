@@ -6,7 +6,7 @@ describe('Slider', () => {
   it('should show tooltip when hovering slider handler', () => {
     const wrapper = mount(<Slider defaultValue={30} />);
     wrapper
-      .find('.ant-slider-handle')
+      .find('.alu-slider-handle')
       .at(0)
       .simulate('mouseEnter');
     expect(
@@ -18,7 +18,7 @@ describe('Slider', () => {
       ),
     ).toMatchSnapshot();
     wrapper
-      .find('.ant-slider-handle')
+      .find('.alu-slider-handle')
       .at(0)
       .simulate('mouseLeave');
     expect(
@@ -35,31 +35,31 @@ describe('Slider', () => {
     let wrapper = mount(<Slider defaultValue={30} tooltipVisible />);
     expect(
       wrapper
-        .find('.ant-tooltip-content')
+        .find('.alu-tooltip-content')
         .at(0)
-        .hasClass('ant-tooltip-hidden'),
+        .hasClass('alu-tooltip-hidden'),
     ).toBe(false);
     wrapper
-      .find('.ant-slider-handle')
+      .find('.alu-slider-handle')
       .at(0)
       .simulate('mouseEnter');
     expect(
       wrapper
-        .find('.ant-tooltip-content')
+        .find('.alu-tooltip-content')
         .at(0)
-        .hasClass('ant-tooltip-hidden'),
+        .hasClass('alu-tooltip-hidden'),
     ).toBe(false);
     wrapper
-      .find('.ant-slider-handle')
+      .find('.alu-slider-handle')
       .at(0)
       .simulate('click');
     expect(
       wrapper
-        .find('.ant-tooltip-content')
+        .find('.alu-tooltip-content')
         .at(0)
-        .hasClass('ant-tooltip-hidden'),
+        .hasClass('alu-tooltip-hidden'),
     ).toBe(false);
     wrapper = mount(<Slider defaultValue={30} tooltipVisible={false} />);
-    expect(wrapper.find('.ant-tooltip-content').length).toBe(0);
+    expect(wrapper.find('.alu-tooltip-content').length).toBe(0);
   });
 });

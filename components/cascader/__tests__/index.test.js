@@ -124,9 +124,9 @@ describe('Cascader', () => {
         .getComponent(),
     );
     popupWrapper
-      .find('.ant-cascader-menu')
+      .find('.alu-cascader-menu')
       .at(0)
-      .find('.ant-cascader-menu-item')
+      .find('.alu-cascader-menu-item')
       .at(0)
       .simulate('click');
     expect(
@@ -144,9 +144,9 @@ describe('Cascader', () => {
         .getComponent(),
     );
     popupWrapper
-      .find('.ant-cascader-menu')
+      .find('.alu-cascader-menu')
       .at(1)
-      .find('.ant-cascader-menu-item')
+      .find('.alu-cascader-menu-item')
       .at(0)
       .simulate('click');
     expect(
@@ -164,9 +164,9 @@ describe('Cascader', () => {
         .getComponent(),
     );
     popupWrapper
-      .find('.ant-cascader-menu')
+      .find('.alu-cascader-menu')
       .at(2)
-      .find('.ant-cascader-menu-item')
+      .find('.alu-cascader-menu-item')
       .at(0)
       .simulate('click');
     expect(
@@ -219,12 +219,12 @@ describe('Cascader', () => {
 
   it('should support to clear selection', () => {
     const wrapper = mount(<Cascader options={options} defaultValue={['zhejiang', 'hangzhou']} />);
-    expect(wrapper.find('.ant-cascader-picker-label').text()).toBe('Zhejiang / Hangzhou');
+    expect(wrapper.find('.alu-cascader-picker-label').text()).toBe('Zhejiang / Hangzhou');
     wrapper
-      .find('.ant-cascader-picker-clear')
+      .find('.alu-cascader-picker-clear')
       .at(0)
       .simulate('click');
-    expect(wrapper.find('.ant-cascader-picker-label').text()).toBe('');
+    expect(wrapper.find('.alu-cascader-picker-label').text()).toBe('');
   });
 
   it('should close popup when clear selection', () => {
@@ -238,7 +238,7 @@ describe('Cascader', () => {
       />,
     );
     wrapper
-      .find('.ant-cascader-picker-clear')
+      .find('.alu-cascader-picker-clear')
       .at(0)
       .simulate('click');
     expect(onPopupVisibleChange).toHaveBeenCalledWith(false);
@@ -252,7 +252,7 @@ describe('Cascader', () => {
     wrapper.find('input').simulate('change', { target: { value: 'xxx' } });
     expect(wrapper.state('inputValue')).toBe('xxx');
     wrapper
-      .find('.ant-cascader-picker-clear')
+      .find('.alu-cascader-picker-clear')
       .at(0)
       .simulate('click');
     expect(wrapper.state('inputValue')).toBe('');
@@ -279,9 +279,9 @@ describe('Cascader', () => {
     const wrapper = mount(<Cascader options={options} showSearch={{ filter }} />);
     wrapper.find('input').simulate('click');
     wrapper.find('input').simulate('change', { target: { value: 'a' } });
-    expect(wrapper.find('.ant-cascader-menu-item').length).toBe(2);
+    expect(wrapper.find('.alu-cascader-menu-item').length).toBe(2);
     wrapper.setProps({ options: [options[0]] });
-    expect(wrapper.find('.ant-cascader-menu-item').length).toBe(1);
+    expect(wrapper.find('.alu-cascader-menu-item').length).toBe(1);
   });
 
   it('can use fieldNames', () => {
@@ -332,7 +332,7 @@ describe('Cascader', () => {
     wrapper.instance().handleChange(['zhejiang', 'hangzhou', 'xihu'], customerOptions);
     expect(
       wrapper
-        .find('.ant-cascader-picker-label')
+        .find('.alu-cascader-picker-label')
         .text()
         .split('/').length,
     ).toBe(3);
@@ -388,7 +388,7 @@ describe('Cascader', () => {
     wrapper.instance().handleChange(['zhejiang', 'hangzhou', 'xihu'], customerOptions);
     expect(
       wrapper
-        .find('.ant-cascader-picker-label')
+        .find('.alu-cascader-picker-label')
         .text()
         .split('/').length,
     ).toBe(3);
@@ -409,21 +409,21 @@ describe('Cascader', () => {
       const wrapper = mount(<Cascader options={options} showSearch={{ filter, limit: 1 }} />);
       wrapper.find('input').simulate('click');
       wrapper.find('input').simulate('change', { target: { value: 'a' } });
-      expect(wrapper.find('.ant-cascader-menu-item').length).toBe(1);
+      expect(wrapper.find('.alu-cascader-menu-item').length).toBe(1);
     });
 
     it('not limit', () => {
       const wrapper = mount(<Cascader options={options} showSearch={{ filter, limit: false }} />);
       wrapper.find('input').simulate('click');
       wrapper.find('input').simulate('change', { target: { value: 'a' } });
-      expect(wrapper.find('.ant-cascader-menu-item').length).toBe(2);
+      expect(wrapper.find('.alu-cascader-menu-item').length).toBe(2);
     });
 
     it('negative limit', () => {
       const wrapper = mount(<Cascader options={options} showSearch={{ filter, limit: -1 }} />);
       wrapper.find('input').simulate('click');
       wrapper.find('input').simulate('change', { target: { value: 'a' } });
-      expect(wrapper.find('.ant-cascader-menu-item').length).toBe(2);
+      expect(wrapper.find('.alu-cascader-menu-item').length).toBe(2);
       expect(errorSpy).toBeCalledWith(
         "Warning: 'limit' of showSearch in Cascader should be positive number or false.",
       );

@@ -125,7 +125,7 @@ describe('Table.filter', () => {
     const filterMenu = wrapper.find('FilterMenu').instance();
 
     // check if renderer well
-    wrapper.find('i.ant-dropdown-trigger').simulate('click');
+    wrapper.find('i.alu-dropdown-trigger').simulate('click');
     expect(wrapper.find('#customFilter')).toMatchSnapshot();
 
     // try to use reset btn
@@ -136,7 +136,7 @@ describe('Table.filter', () => {
     expect(filterMenu.state.selectedKeys).toEqual([]);
 
     // try to use confirm btn
-    wrapper.find('i.ant-dropdown-trigger').simulate('click');
+    wrapper.find('i.alu-dropdown-trigger').simulate('click');
     wrapper.find('#setSelectedKeys').simulate('click');
     expect(filterMenu.state.visible).toBe(true);
     wrapper.find('#confirm').simulate('click');
@@ -210,7 +210,7 @@ describe('Table.filter', () => {
     );
 
     wrapper
-      .find('.ant-dropdown-trigger')
+      .find('.alu-dropdown-trigger')
       .first()
       .simulate('click');
 
@@ -346,13 +346,13 @@ describe('Table.filter', () => {
         .getComponent(),
     );
     dropdownWrapper
-      .find('.ant-dropdown-menu-submenu-title')
+      .find('.alu-dropdown-menu-submenu-title')
       .at(0)
       .simulate('mouseEnter');
     jest.runAllTimers();
     dropdownWrapper.update();
     dropdownWrapper
-      .find('.ant-dropdown-menu-submenu-title')
+      .find('.alu-dropdown-menu-submenu-title')
       .at(1)
       .simulate('mouseEnter');
     jest.runAllTimers();
@@ -465,15 +465,15 @@ describe('Table.filter', () => {
     );
 
     wrapper
-      .find('.ant-dropdown-trigger')
+      .find('.alu-dropdown-trigger')
       .first()
       .simulate('click');
     wrapper
-      .find('.ant-dropdown-menu-item')
+      .find('.alu-dropdown-menu-item')
       .first()
       .simulate('click');
     wrapper
-      .find('.ant-dropdown-trigger')
+      .find('.alu-dropdown-trigger')
       .first()
       .simulate('click');
 
@@ -494,32 +494,32 @@ describe('Table.filter', () => {
     );
 
     wrapper
-      .find('.ant-dropdown-trigger')
+      .find('.alu-dropdown-trigger')
       .first()
       .simulate('click');
     wrapper
-      .find('.ant-dropdown-menu-item')
+      .find('.alu-dropdown-menu-item')
       .first()
       .simulate('click');
     wrapper
-      .find('.ant-dropdown-trigger')
+      .find('.alu-dropdown-trigger')
       .first()
       .simulate('click');
-    expect(wrapper.find('.ant-table-filter-icon').render()).toMatchSnapshot();
+    expect(wrapper.find('.alu-table-filter-icon').render()).toMatchSnapshot();
 
     wrapper
-      .find('.ant-dropdown-trigger')
+      .find('.alu-dropdown-trigger')
       .first()
       .simulate('click');
     wrapper
-      .find('.ant-dropdown-menu-item')
+      .find('.alu-dropdown-menu-item')
       .first()
       .simulate('click');
     wrapper
-      .find('.ant-dropdown-trigger')
+      .find('.alu-dropdown-trigger')
       .first()
       .simulate('click');
-    expect(wrapper.find('.ant-table-filter-icon').render()).toMatchSnapshot();
+    expect(wrapper.find('.alu-table-filter-icon').render()).toMatchSnapshot();
   });
 
   // https://github.com/ant-design/ant-design/issues/13028
@@ -561,17 +561,17 @@ describe('Table.filter', () => {
 
     const wrapper = mount(<Demo />);
     wrapper
-      .find('.ant-dropdown-trigger')
+      .find('.alu-dropdown-trigger')
       .first()
       .simulate('click');
-    wrapper.find('.ant-input').simulate('change', { target: { value: 'test' } });
-    expect(wrapper.find('.ant-input').instance().value).toBe('test');
-    wrapper.find('.ant-btn').simulate('click');
+    wrapper.find('.alu-input').simulate('change', { target: { value: 'test' } });
+    expect(wrapper.find('.alu-input').instance().value).toBe('test');
+    wrapper.find('.alu-btn').simulate('click');
 
     wrapper
-      .find('.ant-dropdown-trigger')
+      .find('.alu-dropdown-trigger')
       .first()
       .simulate('click');
-    expect(wrapper.find('.ant-input').instance().value).toBe('');
+    expect(wrapper.find('.alu-input').instance().value).toBe('');
   });
 });

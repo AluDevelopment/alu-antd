@@ -6,23 +6,23 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
     style="margin-bottom:16px"
   >
     <span
-      class="ant-input-group-wrapper"
+      class="alu-input-group-wrapper"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="alu-input-wrapper alu-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="alu-input-group-addon"
         >
           Http://
         </span>
         <input
-          class="ant-input"
+          class="alu-input"
           type="text"
           value="mysite"
         />
         <span
-          class="ant-input-group-addon"
+          class="alu-input-group-addon"
         >
           .com
         </span>
@@ -33,16 +33,16 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
     style="margin-bottom:16px"
   >
     <span
-      class="ant-input-group-wrapper"
+      class="alu-input-group-wrapper"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="alu-input-wrapper alu-input-group"
       >
         <span
-          class="ant-input-group-addon"
+          class="alu-input-group-addon"
         >
           <div
-            class="ant-select ant-select-enabled"
+            class="alu-select alu-select-enabled"
             style="width:90px"
           >
             <div
@@ -50,16 +50,16 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
               aria-controls=""
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-select-selection
+              class="alu-select-selection
             ant-select-selection--single"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="ant-select-selection__rendered"
+                class="alu-select-selection__rendered"
               >
                 <div
-                  class="ant-select-selection-selected-value"
+                  class="alu-select-selection-selected-value"
                   style="display:block;opacity:1"
                   title="Http://"
                 >
@@ -67,12 +67,12 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
                 </div>
               </div>
               <span
-                class="ant-select-arrow"
+                class="alu-select-arrow"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <i
-                  class="anticon anticon-down ant-select-arrow-icon"
+                  class="anticon anticon-down alu-select-arrow-icon"
                 >
                   <svg
                     aria-hidden="true"
@@ -93,15 +93,15 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
           </div>
         </span>
         <input
-          class="ant-input"
+          class="alu-input"
           type="text"
           value="mysite"
         />
         <span
-          class="ant-input-group-addon"
+          class="alu-input-group-addon"
         >
           <div
-            class="ant-select ant-select-enabled"
+            class="alu-select alu-select-enabled"
             style="width:80px"
           >
             <div
@@ -109,16 +109,16 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
               aria-controls=""
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-select-selection
+              class="alu-select-selection
             ant-select-selection--single"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="ant-select-selection__rendered"
+                class="alu-select-selection__rendered"
               >
                 <div
-                  class="ant-select-selection-selected-value"
+                  class="alu-select-selection-selected-value"
                   style="display:block;opacity:1"
                   title=".com"
                 >
@@ -126,12 +126,12 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
                 </div>
               </div>
               <span
-                class="ant-select-arrow"
+                class="alu-select-arrow"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <i
-                  class="anticon anticon-down ant-select-arrow-icon"
+                  class="anticon anticon-down alu-select-arrow-icon"
                 >
                   <svg
                     aria-hidden="true"
@@ -158,18 +158,18 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
     style="margin-bottom:16px"
   >
     <span
-      class="ant-input-group-wrapper"
+      class="alu-input-group-wrapper"
     >
       <span
-        class="ant-input-wrapper ant-input-group"
+        class="alu-input-wrapper alu-input-group"
       >
         <input
-          class="ant-input"
+          class="alu-input"
           type="text"
           value="mysite"
         />
         <span
-          class="ant-input-group-addon"
+          class="alu-input-group-addon"
         >
           <i
             class="anticon anticon-setting"
@@ -197,16 +197,16 @@ exports[`renders ./components/input/demo/addon.md correctly 1`] = `
 
 exports[`renders ./components/input/demo/allowClear.md correctly 1`] = `
 <span
-  class="ant-input-affix-wrapper"
+  class="alu-input-affix-wrapper"
 >
   <input
-    class="ant-input"
+    class="alu-input"
     placeholder="input with clear icon"
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="alu-input-suffix"
   />
 </span>
 `;
@@ -214,14 +214,14 @@ exports[`renders ./components/input/demo/allowClear.md correctly 1`] = `
 exports[`renders ./components/input/demo/autosize-textarea.md correctly 1`] = `
 <div>
   <textarea
-    class="ant-input"
+    class="alu-input"
     placeholder="Autosize height based on content lines"
   />
   <div
     style="margin:24px 0"
   />
   <textarea
-    class="ant-input"
+    class="alu-input"
     placeholder="Autosize height with minimum and maximum number of lines"
   />
 </div>
@@ -229,7 +229,7 @@ exports[`renders ./components/input/demo/autosize-textarea.md correctly 1`] = `
 
 exports[`renders ./components/input/demo/basic.md correctly 1`] = `
 <input
-  class="ant-input"
+  class="alu-input"
   placeholder="Basic usage"
   type="text"
   value=""
@@ -239,22 +239,22 @@ exports[`renders ./components/input/demo/basic.md correctly 1`] = `
 exports[`renders ./components/input/demo/group.md correctly 1`] = `
 <div>
   <span
-    class="ant-input-group ant-input-group-lg"
+    class="alu-input-group alu-input-group-lg"
   >
     <div
-      class="ant-col-5"
+      class="alu-col-5"
     >
       <input
-        class="ant-input"
+        class="alu-input"
         type="text"
         value="0571"
       />
     </div>
     <div
-      class="ant-col-8"
+      class="alu-col-8"
     >
       <input
-        class="ant-input"
+        class="alu-input"
         type="text"
         value="26888888"
       />
@@ -262,16 +262,16 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
   </span>
   <br />
   <span
-    class="ant-input-group ant-input-group-compact"
+    class="alu-input-group alu-input-group-compact"
   >
     <input
-      class="ant-input"
+      class="alu-input"
       style="width:20%"
       type="text"
       value="0571"
     />
     <input
-      class="ant-input"
+      class="alu-input"
       style="width:30%"
       type="text"
       value="26888888"
@@ -279,26 +279,26 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
   </span>
   <br />
   <span
-    class="ant-input-group ant-input-group-compact"
+    class="alu-input-group alu-input-group-compact"
   >
     <div
-      class="ant-select ant-select-enabled"
+      class="alu-select alu-select-enabled"
     >
       <div
         aria-autocomplete="list"
         aria-controls=""
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <div
-            class="ant-select-selection-selected-value"
+            class="alu-select-selection-selected-value"
             style="display:block;opacity:1"
             title="Zhejiang"
           >
@@ -306,12 +306,12 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           </div>
         </div>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -331,7 +331,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
       </div>
     </div>
     <input
-      class="ant-input"
+      class="alu-input"
       style="width:50%"
       type="text"
       value="Xihu District, Hangzhou"
@@ -339,26 +339,26 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
   </span>
   <br />
   <span
-    class="ant-input-group ant-input-group-compact"
+    class="alu-input-group alu-input-group-compact"
   >
     <div
-      class="ant-select ant-select-enabled"
+      class="alu-select alu-select-enabled"
     >
       <div
         aria-autocomplete="list"
         aria-controls=""
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <div
-            class="ant-select-selection-selected-value"
+            class="alu-select-selection-selected-value"
             style="display:block;opacity:1"
             title="Option1"
           >
@@ -366,12 +366,12 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           </div>
         </div>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -391,26 +391,26 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
       </div>
     </div>
     <input
-      class="ant-input"
+      class="alu-input"
       style="width:50%"
       type="text"
       value="input content"
     />
     <div
-      class="ant-input-number"
+      class="alu-input-number"
     >
       <div
-        class="ant-input-number-handler-wrap"
+        class="alu-input-number-handler-wrap"
       >
         <span
           aria-disabled="false"
           aria-label="Increase Value"
-          class="ant-input-number-handler ant-input-number-handler-up "
+          class="alu-input-number-handler alu-input-number-handler-up "
           role="button"
           unselectable="unselectable"
         >
           <i
-            class="anticon anticon-up ant-input-number-handler-up-inner"
+            class="anticon anticon-up alu-input-number-handler-up-inner"
           >
             <svg
               aria-hidden="true"
@@ -430,12 +430,12 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
         <span
           aria-disabled="false"
           aria-label="Decrease Value"
-          class="ant-input-number-handler ant-input-number-handler-down "
+          class="alu-input-number-handler alu-input-number-handler-down "
           role="button"
           unselectable="unselectable"
         >
           <i
-            class="anticon anticon-down ant-input-number-handler-down-inner"
+            class="anticon anticon-down alu-input-number-handler-down-inner"
           >
             <svg
               aria-hidden="true"
@@ -455,12 +455,12 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
       </div>
       <div
         aria-valuemin="-9007199254740991"
-        class="ant-input-number-input-wrap"
+        class="alu-input-number-input-wrap"
         role="spinbutton"
       >
         <input
           autocomplete="off"
-          class="ant-input-number-input"
+          class="alu-input-number-input"
           min="-9007199254740991"
           step="1"
           value=""
@@ -470,26 +470,26 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
   </span>
   <br />
   <span
-    class="ant-input-group ant-input-group-compact"
+    class="alu-input-group alu-input-group-compact"
   >
     <input
-      class="ant-input"
+      class="alu-input"
       style="width:50%"
       type="text"
       value="input content"
     />
     <span
-      class="ant-calendar-picker"
+      class="alu-calendar-picker"
     >
       <div>
         <input
-          class="ant-calendar-picker-input ant-input"
+          class="alu-calendar-picker-input alu-input"
           placeholder="Select date"
           readonly=""
           value=""
         />
         <i
-          class="anticon anticon-calendar ant-calendar-picker-icon"
+          class="anticon anticon-calendar alu-calendar-picker-icon"
         >
           <svg
             aria-hidden="true"
@@ -510,26 +510,26 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
   </span>
   <br />
   <span
-    class="ant-input-group ant-input-group-compact"
+    class="alu-input-group alu-input-group-compact"
   >
     <div
-      class="ant-select ant-select-enabled"
+      class="alu-select alu-select-enabled"
     >
       <div
         aria-autocomplete="list"
         aria-controls=""
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <div
-            class="ant-select-selection-selected-value"
+            class="alu-select-selection-selected-value"
             style="display:block;opacity:1"
             title="Option1-1"
           >
@@ -537,12 +537,12 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           </div>
         </div>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -562,23 +562,23 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select ant-select-enabled"
+      class="alu-select alu-select-enabled"
     >
       <div
         aria-autocomplete="list"
         aria-controls=""
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <div
-            class="ant-select-selection-selected-value"
+            class="alu-select-selection-selected-value"
             style="display:block;opacity:1"
             title="Option2-2"
           >
@@ -586,12 +586,12 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           </div>
         </div>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -613,26 +613,26 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
   </span>
   <br />
   <span
-    class="ant-input-group ant-input-group-compact"
+    class="alu-input-group alu-input-group-compact"
   >
     <div
-      class="ant-select ant-select-enabled"
+      class="alu-select alu-select-enabled"
     >
       <div
         aria-autocomplete="list"
         aria-controls=""
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <div
-            class="ant-select-selection-selected-value"
+            class="alu-select-selection-selected-value"
             style="display:block;opacity:1"
             title="Between"
           >
@@ -640,12 +640,12 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           </div>
         </div>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -665,14 +665,14 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
       </div>
     </div>
     <input
-      class="ant-input"
+      class="alu-input"
       placeholder="Minimum"
       style="width:100px;text-align:center"
       type="text"
       value=""
     />
     <input
-      class="ant-input ant-input-disabled"
+      class="alu-input alu-input-disabled"
       disabled=""
       placeholder="~"
       style="width:30px;border-left:0;pointer-events:none;background-color:#fff"
@@ -680,7 +680,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
       value=""
     />
     <input
-      class="ant-input"
+      class="alu-input"
       placeholder="Maximum"
       style="width:100px;text-align:center;border-left:0"
       type="text"
@@ -689,26 +689,26 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
   </span>
   <br />
   <span
-    class="ant-input-group ant-input-group-compact"
+    class="alu-input-group alu-input-group-compact"
   >
     <div
-      class="ant-select ant-select-enabled"
+      class="alu-select alu-select-enabled"
     >
       <div
         aria-autocomplete="list"
         aria-controls=""
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <div
-            class="ant-select-selection-selected-value"
+            class="alu-select-selection-selected-value"
             style="display:block;opacity:1"
             title="Sign Up"
           >
@@ -716,12 +716,12 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           </div>
         </div>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -741,7 +741,7 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-select-show-search ant-select-auto-complete ant-select ant-select-combobox ant-select-enabled"
+      class="alu-select-show-search alu-select-auto-complete alu-select alu-select-combobox alu-select-enabled"
       style="width:200px"
     >
       <div
@@ -749,15 +749,15 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
         aria-controls=""
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <div
-            class="ant-select-selection__placeholder"
+            class="alu-select-selection__placeholder"
             style="display:block;user-select:none;-webkit-user-select:none"
             unselectable="on"
           >
@@ -765,18 +765,18 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           </div>
           <ul>
             <li
-              class="ant-select-search ant-select-search--inline"
+              class="alu-select-search alu-select-search--inline"
             >
               <div
-                class="ant-select-search__field__wrap"
+                class="alu-select-search__field__wrap"
               >
                 <input
-                  class="ant-input ant-select-search__field"
+                  class="alu-input alu-select-search__field"
                   type="text"
                   value=""
                 />
                 <span
-                  class="ant-select-search__field__mirror"
+                  class="alu-select-search__field__mirror"
                 >
                    
                 </span>
@@ -785,12 +785,12 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           </ul>
         </div>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -812,10 +812,10 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
   </span>
   <br />
   <span
-    class="ant-input-group ant-input-group-compact"
+    class="alu-input-group alu-input-group-compact"
   >
     <div
-      class="ant-select ant-select-enabled"
+      class="alu-select alu-select-enabled"
       style="width:30%"
     >
       <div
@@ -823,16 +823,16 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
         aria-controls=""
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <div
-            class="ant-select-selection-selected-value"
+            class="alu-select-selection-selected-value"
             style="display:block;opacity:1"
             title="Home"
           >
@@ -840,12 +840,12 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
           </div>
         </div>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -865,23 +865,23 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
       </div>
     </div>
     <span
-      class="ant-cascader-picker"
+      class="alu-cascader-picker"
       style="width:70%"
       tabindex="0"
     >
       <span
-        class="ant-cascader-picker-label"
+        class="alu-cascader-picker-label"
       />
       <input
         autocomplete="off"
-        class="ant-input ant-cascader-input "
+        class="alu-input alu-cascader-input "
         placeholder="Select Address"
         readonly=""
         type="text"
         value=""
       />
       <i
-        class="anticon anticon-down ant-cascader-picker-arrow"
+        class="anticon anticon-down alu-cascader-picker-arrow"
       >
         <svg
           aria-hidden="true"
@@ -904,20 +904,20 @@ exports[`renders ./components/input/demo/group.md correctly 1`] = `
 
 exports[`renders ./components/input/demo/password-input.md correctly 1`] = `
 <span
-  class="ant-input-password ant-input-affix-wrapper"
+  class="alu-input-password alu-input-affix-wrapper"
 >
   <input
     action="click"
-    class="ant-input"
+    class="alu-input"
     placeholder="input password"
     type="password"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="alu-input-suffix"
   >
     <i
-      class="anticon anticon-eye ant-input-password-icon"
+      class="anticon anticon-eye alu-input-password-icon"
     >
       <svg
         aria-hidden="true"
@@ -939,10 +939,10 @@ exports[`renders ./components/input/demo/password-input.md correctly 1`] = `
 
 exports[`renders ./components/input/demo/presuffix.md correctly 1`] = `
 <span
-  class="ant-input-affix-wrapper"
+  class="alu-input-affix-wrapper"
 >
   <span
-    class="ant-input-prefix"
+    class="alu-input-prefix"
   >
     <i
       class="anticon anticon-user"
@@ -964,7 +964,7 @@ exports[`renders ./components/input/demo/presuffix.md correctly 1`] = `
     </i>
   </span>
   <input
-    class="ant-input"
+    class="alu-input"
     placeholder="Enter your username"
     type="text"
     value=""
@@ -975,20 +975,20 @@ exports[`renders ./components/input/demo/presuffix.md correctly 1`] = `
 exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
 <div>
   <span
-    class="ant-input-search ant-input-affix-wrapper"
+    class="alu-input-search alu-input-affix-wrapper"
     style="width:200px"
   >
     <input
-      class="ant-input"
+      class="alu-input"
       placeholder="input search text"
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="alu-input-suffix"
     >
       <i
-        class="anticon anticon-search ant-input-search-icon"
+        class="anticon anticon-search alu-input-search-icon"
       >
         <svg
           aria-hidden="true"
@@ -1009,19 +1009,19 @@ exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
   <br />
   <br />
   <span
-    class="ant-input-search ant-input-search-enter-button ant-input-affix-wrapper"
+    class="alu-input-search alu-input-search-enter-button alu-input-affix-wrapper"
   >
     <input
-      class="ant-input"
+      class="alu-input"
       placeholder="input search text"
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="alu-input-suffix"
     >
       <button
-        class="ant-btn ant-input-search-button ant-btn-primary"
+        class="alu-btn alu-input-search-button alu-btn-primary"
         type="button"
       >
         <i
@@ -1047,19 +1047,19 @@ exports[`renders ./components/input/demo/search-input.md correctly 1`] = `
   <br />
   <br />
   <span
-    class="ant-input-search ant-input-search-enter-button ant-input-search-large ant-input-affix-wrapper ant-input-affix-wrapper-lg"
+    class="alu-input-search alu-input-search-enter-button alu-input-search-large alu-input-affix-wrapper alu-input-affix-wrapper-lg"
   >
     <input
-      class="ant-input ant-input-lg"
+      class="alu-input alu-input-lg"
       placeholder="input search text"
       type="text"
       value=""
     />
     <span
-      class="ant-input-suffix"
+      class="alu-input-suffix"
     >
       <button
-        class="ant-btn ant-input-search-button ant-btn-primary ant-btn-lg"
+        class="alu-btn alu-input-search-button alu-btn-primary alu-btn-lg"
         type="button"
       >
         <span>
@@ -1076,19 +1076,19 @@ exports[`renders ./components/input/demo/size.md correctly 1`] = `
   class="example-input"
 >
   <input
-    class="ant-input ant-input-lg"
+    class="alu-input alu-input-lg"
     placeholder="large size"
     type="text"
     value=""
   />
   <input
-    class="ant-input"
+    class="alu-input"
     placeholder="default size"
     type="text"
     value=""
   />
   <input
-    class="ant-input ant-input-sm"
+    class="alu-input alu-input-sm"
     placeholder="small size"
     type="text"
     value=""
@@ -1098,7 +1098,7 @@ exports[`renders ./components/input/demo/size.md correctly 1`] = `
 
 exports[`renders ./components/input/demo/textarea.md correctly 1`] = `
 <textarea
-  class="ant-input"
+  class="alu-input"
   rows="4"
 />
 `;
@@ -1106,7 +1106,7 @@ exports[`renders ./components/input/demo/textarea.md correctly 1`] = `
 exports[`renders ./components/input/demo/textarea-resize.md correctly 1`] = `
 <div>
   <button
-    class="ant-btn"
+    class="alu-btn"
     type="button"
   >
     <span>
@@ -1117,7 +1117,7 @@ exports[`renders ./components/input/demo/textarea-resize.md correctly 1`] = `
     </span>
   </button>
   <textarea
-    class="ant-input"
+    class="alu-input"
     rows="4"
   >
     autosize 属性适用于 textarea 节点，并且只有高度会自动变化。另外 autosize 可以设定为一个对象，指定最小行数和最大行数。autosize 属性适用于 textarea 节点，并且只有高度会自动变化。另外 autosize 可以设定为一个对象，指定最小行数和最大行数。autosize 属性适用于 textarea 节点，并且只有高度会自动变化。另外 autosize 可以设定为一个对象，指定最小行数和最大行数。autosize 属性适用于 textarea 节点，并且只有高度会自动变化。另外 autosize 可以设定为一个对象，指定最小行数和最大行数。autosize 属性适用于 textarea 节点，并且只有高度会自动变化。另外 autosize 可以设定为一个对象，指定最小行数和最大行数。autosize 属性适用于 textarea 节点，并且只有高度会自动变化。另外 autosize 可以设定为一个对象，指定最小行数和最大行数。autosize 属性适用于 textarea 节点，并且只有高度会自动变化。另外 autosize 可以设定为一个对象，指定最小行数和最大行数。ending
@@ -1127,7 +1127,7 @@ exports[`renders ./components/input/demo/textarea-resize.md correctly 1`] = `
 
 exports[`renders ./components/input/demo/tooltip.md correctly 1`] = `
 <input
-  class="ant-input"
+  class="alu-input"
   maxlength="25"
   placeholder="Input a number"
   style="width:120px"

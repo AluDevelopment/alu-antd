@@ -27,7 +27,7 @@ ReactDOM.render(
 ````
 
 <style>
-.ant-spin {
+.alu-spin {
   margin-right: 16px;
 }
 </style>

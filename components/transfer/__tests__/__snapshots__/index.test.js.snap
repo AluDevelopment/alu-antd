@@ -2,84 +2,84 @@
 
 exports[`Transfer should render correctly 1`] = `
 <div
-  class="ant-transfer"
+  class="alu-transfer"
 >
   <div
-    class="ant-transfer-list"
+    class="alu-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper ant-checkbox-wrapper-checked"
+        class="alu-checkbox-wrapper alu-checkbox-wrapper-checked"
       >
         <span
-          class="ant-checkbox ant-checkbox-checked"
+          class="alu-checkbox alu-checkbox-checked"
         >
           <input
             checked=""
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           1/2 items
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="alu-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="alu-transfer-list-content-item"
         >
           <label
-            class="ant-checkbox-wrapper ant-checkbox-wrapper-checked"
+            class="alu-checkbox-wrapper alu-checkbox-wrapper-checked"
           >
             <span
-              class="ant-checkbox ant-checkbox-checked"
+              class="alu-checkbox alu-checkbox-checked"
             >
               <input
                 checked=""
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
           </label>
           <span />
         </li>
         <li
-          class="ant-transfer-list-content-item ant-transfer-list-content-item-disabled"
+          class="alu-transfer-list-content-item alu-transfer-list-content-item-disabled"
         >
           <label
-            class="ant-checkbox-wrapper ant-checkbox-wrapper-disabled"
+            class="alu-checkbox-wrapper alu-checkbox-wrapper-disabled"
           >
             <span
-              class="ant-checkbox ant-checkbox-disabled"
+              class="alu-checkbox alu-checkbox-disabled"
             >
               <input
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 disabled=""
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
           </label>
@@ -89,10 +89,10 @@ exports[`Transfer should render correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="alu-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
       type="button"
     >
       <i
@@ -114,7 +114,7 @@ exports[`Transfer should render correctly 1`] = `
       </i>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -138,58 +138,58 @@ exports[`Transfer should render correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-list"
+    class="alu-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="alu-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="alu-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           1 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="alu-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="alu-transfer-list-content-item"
         >
           <label
-            class="ant-checkbox-wrapper"
+            class="alu-checkbox-wrapper"
           >
             <span
-              class="ant-checkbox"
+              class="alu-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
           </label>
@@ -203,62 +203,62 @@ exports[`Transfer should render correctly 1`] = `
 
 exports[`Transfer should show sorted targetkey 1`] = `
 <div
-  class="ant-transfer"
+  class="alu-transfer"
 >
   <div
-    class="ant-transfer-list"
+    class="alu-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="alu-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="alu-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           1 item
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="alu-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="alu-transfer-list-content-item"
           title="a"
         >
           <label
-            class="ant-checkbox-wrapper"
+            class="alu-checkbox-wrapper"
           >
             <span
-              class="ant-checkbox"
+              class="alu-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
           </label>
@@ -270,10 +270,10 @@ exports[`Transfer should show sorted targetkey 1`] = `
     </div>
   </div>
   <div
-    class="ant-transfer-operation"
+    class="alu-transfer-operation"
   >
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -296,7 +296,7 @@ exports[`Transfer should show sorted targetkey 1`] = `
       </i>
     </button>
     <button
-      class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+      class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
       disabled=""
       type="button"
     >
@@ -320,59 +320,59 @@ exports[`Transfer should show sorted targetkey 1`] = `
     </button>
   </div>
   <div
-    class="ant-transfer-list"
+    class="alu-transfer-list"
   >
     <div
-      class="ant-transfer-list-header"
+      class="alu-transfer-list-header"
     >
       <label
-        class="ant-checkbox-wrapper"
+        class="alu-checkbox-wrapper"
       >
         <span
-          class="ant-checkbox"
+          class="alu-checkbox"
         >
           <input
-            class="ant-checkbox-input"
+            class="alu-checkbox-input"
             type="checkbox"
           />
           <span
-            class="ant-checkbox-inner"
+            class="alu-checkbox-inner"
           />
         </span>
       </label>
       <span
-        class="ant-transfer-list-header-selected"
+        class="alu-transfer-list-header-selected"
       >
         <span>
           2 items
         </span>
         <span
-          class="ant-transfer-list-header-title"
+          class="alu-transfer-list-header-title"
         />
       </span>
     </div>
     <div
-      class="ant-transfer-list-body"
+      class="alu-transfer-list-body"
     >
       <ul
-        class="ant-transfer-list-content"
+        class="alu-transfer-list-content"
       >
         <li
-          class="ant-transfer-list-content-item"
+          class="alu-transfer-list-content-item"
           title="c"
         >
           <label
-            class="ant-checkbox-wrapper"
+            class="alu-checkbox-wrapper"
           >
             <span
-              class="ant-checkbox"
+              class="alu-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
           </label>
@@ -381,21 +381,21 @@ exports[`Transfer should show sorted targetkey 1`] = `
           </span>
         </li>
         <li
-          class="ant-transfer-list-content-item"
+          class="alu-transfer-list-content-item"
           title="b"
         >
           <label
-            class="ant-checkbox-wrapper"
+            class="alu-checkbox-wrapper"
           >
             <span
-              class="ant-checkbox"
+              class="alu-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
           </label>

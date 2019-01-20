@@ -101,12 +101,12 @@ describe('Input.Password', () => {
     wrapper.find('input').simulate('change', { target: { value: '111' } });
     expect(wrapper).toMatchSnapshot();
     wrapper
-      .find('.ant-input-password-icon')
+      .find('.alu-input-password-icon')
       .at(0)
       .simulate('click');
     expect(wrapper).toMatchSnapshot();
     wrapper
-      .find('.ant-input-password-icon')
+      .find('.alu-input-password-icon')
       .at(0)
       .simulate('click');
     expect(wrapper).toMatchSnapshot();
@@ -127,7 +127,7 @@ describe('Input allowClear', () => {
     expect(wrapper.find('input').getDOMNode().value).toEqual('111');
     expect(wrapper).toMatchSnapshot();
     wrapper
-      .find('.ant-input-clear-icon')
+      .find('.alu-input-clear-icon')
       .at(0)
       .simulate('click');
     expect(wrapper).toMatchSnapshot();
@@ -143,7 +143,7 @@ describe('Input allowClear', () => {
     };
     const wrapper = mount(<Input allowClear defaultValue="111" onChange={onChange} />);
     wrapper
-      .find('.ant-input-clear-icon')
+      .find('.alu-input-clear-icon')
       .at(0)
       .simulate('click');
     expect(argumentEventObject.type).toBe('click');
@@ -160,7 +160,7 @@ describe('Input allowClear', () => {
     };
     const wrapper = mount(<Input allowClear value="111" onChange={onChange} />);
     wrapper
-      .find('.ant-input-clear-icon')
+      .find('.alu-input-clear-icon')
       .at(0)
       .simulate('click');
     expect(argumentEventObject.type).toBe('click');

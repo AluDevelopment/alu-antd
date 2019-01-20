@@ -6,10 +6,10 @@ exports[`renders ./components/avatar/demo/badge.md correctly 1`] = `
     style="margin-right:24px"
   >
     <span
-      class="ant-badge"
+      class="alu-badge"
     >
       <span
-        class="ant-avatar ant-avatar-square ant-avatar-icon"
+        class="alu-avatar alu-avatar-square alu-avatar-icon"
       >
         <i
           class="anticon anticon-user"
@@ -30,12 +30,12 @@ exports[`renders ./components/avatar/demo/badge.md correctly 1`] = `
         </i>
       </span>
       <sup
-        class="ant-scroll-number ant-badge-count"
+        class="alu-scroll-number alu-badge-count"
         data-show="true"
         title="1"
       >
         <span
-          class="ant-scroll-number-only"
+          class="alu-scroll-number-only"
           style="transition:none;-ms-transform:translateY(-1100%);-webkit-transform:translateY(-1100%);transform:translateY(-1100%)"
         >
           <p
@@ -194,10 +194,10 @@ exports[`renders ./components/avatar/demo/badge.md correctly 1`] = `
   </span>
   <span>
     <span
-      class="ant-badge"
+      class="alu-badge"
     >
       <span
-        class="ant-avatar ant-avatar-square ant-avatar-icon"
+        class="alu-avatar alu-avatar-square alu-avatar-icon"
       >
         <i
           class="anticon anticon-user"
@@ -218,7 +218,7 @@ exports[`renders ./components/avatar/demo/badge.md correctly 1`] = `
         </i>
       </span>
       <sup
-        class="ant-scroll-number ant-badge-dot"
+        class="alu-scroll-number alu-badge-dot"
         data-show="true"
       />
     </span>
@@ -230,7 +230,7 @@ exports[`renders ./components/avatar/demo/basic.md correctly 1`] = `
 <div>
   <div>
     <span
-      class="ant-avatar ant-avatar-circle ant-avatar-icon"
+      class="alu-avatar alu-avatar-circle alu-avatar-icon"
       style="width:64px;height:64px;line-height:64px;font-size:32px"
     >
       <i
@@ -252,7 +252,7 @@ exports[`renders ./components/avatar/demo/basic.md correctly 1`] = `
       </i>
     </span>
     <span
-      class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon"
+      class="alu-avatar alu-avatar-lg alu-avatar-circle alu-avatar-icon"
     >
       <i
         class="anticon anticon-user"
@@ -273,7 +273,7 @@ exports[`renders ./components/avatar/demo/basic.md correctly 1`] = `
       </i>
     </span>
     <span
-      class="ant-avatar ant-avatar-circle ant-avatar-icon"
+      class="alu-avatar alu-avatar-circle alu-avatar-icon"
     >
       <i
         class="anticon anticon-user"
@@ -294,7 +294,7 @@ exports[`renders ./components/avatar/demo/basic.md correctly 1`] = `
       </i>
     </span>
     <span
-      class="ant-avatar ant-avatar-sm ant-avatar-circle ant-avatar-icon"
+      class="alu-avatar alu-avatar-sm alu-avatar-circle alu-avatar-icon"
     >
       <i
         class="anticon anticon-user"
@@ -317,7 +317,7 @@ exports[`renders ./components/avatar/demo/basic.md correctly 1`] = `
   </div>
   <div>
     <span
-      class="ant-avatar ant-avatar-square ant-avatar-icon"
+      class="alu-avatar alu-avatar-square alu-avatar-icon"
       style="width:64px;height:64px;line-height:64px;font-size:32px"
     >
       <i
@@ -339,7 +339,7 @@ exports[`renders ./components/avatar/demo/basic.md correctly 1`] = `
       </i>
     </span>
     <span
-      class="ant-avatar ant-avatar-lg ant-avatar-square ant-avatar-icon"
+      class="alu-avatar alu-avatar-lg alu-avatar-square alu-avatar-icon"
     >
       <i
         class="anticon anticon-user"
@@ -360,7 +360,7 @@ exports[`renders ./components/avatar/demo/basic.md correctly 1`] = `
       </i>
     </span>
     <span
-      class="ant-avatar ant-avatar-square ant-avatar-icon"
+      class="alu-avatar alu-avatar-square alu-avatar-icon"
     >
       <i
         class="anticon anticon-user"
@@ -381,7 +381,7 @@ exports[`renders ./components/avatar/demo/basic.md correctly 1`] = `
       </i>
     </span>
     <span
-      class="ant-avatar ant-avatar-sm ant-avatar-square ant-avatar-icon"
+      class="alu-avatar alu-avatar-sm alu-avatar-square alu-avatar-icon"
     >
       <i
         class="anticon anticon-user"
@@ -408,17 +408,17 @@ exports[`renders ./components/avatar/demo/basic.md correctly 1`] = `
 exports[`renders ./components/avatar/demo/dynamic.md correctly 1`] = `
 <div>
   <span
-    class="ant-avatar ant-avatar-lg ant-avatar-circle"
+    class="alu-avatar alu-avatar-lg alu-avatar-circle"
     style="background-color:#f56a00;vertical-align:middle"
   >
     <span
-      class="ant-avatar-string"
+      class="alu-avatar-string"
     >
       U
     </span>
   </span>
   <button
-    class="ant-btn ant-btn-sm"
+    class="alu-btn alu-btn-sm"
     style="margin-left:16px;vertical-align:middle"
     type="button"
   >
@@ -432,7 +432,7 @@ exports[`renders ./components/avatar/demo/dynamic.md correctly 1`] = `
 exports[`renders ./components/avatar/demo/type.md correctly 1`] = `
 <div>
   <span
-    class="ant-avatar ant-avatar-circle ant-avatar-icon"
+    class="alu-avatar alu-avatar-circle alu-avatar-icon"
   >
     <i
       class="anticon anticon-user"
@@ -453,42 +453,42 @@ exports[`renders ./components/avatar/demo/type.md correctly 1`] = `
     </i>
   </span>
   <span
-    class="ant-avatar ant-avatar-circle"
+    class="alu-avatar alu-avatar-circle"
   >
     <span
-      class="ant-avatar-string"
+      class="alu-avatar-string"
     >
       U
     </span>
   </span>
   <span
-    class="ant-avatar ant-avatar-circle"
+    class="alu-avatar alu-avatar-circle"
   >
     <span
-      class="ant-avatar-string"
+      class="alu-avatar-string"
     >
       USER
     </span>
   </span>
   <span
-    class="ant-avatar ant-avatar-circle ant-avatar-image"
+    class="alu-avatar alu-avatar-circle alu-avatar-image"
   >
     <img
       src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"
     />
   </span>
   <span
-    class="ant-avatar ant-avatar-circle"
+    class="alu-avatar alu-avatar-circle"
     style="color:#f56a00;background-color:#fde3cf"
   >
     <span
-      class="ant-avatar-string"
+      class="alu-avatar-string"
     >
       U
     </span>
   </span>
   <span
-    class="ant-avatar ant-avatar-circle ant-avatar-icon"
+    class="alu-avatar alu-avatar-circle alu-avatar-icon"
     style="background-color:#87d068"
   >
     <i

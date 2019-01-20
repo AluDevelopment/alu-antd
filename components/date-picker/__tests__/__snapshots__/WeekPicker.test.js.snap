@@ -3,47 +3,47 @@
 exports[`WeekPicker should support dateRender 1`] = `
 <div>
   <div
-    class="ant-calendar-picker-container  ant-calendar-picker-container-placement-bottomLeft "
+    class="alu-calendar-picker-container  alu-calendar-picker-container-placement-bottomLeft "
   >
     <div
-      class="ant-calendar ant-calendar-week-number"
+      class="alu-calendar alu-calendar-week-number"
       tabindex="0"
     >
       <div
-        class="ant-calendar-panel"
+        class="alu-calendar-panel"
       >
         <div
-          class="ant-calendar-date-panel"
+          class="alu-calendar-date-panel"
           tabindex="0"
         >
           <div
-            class="ant-calendar-header"
+            class="alu-calendar-header"
           >
             <div
               style="position:relative"
             >
               <a
-                class="ant-calendar-prev-year-btn"
+                class="alu-calendar-prev-year-btn"
                 role="button"
                 title="Last year (Control + left)"
               />
               <a
-                class="ant-calendar-prev-month-btn"
+                class="alu-calendar-prev-month-btn"
                 role="button"
                 title="Previous month (PageUp)"
               />
               <span
-                class="ant-calendar-my-select"
+                class="alu-calendar-my-select"
               >
                 <a
-                  class="ant-calendar-month-select"
+                  class="alu-calendar-month-select"
                   role="button"
                   title="Choose a month"
                 >
                   Sep
                 </a>
                 <a
-                  class="ant-calendar-year-select"
+                  class="alu-calendar-year-select"
                   role="button"
                   title="Choose a year"
                 >
@@ -51,21 +51,21 @@ exports[`WeekPicker should support dateRender 1`] = `
                 </a>
               </span>
               <a
-                class="ant-calendar-next-month-btn"
+                class="alu-calendar-next-month-btn"
                 title="Next month (PageDown)"
               />
               <a
-                class="ant-calendar-next-year-btn"
+                class="alu-calendar-next-year-btn"
                 title="Next year (Control + right)"
               />
             </div>
           </div>
           <div
-            class="ant-calendar-body"
+            class="alu-calendar-body"
           >
             <table
               cellspacing="0"
-              class="ant-calendar-table"
+              class="alu-calendar-table"
               role="grid"
             >
               <thead>
@@ -73,88 +73,88 @@ exports[`WeekPicker should support dateRender 1`] = `
                   role="row"
                 >
                   <th
-                    class="ant-calendar-column-header ant-calendar-week-number-header"
+                    class="alu-calendar-column-header alu-calendar-week-number-header"
                     role="columnheader"
                   >
                     <span
-                      class="ant-calendar-column-header-inner"
+                      class="alu-calendar-column-header-inner"
                     >
                       x
                     </span>
                   </th>
                   <th
-                    class="ant-calendar-column-header"
+                    class="alu-calendar-column-header"
                     role="columnheader"
                     title="Sun"
                   >
                     <span
-                      class="ant-calendar-column-header-inner"
+                      class="alu-calendar-column-header-inner"
                     >
                       Su
                     </span>
                   </th>
                   <th
-                    class="ant-calendar-column-header"
+                    class="alu-calendar-column-header"
                     role="columnheader"
                     title="Mon"
                   >
                     <span
-                      class="ant-calendar-column-header-inner"
+                      class="alu-calendar-column-header-inner"
                     >
                       Mo
                     </span>
                   </th>
                   <th
-                    class="ant-calendar-column-header"
+                    class="alu-calendar-column-header"
                     role="columnheader"
                     title="Tue"
                   >
                     <span
-                      class="ant-calendar-column-header-inner"
+                      class="alu-calendar-column-header-inner"
                     >
                       Tu
                     </span>
                   </th>
                   <th
-                    class="ant-calendar-column-header"
+                    class="alu-calendar-column-header"
                     role="columnheader"
                     title="Wed"
                   >
                     <span
-                      class="ant-calendar-column-header-inner"
+                      class="alu-calendar-column-header-inner"
                     >
                       We
                     </span>
                   </th>
                   <th
-                    class="ant-calendar-column-header"
+                    class="alu-calendar-column-header"
                     role="columnheader"
                     title="Thu"
                   >
                     <span
-                      class="ant-calendar-column-header-inner"
+                      class="alu-calendar-column-header-inner"
                     >
                       Th
                     </span>
                   </th>
                   <th
-                    class="ant-calendar-column-header"
+                    class="alu-calendar-column-header"
                     role="columnheader"
                     title="Fri"
                   >
                     <span
-                      class="ant-calendar-column-header-inner"
+                      class="alu-calendar-column-header-inner"
                     >
                       Fr
                     </span>
                   </th>
                   <th
-                    class="ant-calendar-column-header"
+                    class="alu-calendar-column-header"
                     role="columnheader"
                     title="Sat"
                   >
                     <span
-                      class="ant-calendar-column-header-inner"
+                      class="alu-calendar-column-header-inner"
                     >
                       Sa
                     </span>
@@ -162,25 +162,25 @@ exports[`WeekPicker should support dateRender 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-calendar-tbody"
+                class="alu-calendar-tbody"
               >
                 <tr
                   class=""
                   role="row"
                 >
                   <td
-                    class="ant-calendar-week-number-cell"
+                    class="alu-calendar-week-number-cell"
                     role="gridcell"
                   >
                     35
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-last-month-cell"
+                    class="alu-calendar-cell alu-calendar-last-month-cell"
                     role="gridcell"
                     title="August 27, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-08-27
@@ -188,12 +188,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-last-month-cell"
+                    class="alu-calendar-cell alu-calendar-last-month-cell"
                     role="gridcell"
                     title="August 28, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-08-28
@@ -201,12 +201,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-last-month-cell"
+                    class="alu-calendar-cell alu-calendar-last-month-cell"
                     role="gridcell"
                     title="August 29, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-08-29
@@ -214,12 +214,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-last-month-cell"
+                    class="alu-calendar-cell alu-calendar-last-month-cell"
                     role="gridcell"
                     title="August 30, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-08-30
@@ -227,12 +227,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-last-month-cell ant-calendar-last-day-of-month"
+                    class="alu-calendar-cell alu-calendar-last-month-cell alu-calendar-last-day-of-month"
                     role="gridcell"
                     title="August 31, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-08-31
@@ -240,12 +240,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 1, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-01
@@ -253,12 +253,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 2, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-02
@@ -271,18 +271,18 @@ exports[`WeekPicker should support dateRender 1`] = `
                   role="row"
                 >
                   <td
-                    class="ant-calendar-week-number-cell"
+                    class="alu-calendar-week-number-cell"
                     role="gridcell"
                   >
                     36
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 3, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-03
@@ -290,12 +290,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 4, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-04
@@ -303,12 +303,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 5, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-05
@@ -316,12 +316,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 6, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-06
@@ -329,12 +329,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 7, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-07
@@ -342,12 +342,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 8, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-08
@@ -355,12 +355,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 9, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-09
@@ -373,18 +373,18 @@ exports[`WeekPicker should support dateRender 1`] = `
                   role="row"
                 >
                   <td
-                    class="ant-calendar-week-number-cell"
+                    class="alu-calendar-week-number-cell"
                     role="gridcell"
                   >
                     37
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 10, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-10
@@ -392,12 +392,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 11, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-11
@@ -405,12 +405,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 12, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-12
@@ -418,12 +418,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 13, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-13
@@ -431,12 +431,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 14, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-14
@@ -444,12 +444,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 15, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-15
@@ -457,12 +457,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 16, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-16
@@ -471,22 +471,22 @@ exports[`WeekPicker should support dateRender 1`] = `
                   </td>
                 </tr>
                 <tr
-                  class="ant-calendar-current-week ant-calendar-active-week"
+                  class="alu-calendar-current-week alu-calendar-active-week"
                   role="row"
                 >
                   <td
-                    class="ant-calendar-week-number-cell"
+                    class="alu-calendar-week-number-cell"
                     role="gridcell"
                   >
                     38
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 17, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-17
@@ -494,12 +494,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-today ant-calendar-selected-day"
+                    class="alu-calendar-cell alu-calendar-today alu-calendar-selected-day"
                     role="gridcell"
                     title="September 18, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-18
@@ -507,12 +507,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 19, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-19
@@ -520,12 +520,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 20, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-20
@@ -533,12 +533,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 21, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-21
@@ -546,12 +546,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 22, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-22
@@ -559,12 +559,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 23, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-23
@@ -577,18 +577,18 @@ exports[`WeekPicker should support dateRender 1`] = `
                   role="row"
                 >
                   <td
-                    class="ant-calendar-week-number-cell"
+                    class="alu-calendar-week-number-cell"
                     role="gridcell"
                   >
                     39
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 24, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-24
@@ -596,12 +596,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 25, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-25
@@ -609,12 +609,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 26, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-26
@@ -622,12 +622,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 27, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-27
@@ -635,12 +635,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 28, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-28
@@ -648,12 +648,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell"
+                    class="alu-calendar-cell"
                     role="gridcell"
                     title="September 29, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-29
@@ -661,12 +661,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-last-day-of-month"
+                    class="alu-calendar-cell alu-calendar-last-day-of-month"
                     role="gridcell"
                     title="September 30, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-09-30
@@ -679,18 +679,18 @@ exports[`WeekPicker should support dateRender 1`] = `
                   role="row"
                 >
                   <td
-                    class="ant-calendar-week-number-cell"
+                    class="alu-calendar-week-number-cell"
                     role="gridcell"
                   >
                     40
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-next-month-btn-day"
+                    class="alu-calendar-cell alu-calendar-next-month-btn-day"
                     role="gridcell"
                     title="October 1, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-10-01
@@ -698,12 +698,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-next-month-btn-day"
+                    class="alu-calendar-cell alu-calendar-next-month-btn-day"
                     role="gridcell"
                     title="October 2, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-10-02
@@ -711,12 +711,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-next-month-btn-day"
+                    class="alu-calendar-cell alu-calendar-next-month-btn-day"
                     role="gridcell"
                     title="October 3, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-10-03
@@ -724,12 +724,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-next-month-btn-day"
+                    class="alu-calendar-cell alu-calendar-next-month-btn-day"
                     role="gridcell"
                     title="October 4, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-10-04
@@ -737,12 +737,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-next-month-btn-day"
+                    class="alu-calendar-cell alu-calendar-next-month-btn-day"
                     role="gridcell"
                     title="October 5, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-10-05
@@ -750,12 +750,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-next-month-btn-day"
+                    class="alu-calendar-cell alu-calendar-next-month-btn-day"
                     role="gridcell"
                     title="October 6, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-10-06
@@ -763,12 +763,12 @@ exports[`WeekPicker should support dateRender 1`] = `
                     </div>
                   </td>
                   <td
-                    class="ant-calendar-cell ant-calendar-next-month-btn-day"
+                    class="alu-calendar-cell alu-calendar-next-month-btn-day"
                     role="gridcell"
                     title="October 7, 2017"
                   >
                     <div
-                      class="ant-calendar-date"
+                      class="alu-calendar-date"
                     >
                       <span>
                         2017-10-07
@@ -788,20 +788,20 @@ exports[`WeekPicker should support dateRender 1`] = `
 
 exports[`WeekPicker should support style prop 1`] = `
 <span
-  class="ant-calendar-picker"
+  class="alu-calendar-picker"
   style="width: 400px;"
 >
   <span
     style="display: inline-block; width: 100%;"
   >
     <input
-      class="ant-calendar-picker-input ant-input"
+      class="alu-calendar-picker-input alu-input"
       placeholder="Select date"
       readonly=""
       value=""
     />
     <i
-      class="anticon anticon-calendar ant-calendar-picker-icon"
+      class="anticon anticon-calendar alu-calendar-picker-icon"
     >
       <svg
         aria-hidden="true"

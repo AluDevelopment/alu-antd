@@ -2,7 +2,7 @@
 
 exports[`renders ./components/auto-complete/demo/basic.md correctly 1`] = `
 <div
-  class="ant-select-show-search ant-select-auto-complete ant-select ant-select-combobox ant-select-enabled"
+  class="alu-select-show-search alu-select-auto-complete alu-select alu-select-combobox alu-select-enabled"
   style="width:200px"
 >
   <div
@@ -10,15 +10,15 @@ exports[`renders ./components/auto-complete/demo/basic.md correctly 1`] = `
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--single"
     role="combobox"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
         style="display:block;user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -26,18 +26,18 @@ exports[`renders ./components/auto-complete/demo/basic.md correctly 1`] = `
       </div>
       <ul>
         <li
-          class="ant-select-search ant-select-search--inline"
+          class="alu-select-search alu-select-search--inline"
         >
           <div
-            class="ant-select-search__field__wrap"
+            class="alu-select-search__field__wrap"
           >
             <input
-              class="ant-input ant-select-search__field"
+              class="alu-input alu-select-search__field"
               type="text"
               value=""
             />
             <span
-              class="ant-select-search__field__mirror"
+              class="alu-select-search__field__mirror"
             >
                
             </span>
@@ -46,12 +46,12 @@ exports[`renders ./components/auto-complete/demo/basic.md correctly 1`] = `
       </ul>
     </div>
     <span
-      class="ant-select-arrow"
+      class="alu-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
       <i
-        class="anticon anticon-down ant-select-arrow-icon"
+        class="anticon anticon-down alu-select-arrow-icon"
       >
         <svg
           aria-hidden="true"
@@ -78,7 +78,7 @@ exports[`renders ./components/auto-complete/demo/certain-category.md correctly 1
   style="width:250px"
 >
   <div
-    class="ant-select-lg ant-select-lg certain-category-search ant-select-show-search ant-select-auto-complete ant-select ant-select-combobox ant-select-enabled"
+    class="alu-select-lg alu-select-lg certain-category-search alu-select-show-search alu-select-auto-complete alu-select alu-select-combobox alu-select-enabled"
     style="width:100%"
   >
     <div
@@ -86,15 +86,15 @@ exports[`renders ./components/auto-complete/demo/certain-category.md correctly 1
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection__placeholder"
+          class="alu-select-selection__placeholder"
           style="display:block;user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
@@ -102,21 +102,21 @@ exports[`renders ./components/auto-complete/demo/certain-category.md correctly 1
         </div>
         <ul>
           <li
-            class="ant-select-search ant-select-search--inline"
+            class="alu-select-search alu-select-search--inline"
           >
             <div
-              class="ant-select-search__field__wrap"
+              class="alu-select-search__field__wrap"
             >
               <span
-                class="ant-select-search__field ant-input-affix-wrapper"
+                class="alu-select-search__field alu-input-affix-wrapper"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   type="text"
                   value=""
                 />
                 <span
-                  class="ant-input-suffix"
+                  class="alu-input-suffix"
                 >
                   <i
                     class="anticon anticon-search certain-category-icon"
@@ -138,7 +138,7 @@ exports[`renders ./components/auto-complete/demo/certain-category.md correctly 1
                 </span>
               </span>
               <span
-                class="ant-select-search__field__mirror"
+                class="alu-select-search__field__mirror"
               >
                  
               </span>
@@ -147,12 +147,12 @@ exports[`renders ./components/auto-complete/demo/certain-category.md correctly 1
         </ul>
       </div>
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -176,7 +176,7 @@ exports[`renders ./components/auto-complete/demo/certain-category.md correctly 1
 
 exports[`renders ./components/auto-complete/demo/custom.md correctly 1`] = `
 <div
-  class="ant-select-show-search ant-select-auto-complete ant-select ant-select-combobox ant-select-enabled"
+  class="alu-select-show-search alu-select-auto-complete alu-select alu-select-combobox alu-select-enabled"
   style="width:200px"
 >
   <div
@@ -184,27 +184,27 @@ exports[`renders ./components/auto-complete/demo/custom.md correctly 1`] = `
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--single"
     role="combobox"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <ul>
         <li
-          class="ant-select-search ant-select-search--inline"
+          class="alu-select-search alu-select-search--inline"
         >
           <div
-            class="ant-select-search__field__wrap"
+            class="alu-select-search__field__wrap"
           >
             <textarea
-              class="ant-input custom ant-select-search__field"
+              class="alu-input custom alu-select-search__field"
               placeholder="input here"
               style="height:50px"
             />
             <span
-              class="ant-select-search__field__mirror"
+              class="alu-select-search__field__mirror"
             >
                
             </span>
@@ -213,12 +213,12 @@ exports[`renders ./components/auto-complete/demo/custom.md correctly 1`] = `
       </ul>
     </div>
     <span
-      class="ant-select-arrow"
+      class="alu-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
       <i
-        class="anticon anticon-down ant-select-arrow-icon"
+        class="anticon anticon-down alu-select-arrow-icon"
       >
         <svg
           aria-hidden="true"
@@ -241,7 +241,7 @@ exports[`renders ./components/auto-complete/demo/custom.md correctly 1`] = `
 
 exports[`renders ./components/auto-complete/demo/non-case-sensitive.md correctly 1`] = `
 <div
-  class="ant-select-show-search ant-select-auto-complete ant-select ant-select-combobox ant-select-enabled"
+  class="alu-select-show-search alu-select-auto-complete alu-select alu-select-combobox alu-select-enabled"
   style="width:200px"
 >
   <div
@@ -249,15 +249,15 @@ exports[`renders ./components/auto-complete/demo/non-case-sensitive.md correctly
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--single"
     role="combobox"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
         style="display:block;user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -265,18 +265,18 @@ exports[`renders ./components/auto-complete/demo/non-case-sensitive.md correctly
       </div>
       <ul>
         <li
-          class="ant-select-search ant-select-search--inline"
+          class="alu-select-search alu-select-search--inline"
         >
           <div
-            class="ant-select-search__field__wrap"
+            class="alu-select-search__field__wrap"
           >
             <input
-              class="ant-input ant-select-search__field"
+              class="alu-input alu-select-search__field"
               type="text"
               value=""
             />
             <span
-              class="ant-select-search__field__mirror"
+              class="alu-select-search__field__mirror"
             >
                
             </span>
@@ -285,12 +285,12 @@ exports[`renders ./components/auto-complete/demo/non-case-sensitive.md correctly
       </ul>
     </div>
     <span
-      class="ant-select-arrow"
+      class="alu-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
       <i
-        class="anticon anticon-down ant-select-arrow-icon"
+        class="anticon anticon-down alu-select-arrow-icon"
       >
         <svg
           aria-hidden="true"
@@ -313,7 +313,7 @@ exports[`renders ./components/auto-complete/demo/non-case-sensitive.md correctly
 
 exports[`renders ./components/auto-complete/demo/options.md correctly 1`] = `
 <div
-  class="ant-select-show-search ant-select-auto-complete ant-select ant-select-combobox ant-select-enabled"
+  class="alu-select-show-search alu-select-auto-complete alu-select alu-select-combobox alu-select-enabled"
   style="width:200px"
 >
   <div
@@ -321,15 +321,15 @@ exports[`renders ./components/auto-complete/demo/options.md correctly 1`] = `
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--single"
     role="combobox"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
         style="display:block;user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -337,18 +337,18 @@ exports[`renders ./components/auto-complete/demo/options.md correctly 1`] = `
       </div>
       <ul>
         <li
-          class="ant-select-search ant-select-search--inline"
+          class="alu-select-search alu-select-search--inline"
         >
           <div
-            class="ant-select-search__field__wrap"
+            class="alu-select-search__field__wrap"
           >
             <input
-              class="ant-input ant-select-search__field"
+              class="alu-input alu-select-search__field"
               type="text"
               value=""
             />
             <span
-              class="ant-select-search__field__mirror"
+              class="alu-select-search__field__mirror"
             >
                
             </span>
@@ -357,12 +357,12 @@ exports[`renders ./components/auto-complete/demo/options.md correctly 1`] = `
       </ul>
     </div>
     <span
-      class="ant-select-arrow"
+      class="alu-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
       <i
-        class="anticon anticon-down ant-select-arrow-icon"
+        class="anticon anticon-down alu-select-arrow-icon"
       >
         <svg
           aria-hidden="true"
@@ -389,7 +389,7 @@ exports[`renders ./components/auto-complete/demo/uncertain-category.md correctly
   style="width:300px"
 >
   <div
-    class="ant-select-lg ant-select-lg global-search ant-select-show-search ant-select-auto-complete ant-select ant-select-combobox ant-select-enabled"
+    class="alu-select-lg alu-select-lg global-search alu-select-show-search alu-select-auto-complete alu-select alu-select-combobox alu-select-enabled"
     style="width:100%"
   >
     <div
@@ -397,15 +397,15 @@ exports[`renders ./components/auto-complete/demo/uncertain-category.md correctly
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection__placeholder"
+          class="alu-select-selection__placeholder"
           style="display:block;user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
@@ -413,24 +413,24 @@ exports[`renders ./components/auto-complete/demo/uncertain-category.md correctly
         </div>
         <ul>
           <li
-            class="ant-select-search ant-select-search--inline"
+            class="alu-select-search alu-select-search--inline"
           >
             <div
-              class="ant-select-search__field__wrap"
+              class="alu-select-search__field__wrap"
             >
               <span
-                class="ant-select-search__field ant-input-affix-wrapper"
+                class="alu-select-search__field alu-input-affix-wrapper"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   type="text"
                   value=""
                 />
                 <span
-                  class="ant-input-suffix"
+                  class="alu-input-suffix"
                 >
                   <button
-                    class="ant-btn search-btn ant-btn-primary ant-btn-lg"
+                    class="alu-btn search-btn alu-btn-primary alu-btn-lg"
                     type="button"
                   >
                     <i
@@ -454,7 +454,7 @@ exports[`renders ./components/auto-complete/demo/uncertain-category.md correctly
                 </span>
               </span>
               <span
-                class="ant-select-search__field__mirror"
+                class="alu-select-search__field__mirror"
               >
                  
               </span>
@@ -463,12 +463,12 @@ exports[`renders ./components/auto-complete/demo/uncertain-category.md correctly
         </ul>
       </div>
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"

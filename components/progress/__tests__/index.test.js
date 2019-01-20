@@ -5,10 +5,10 @@ import Progress from '..';
 describe('Progress', () => {
   it('successPercent should decide the progress status when it exists', () => {
     const wrapper = mount(<Progress percent={100} successPercent={50} />);
-    expect(wrapper.find('.ant-progress-status-success')).toHaveLength(0);
+    expect(wrapper.find('.alu-progress-status-success')).toHaveLength(0);
 
     wrapper.setProps({ percent: 50, successPercent: 100 });
-    expect(wrapper.find('.ant-progress-status-success')).toHaveLength(1);
+    expect(wrapper.find('.alu-progress-status-success')).toHaveLength(1);
   });
 
   it('render out-of-range progress', () => {

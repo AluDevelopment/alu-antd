@@ -51,14 +51,14 @@ describe('Mention', () => {
     const ed = wrapper.find('.public-DraftEditor-content');
     ed.simulate('beforeInput', { data: '@' });
     jest.runAllTimers();
-    expect(container.getDOMNode().querySelectorAll('.ant-mention-dropdown-item').length).toBe(2);
-    expect(container.getDOMNode().querySelectorAll('.ant-mention-dropdown-item')[0].innerHTML).toBe(
+    expect(container.getDOMNode().querySelectorAll('.alu-mention-dropdown-item').length).toBe(2);
+    expect(container.getDOMNode().querySelectorAll('.alu-mention-dropdown-item')[0].innerHTML).toBe(
       'afc163',
     );
     wrapper.setProps({ suggestions: ['yesmeck', 'yiminghe', 'lucy'] });
     jest.runAllTimers();
-    expect(container.getDOMNode().querySelectorAll('.ant-mention-dropdown-item').length).toBe(3);
-    expect(container.getDOMNode().querySelectorAll('.ant-mention-dropdown-item')[0].innerHTML).toBe(
+    expect(container.getDOMNode().querySelectorAll('.alu-mention-dropdown-item').length).toBe(3);
+    expect(container.getDOMNode().querySelectorAll('.alu-mention-dropdown-item')[0].innerHTML).toBe(
       'yesmeck',
     );
   });
@@ -75,21 +75,21 @@ describe('Mention', () => {
     jest.runAllTimers();
     expect(onChange).toBeCalled();
     expect(onSelect).not.toBeCalled();
-    // enzyme cannot find .ant-mention-dropdown-item in react 15
+    // enzyme cannot find .alu-mention-dropdown-item in react 15
     // I don't know why
     if (process.env.REACT === '15') {
       return;
     }
     wrapper
-      .find('.ant-mention-dropdown-item')
+      .find('.alu-mention-dropdown-item')
       .at(0)
       .simulate('mouseDown');
     wrapper
-      .find('.ant-mention-dropdown-item')
+      .find('.alu-mention-dropdown-item')
       .at(0)
       .simulate('mouseUp');
     wrapper
-      .find('.ant-mention-dropdown-item')
+      .find('.alu-mention-dropdown-item')
       .at(0)
       .simulate('click');
     jest.runAllTimers();
@@ -109,7 +109,7 @@ describe('Mention', () => {
     ed.simulate('beforeInput', { data: '@b' });
     jest.runAllTimers();
 
-    const items = wrapper.find('div.ant-mention-dropdown-item');
+    const items = wrapper.find('div.alu-mention-dropdown-item');
     expect(items.length).toBe(1);
     expect(items.at(0).props().children).toBe('bamboo');
   });

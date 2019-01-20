@@ -2,29 +2,29 @@
 
 exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
 <ul
-  class="ant-menu ant-menu-light ant-menu-root ant-menu-horizontal"
+  class="alu-menu alu-menu-light alu-menu-root alu-menu-horizontal"
   role="menu"
 >
   <li
-    class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+    class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
     role="menuitem"
     style="display:none"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
     >
       <span>
         ···
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
   </li>
   <li
-    class="ant-menu-item ant-menu-item-selected"
+    class="alu-menu-item alu-menu-item-selected"
     role="menuitem"
   >
     <i
@@ -47,26 +47,26 @@ exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
     Navigation One
   </li>
   <li
-    class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+    class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
     role="menuitem"
     style="display:none"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
     >
       <span>
         ···
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
   </li>
   <li
     aria-disabled="true"
-    class="ant-menu-item ant-menu-item-disabled"
+    class="alu-menu-item alu-menu-item-disabled"
     role="menuitem"
   >
     <i
@@ -89,31 +89,31 @@ exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
     Navigation Two
   </li>
   <li
-    class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+    class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
     role="menuitem"
     style="display:none"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
     >
       <span>
         ···
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
   </li>
   <li
-    class="ant-menu-submenu ant-menu-submenu-horizontal"
+    class="alu-menu-submenu alu-menu-submenu-horizontal"
     role="menuitem"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
     >
       <span
         class="submenu-title-wrapper"
@@ -138,30 +138,30 @@ exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
         Navigation Three - Submenu
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
   </li>
   <li
-    class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+    class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
     role="menuitem"
     style="display:none"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
     >
       <span>
         ···
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
   </li>
   <li
-    class="ant-menu-item"
+    class="alu-menu-item"
     role="menuitem"
   >
     <a
@@ -173,20 +173,20 @@ exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
     </a>
   </li>
   <li
-    class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+    class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
     role="menuitem"
     style="visibility:hidden;position:absolute"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
     >
       <span>
         ···
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
   </li>
@@ -195,19 +195,19 @@ exports[`renders ./components/menu/demo/horizontal.md correctly 1`] = `
 
 exports[`renders ./components/menu/demo/inline.md correctly 1`] = `
 <ul
-  class="ant-menu ant-menu-light ant-menu-root ant-menu-inline"
+  class="alu-menu alu-menu-light alu-menu-root alu-menu-inline"
   role="menu"
   style="width:256px"
 >
   <li
-    class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open ant-menu-submenu-selected"
+    class="alu-menu-submenu alu-menu-submenu-inline alu-menu-submenu-open alu-menu-submenu-selected"
     role="menuitem"
   >
     <div
       aria-expanded="true"
       aria-haspopup="true"
       aria-owns="sub1$Menu"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
       style="padding-left:24px"
     >
       <span>
@@ -233,35 +233,35 @@ exports[`renders ./components/menu/demo/inline.md correctly 1`] = `
         </span>
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
     <ul
-      class="ant-menu  ant-menu-sub ant-menu-inline"
+      class="alu-menu  alu-menu-sub alu-menu-inline"
       id="sub1$Menu"
       role="menu"
     >
       <li
-        class=" ant-menu-item-group"
+        class=" alu-menu-item-group"
       >
         <div
-          class="ant-menu-item-group-title"
+          class="alu-menu-item-group-title"
           title="Item 1"
         >
           Item 1
         </div>
         <ul
-          class="ant-menu-item-group-list"
+          class="alu-menu-item-group-list"
         >
           <li
-            class="ant-menu-item ant-menu-item-selected"
+            class="alu-menu-item alu-menu-item-selected"
             role="menuitem"
             style="padding-left:48px"
           >
             Option 1
           </li>
           <li
-            class="ant-menu-item"
+            class="alu-menu-item"
             role="menuitem"
             style="padding-left:48px"
           >
@@ -270,26 +270,26 @@ exports[`renders ./components/menu/demo/inline.md correctly 1`] = `
         </ul>
       </li>
       <li
-        class=" ant-menu-item-group"
+        class=" alu-menu-item-group"
       >
         <div
-          class="ant-menu-item-group-title"
+          class="alu-menu-item-group-title"
           title="Item 2"
         >
           Item 2
         </div>
         <ul
-          class="ant-menu-item-group-list"
+          class="alu-menu-item-group-list"
         >
           <li
-            class="ant-menu-item"
+            class="alu-menu-item"
             role="menuitem"
             style="padding-left:48px"
           >
             Option 3
           </li>
           <li
-            class="ant-menu-item"
+            class="alu-menu-item"
             role="menuitem"
             style="padding-left:48px"
           >
@@ -300,13 +300,13 @@ exports[`renders ./components/menu/demo/inline.md correctly 1`] = `
     </ul>
   </li>
   <li
-    class="ant-menu-submenu ant-menu-submenu-inline"
+    class="alu-menu-submenu alu-menu-submenu-inline"
     role="menuitem"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
       style="padding-left:24px"
     >
       <span>
@@ -332,19 +332,19 @@ exports[`renders ./components/menu/demo/inline.md correctly 1`] = `
         </span>
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
     <div />
   </li>
   <li
-    class="ant-menu-submenu ant-menu-submenu-inline"
+    class="alu-menu-submenu alu-menu-submenu-inline"
     role="menuitem"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
       style="padding-left:24px"
     >
       <span>
@@ -370,7 +370,7 @@ exports[`renders ./components/menu/demo/inline.md correctly 1`] = `
         </span>
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
     <div />
@@ -383,7 +383,7 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
   style="width:256px"
 >
   <button
-    class="ant-btn ant-btn-primary"
+    class="alu-btn alu-btn-primary"
     style="margin-bottom:16px"
     type="button"
   >
@@ -406,11 +406,11 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
     </i>
   </button>
   <ul
-    class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
+    class="alu-menu alu-menu-dark alu-menu-root alu-menu-inline"
     role="menu"
   >
     <li
-      class="ant-menu-item ant-menu-item-selected"
+      class="alu-menu-item alu-menu-item-selected"
       role="menuitem"
       style="padding-left:24px"
     >
@@ -436,7 +436,7 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
       </span>
     </li>
     <li
-      class="ant-menu-item"
+      class="alu-menu-item"
       role="menuitem"
       style="padding-left:24px"
     >
@@ -462,7 +462,7 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
       </span>
     </li>
     <li
-      class="ant-menu-item"
+      class="alu-menu-item"
       role="menuitem"
       style="padding-left:24px"
     >
@@ -488,14 +488,14 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
       </span>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+      class="alu-menu-submenu alu-menu-submenu-inline alu-menu-submenu-open"
       role="menuitem"
     >
       <div
         aria-expanded="true"
         aria-haspopup="true"
         aria-owns="sub1$Menu"
-        class="ant-menu-submenu-title"
+        class="alu-menu-submenu-title"
         style="padding-left:24px"
       >
         <span>
@@ -521,37 +521,37 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
           </span>
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="alu-menu-submenu-arrow"
         />
       </div>
       <ul
-        class="ant-menu  ant-menu-sub ant-menu-inline"
+        class="alu-menu  alu-menu-sub alu-menu-inline"
         id="sub1$Menu"
         role="menu"
       >
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:48px"
         >
           Option 5
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:48px"
         >
           Option 6
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:48px"
         >
           Option 7
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:48px"
         >
@@ -560,13 +560,13 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
       </ul>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="alu-menu-submenu alu-menu-submenu-inline"
       role="menuitem"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="alu-menu-submenu-title"
         style="padding-left:24px"
       >
         <span>
@@ -592,7 +592,7 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
           </span>
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="alu-menu-submenu-arrow"
         />
       </div>
       <div />
@@ -603,19 +603,19 @@ exports[`renders ./components/menu/demo/inline-collapsed.md correctly 1`] = `
 
 exports[`renders ./components/menu/demo/sider-current.md correctly 1`] = `
 <ul
-  class="ant-menu ant-menu-light ant-menu-root ant-menu-inline"
+  class="alu-menu alu-menu-light alu-menu-root alu-menu-inline"
   role="menu"
   style="width:256px"
 >
   <li
-    class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+    class="alu-menu-submenu alu-menu-submenu-inline alu-menu-submenu-open"
     role="menuitem"
   >
     <div
       aria-expanded="true"
       aria-haspopup="true"
       aria-owns="sub1$Menu"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
       style="padding-left:24px"
     >
       <span>
@@ -641,37 +641,37 @@ exports[`renders ./components/menu/demo/sider-current.md correctly 1`] = `
         </span>
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
     <ul
-      class="ant-menu  ant-menu-sub ant-menu-inline"
+      class="alu-menu  alu-menu-sub alu-menu-inline"
       id="sub1$Menu"
       role="menu"
     >
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
         style="padding-left:48px"
       >
         Option 1
       </li>
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
         style="padding-left:48px"
       >
         Option 2
       </li>
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
         style="padding-left:48px"
       >
         Option 3
       </li>
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
         style="padding-left:48px"
       >
@@ -680,13 +680,13 @@ exports[`renders ./components/menu/demo/sider-current.md correctly 1`] = `
     </ul>
   </li>
   <li
-    class="ant-menu-submenu ant-menu-submenu-inline"
+    class="alu-menu-submenu alu-menu-submenu-inline"
     role="menuitem"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
       style="padding-left:24px"
     >
       <span>
@@ -712,19 +712,19 @@ exports[`renders ./components/menu/demo/sider-current.md correctly 1`] = `
         </span>
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
     <div />
   </li>
   <li
-    class="ant-menu-submenu ant-menu-submenu-inline"
+    class="alu-menu-submenu alu-menu-submenu-inline"
     role="menuitem"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
       style="padding-left:24px"
     >
       <span>
@@ -750,7 +750,7 @@ exports[`renders ./components/menu/demo/sider-current.md correctly 1`] = `
         </span>
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
     <div />
@@ -762,39 +762,39 @@ exports[`renders ./components/menu/demo/switch-mode.md correctly 1`] = `
 <div>
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="alu-switch"
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     />
   </button>
    Change Mode
   <span
-    class="ant-divider"
+    class="alu-divider"
     style="margin:0 1em"
   />
   <button
     aria-checked="false"
-    class="ant-switch"
+    class="alu-switch"
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     />
   </button>
    Change Theme
   <br />
   <br />
   <ul
-    class="ant-menu ant-menu-light ant-menu-root ant-menu-inline"
+    class="alu-menu alu-menu-light alu-menu-root alu-menu-inline"
     role="menu"
     style="width:256px"
   >
     <li
-      class="ant-menu-item ant-menu-item-selected"
+      class="alu-menu-item alu-menu-item-selected"
       role="menuitem"
       style="padding-left:24px"
     >
@@ -818,7 +818,7 @@ exports[`renders ./components/menu/demo/switch-mode.md correctly 1`] = `
       Navigation One
     </li>
     <li
-      class="ant-menu-item"
+      class="alu-menu-item"
       role="menuitem"
       style="padding-left:24px"
     >
@@ -842,14 +842,14 @@ exports[`renders ./components/menu/demo/switch-mode.md correctly 1`] = `
       Navigation Two
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open"
+      class="alu-menu-submenu alu-menu-submenu-inline alu-menu-submenu-open"
       role="menuitem"
     >
       <div
         aria-expanded="true"
         aria-haspopup="true"
         aria-owns="sub1$Menu"
-        class="ant-menu-submenu-title"
+        class="alu-menu-submenu-title"
         style="padding-left:24px"
       >
         <span>
@@ -875,42 +875,42 @@ exports[`renders ./components/menu/demo/switch-mode.md correctly 1`] = `
           </span>
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="alu-menu-submenu-arrow"
         />
       </div>
       <ul
-        class="ant-menu  ant-menu-sub ant-menu-inline"
+        class="alu-menu  alu-menu-sub alu-menu-inline"
         id="sub1$Menu"
         role="menu"
       >
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:48px"
         >
           Option 3
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:48px"
         >
           Option 4
         </li>
         <li
-          class="ant-menu-submenu ant-menu-submenu-inline"
+          class="alu-menu-submenu alu-menu-submenu-inline"
           role="menuitem"
         >
           <div
             aria-expanded="false"
             aria-haspopup="true"
-            class="ant-menu-submenu-title"
+            class="alu-menu-submenu-title"
             style="padding-left:48px"
             title="Submenu"
           >
             Submenu
             <i
-              class="ant-menu-submenu-arrow"
+              class="alu-menu-submenu-arrow"
             />
           </div>
           <div />
@@ -918,13 +918,13 @@ exports[`renders ./components/menu/demo/switch-mode.md correctly 1`] = `
       </ul>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="alu-menu-submenu alu-menu-submenu-inline"
       role="menuitem"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="alu-menu-submenu-title"
         style="padding-left:24px"
       >
         <span>
@@ -950,7 +950,7 @@ exports[`renders ./components/menu/demo/switch-mode.md correctly 1`] = `
           </span>
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="alu-menu-submenu-arrow"
         />
       </div>
       <div />
@@ -964,12 +964,12 @@ exports[`renders ./components/menu/demo/theme.md correctly 1`] = `
   <button
     aria-checked="true"
     checked=""
-    class="ant-switch ant-switch-checked"
+    class="alu-switch alu-switch-checked"
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     >
       Dark
     </span>
@@ -977,19 +977,19 @@ exports[`renders ./components/menu/demo/theme.md correctly 1`] = `
   <br />
   <br />
   <ul
-    class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
+    class="alu-menu alu-menu-dark alu-menu-root alu-menu-inline"
     role="menu"
     style="width:256px"
   >
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open ant-menu-submenu-selected"
+      class="alu-menu-submenu alu-menu-submenu-inline alu-menu-submenu-open alu-menu-submenu-selected"
       role="menuitem"
     >
       <div
         aria-expanded="true"
         aria-haspopup="true"
         aria-owns="sub1$Menu"
-        class="ant-menu-submenu-title"
+        class="alu-menu-submenu-title"
         style="padding-left:24px"
       >
         <span>
@@ -1015,37 +1015,37 @@ exports[`renders ./components/menu/demo/theme.md correctly 1`] = `
           </span>
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="alu-menu-submenu-arrow"
         />
       </div>
       <ul
-        class="ant-menu  ant-menu-sub ant-menu-inline"
+        class="alu-menu  alu-menu-sub alu-menu-inline"
         id="sub1$Menu"
         role="menu"
       >
         <li
-          class="ant-menu-item ant-menu-item-selected"
+          class="alu-menu-item alu-menu-item-selected"
           role="menuitem"
           style="padding-left:48px"
         >
           Option 1
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:48px"
         >
           Option 2
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:48px"
         >
           Option 3
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:48px"
         >
@@ -1054,13 +1054,13 @@ exports[`renders ./components/menu/demo/theme.md correctly 1`] = `
       </ul>
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="alu-menu-submenu alu-menu-submenu-inline"
       role="menuitem"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="alu-menu-submenu-title"
         style="padding-left:24px"
       >
         <span>
@@ -1086,19 +1086,19 @@ exports[`renders ./components/menu/demo/theme.md correctly 1`] = `
           </span>
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="alu-menu-submenu-arrow"
         />
       </div>
       <div />
     </li>
     <li
-      class="ant-menu-submenu ant-menu-submenu-inline"
+      class="alu-menu-submenu alu-menu-submenu-inline"
       role="menuitem"
     >
       <div
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-menu-submenu-title"
+        class="alu-menu-submenu-title"
         style="padding-left:24px"
       >
         <span>
@@ -1124,7 +1124,7 @@ exports[`renders ./components/menu/demo/theme.md correctly 1`] = `
           </span>
         </span>
         <i
-          class="ant-menu-submenu-arrow"
+          class="alu-menu-submenu-arrow"
         />
       </div>
       <div />
@@ -1135,18 +1135,18 @@ exports[`renders ./components/menu/demo/theme.md correctly 1`] = `
 
 exports[`renders ./components/menu/demo/vertical.md correctly 1`] = `
 <ul
-  class="ant-menu ant-menu-light ant-menu-root ant-menu-vertical"
+  class="alu-menu alu-menu-light alu-menu-root alu-menu-vertical"
   role="menu"
   style="width:256px"
 >
   <li
-    class="ant-menu-submenu ant-menu-submenu-vertical"
+    class="alu-menu-submenu alu-menu-submenu-vertical"
     role="menuitem"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
     >
       <span>
         <i
@@ -1171,18 +1171,18 @@ exports[`renders ./components/menu/demo/vertical.md correctly 1`] = `
         </span>
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
   </li>
   <li
-    class="ant-menu-submenu ant-menu-submenu-vertical"
+    class="alu-menu-submenu alu-menu-submenu-vertical"
     role="menuitem"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
     >
       <span>
         <i
@@ -1207,18 +1207,18 @@ exports[`renders ./components/menu/demo/vertical.md correctly 1`] = `
         </span>
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
   </li>
   <li
-    class="ant-menu-submenu ant-menu-submenu-vertical"
+    class="alu-menu-submenu alu-menu-submenu-vertical"
     role="menuitem"
   >
     <div
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-menu-submenu-title"
+      class="alu-menu-submenu-title"
     >
       <span>
         <i
@@ -1243,7 +1243,7 @@ exports[`renders ./components/menu/demo/vertical.md correctly 1`] = `
         </span>
       </span>
       <i
-        class="ant-menu-submenu-arrow"
+        class="alu-menu-submenu-arrow"
       />
     </div>
   </li>

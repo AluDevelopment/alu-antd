@@ -5,15 +5,15 @@ exports[`Modal render correctly 1`] = `
   <div />
   <div>
     <div
-      class="ant-modal-mask fade-appear"
+      class="alu-modal-mask fade-appear"
     />
     <div
-      class="ant-modal-wrap "
+      class="alu-modal-wrap "
       role="dialog"
       tabindex="-1"
     >
       <div
-        class="ant-modal zoom-appear"
+        class="alu-modal zoom-appear"
         role="document"
         style="width: 520px;"
       >
@@ -24,17 +24,17 @@ exports[`Modal render correctly 1`] = `
           sentinelStart
         </div>
         <div
-          class="ant-modal-content"
+          class="alu-modal-content"
         >
           <button
             aria-label="Close"
-            class="ant-modal-close"
+            class="alu-modal-close"
           >
             <span
-              class="ant-modal-close-x"
+              class="alu-modal-close-x"
             >
               <i
-                class="anticon anticon-close ant-modal-close-icon"
+                class="anticon anticon-close alu-modal-close-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -53,16 +53,16 @@ exports[`Modal render correctly 1`] = `
             </span>
           </button>
           <div
-            class="ant-modal-body"
+            class="alu-modal-body"
           >
             Here is content of Modal
           </div>
           <div
-            class="ant-modal-footer"
+            class="alu-modal-footer"
           >
             <div>
               <button
-                class="ant-btn"
+                class="alu-btn"
                 type="button"
               >
                 <span>
@@ -70,7 +70,7 @@ exports[`Modal render correctly 1`] = `
                 </span>
               </button>
               <button
-                class="ant-btn ant-btn-primary"
+                class="alu-btn alu-btn-primary"
                 type="button"
               >
                 <span>
@@ -97,15 +97,15 @@ exports[`Modal render without footer 1`] = `
   <div />
   <div>
     <div
-      class="ant-modal-mask fade-appear"
+      class="alu-modal-mask fade-appear"
     />
     <div
-      class="ant-modal-wrap "
+      class="alu-modal-wrap "
       role="dialog"
       tabindex="-1"
     >
       <div
-        class="ant-modal zoom-appear"
+        class="alu-modal zoom-appear"
         role="document"
         style="width: 520px;"
       >
@@ -116,17 +116,17 @@ exports[`Modal render without footer 1`] = `
           sentinelStart
         </div>
         <div
-          class="ant-modal-content"
+          class="alu-modal-content"
         >
           <button
             aria-label="Close"
-            class="ant-modal-close"
+            class="alu-modal-close"
           >
             <span
-              class="ant-modal-close-x"
+              class="alu-modal-close-x"
             >
               <i
-                class="anticon anticon-close ant-modal-close-icon"
+                class="anticon anticon-close alu-modal-close-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -145,7 +145,7 @@ exports[`Modal render without footer 1`] = `
             </span>
           </button>
           <div
-            class="ant-modal-body"
+            class="alu-modal-body"
           >
             Here is content of Modal
           </div>

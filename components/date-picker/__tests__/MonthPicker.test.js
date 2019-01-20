@@ -14,12 +14,12 @@ describe('MonthPicker', () => {
     const wrapper = mount(<MonthPicker value={moment('2018-07-01')} />);
     openPanel(wrapper);
     wrapper
-      .find('.ant-calendar-month-panel-month')
+      .find('.alu-calendar-month-panel-month')
       .first()
       .simulate('click');
     wrapper
-      .find('.ant-calendar-month-panel-cell')
+      .find('.alu-calendar-month-panel-cell')
       .at(6)
-      .hasClass('ant-calendar-month-panel-selected-cell');
+      .hasClass('alu-calendar-month-panel-selected-cell');
   });
 });

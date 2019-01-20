@@ -133,7 +133,7 @@ moment.locale('zh-cn');
 | onOk | 点击确定按钮的回调 | function(dates: [moment](http://momentjs.com/)\[]) | - |
 
 <style>
-.code-box-demo .ant-calendar-picker {
+.code-box-demo .alu-calendar-picker {
   margin: 0 8px 12px 0;
 }
 </style>

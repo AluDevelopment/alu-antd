@@ -11,21 +11,21 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
       Change locale of components: 
     </span>
     <div
-      class="ant-radio-group ant-radio-group-outline"
+      class="alu-radio-group alu-radio-group-outline"
     >
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
       >
         <span
-          class="ant-radio-button ant-radio-button-checked"
+          class="alu-radio-button alu-radio-button-checked"
         >
           <input
             checked=""
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -33,18 +33,18 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="alu-radio-button-wrapper"
       >
         <span
-          class="ant-radio-button"
+          class="alu-radio-button"
         >
           <input
-            class="ant-radio-button-input"
+            class="alu-radio-button-input"
             type="radio"
             value="[object Object]"
           />
           <span
-            class="ant-radio-button-inner"
+            class="alu-radio-button-inner"
           />
         </span>
         <span>
@@ -60,16 +60,16 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
       class="example"
     >
       <ul
-        class="ant-pagination "
+        class="alu-pagination "
         unselectable="unselectable"
       >
         <li
           aria-disabled="true"
-          class="ant-pagination-disabled ant-pagination-prev"
+          class="alu-pagination-disabled alu-pagination-prev"
           title="Previous Page"
         >
           <a
-            class="ant-pagination-item-link"
+            class="alu-pagination-item-link"
           >
             <i
               class="anticon anticon-left"
@@ -91,7 +91,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           </a>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+          class="alu-pagination-item alu-pagination-item-1 alu-pagination-item-active"
           tabindex="0"
           title="1"
         >
@@ -100,7 +100,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           </a>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-2"
+          class="alu-pagination-item alu-pagination-item-2"
           tabindex="0"
           title="2"
         >
@@ -109,7 +109,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           </a>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-3"
+          class="alu-pagination-item alu-pagination-item-3"
           tabindex="0"
           title="3"
         >
@@ -118,7 +118,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           </a>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-4"
+          class="alu-pagination-item alu-pagination-item-4"
           tabindex="0"
           title="4"
         >
@@ -127,7 +127,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           </a>
         </li>
         <li
-          class="ant-pagination-item ant-pagination-item-5"
+          class="alu-pagination-item alu-pagination-item-5"
           tabindex="0"
           title="5"
         >
@@ -137,12 +137,12 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         </li>
         <li
           aria-disabled="false"
-          class=" ant-pagination-next"
+          class=" alu-pagination-next"
           tabindex="0"
           title="Next Page"
         >
           <a
-            class="ant-pagination-item-link"
+            class="alu-pagination-item-link"
           >
             <i
               class="anticon anticon-right"
@@ -164,26 +164,26 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           </a>
         </li>
         <li
-          class="ant-pagination-options"
+          class="alu-pagination-options"
         >
           <div
-            class="ant-pagination-options-size-changer ant-select ant-select-enabled"
+            class="alu-pagination-options-size-changer alu-select alu-select-enabled"
           >
             <div
               aria-autocomplete="list"
               aria-controls=""
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-select-selection
+              class="alu-select-selection
             ant-select-selection--single"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="ant-select-selection__rendered"
+                class="alu-select-selection__rendered"
               >
                 <div
-                  class="ant-select-selection-selected-value"
+                  class="alu-select-selection-selected-value"
                   style="display:block;opacity:1"
                   title="10 / page"
                 >
@@ -191,12 +191,12 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 </div>
               </div>
               <span
-                class="ant-select-arrow"
+                class="alu-select-arrow"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <i
-                  class="anticon anticon-down ant-select-arrow-icon"
+                  class="anticon anticon-down alu-select-arrow-icon"
                 >
                   <svg
                     aria-hidden="true"
@@ -222,7 +222,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
       class="example"
     >
       <div
-        class="ant-select ant-select-enabled"
+        class="alu-select alu-select-enabled"
         style="width:200px"
       >
         <div
@@ -230,28 +230,28 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           aria-controls=""
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-select-selection
+          class="alu-select-selection
             ant-select-selection--single"
           role="combobox"
           tabindex="0"
         >
           <div
-            class="ant-select-selection__rendered"
+            class="alu-select-selection__rendered"
           >
             <div
-              class="ant-select-search ant-select-search--inline"
+              class="alu-select-search alu-select-search--inline"
               style="display:none"
             >
               <div
-                class="ant-select-search__field__wrap"
+                class="alu-select-search__field__wrap"
               >
                 <input
                   autocomplete="off"
-                  class="ant-select-search__field"
+                  class="alu-select-search__field"
                   value=""
                 />
                 <span
-                  class="ant-select-search__field__mirror"
+                  class="alu-select-search__field__mirror"
                 >
                    
                 </span>
@@ -259,12 +259,12 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
             </div>
           </div>
           <span
-            class="ant-select-arrow"
+            class="alu-select-arrow"
             style="user-select:none;-webkit-user-select:none"
             unselectable="on"
           >
             <i
-              class="anticon anticon-down ant-select-arrow-icon"
+              class="anticon anticon-down alu-select-arrow-icon"
             >
               <svg
                 aria-hidden="true"
@@ -284,17 +284,17 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-calendar-picker"
+        class="alu-calendar-picker"
       >
         <div>
           <input
-            class="ant-calendar-picker-input ant-input"
+            class="alu-calendar-picker-input alu-input"
             placeholder="Select date"
             readonly=""
             value=""
           />
           <i
-            class="anticon anticon-calendar ant-calendar-picker-icon"
+            class="anticon anticon-calendar alu-calendar-picker-icon"
           >
             <svg
               aria-hidden="true"
@@ -313,20 +313,20 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         </div>
       </span>
       <span
-        class="ant-time-picker "
+        class="alu-time-picker "
       >
         <input
-          class="ant-time-picker-input"
+          class="alu-time-picker-input"
           id=""
           placeholder="Select time"
           type="text"
           value=""
         />
         <span
-          class="ant-time-picker-icon"
+          class="alu-time-picker-icon"
         >
           <i
-            class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+            class="anticon anticon-clock-circle alu-time-picker-clock-icon"
           >
             <svg
               aria-hidden="true"
@@ -348,34 +348,34 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         </span>
       </span>
       <span
-        class="ant-calendar-picker"
+        class="alu-calendar-picker"
         style="width:200px"
         tabindex="0"
       >
         <span
-          class="ant-calendar-picker-input ant-input"
+          class="alu-calendar-picker-input alu-input"
         >
           <input
-            class="ant-calendar-range-picker-input"
+            class="alu-calendar-range-picker-input"
             placeholder="Start date"
             readonly=""
             tabindex="-1"
             value=""
           />
           <span
-            class="ant-calendar-range-picker-separator"
+            class="alu-calendar-range-picker-separator"
           >
              ~ 
           </span>
           <input
-            class="ant-calendar-range-picker-input"
+            class="alu-calendar-range-picker-input"
             placeholder="End date"
             readonly=""
             tabindex="-1"
             value=""
           />
           <i
-            class="anticon anticon-calendar ant-calendar-picker-icon"
+            class="anticon anticon-calendar alu-calendar-picker-icon"
           >
             <svg
               aria-hidden="true"
@@ -398,7 +398,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
       class="example"
     >
       <button
-        class="ant-btn ant-btn-primary"
+        class="alu-btn alu-btn-primary"
         type="button"
       >
         <span>
@@ -406,7 +406,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn"
+        class="alu-btn"
         type="button"
       >
         <span>
@@ -414,7 +414,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         </span>
       </button>
       <button
-        class="ant-btn"
+        class="alu-btn"
         type="button"
       >
         <span>
@@ -431,55 +431,55 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
       class="example"
     >
       <div
-        class="ant-transfer"
+        class="alu-transfer"
       >
         <div
-          class="ant-transfer-list"
+          class="alu-transfer-list"
         >
           <div
-            class="ant-transfer-list-header"
+            class="alu-transfer-list-header"
           >
             <label
-              class="ant-checkbox-wrapper"
+              class="alu-checkbox-wrapper"
             >
               <span
-                class="ant-checkbox"
+                class="alu-checkbox"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="alu-checkbox-input"
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="alu-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-header-selected"
+              class="alu-transfer-list-header-selected"
             >
               <span>
                 0 item
               </span>
               <span
-                class="ant-transfer-list-header-title"
+                class="alu-transfer-list-header-title"
               />
             </span>
           </div>
           <div
-            class="ant-transfer-list-body ant-transfer-list-body-with-search"
+            class="alu-transfer-list-body alu-transfer-list-body-with-search"
           >
             <div
-              class="ant-transfer-list-body-search-wrapper"
+              class="alu-transfer-list-body-search-wrapper"
             >
               <div>
                 <input
-                  class="ant-input ant-transfer-list-search"
+                  class="alu-input alu-transfer-list-search"
                   placeholder="Search here"
                   type="text"
                   value=""
                 />
                 <span
-                  class="ant-transfer-list-search-action"
+                  class="alu-transfer-list-search-action"
                 >
                   <i
                     class="anticon anticon-search"
@@ -502,16 +502,16 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
               </div>
             </div>
             <ul
-              class="ant-transfer-list-content"
+              class="alu-transfer-list-content"
             />
             <div
-              class="ant-transfer-list-body-not-found"
+              class="alu-transfer-list-body-not-found"
             >
               <div
-                class="ant-empty ant-empty-small"
+                class="alu-empty alu-empty-small"
               >
                 <div
-                  class="ant-empty-image"
+                  class="alu-empty-image"
                 >
                   <img
                     alt="No Data"
@@ -519,7 +519,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   />
                 </div>
                 <p
-                  class="ant-empty-description"
+                  class="alu-empty-description"
                 >
                   No Data
                 </p>
@@ -528,10 +528,10 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-transfer-operation"
+          class="alu-transfer-operation"
         >
           <button
-            class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+            class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
             disabled=""
             type="button"
           >
@@ -554,7 +554,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
             </i>
           </button>
           <button
-            class="ant-btn ant-btn-primary ant-btn-sm ant-btn-icon-only"
+            class="alu-btn alu-btn-primary alu-btn-sm alu-btn-icon-only"
             disabled=""
             type="button"
           >
@@ -578,52 +578,52 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           </button>
         </div>
         <div
-          class="ant-transfer-list"
+          class="alu-transfer-list"
         >
           <div
-            class="ant-transfer-list-header"
+            class="alu-transfer-list-header"
           >
             <label
-              class="ant-checkbox-wrapper"
+              class="alu-checkbox-wrapper"
             >
               <span
-                class="ant-checkbox"
+                class="alu-checkbox"
               >
                 <input
-                  class="ant-checkbox-input"
+                  class="alu-checkbox-input"
                   type="checkbox"
                 />
                 <span
-                  class="ant-checkbox-inner"
+                  class="alu-checkbox-inner"
                 />
               </span>
             </label>
             <span
-              class="ant-transfer-list-header-selected"
+              class="alu-transfer-list-header-selected"
             >
               <span>
                 0 item
               </span>
               <span
-                class="ant-transfer-list-header-title"
+                class="alu-transfer-list-header-title"
               />
             </span>
           </div>
           <div
-            class="ant-transfer-list-body ant-transfer-list-body-with-search"
+            class="alu-transfer-list-body alu-transfer-list-body-with-search"
           >
             <div
-              class="ant-transfer-list-body-search-wrapper"
+              class="alu-transfer-list-body-search-wrapper"
             >
               <div>
                 <input
-                  class="ant-input ant-transfer-list-search"
+                  class="alu-input alu-transfer-list-search"
                   placeholder="Search here"
                   type="text"
                   value=""
                 />
                 <span
-                  class="ant-transfer-list-search-action"
+                  class="alu-transfer-list-search-action"
                 >
                   <i
                     class="anticon anticon-search"
@@ -646,16 +646,16 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
               </div>
             </div>
             <ul
-              class="ant-transfer-list-content"
+              class="alu-transfer-list-content"
             />
             <div
-              class="ant-transfer-list-body-not-found"
+              class="alu-transfer-list-body-not-found"
             >
               <div
-                class="ant-empty ant-empty-small"
+                class="alu-empty alu-empty-small"
               >
                 <div
-                  class="ant-empty-image"
+                  class="alu-empty-image"
                 >
                   <img
                     alt="No Data"
@@ -663,7 +663,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   />
                 </div>
                 <p
-                  class="ant-empty-description"
+                  class="alu-empty-description"
                 >
                   No Data
                 </p>
@@ -680,26 +680,26 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
         class=""
       >
         <div
-          class="ant-fullcalendar-header"
+          class="alu-fullcalendar-header"
         >
           <div
-            class="ant-select-sm ant-fullcalendar-year-select ant-select ant-select-enabled"
+            class="alu-select-sm alu-fullcalendar-year-select alu-select alu-select-enabled"
           >
             <div
               aria-autocomplete="list"
               aria-controls=""
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-select-selection
+              class="alu-select-selection
             ant-select-selection--single"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="ant-select-selection__rendered"
+                class="alu-select-selection__rendered"
               >
                 <div
-                  class="ant-select-selection-selected-value"
+                  class="alu-select-selection-selected-value"
                   style="display:block;opacity:1"
                   title="2016"
                 >
@@ -707,12 +707,12 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 </div>
               </div>
               <span
-                class="ant-select-arrow"
+                class="alu-select-arrow"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <i
-                  class="anticon anticon-down ant-select-arrow-icon"
+                  class="anticon anticon-down alu-select-arrow-icon"
                 >
                   <svg
                     aria-hidden="true"
@@ -732,23 +732,23 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-select-sm ant-fullcalendar-month-select ant-select ant-select-enabled"
+            class="alu-select-sm alu-fullcalendar-month-select alu-select alu-select-enabled"
           >
             <div
               aria-autocomplete="list"
               aria-controls=""
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-select-selection
+              class="alu-select-selection
             ant-select-selection--single"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="ant-select-selection__rendered"
+                class="alu-select-selection__rendered"
               >
                 <div
-                  class="ant-select-selection-selected-value"
+                  class="alu-select-selection-selected-value"
                   style="display:block;opacity:1"
                   title="Nov"
                 >
@@ -756,12 +756,12 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 </div>
               </div>
               <span
-                class="ant-select-arrow"
+                class="alu-select-arrow"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <i
-                  class="anticon anticon-down ant-select-arrow-icon"
+                  class="anticon anticon-down alu-select-arrow-icon"
                 >
                   <svg
                     aria-hidden="true"
@@ -781,22 +781,22 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
             </div>
           </div>
           <div
-            class="ant-radio-group ant-radio-group-outline ant-radio-group-small"
+            class="alu-radio-group alu-radio-group-outline alu-radio-group-small"
           >
             <label
-              class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+              class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
             >
               <span
-                class="ant-radio-button ant-radio-button-checked"
+                class="alu-radio-button alu-radio-button-checked"
               >
                 <input
                   checked=""
-                  class="ant-radio-button-input"
+                  class="alu-radio-button-input"
                   type="radio"
                   value="date"
                 />
                 <span
-                  class="ant-radio-button-inner"
+                  class="alu-radio-button-inner"
                 />
               </span>
               <span>
@@ -804,18 +804,18 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
               </span>
             </label>
             <label
-              class="ant-radio-button-wrapper"
+              class="alu-radio-button-wrapper"
             >
               <span
-                class="ant-radio-button"
+                class="alu-radio-button"
               >
                 <input
-                  class="ant-radio-button-input"
+                  class="alu-radio-button-input"
                   type="radio"
                   value="month"
                 />
                 <span
-                  class="ant-radio-button-inner"
+                  class="alu-radio-button-inner"
                 />
               </span>
               <span>
@@ -825,15 +825,15 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
           </div>
         </div>
         <div
-          class="ant-fullcalendar ant-fullcalendar-full"
+          class="alu-fullcalendar alu-fullcalendar-full"
           tabindex="0"
         >
           <div
-            class="ant-fullcalendar-calendar-body"
+            class="alu-fullcalendar-calendar-body"
           >
             <table
               cellspacing="0"
-              class="ant-fullcalendar-table"
+              class="alu-fullcalendar-table"
               role="grid"
             >
               <thead>
@@ -841,78 +841,78 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   role="row"
                 >
                   <th
-                    class="ant-fullcalendar-column-header"
+                    class="alu-fullcalendar-column-header"
                     role="columnheader"
                     title="Sun"
                   >
                     <span
-                      class="ant-fullcalendar-column-header-inner"
+                      class="alu-fullcalendar-column-header-inner"
                     >
                       Su
                     </span>
                   </th>
                   <th
-                    class="ant-fullcalendar-column-header"
+                    class="alu-fullcalendar-column-header"
                     role="columnheader"
                     title="Mon"
                   >
                     <span
-                      class="ant-fullcalendar-column-header-inner"
+                      class="alu-fullcalendar-column-header-inner"
                     >
                       Mo
                     </span>
                   </th>
                   <th
-                    class="ant-fullcalendar-column-header"
+                    class="alu-fullcalendar-column-header"
                     role="columnheader"
                     title="Tue"
                   >
                     <span
-                      class="ant-fullcalendar-column-header-inner"
+                      class="alu-fullcalendar-column-header-inner"
                     >
                       Tu
                     </span>
                   </th>
                   <th
-                    class="ant-fullcalendar-column-header"
+                    class="alu-fullcalendar-column-header"
                     role="columnheader"
                     title="Wed"
                   >
                     <span
-                      class="ant-fullcalendar-column-header-inner"
+                      class="alu-fullcalendar-column-header-inner"
                     >
                       We
                     </span>
                   </th>
                   <th
-                    class="ant-fullcalendar-column-header"
+                    class="alu-fullcalendar-column-header"
                     role="columnheader"
                     title="Thu"
                   >
                     <span
-                      class="ant-fullcalendar-column-header-inner"
+                      class="alu-fullcalendar-column-header-inner"
                     >
                       Th
                     </span>
                   </th>
                   <th
-                    class="ant-fullcalendar-column-header"
+                    class="alu-fullcalendar-column-header"
                     role="columnheader"
                     title="Fri"
                   >
                     <span
-                      class="ant-fullcalendar-column-header-inner"
+                      class="alu-fullcalendar-column-header-inner"
                     >
                       Fr
                     </span>
                   </th>
                   <th
-                    class="ant-fullcalendar-column-header"
+                    class="alu-fullcalendar-column-header"
                     role="columnheader"
                     title="Sat"
                   >
                     <span
-                      class="ant-fullcalendar-column-header-inner"
+                      class="alu-fullcalendar-column-header-inner"
                     >
                       Sa
                     </span>
@@ -920,135 +920,135 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                 </tr>
               </thead>
               <tbody
-                class="ant-fullcalendar-tbody"
+                class="alu-fullcalendar-tbody"
               >
                 <tr
                   class=""
                   role="row"
                 >
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-last-month-cell"
+                    class="alu-fullcalendar-cell alu-fullcalendar-last-month-cell"
                     role="gridcell"
                     title="October 30, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         30
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-last-month-cell ant-fullcalendar-last-day-of-month"
+                    class="alu-fullcalendar-cell alu-fullcalendar-last-month-cell alu-fullcalendar-last-day-of-month"
                     role="gridcell"
                     title="October 31, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         31
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 1, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         01
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 2, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         02
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 3, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         03
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 4, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         04
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 5, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         05
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
@@ -1058,128 +1058,128 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   role="row"
                 >
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 6, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         06
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 7, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         07
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 8, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         08
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 9, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         09
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 10, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         10
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 11, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         11
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 12, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         12
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
@@ -1189,259 +1189,259 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   role="row"
                 >
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 13, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         13
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 14, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         14
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 15, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         15
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 16, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         16
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 17, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         17
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 18, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         18
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 19, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         19
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                 </tr>
                 <tr
-                  class="ant-fullcalendar-current-week ant-fullcalendar-active-week"
+                  class="alu-fullcalendar-current-week alu-fullcalendar-active-week"
                   role="row"
                 >
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 20, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         20
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 21, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         21
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-today ant-fullcalendar-selected-day"
+                    class="alu-fullcalendar-cell alu-fullcalendar-today alu-fullcalendar-selected-day"
                     role="gridcell"
                     title="November 22, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         22
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 23, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         23
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 24, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         24
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 25, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         25
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 26, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         26
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
@@ -1451,128 +1451,128 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   role="row"
                 >
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 27, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         27
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 28, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         28
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell"
+                    class="alu-fullcalendar-cell"
                     role="gridcell"
                     title="November 29, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         29
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-last-day-of-month"
+                    class="alu-fullcalendar-cell alu-fullcalendar-last-day-of-month"
                     role="gridcell"
                     title="November 30, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         30
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                    class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
                     role="gridcell"
                     title="December 1, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         01
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                    class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
                     role="gridcell"
                     title="December 2, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         02
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                    class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
                     role="gridcell"
                     title="December 3, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         03
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
@@ -1582,128 +1582,128 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                   role="row"
                 >
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                    class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
                     role="gridcell"
                     title="December 4, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         04
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                    class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
                     role="gridcell"
                     title="December 5, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         05
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                    class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
                     role="gridcell"
                     title="December 6, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         06
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                    class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
                     role="gridcell"
                     title="December 7, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         07
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                    class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
                     role="gridcell"
                     title="December 8, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         08
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                    class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
                     role="gridcell"
                     title="December 9, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         09
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
                   <td
-                    class="ant-fullcalendar-cell ant-fullcalendar-next-month-btn-day"
+                    class="alu-fullcalendar-cell alu-fullcalendar-next-month-btn-day"
                     role="gridcell"
                     title="December 10, 2016"
                   >
                     <div
-                      class="ant-fullcalendar-date"
+                      class="alu-fullcalendar-date"
                     >
                       <div
-                        class="ant-fullcalendar-value"
+                        class="alu-fullcalendar-value"
                       >
                         10
                       </div>
                       <div
-                        class="ant-fullcalendar-content"
+                        class="alu-fullcalendar-content"
                       />
                     </div>
                   </td>
@@ -1718,22 +1718,22 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
       class="example"
     >
       <div
-        class="ant-table-wrapper"
+        class="alu-table-wrapper"
       >
         <div
-          class="ant-spin-nested-loading"
+          class="alu-spin-nested-loading"
         >
           <div
-            class="ant-spin-container"
+            class="alu-spin-container"
           >
             <div
-              class="ant-table ant-table-default ant-table-empty ant-table-scroll-position-left"
+              class="alu-table alu-table-default alu-table-empty alu-table-scroll-position-left"
             >
               <div
-                class="ant-table-content"
+                class="alu-table-content"
               >
                 <div
-                  class="ant-table-body"
+                  class="alu-table-body"
                 >
                   <table
                     class=""
@@ -1743,17 +1743,17 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       <col />
                     </colgroup>
                     <thead
-                      class="ant-table-thead"
+                      class="alu-table-thead"
                     >
                       <tr>
                         <th
-                          class="ant-table-column-has-actions ant-table-column-has-filters"
+                          class="alu-table-column-has-actions alu-table-column-has-filters"
                         >
                           <div>
                             Name
                           </div>
                           <i
-                            class="anticon anticon-filter ant-dropdown-trigger"
+                            class="anticon anticon-filter alu-dropdown-trigger"
                             title="Filter menu"
                           >
                             <svg
@@ -1781,18 +1781,18 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       </tr>
                     </thead>
                     <tbody
-                      class="ant-table-tbody"
+                      class="alu-table-tbody"
                     />
                   </table>
                 </div>
                 <div
-                  class="ant-table-placeholder"
+                  class="alu-table-placeholder"
                 >
                   <div
-                    class="ant-empty ant-empty-normal"
+                    class="alu-empty alu-empty-normal"
                   >
                     <div
-                      class="ant-empty-image"
+                      class="alu-empty-image"
                     >
                       <img
                         alt="No Data"
@@ -1800,7 +1800,7 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
                       />
                     </div>
                     <p
-                      class="ant-empty-description"
+                      class="alu-empty-description"
                     >
                       No Data
                     </p>
@@ -1819,16 +1819,16 @@ exports[`renders ./components/locale-provider/demo/all.md correctly 1`] = `
 exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
 <div>
   <ul
-    class="ant-pagination "
+    class="alu-pagination "
     unselectable="unselectable"
   >
     <li
       aria-disabled="true"
-      class="ant-pagination-disabled ant-pagination-prev"
+      class="alu-pagination-disabled alu-pagination-prev"
       title="上一页"
     >
       <a
-        class="ant-pagination-item-link"
+        class="alu-pagination-item-link"
       >
         <i
           class="anticon anticon-left"
@@ -1850,7 +1850,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-1 ant-pagination-item-active"
+      class="alu-pagination-item alu-pagination-item-1 alu-pagination-item-active"
       tabindex="0"
       title="1"
     >
@@ -1859,7 +1859,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-2"
+      class="alu-pagination-item alu-pagination-item-2"
       tabindex="0"
       title="2"
     >
@@ -1868,7 +1868,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-3"
+      class="alu-pagination-item alu-pagination-item-3"
       tabindex="0"
       title="3"
     >
@@ -1877,7 +1877,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-4"
+      class="alu-pagination-item alu-pagination-item-4"
       tabindex="0"
       title="4"
     >
@@ -1886,7 +1886,7 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-item ant-pagination-item-5"
+      class="alu-pagination-item alu-pagination-item-5"
       tabindex="0"
       title="5"
     >
@@ -1896,12 +1896,12 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
     </li>
     <li
       aria-disabled="false"
-      class=" ant-pagination-next"
+      class=" alu-pagination-next"
       tabindex="0"
       title="下一页"
     >
       <a
-        class="ant-pagination-item-link"
+        class="alu-pagination-item-link"
       >
         <i
           class="anticon anticon-right"
@@ -1923,26 +1923,26 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
       </a>
     </li>
     <li
-      class="ant-pagination-options"
+      class="alu-pagination-options"
     >
       <div
-        class="ant-pagination-options-size-changer ant-select ant-select-enabled"
+        class="alu-pagination-options-size-changer alu-select alu-select-enabled"
       >
         <div
           aria-autocomplete="list"
           aria-controls=""
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-select-selection
+          class="alu-select-selection
             ant-select-selection--single"
           role="combobox"
           tabindex="0"
         >
           <div
-            class="ant-select-selection__rendered"
+            class="alu-select-selection__rendered"
           >
             <div
-              class="ant-select-selection-selected-value"
+              class="alu-select-selection-selected-value"
               style="display:block;opacity:1"
               title="10 条/页"
             >
@@ -1950,12 +1950,12 @@ exports[`renders ./components/locale-provider/demo/basic.md correctly 1`] = `
             </div>
           </div>
           <span
-            class="ant-select-arrow"
+            class="alu-select-arrow"
             style="user-select:none;-webkit-user-select:none"
             unselectable="on"
           >
             <i
-              class="anticon anticon-down ant-select-arrow-icon"
+              class="anticon anticon-down alu-select-arrow-icon"
             >
               <svg
                 aria-hidden="true"

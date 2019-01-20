@@ -20,8 +20,8 @@ const ActionMap: Record<string, string> = {
 
 export default class Password extends React.Component<PasswordProps, PasswordState> {
   static defaultProps = {
-    inputPrefixCls: 'ant-input',
-    prefixCls: 'ant-input-password',
+    inputPrefixCls: 'alu-input',
+    prefixCls: 'alu-input-password',
     action: 'click',
     visibilityToggle: true,
   };

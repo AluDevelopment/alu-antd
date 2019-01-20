@@ -2,18 +2,18 @@
 
 exports[`Input.Search should support custom Button 1`] = `
 <span
-  class="ant-input-search ant-input-search-enter-button ant-input-affix-wrapper"
+  class="alu-input-search alu-input-search-enter-button alu-input-affix-wrapper"
 >
   <input
-    class="ant-input"
+    class="alu-input"
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="alu-input-suffix"
   >
     <button
-      class="ant-btn ant-input-search-button"
+      class="alu-btn alu-input-search-button"
       type="button"
     >
       <span>
@@ -26,15 +26,15 @@ exports[`Input.Search should support custom Button 1`] = `
 
 exports[`Input.Search should support custom button 1`] = `
 <span
-  class="ant-input-search ant-input-search-enter-button ant-input-affix-wrapper"
+  class="alu-input-search alu-input-search-enter-button alu-input-affix-wrapper"
 >
   <input
-    class="ant-input"
+    class="alu-input"
     type="text"
     value=""
   />
   <span
-    class="ant-input-suffix"
+    class="alu-input-suffix"
   >
     <button
       type="button"

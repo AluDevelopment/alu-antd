@@ -2,7 +2,7 @@
 
 exports[`renders ./components/select/demo/automatic-tokenization.md correctly 1`] = `
 <div
-  class="ant-select ant-select-enabled"
+  class="alu-select alu-select-enabled"
   style="width:100%"
 >
   <div
@@ -10,27 +10,27 @@ exports[`renders ./components/select/demo/automatic-tokenization.md correctly 1`
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--multiple"
     role="combobox"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <ul>
         <li
-          class="ant-select-search ant-select-search--inline"
+          class="alu-select-search alu-select-search--inline"
         >
           <div
-            class="ant-select-search__field__wrap"
+            class="alu-select-search__field__wrap"
           >
             <input
               autocomplete="off"
-              class="ant-select-search__field"
+              class="alu-select-search__field"
               value=""
             />
             <span
-              class="ant-select-search__field__mirror"
+              class="alu-select-search__field__mirror"
             >
                
             </span>
@@ -45,7 +45,7 @@ exports[`renders ./components/select/demo/automatic-tokenization.md correctly 1`
 exports[`renders ./components/select/demo/basic.md correctly 1`] = `
 <div>
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:120px"
   >
     <div
@@ -53,16 +53,16 @@ exports[`renders ./components/select/demo/basic.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="0"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection-selected-value"
+          class="alu-select-selection-selected-value"
           style="display:block;opacity:1"
           title="Lucy"
         >
@@ -70,12 +70,12 @@ exports[`renders ./components/select/demo/basic.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -95,7 +95,7 @@ exports[`renders ./components/select/demo/basic.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-disabled"
+    class="alu-select alu-select-disabled"
     style="width:120px"
   >
     <div
@@ -103,16 +103,16 @@ exports[`renders ./components/select/demo/basic.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="-1"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection-selected-value"
+          class="alu-select-selection-selected-value"
           style="display:block;opacity:1"
           title="Lucy"
         >
@@ -120,12 +120,12 @@ exports[`renders ./components/select/demo/basic.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -145,7 +145,7 @@ exports[`renders ./components/select/demo/basic.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:120px"
   >
     <div
@@ -153,16 +153,16 @@ exports[`renders ./components/select/demo/basic.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="0"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection-selected-value"
+          class="alu-select-selection-selected-value"
           style="display:block;opacity:1"
           title="Lucy"
         >
@@ -170,7 +170,7 @@ exports[`renders ./components/select/demo/basic.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -200,7 +200,7 @@ exports[`renders ./components/select/demo/basic.md correctly 1`] = `
 exports[`renders ./components/select/demo/coordinate.md correctly 1`] = `
 <div>
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:120px"
   >
     <div
@@ -208,16 +208,16 @@ exports[`renders ./components/select/demo/coordinate.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="0"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection-selected-value"
+          class="alu-select-selection-selected-value"
           style="display:block;opacity:1"
           title="Zhejiang"
         >
@@ -225,12 +225,12 @@ exports[`renders ./components/select/demo/coordinate.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -250,7 +250,7 @@ exports[`renders ./components/select/demo/coordinate.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:120px"
   >
     <div
@@ -258,16 +258,16 @@ exports[`renders ./components/select/demo/coordinate.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="0"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection-selected-value"
+          class="alu-select-selection-selected-value"
           style="display:block;opacity:1"
           title="Hangzhou"
         >
@@ -275,12 +275,12 @@ exports[`renders ./components/select/demo/coordinate.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -304,7 +304,7 @@ exports[`renders ./components/select/demo/coordinate.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/custom-dropdown-menu.md correctly 1`] = `
 <div
-  class="ant-select ant-select-enabled"
+  class="alu-select alu-select-enabled"
   style="width:120px"
 >
   <div
@@ -312,16 +312,16 @@ exports[`renders ./components/select/demo/custom-dropdown-menu.md correctly 1`] 
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--single"
     role="combobox"
     tabindex="0"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection-selected-value"
+        class="alu-select-selection-selected-value"
         style="display:block;opacity:1"
         title="Lucy"
       >
@@ -329,12 +329,12 @@ exports[`renders ./components/select/demo/custom-dropdown-menu.md correctly 1`] 
       </div>
     </div>
     <span
-      class="ant-select-arrow"
+      class="alu-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
       <i
-        class="anticon anticon-down ant-select-arrow-icon"
+        class="anticon anticon-down alu-select-arrow-icon"
       >
         <svg
           aria-hidden="true"
@@ -357,7 +357,7 @@ exports[`renders ./components/select/demo/custom-dropdown-menu.md correctly 1`] 
 
 exports[`renders ./components/select/demo/hide-selected.md correctly 1`] = `
 <div
-  class="ant-select ant-select-enabled"
+  class="alu-select alu-select-enabled"
   style="width:100%"
 >
   <div
@@ -365,15 +365,15 @@ exports[`renders ./components/select/demo/hide-selected.md correctly 1`] = `
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--multiple"
     role="combobox"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
         style="display:block;user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -381,18 +381,18 @@ exports[`renders ./components/select/demo/hide-selected.md correctly 1`] = `
       </div>
       <ul>
         <li
-          class="ant-select-search ant-select-search--inline"
+          class="alu-select-search alu-select-search--inline"
         >
           <div
-            class="ant-select-search__field__wrap"
+            class="alu-select-search__field__wrap"
           >
             <input
               autocomplete="off"
-              class="ant-select-search__field"
+              class="alu-select-search__field"
               value=""
             />
             <span
-              class="ant-select-search__field__mirror"
+              class="alu-select-search__field__mirror"
             >
                
             </span>
@@ -406,7 +406,7 @@ exports[`renders ./components/select/demo/hide-selected.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/label-in-value.md correctly 1`] = `
 <div
-  class="ant-select ant-select-enabled"
+  class="alu-select alu-select-enabled"
   style="width:120px"
 >
   <div
@@ -414,16 +414,16 @@ exports[`renders ./components/select/demo/label-in-value.md correctly 1`] = `
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--single"
     role="combobox"
     tabindex="0"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection-selected-value"
+        class="alu-select-selection-selected-value"
         style="display:block;opacity:1"
         title="Lucy (101)"
       >
@@ -431,12 +431,12 @@ exports[`renders ./components/select/demo/label-in-value.md correctly 1`] = `
       </div>
     </div>
     <span
-      class="ant-select-arrow"
+      class="alu-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
       <i
-        class="anticon anticon-down ant-select-arrow-icon"
+        class="anticon anticon-down alu-select-arrow-icon"
       >
         <svg
           aria-hidden="true"
@@ -459,7 +459,7 @@ exports[`renders ./components/select/demo/label-in-value.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/multiple.md correctly 1`] = `
 <div
-  class="ant-select ant-select-enabled"
+  class="alu-select alu-select-enabled"
   style="width:100%"
 >
   <div
@@ -467,15 +467,15 @@ exports[`renders ./components/select/demo/multiple.md correctly 1`] = `
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--multiple"
     role="combobox"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
         style="display:none;user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -483,22 +483,22 @@ exports[`renders ./components/select/demo/multiple.md correctly 1`] = `
       </div>
       <ul>
         <li
-          class="ant-select-selection__choice"
+          class="alu-select-selection__choice"
           role="presentation"
           style="user-select:none;-webkit-user-select:none"
           title="a10"
           unselectable="on"
         >
           <div
-            class="ant-select-selection__choice__content"
+            class="alu-select-selection__choice__content"
           >
             a10
           </div>
           <span
-            class="ant-select-selection__choice__remove"
+            class="alu-select-selection__choice__remove"
           >
             <i
-              class="anticon anticon-close ant-select-remove-icon"
+              class="anticon anticon-close alu-select-remove-icon"
             >
               <svg
                 aria-hidden="true"
@@ -517,22 +517,22 @@ exports[`renders ./components/select/demo/multiple.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-select-selection__choice"
+          class="alu-select-selection__choice"
           role="presentation"
           style="user-select:none;-webkit-user-select:none"
           title="c12"
           unselectable="on"
         >
           <div
-            class="ant-select-selection__choice__content"
+            class="alu-select-selection__choice__content"
           >
             c12
           </div>
           <span
-            class="ant-select-selection__choice__remove"
+            class="alu-select-selection__choice__remove"
           >
             <i
-              class="anticon anticon-close ant-select-remove-icon"
+              class="anticon anticon-close alu-select-remove-icon"
             >
               <svg
                 aria-hidden="true"
@@ -551,18 +551,18 @@ exports[`renders ./components/select/demo/multiple.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-select-search ant-select-search--inline"
+          class="alu-select-search alu-select-search--inline"
         >
           <div
-            class="ant-select-search__field__wrap"
+            class="alu-select-search__field__wrap"
           >
             <input
               autocomplete="off"
-              class="ant-select-search__field"
+              class="alu-select-search__field"
               value=""
             />
             <span
-              class="ant-select-search__field__mirror"
+              class="alu-select-search__field__mirror"
             >
                
             </span>
@@ -576,7 +576,7 @@ exports[`renders ./components/select/demo/multiple.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/optgroup.md correctly 1`] = `
 <div
-  class="ant-select ant-select-enabled"
+  class="alu-select alu-select-enabled"
   style="width:200px"
 >
   <div
@@ -584,16 +584,16 @@ exports[`renders ./components/select/demo/optgroup.md correctly 1`] = `
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--single"
     role="combobox"
     tabindex="0"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection-selected-value"
+        class="alu-select-selection-selected-value"
         style="display:block;opacity:1"
         title="Lucy"
       >
@@ -601,12 +601,12 @@ exports[`renders ./components/select/demo/optgroup.md correctly 1`] = `
       </div>
     </div>
     <span
-      class="ant-select-arrow"
+      class="alu-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
       <i
-        class="anticon anticon-down ant-select-arrow-icon"
+        class="anticon anticon-down alu-select-arrow-icon"
       >
         <svg
           aria-hidden="true"
@@ -629,7 +629,7 @@ exports[`renders ./components/select/demo/optgroup.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/search.md correctly 1`] = `
 <div
-  class="ant-select ant-select-enabled"
+  class="alu-select alu-select-enabled"
   style="width:200px"
 >
   <div
@@ -637,35 +637,35 @@ exports[`renders ./components/select/demo/search.md correctly 1`] = `
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--single"
     role="combobox"
     tabindex="0"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
         style="display:block;user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         Select a person
       </div>
       <div
-        class="ant-select-search ant-select-search--inline"
+        class="alu-select-search alu-select-search--inline"
         style="display:none"
       >
         <div
-          class="ant-select-search__field__wrap"
+          class="alu-select-search__field__wrap"
         >
           <input
             autocomplete="off"
-            class="ant-select-search__field"
+            class="alu-select-search__field"
             value=""
           />
           <span
-            class="ant-select-search__field__mirror"
+            class="alu-select-search__field__mirror"
           >
              
           </span>
@@ -673,12 +673,12 @@ exports[`renders ./components/select/demo/search.md correctly 1`] = `
       </div>
     </div>
     <span
-      class="ant-select-arrow"
+      class="alu-select-arrow"
       style="user-select:none;-webkit-user-select:none"
       unselectable="on"
     >
       <i
-        class="anticon anticon-down ant-select-arrow-icon"
+        class="anticon anticon-down alu-select-arrow-icon"
       >
         <svg
           aria-hidden="true"
@@ -701,7 +701,7 @@ exports[`renders ./components/select/demo/search.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/search-box.md correctly 1`] = `
 <div
-  class="ant-select ant-select-enabled ant-select-no-arrow"
+  class="alu-select alu-select-enabled alu-select-no-arrow"
   style="width:200px"
 >
   <div
@@ -709,35 +709,35 @@ exports[`renders ./components/select/demo/search-box.md correctly 1`] = `
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--single"
     role="combobox"
     tabindex="0"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
         style="display:block;user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         input search text
       </div>
       <div
-        class="ant-select-search ant-select-search--inline"
+        class="alu-select-search alu-select-search--inline"
         style="display:none"
       >
         <div
-          class="ant-select-search__field__wrap"
+          class="alu-select-search__field__wrap"
         >
           <input
             autocomplete="off"
-            class="ant-select-search__field"
+            class="alu-select-search__field"
             value=""
           />
           <span
-            class="ant-select-search__field__mirror"
+            class="alu-select-search__field__mirror"
           >
              
           </span>
@@ -750,7 +750,7 @@ exports[`renders ./components/select/demo/search-box.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/select-users.md correctly 1`] = `
 <div
-  class="ant-select ant-select-enabled"
+  class="alu-select alu-select-enabled"
   style="width:100%"
 >
   <div
@@ -758,15 +758,15 @@ exports[`renders ./components/select/demo/select-users.md correctly 1`] = `
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--multiple"
     role="combobox"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
         style="display:block;user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -774,18 +774,18 @@ exports[`renders ./components/select/demo/select-users.md correctly 1`] = `
       </div>
       <ul>
         <li
-          class="ant-select-search ant-select-search--inline"
+          class="alu-select-search alu-select-search--inline"
         >
           <div
-            class="ant-select-search__field__wrap"
+            class="alu-select-search__field__wrap"
           >
             <input
               autocomplete="off"
-              class="ant-select-search__field"
+              class="alu-select-search__field"
               value=""
             />
             <span
-              class="ant-select-search__field__mirror"
+              class="alu-select-search__field__mirror"
             >
                
             </span>
@@ -800,21 +800,21 @@ exports[`renders ./components/select/demo/select-users.md correctly 1`] = `
 exports[`renders ./components/select/demo/size.md correctly 1`] = `
 <div>
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="alu-radio-group alu-radio-group-outline"
   >
     <label
-      class="ant-radio-button-wrapper"
+      class="alu-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="alu-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="alu-radio-button-input"
           type="radio"
           value="large"
         />
         <span
-          class="ant-radio-button-inner"
+          class="alu-radio-button-inner"
         />
       </span>
       <span>
@@ -822,19 +822,19 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="alu-radio-button alu-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="alu-radio-button-input"
           type="radio"
           value="default"
         />
         <span
-          class="ant-radio-button-inner"
+          class="alu-radio-button-inner"
         />
       </span>
       <span>
@@ -842,18 +842,18 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="alu-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="alu-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="alu-radio-button-input"
           type="radio"
           value="small"
         />
         <span
-          class="ant-radio-button-inner"
+          class="alu-radio-button-inner"
         />
       </span>
       <span>
@@ -864,7 +864,7 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
   <br />
   <br />
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:200px"
   >
     <div
@@ -872,16 +872,16 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="0"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection-selected-value"
+          class="alu-select-selection-selected-value"
           style="display:block;opacity:1"
           title="a1"
         >
@@ -889,12 +889,12 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -915,7 +915,7 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:100%"
   >
     <div
@@ -923,15 +923,15 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--multiple"
       role="combobox"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection__placeholder"
+          class="alu-select-selection__placeholder"
           style="display:none;user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
@@ -939,22 +939,22 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
         </div>
         <ul>
           <li
-            class="ant-select-selection__choice"
+            class="alu-select-selection__choice"
             role="presentation"
             style="user-select:none;-webkit-user-select:none"
             title="a10"
             unselectable="on"
           >
             <div
-              class="ant-select-selection__choice__content"
+              class="alu-select-selection__choice__content"
             >
               a10
             </div>
             <span
-              class="ant-select-selection__choice__remove"
+              class="alu-select-selection__choice__remove"
             >
               <i
-                class="anticon anticon-close ant-select-remove-icon"
+                class="anticon anticon-close alu-select-remove-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -973,22 +973,22 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
             </span>
           </li>
           <li
-            class="ant-select-selection__choice"
+            class="alu-select-selection__choice"
             role="presentation"
             style="user-select:none;-webkit-user-select:none"
             title="c12"
             unselectable="on"
           >
             <div
-              class="ant-select-selection__choice__content"
+              class="alu-select-selection__choice__content"
             >
               c12
             </div>
             <span
-              class="ant-select-selection__choice__remove"
+              class="alu-select-selection__choice__remove"
             >
               <i
-                class="anticon anticon-close ant-select-remove-icon"
+                class="anticon anticon-close alu-select-remove-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -1007,18 +1007,18 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
             </span>
           </li>
           <li
-            class="ant-select-search ant-select-search--inline"
+            class="alu-select-search alu-select-search--inline"
           >
             <div
-              class="ant-select-search__field__wrap"
+              class="alu-select-search__field__wrap"
             >
               <input
                 autocomplete="off"
-                class="ant-select-search__field"
+                class="alu-select-search__field"
                 value=""
               />
               <span
-                class="ant-select-search__field__mirror"
+                class="alu-select-search__field__mirror"
               >
                  
               </span>
@@ -1030,7 +1030,7 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:100%"
   >
     <div
@@ -1038,15 +1038,15 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--multiple"
       role="combobox"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection__placeholder"
+          class="alu-select-selection__placeholder"
           style="display:none;user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
@@ -1054,22 +1054,22 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
         </div>
         <ul>
           <li
-            class="ant-select-selection__choice"
+            class="alu-select-selection__choice"
             role="presentation"
             style="user-select:none;-webkit-user-select:none"
             title="a10"
             unselectable="on"
           >
             <div
-              class="ant-select-selection__choice__content"
+              class="alu-select-selection__choice__content"
             >
               a10
             </div>
             <span
-              class="ant-select-selection__choice__remove"
+              class="alu-select-selection__choice__remove"
             >
               <i
-                class="anticon anticon-close ant-select-remove-icon"
+                class="anticon anticon-close alu-select-remove-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -1088,22 +1088,22 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
             </span>
           </li>
           <li
-            class="ant-select-selection__choice"
+            class="alu-select-selection__choice"
             role="presentation"
             style="user-select:none;-webkit-user-select:none"
             title="c12"
             unselectable="on"
           >
             <div
-              class="ant-select-selection__choice__content"
+              class="alu-select-selection__choice__content"
             >
               c12
             </div>
             <span
-              class="ant-select-selection__choice__remove"
+              class="alu-select-selection__choice__remove"
             >
               <i
-                class="anticon anticon-close ant-select-remove-icon"
+                class="anticon anticon-close alu-select-remove-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -1122,18 +1122,18 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
             </span>
           </li>
           <li
-            class="ant-select-search ant-select-search--inline"
+            class="alu-select-search alu-select-search--inline"
           >
             <div
-              class="ant-select-search__field__wrap"
+              class="alu-select-search__field__wrap"
             >
               <input
                 autocomplete="off"
-                class="ant-select-search__field"
+                class="alu-select-search__field"
                 value=""
               />
               <span
-                class="ant-select-search__field__mirror"
+                class="alu-select-search__field__mirror"
               >
                  
               </span>
@@ -1149,7 +1149,7 @@ exports[`renders ./components/select/demo/size.md correctly 1`] = `
 exports[`renders ./components/select/demo/suffix.md correctly 1`] = `
 <div>
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:120px"
   >
     <div
@@ -1157,16 +1157,16 @@ exports[`renders ./components/select/demo/suffix.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="0"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection-selected-value"
+          class="alu-select-selection-selected-value"
           style="display:block;opacity:1"
           title="Lucy"
         >
@@ -1174,12 +1174,12 @@ exports[`renders ./components/select/demo/suffix.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-smile ant-select-arrow-icon"
+          class="anticon anticon-smile alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -1199,7 +1199,7 @@ exports[`renders ./components/select/demo/suffix.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-disabled"
+    class="alu-select alu-select-disabled"
     style="width:120px"
   >
     <div
@@ -1207,16 +1207,16 @@ exports[`renders ./components/select/demo/suffix.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="-1"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection-selected-value"
+          class="alu-select-selection-selected-value"
           style="display:block;opacity:1"
           title="Lucy"
         >
@@ -1224,12 +1224,12 @@ exports[`renders ./components/select/demo/suffix.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-meh ant-select-arrow-icon"
+          class="anticon anticon-meh alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -1253,7 +1253,7 @@ exports[`renders ./components/select/demo/suffix.md correctly 1`] = `
 
 exports[`renders ./components/select/demo/tags.md correctly 1`] = `
 <div
-  class="ant-select ant-select-enabled"
+  class="alu-select alu-select-enabled"
   style="width:100%"
 >
   <div
@@ -1261,15 +1261,15 @@ exports[`renders ./components/select/demo/tags.md correctly 1`] = `
     aria-controls=""
     aria-expanded="false"
     aria-haspopup="true"
-    class="ant-select-selection
+    class="alu-select-selection
             ant-select-selection--multiple"
     role="combobox"
   >
     <div
-      class="ant-select-selection__rendered"
+      class="alu-select-selection__rendered"
     >
       <div
-        class="ant-select-selection__placeholder"
+        class="alu-select-selection__placeholder"
         style="display:block;user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
@@ -1277,18 +1277,18 @@ exports[`renders ./components/select/demo/tags.md correctly 1`] = `
       </div>
       <ul>
         <li
-          class="ant-select-search ant-select-search--inline"
+          class="alu-select-search alu-select-search--inline"
         >
           <div
-            class="ant-select-search__field__wrap"
+            class="alu-select-search__field__wrap"
           >
             <input
               autocomplete="off"
-              class="ant-select-search__field"
+              class="alu-select-search__field"
               value=""
             />
             <span
-              class="ant-select-search__field__mirror"
+              class="alu-select-search__field__mirror"
             >
                
             </span>

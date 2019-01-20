@@ -3,24 +3,24 @@
 exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
 <div>
   <form
-    class="ant-form ant-form-horizontal ant-advanced-search-form"
+    class="alu-form alu-form-horizontal alu-advanced-search-form"
   >
     <div
-      class="ant-row"
+      class="alu-row"
       style="margin-left:-12px;margin-right:-12px"
     >
       <div
-        class="ant-col-8"
+        class="alu-col-8"
         style="padding-left:12px;padding-right:12px;display:block"
       >
         <div
-          class="ant-row ant-form-item"
+          class="alu-row alu-form-item"
         >
           <div
-            class="ant-form-item-label"
+            class="alu-form-item-label"
           >
             <label
-              class="ant-form-item-required"
+              class="alu-form-item-required"
               for="advanced_search_field-0"
               title="Field 0"
             >
@@ -28,16 +28,16 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
             </label>
           </div>
           <div
-            class="ant-form-item-control-wrapper"
+            class="alu-form-item-control-wrapper"
           >
             <div
-              class="ant-form-item-control"
+              class="alu-form-item-control"
             >
               <span
-                class="ant-form-item-children"
+                class="alu-form-item-children"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   data-__field="[object Object]"
                   data-__meta="[object Object]"
                   id="advanced_search_field-0"
@@ -51,17 +51,17 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-col-8"
+        class="alu-col-8"
         style="padding-left:12px;padding-right:12px;display:block"
       >
         <div
-          class="ant-row ant-form-item"
+          class="alu-row alu-form-item"
         >
           <div
-            class="ant-form-item-label"
+            class="alu-form-item-label"
           >
             <label
-              class="ant-form-item-required"
+              class="alu-form-item-required"
               for="advanced_search_field-1"
               title="Field 1"
             >
@@ -69,16 +69,16 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
             </label>
           </div>
           <div
-            class="ant-form-item-control-wrapper"
+            class="alu-form-item-control-wrapper"
           >
             <div
-              class="ant-form-item-control"
+              class="alu-form-item-control"
             >
               <span
-                class="ant-form-item-children"
+                class="alu-form-item-children"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   data-__field="[object Object]"
                   data-__meta="[object Object]"
                   id="advanced_search_field-1"
@@ -92,17 +92,17 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-col-8"
+        class="alu-col-8"
         style="padding-left:12px;padding-right:12px;display:block"
       >
         <div
-          class="ant-row ant-form-item"
+          class="alu-row alu-form-item"
         >
           <div
-            class="ant-form-item-label"
+            class="alu-form-item-label"
           >
             <label
-              class="ant-form-item-required"
+              class="alu-form-item-required"
               for="advanced_search_field-2"
               title="Field 2"
             >
@@ -110,16 +110,16 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
             </label>
           </div>
           <div
-            class="ant-form-item-control-wrapper"
+            class="alu-form-item-control-wrapper"
           >
             <div
-              class="ant-form-item-control"
+              class="alu-form-item-control"
             >
               <span
-                class="ant-form-item-children"
+                class="alu-form-item-children"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   data-__field="[object Object]"
                   data-__meta="[object Object]"
                   id="advanced_search_field-2"
@@ -133,17 +133,17 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-col-8"
+        class="alu-col-8"
         style="padding-left:12px;padding-right:12px;display:block"
       >
         <div
-          class="ant-row ant-form-item"
+          class="alu-row alu-form-item"
         >
           <div
-            class="ant-form-item-label"
+            class="alu-form-item-label"
           >
             <label
-              class="ant-form-item-required"
+              class="alu-form-item-required"
               for="advanced_search_field-3"
               title="Field 3"
             >
@@ -151,16 +151,16 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
             </label>
           </div>
           <div
-            class="ant-form-item-control-wrapper"
+            class="alu-form-item-control-wrapper"
           >
             <div
-              class="ant-form-item-control"
+              class="alu-form-item-control"
             >
               <span
-                class="ant-form-item-children"
+                class="alu-form-item-children"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   data-__field="[object Object]"
                   data-__meta="[object Object]"
                   id="advanced_search_field-3"
@@ -174,17 +174,17 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-col-8"
+        class="alu-col-8"
         style="padding-left:12px;padding-right:12px;display:block"
       >
         <div
-          class="ant-row ant-form-item"
+          class="alu-row alu-form-item"
         >
           <div
-            class="ant-form-item-label"
+            class="alu-form-item-label"
           >
             <label
-              class="ant-form-item-required"
+              class="alu-form-item-required"
               for="advanced_search_field-4"
               title="Field 4"
             >
@@ -192,16 +192,16 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
             </label>
           </div>
           <div
-            class="ant-form-item-control-wrapper"
+            class="alu-form-item-control-wrapper"
           >
             <div
-              class="ant-form-item-control"
+              class="alu-form-item-control"
             >
               <span
-                class="ant-form-item-children"
+                class="alu-form-item-children"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   data-__field="[object Object]"
                   data-__meta="[object Object]"
                   id="advanced_search_field-4"
@@ -215,17 +215,17 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-col-8"
+        class="alu-col-8"
         style="padding-left:12px;padding-right:12px;display:block"
       >
         <div
-          class="ant-row ant-form-item"
+          class="alu-row alu-form-item"
         >
           <div
-            class="ant-form-item-label"
+            class="alu-form-item-label"
           >
             <label
-              class="ant-form-item-required"
+              class="alu-form-item-required"
               for="advanced_search_field-5"
               title="Field 5"
             >
@@ -233,16 +233,16 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
             </label>
           </div>
           <div
-            class="ant-form-item-control-wrapper"
+            class="alu-form-item-control-wrapper"
           >
             <div
-              class="ant-form-item-control"
+              class="alu-form-item-control"
             >
               <span
-                class="ant-form-item-children"
+                class="alu-form-item-children"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   data-__field="[object Object]"
                   data-__meta="[object Object]"
                   id="advanced_search_field-5"
@@ -256,17 +256,17 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-col-8"
+        class="alu-col-8"
         style="padding-left:12px;padding-right:12px;display:none"
       >
         <div
-          class="ant-row ant-form-item"
+          class="alu-row alu-form-item"
         >
           <div
-            class="ant-form-item-label"
+            class="alu-form-item-label"
           >
             <label
-              class="ant-form-item-required"
+              class="alu-form-item-required"
               for="advanced_search_field-6"
               title="Field 6"
             >
@@ -274,16 +274,16 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
             </label>
           </div>
           <div
-            class="ant-form-item-control-wrapper"
+            class="alu-form-item-control-wrapper"
           >
             <div
-              class="ant-form-item-control"
+              class="alu-form-item-control"
             >
               <span
-                class="ant-form-item-children"
+                class="alu-form-item-children"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   data-__field="[object Object]"
                   data-__meta="[object Object]"
                   id="advanced_search_field-6"
@@ -297,17 +297,17 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-col-8"
+        class="alu-col-8"
         style="padding-left:12px;padding-right:12px;display:none"
       >
         <div
-          class="ant-row ant-form-item"
+          class="alu-row alu-form-item"
         >
           <div
-            class="ant-form-item-label"
+            class="alu-form-item-label"
           >
             <label
-              class="ant-form-item-required"
+              class="alu-form-item-required"
               for="advanced_search_field-7"
               title="Field 7"
             >
@@ -315,16 +315,16 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
             </label>
           </div>
           <div
-            class="ant-form-item-control-wrapper"
+            class="alu-form-item-control-wrapper"
           >
             <div
-              class="ant-form-item-control"
+              class="alu-form-item-control"
             >
               <span
-                class="ant-form-item-children"
+                class="alu-form-item-children"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   data-__field="[object Object]"
                   data-__meta="[object Object]"
                   id="advanced_search_field-7"
@@ -338,17 +338,17 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-col-8"
+        class="alu-col-8"
         style="padding-left:12px;padding-right:12px;display:none"
       >
         <div
-          class="ant-row ant-form-item"
+          class="alu-row alu-form-item"
         >
           <div
-            class="ant-form-item-label"
+            class="alu-form-item-label"
           >
             <label
-              class="ant-form-item-required"
+              class="alu-form-item-required"
               for="advanced_search_field-8"
               title="Field 8"
             >
@@ -356,16 +356,16 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
             </label>
           </div>
           <div
-            class="ant-form-item-control-wrapper"
+            class="alu-form-item-control-wrapper"
           >
             <div
-              class="ant-form-item-control"
+              class="alu-form-item-control"
             >
               <span
-                class="ant-form-item-children"
+                class="alu-form-item-children"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   data-__field="[object Object]"
                   data-__meta="[object Object]"
                   id="advanced_search_field-8"
@@ -379,17 +379,17 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-col-8"
+        class="alu-col-8"
         style="padding-left:12px;padding-right:12px;display:none"
       >
         <div
-          class="ant-row ant-form-item"
+          class="alu-row alu-form-item"
         >
           <div
-            class="ant-form-item-label"
+            class="alu-form-item-label"
           >
             <label
-              class="ant-form-item-required"
+              class="alu-form-item-required"
               for="advanced_search_field-9"
               title="Field 9"
             >
@@ -397,16 +397,16 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
             </label>
           </div>
           <div
-            class="ant-form-item-control-wrapper"
+            class="alu-form-item-control-wrapper"
           >
             <div
-              class="ant-form-item-control"
+              class="alu-form-item-control"
             >
               <span
-                class="ant-form-item-children"
+                class="alu-form-item-children"
               >
                 <input
-                  class="ant-input"
+                  class="alu-input"
                   data-__field="[object Object]"
                   data-__meta="[object Object]"
                   id="advanced_search_field-9"
@@ -421,14 +421,14 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-row"
+      class="alu-row"
     >
       <div
-        class="ant-col-24"
+        class="alu-col-24"
         style="text-align:right"
       >
         <button
-          class="ant-btn ant-btn-primary"
+          class="alu-btn alu-btn-primary"
           type="submit"
         >
           <span>
@@ -436,7 +436,7 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
           </span>
         </button>
         <button
-          class="ant-btn"
+          class="alu-btn"
           style="margin-left:8px"
           type="button"
         >
@@ -479,16 +479,16 @@ exports[`renders ./components/form/demo/advanced-search.md correctly 1`] = `
 
 exports[`renders ./components/form/demo/coordinated.md correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="alu-form alu-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-5 ant-form-item-label"
+      class="alu-col-5 alu-form-item-label"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="coordinated_note"
         title="Note"
       >
@@ -496,16 +496,16 @@ exports[`renders ./components/form/demo/coordinated.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-12 ant-form-item-control-wrapper"
+      class="alu-col-12 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             data-__field="[object Object]"
             data-__meta="[object Object]"
             id="coordinated_note"
@@ -517,13 +517,13 @@ exports[`renders ./components/form/demo/coordinated.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-5 ant-form-item-label"
+      class="alu-col-5 alu-form-item-label"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="coordinated_gender"
         title="Gender"
       >
@@ -531,16 +531,16 @@ exports[`renders ./components/form/demo/coordinated.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-12 ant-form-item-control-wrapper"
+      class="alu-col-12 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-select ant-select-enabled"
+            class="alu-select alu-select-enabled"
             id="coordinated_gender"
           >
             <div
@@ -548,7 +548,7 @@ exports[`renders ./components/form/demo/coordinated.md correctly 1`] = `
               aria-controls=""
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-select-selection
+              class="alu-select-selection
             ant-select-selection--single"
               data-__field="[object Object]"
               data-__meta="[object Object]"
@@ -556,10 +556,10 @@ exports[`renders ./components/form/demo/coordinated.md correctly 1`] = `
               tabindex="0"
             >
               <div
-                class="ant-select-selection__rendered"
+                class="alu-select-selection__rendered"
               >
                 <div
-                  class="ant-select-selection__placeholder"
+                  class="alu-select-selection__placeholder"
                   style="display:block;user-select:none;-webkit-user-select:none"
                   unselectable="on"
                 >
@@ -567,12 +567,12 @@ exports[`renders ./components/form/demo/coordinated.md correctly 1`] = `
                 </div>
               </div>
               <span
-                class="ant-select-arrow"
+                class="alu-select-arrow"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <i
-                  class="anticon anticon-down ant-select-arrow-icon"
+                  class="anticon anticon-down alu-select-arrow-icon"
                 >
                   <svg
                     aria-hidden="true"
@@ -596,19 +596,19 @@ exports[`renders ./components/form/demo/coordinated.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-12 ant-col-offset-5 ant-form-item-control-wrapper"
+      class="alu-col-12 alu-col-offset-5 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <button
-            class="ant-btn ant-btn-primary"
+            class="alu-btn alu-btn-primary"
             type="submit"
           >
             <span>
@@ -624,13 +624,13 @@ exports[`renders ./components/form/demo/coordinated.md correctly 1`] = `
 
 exports[`renders ./components/form/demo/customized-form-controls.md correctly 1`] = `
 <form
-  class="ant-form ant-form-inline"
+  class="alu-form alu-form-inline"
 >
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label"
+      class="alu-form-item-label"
     >
       <label
         class=""
@@ -641,23 +641,23 @@ exports[`renders ./components/form/demo/customized-form-controls.md correctly 1`
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper"
+      class="alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control has-success"
+        class="alu-form-item-control has-success"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span>
             <input
-              class="ant-input"
+              class="alu-input"
               style="width:65%;margin-right:3%"
               type="text"
               value="0"
             />
             <div
-              class="ant-select ant-select-enabled"
+              class="alu-select alu-select-enabled"
               style="width:32%"
             >
               <div
@@ -665,16 +665,16 @@ exports[`renders ./components/form/demo/customized-form-controls.md correctly 1`
                 aria-controls=""
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="ant-select-selection
+                class="alu-select-selection
             ant-select-selection--single"
                 role="combobox"
                 tabindex="0"
               >
                 <div
-                  class="ant-select-selection__rendered"
+                  class="alu-select-selection__rendered"
                 >
                   <div
-                    class="ant-select-selection-selected-value"
+                    class="alu-select-selection-selected-value"
                     style="display:block;opacity:1"
                     title="RMB"
                   >
@@ -682,12 +682,12 @@ exports[`renders ./components/form/demo/customized-form-controls.md correctly 1`
                   </div>
                 </div>
                 <span
-                  class="ant-select-arrow"
+                  class="alu-select-arrow"
                   style="user-select:none;-webkit-user-select:none"
                   unselectable="on"
                 >
                   <i
-                    class="anticon anticon-down ant-select-arrow-icon"
+                    class="anticon anticon-down alu-select-arrow-icon"
                   >
                     <svg
                       aria-hidden="true"
@@ -712,19 +712,19 @@ exports[`renders ./components/form/demo/customized-form-controls.md correctly 1`
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper"
+      class="alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <button
-            class="ant-btn ant-btn-primary"
+            class="alu-btn alu-btn-primary"
             type="submit"
           >
             <span>
@@ -740,22 +740,22 @@ exports[`renders ./components/form/demo/customized-form-controls.md correctly 1`
 
 exports[`renders ./components/form/demo/dynamic-form-item.md correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="alu-form alu-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-xs-offset-0 ant-col-sm-20 ant-col-sm-offset-4"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-xs-offset-0 alu-col-sm-20 alu-col-sm-offset-4"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <button
-            class="ant-btn ant-btn-dashed"
+            class="alu-btn alu-btn-dashed"
             style="width:60%"
             type="button"
           >
@@ -785,19 +785,19 @@ exports[`renders ./components/form/demo/dynamic-form-item.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-xs-offset-0 ant-col-sm-20 ant-col-sm-offset-4"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-xs-offset-0 alu-col-sm-20 alu-col-sm-offset-4"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <button
-            class="ant-btn ant-btn-primary"
+            class="alu-btn alu-btn-primary"
             type="submit"
           >
             <span>
@@ -814,13 +814,13 @@ exports[`renders ./components/form/demo/dynamic-form-item.md correctly 1`] = `
 exports[`renders ./components/form/demo/dynamic-rule.md correctly 1`] = `
 <div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-4 ant-form-item-label"
+      class="alu-col-4 alu-form-item-label"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="dynamic_rule_username"
         title="Name"
       >
@@ -828,16 +828,16 @@ exports[`renders ./components/form/demo/dynamic-rule.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-8 ant-form-item-control-wrapper"
+      class="alu-col-8 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             data-__field="[object Object]"
             data-__meta="[object Object]"
             id="dynamic_rule_username"
@@ -850,10 +850,10 @@ exports[`renders ./components/form/demo/dynamic-rule.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-4 ant-form-item-label"
+      class="alu-col-4 alu-form-item-label"
     >
       <label
         class=""
@@ -864,16 +864,16 @@ exports[`renders ./components/form/demo/dynamic-rule.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-8 ant-form-item-control-wrapper"
+      class="alu-col-8 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             data-__field="[object Object]"
             data-__meta="[object Object]"
             id="dynamic_rule_nickname"
@@ -886,29 +886,29 @@ exports[`renders ./components/form/demo/dynamic-rule.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-8 ant-col-offset-4 ant-form-item-control-wrapper"
+      class="alu-col-8 alu-col-offset-4 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <label
-            class="ant-checkbox-wrapper"
+            class="alu-checkbox-wrapper"
           >
             <span
-              class="ant-checkbox"
+              class="alu-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
             <span>
@@ -920,19 +920,19 @@ exports[`renders ./components/form/demo/dynamic-rule.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-8 ant-col-offset-4 ant-form-item-control-wrapper"
+      class="alu-col-8 alu-col-offset-4 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <button
-            class="ant-btn ant-btn-primary"
+            class="alu-btn alu-btn-primary"
             type="button"
           >
             <span>
@@ -949,7 +949,7 @@ exports[`renders ./components/form/demo/dynamic-rule.md correctly 1`] = `
 exports[`renders ./components/form/demo/form-in-modal.md correctly 1`] = `
 <div>
   <button
-    class="ant-btn ant-btn-primary"
+    class="alu-btn alu-btn-primary"
     type="button"
   >
     <span>
@@ -962,16 +962,16 @@ exports[`renders ./components/form/demo/form-in-modal.md correctly 1`] = `
 exports[`renders ./components/form/demo/global-state.md correctly 1`] = `
 <div>
   <form
-    class="ant-form ant-form-inline"
+    class="alu-form alu-form-inline"
   >
     <div
-      class="ant-row ant-form-item"
+      class="alu-row alu-form-item"
     >
       <div
-        class="ant-form-item-label"
+        class="alu-form-item-label"
       >
         <label
-          class="ant-form-item-required"
+          class="alu-form-item-required"
           for="global_state_username"
           title="Username"
         >
@@ -979,16 +979,16 @@ exports[`renders ./components/form/demo/global-state.md correctly 1`] = `
         </label>
       </div>
       <div
-        class="ant-form-item-control-wrapper"
+        class="alu-form-item-control-wrapper"
       >
         <div
-          class="ant-form-item-control has-success"
+          class="alu-form-item-control has-success"
         >
           <span
-            class="ant-form-item-children"
+            class="alu-form-item-children"
           >
             <input
-              class="ant-input"
+              class="alu-input"
               data-__field="[object Object]"
               data-__meta="[object Object]"
               id="global_state_username"
@@ -1014,25 +1014,25 @@ exports[`renders ./components/form/demo/global-state.md correctly 1`] = `
 
 exports[`renders ./components/form/demo/horizontal-login.md correctly 1`] = `
 <form
-  class="ant-form ant-form-inline"
+  class="alu-form alu-form-inline"
 >
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper"
+      class="alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-input-affix-wrapper"
+            class="alu-input-affix-wrapper"
           >
             <span
-              class="ant-input-prefix"
+              class="alu-input-prefix"
             >
               <i
                 class="anticon anticon-user"
@@ -1054,7 +1054,7 @@ exports[`renders ./components/form/demo/horizontal-login.md correctly 1`] = `
               </i>
             </span>
             <input
-              class="ant-input"
+              class="alu-input"
               data-__field="[object Object]"
               data-__meta="[object Object]"
               id="horizontal_login_userName"
@@ -1068,22 +1068,22 @@ exports[`renders ./components/form/demo/horizontal-login.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper"
+      class="alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-input-affix-wrapper"
+            class="alu-input-affix-wrapper"
           >
             <span
-              class="ant-input-prefix"
+              class="alu-input-prefix"
             >
               <i
                 class="anticon anticon-lock"
@@ -1105,7 +1105,7 @@ exports[`renders ./components/form/demo/horizontal-login.md correctly 1`] = `
               </i>
             </span>
             <input
-              class="ant-input"
+              class="alu-input"
               data-__field="[object Object]"
               data-__meta="[object Object]"
               id="horizontal_login_password"
@@ -1119,19 +1119,19 @@ exports[`renders ./components/form/demo/horizontal-login.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper"
+      class="alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <button
-            class="ant-btn ant-btn-primary"
+            class="alu-btn alu-btn-primary"
             type="submit"
           >
             <span>
@@ -1148,13 +1148,13 @@ exports[`renders ./components/form/demo/horizontal-login.md correctly 1`] = `
 exports[`renders ./components/form/demo/layout.md correctly 1`] = `
 <div>
   <form
-    class="ant-form ant-form-horizontal"
+    class="alu-form alu-form-horizontal"
   >
     <div
-      class="ant-row ant-form-item"
+      class="alu-row alu-form-item"
     >
       <div
-        class="ant-col-4 ant-form-item-label"
+        class="alu-col-4 alu-form-item-label"
       >
         <label
           class=""
@@ -1164,31 +1164,31 @@ exports[`renders ./components/form/demo/layout.md correctly 1`] = `
         </label>
       </div>
       <div
-        class="ant-col-14 ant-form-item-control-wrapper"
+        class="alu-col-14 alu-form-item-control-wrapper"
       >
         <div
-          class="ant-form-item-control"
+          class="alu-form-item-control"
         >
           <span
-            class="ant-form-item-children"
+            class="alu-form-item-children"
           >
             <div
-              class="ant-radio-group ant-radio-group-outline"
+              class="alu-radio-group alu-radio-group-outline"
             >
               <label
-                class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+                class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
               >
                 <span
-                  class="ant-radio-button ant-radio-button-checked"
+                  class="alu-radio-button alu-radio-button-checked"
                 >
                   <input
                     checked=""
-                    class="ant-radio-button-input"
+                    class="alu-radio-button-input"
                     type="radio"
                     value="horizontal"
                   />
                   <span
-                    class="ant-radio-button-inner"
+                    class="alu-radio-button-inner"
                   />
                 </span>
                 <span>
@@ -1196,18 +1196,18 @@ exports[`renders ./components/form/demo/layout.md correctly 1`] = `
                 </span>
               </label>
               <label
-                class="ant-radio-button-wrapper"
+                class="alu-radio-button-wrapper"
               >
                 <span
-                  class="ant-radio-button"
+                  class="alu-radio-button"
                 >
                   <input
-                    class="ant-radio-button-input"
+                    class="alu-radio-button-input"
                     type="radio"
                     value="vertical"
                   />
                   <span
-                    class="ant-radio-button-inner"
+                    class="alu-radio-button-inner"
                   />
                 </span>
                 <span>
@@ -1215,18 +1215,18 @@ exports[`renders ./components/form/demo/layout.md correctly 1`] = `
                 </span>
               </label>
               <label
-                class="ant-radio-button-wrapper"
+                class="alu-radio-button-wrapper"
               >
                 <span
-                  class="ant-radio-button"
+                  class="alu-radio-button"
                 >
                   <input
-                    class="ant-radio-button-input"
+                    class="alu-radio-button-input"
                     type="radio"
                     value="inline"
                   />
                   <span
-                    class="ant-radio-button-inner"
+                    class="alu-radio-button-inner"
                   />
                 </span>
                 <span>
@@ -1239,10 +1239,10 @@ exports[`renders ./components/form/demo/layout.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-row ant-form-item"
+      class="alu-row alu-form-item"
     >
       <div
-        class="ant-col-4 ant-form-item-label"
+        class="alu-col-4 alu-form-item-label"
       >
         <label
           class=""
@@ -1252,16 +1252,16 @@ exports[`renders ./components/form/demo/layout.md correctly 1`] = `
         </label>
       </div>
       <div
-        class="ant-col-14 ant-form-item-control-wrapper"
+        class="alu-col-14 alu-form-item-control-wrapper"
       >
         <div
-          class="ant-form-item-control"
+          class="alu-form-item-control"
         >
           <span
-            class="ant-form-item-children"
+            class="alu-form-item-children"
           >
             <input
-              class="ant-input"
+              class="alu-input"
               placeholder="input placeholder"
               type="text"
               value=""
@@ -1271,10 +1271,10 @@ exports[`renders ./components/form/demo/layout.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-row ant-form-item"
+      class="alu-row alu-form-item"
     >
       <div
-        class="ant-col-4 ant-form-item-label"
+        class="alu-col-4 alu-form-item-label"
       >
         <label
           class=""
@@ -1284,16 +1284,16 @@ exports[`renders ./components/form/demo/layout.md correctly 1`] = `
         </label>
       </div>
       <div
-        class="ant-col-14 ant-form-item-control-wrapper"
+        class="alu-col-14 alu-form-item-control-wrapper"
       >
         <div
-          class="ant-form-item-control"
+          class="alu-form-item-control"
         >
           <span
-            class="ant-form-item-children"
+            class="alu-form-item-children"
           >
             <input
-              class="ant-input"
+              class="alu-input"
               placeholder="input placeholder"
               type="text"
               value=""
@@ -1303,19 +1303,19 @@ exports[`renders ./components/form/demo/layout.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-row ant-form-item"
+      class="alu-row alu-form-item"
     >
       <div
-        class="ant-col-14 ant-col-offset-4 ant-form-item-control-wrapper"
+        class="alu-col-14 alu-col-offset-4 alu-form-item-control-wrapper"
       >
         <div
-          class="ant-form-item-control"
+          class="alu-form-item-control"
         >
           <span
-            class="ant-form-item-children"
+            class="alu-form-item-children"
           >
             <button
-              class="ant-btn ant-btn-primary"
+              class="alu-btn alu-btn-primary"
               type="button"
             >
               <span>
@@ -1332,25 +1332,25 @@ exports[`renders ./components/form/demo/layout.md correctly 1`] = `
 
 exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal login-form"
+  class="alu-form alu-form-horizontal login-form"
 >
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper"
+      class="alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-input-affix-wrapper"
+            class="alu-input-affix-wrapper"
           >
             <span
-              class="ant-input-prefix"
+              class="alu-input-prefix"
             >
               <i
                 class="anticon anticon-user"
@@ -1372,7 +1372,7 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
               </i>
             </span>
             <input
-              class="ant-input"
+              class="alu-input"
               data-__field="[object Object]"
               data-__meta="[object Object]"
               id="normal_login_userName"
@@ -1386,22 +1386,22 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper"
+      class="alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-input-affix-wrapper"
+            class="alu-input-affix-wrapper"
           >
             <span
-              class="ant-input-prefix"
+              class="alu-input-prefix"
             >
               <i
                 class="anticon anticon-lock"
@@ -1423,7 +1423,7 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
               </i>
             </span>
             <input
-              class="ant-input"
+              class="alu-input"
               data-__field="[object Object]"
               data-__meta="[object Object]"
               id="normal_login_password"
@@ -1437,33 +1437,33 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper"
+      class="alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control has-success"
+        class="alu-form-item-control has-success"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <label
-            class="ant-checkbox-wrapper ant-checkbox-wrapper-checked"
+            class="alu-checkbox-wrapper alu-checkbox-wrapper-checked"
           >
             <span
-              class="ant-checkbox ant-checkbox-checked"
+              class="alu-checkbox alu-checkbox-checked"
             >
               <input
                 checked=""
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 data-__field="[object Object]"
                 data-__meta="[object Object]"
                 id="normal_login_remember"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
             <span>
@@ -1477,7 +1477,7 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
             Forgot password
           </a>
           <button
-            class="ant-btn login-form-button ant-btn-primary"
+            class="alu-btn login-form-button alu-btn-primary"
             type="submit"
           >
             <span>
@@ -1499,16 +1499,16 @@ exports[`renders ./components/form/demo/normal-login.md correctly 1`] = `
 
 exports[`renders ./components/form/demo/register.md correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="alu-form alu-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="register_email"
         title="E-mail"
       >
@@ -1516,16 +1516,16 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             data-__field="[object Object]"
             data-__meta="[object Object]"
             id="register_email"
@@ -1537,13 +1537,13 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="register_password"
         title="Password"
       >
@@ -1551,16 +1551,16 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             data-__field="[object Object]"
             data-__meta="[object Object]"
             id="register_password"
@@ -1572,13 +1572,13 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="register_confirm"
         title="Confirm Password"
       >
@@ -1586,16 +1586,16 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             data-__field="[object Object]"
             data-__meta="[object Object]"
             id="register_confirm"
@@ -1607,13 +1607,13 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="register_nickname"
         title=""
       >
@@ -1643,16 +1643,16 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             data-__field="[object Object]"
             data-__meta="[object Object]"
             id="register_nickname"
@@ -1664,13 +1664,13 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="register_residence"
         title="Habitual Residence"
       >
@@ -1678,26 +1678,26 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control has-success"
+        class="alu-form-item-control has-success"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-cascader-picker"
+            class="alu-cascader-picker"
             tabindex="0"
           >
             <span
-              class="ant-cascader-picker-label"
+              class="alu-cascader-picker-label"
             >
               Zhejiang / Hangzhou / West Lake
             </span>
             <input
               autocomplete="off"
-              class="ant-input ant-cascader-input "
+              class="alu-input alu-cascader-input "
               data-__field="[object Object]"
               data-__meta="[object Object]"
               id="register_residence"
@@ -1706,7 +1706,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
               value=""
             />
             <i
-              class="anticon anticon-close-circle ant-cascader-picker-clear"
+              class="anticon anticon-close-circle alu-cascader-picker-clear"
             >
               <svg
                 aria-hidden="true"
@@ -1723,7 +1723,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
               </svg>
             </i>
             <i
-              class="anticon anticon-down ant-cascader-picker-arrow"
+              class="anticon anticon-down alu-cascader-picker-arrow"
             >
               <svg
                 aria-hidden="true"
@@ -1745,13 +1745,13 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="register_phone"
         title="Phone Number"
       >
@@ -1759,26 +1759,26 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-input-group-wrapper"
+            class="alu-input-group-wrapper"
             style="width:100%"
           >
             <span
-              class="ant-input-wrapper ant-input-group"
+              class="alu-input-wrapper alu-input-group"
             >
               <span
-                class="ant-input-group-addon"
+                class="alu-input-group-addon"
               >
                 <div
-                  class="ant-select ant-select-enabled"
+                  class="alu-select alu-select-enabled"
                   id="register_prefix"
                   style="width:70px"
                 >
@@ -1787,7 +1787,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
                     aria-controls=""
                     aria-expanded="false"
                     aria-haspopup="true"
-                    class="ant-select-selection
+                    class="alu-select-selection
             ant-select-selection--single"
                     data-__field="[object Object]"
                     data-__meta="[object Object]"
@@ -1795,10 +1795,10 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
                     tabindex="0"
                   >
                     <div
-                      class="ant-select-selection__rendered"
+                      class="alu-select-selection__rendered"
                     >
                       <div
-                        class="ant-select-selection-selected-value"
+                        class="alu-select-selection-selected-value"
                         style="display:block;opacity:1"
                         title="+86"
                       >
@@ -1806,12 +1806,12 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
                       </div>
                     </div>
                     <span
-                      class="ant-select-arrow"
+                      class="alu-select-arrow"
                       style="user-select:none;-webkit-user-select:none"
                       unselectable="on"
                     >
                       <i
-                        class="anticon anticon-down ant-select-arrow-icon"
+                        class="anticon anticon-down alu-select-arrow-icon"
                       >
                         <svg
                           aria-hidden="true"
@@ -1832,7 +1832,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
                 </div>
               </span>
               <input
-                class="ant-input"
+                class="alu-input"
                 data-__field="[object Object]"
                 data-__meta="[object Object]"
                 id="register_phone"
@@ -1846,13 +1846,13 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="register_website"
         title="Website"
       >
@@ -1860,16 +1860,16 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-select-show-search ant-select-auto-complete ant-select ant-select-combobox ant-select-enabled"
+            class="alu-select-show-search alu-select-auto-complete alu-select alu-select-combobox alu-select-enabled"
             id="register_website"
           >
             <div
@@ -1877,17 +1877,17 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
               aria-controls=""
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-select-selection
+              class="alu-select-selection
             ant-select-selection--single"
               data-__field="[object Object]"
               data-__meta="[object Object]"
               role="combobox"
             >
               <div
-                class="ant-select-selection__rendered"
+                class="alu-select-selection__rendered"
               >
                 <div
-                  class="ant-select-selection__placeholder"
+                  class="alu-select-selection__placeholder"
                   style="display:block;user-select:none;-webkit-user-select:none"
                   unselectable="on"
                 >
@@ -1895,18 +1895,18 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
                 </div>
                 <ul>
                   <li
-                    class="ant-select-search ant-select-search--inline"
+                    class="alu-select-search alu-select-search--inline"
                   >
                     <div
-                      class="ant-select-search__field__wrap"
+                      class="alu-select-search__field__wrap"
                     >
                       <input
-                        class="ant-input ant-select-search__field"
+                        class="alu-input alu-select-search__field"
                         type="text"
                         value=""
                       />
                       <span
-                        class="ant-select-search__field__mirror"
+                        class="alu-select-search__field__mirror"
                       >
                          
                       </span>
@@ -1915,12 +1915,12 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
                 </ul>
               </div>
               <span
-                class="ant-select-arrow"
+                class="alu-select-arrow"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <i
-                  class="anticon anticon-down ant-select-arrow-icon"
+                  class="anticon anticon-down alu-select-arrow-icon"
                 >
                   <svg
                     aria-hidden="true"
@@ -1944,13 +1944,13 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="register_captcha"
         title="Captcha"
       >
@@ -1958,24 +1958,24 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-row"
+            class="alu-row"
             style="margin-left:-4px;margin-right:-4px"
           >
             <div
-              class="ant-col-12"
+              class="alu-col-12"
               style="padding-left:4px;padding-right:4px"
             >
               <input
-                class="ant-input"
+                class="alu-input"
                 data-__field="[object Object]"
                 data-__meta="[object Object]"
                 id="register_captcha"
@@ -1984,11 +1984,11 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
               />
             </div>
             <div
-              class="ant-col-12"
+              class="alu-col-12"
               style="padding-left:4px;padding-right:4px"
             >
               <button
-                class="ant-btn"
+                class="alu-btn"
                 type="button"
               >
                 <span>
@@ -1999,7 +1999,7 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
           </div>
         </span>
         <div
-          class="ant-form-extra"
+          class="alu-form-extra"
         >
           We must make sure that your are a human.
         </div>
@@ -2007,32 +2007,32 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-xs-offset-0 ant-col-sm-16 ant-col-sm-offset-8"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-xs-offset-0 alu-col-sm-16 alu-col-sm-offset-8"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <label
-            class="ant-checkbox-wrapper"
+            class="alu-checkbox-wrapper"
           >
             <span
-              class="ant-checkbox"
+              class="alu-checkbox"
             >
               <input
-                class="ant-checkbox-input"
+                class="alu-checkbox-input"
                 data-__field="[object Object]"
                 data-__meta="[object Object]"
                 id="register_agreement"
                 type="checkbox"
               />
               <span
-                class="ant-checkbox-inner"
+                class="alu-checkbox-inner"
               />
             </span>
             <span>
@@ -2049,19 +2049,19 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-xs-offset-0 ant-col-sm-16 ant-col-sm-offset-8"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-xs-offset-0 alu-col-sm-16 alu-col-sm-offset-8"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <button
-            class="ant-btn ant-btn-primary"
+            class="alu-btn alu-btn-primary"
             type="submit"
           >
             <span>
@@ -2077,16 +2077,16 @@ exports[`renders ./components/form/demo/register.md correctly 1`] = `
 
 exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="alu-form alu-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="time_related_controls_date-picker"
         title="DatePicker"
       >
@@ -2094,27 +2094,27 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-calendar-picker"
+            class="alu-calendar-picker"
             id="time_related_controls_date-picker"
           >
             <div>
               <input
-                class="ant-calendar-picker-input ant-input"
+                class="alu-calendar-picker-input alu-input"
                 placeholder="Select date"
                 readonly=""
                 value=""
               />
               <i
-                class="anticon anticon-calendar ant-calendar-picker-icon"
+                class="anticon anticon-calendar alu-calendar-picker-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -2137,13 +2137,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="time_related_controls_date-time-picker"
         title="DatePicker[showTime]"
       >
@@ -2151,28 +2151,28 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-calendar-picker"
+            class="alu-calendar-picker"
             id="time_related_controls_date-time-picker"
             style="width:195px"
           >
             <div>
               <input
-                class="ant-calendar-picker-input ant-input"
+                class="alu-calendar-picker-input alu-input"
                 placeholder="Select date"
                 readonly=""
                 value=""
               />
               <i
-                class="anticon anticon-calendar ant-calendar-picker-icon"
+                class="anticon anticon-calendar alu-calendar-picker-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -2195,13 +2195,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="time_related_controls_month-picker"
         title="MonthPicker"
       >
@@ -2209,27 +2209,27 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-calendar-picker"
+            class="alu-calendar-picker"
             id="time_related_controls_month-picker"
           >
             <div>
               <input
-                class="ant-calendar-picker-input ant-input"
+                class="alu-calendar-picker-input alu-input"
                 placeholder="Select date"
                 readonly=""
                 value=""
               />
               <i
-                class="anticon anticon-calendar ant-calendar-picker-icon"
+                class="anticon anticon-calendar alu-calendar-picker-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -2252,13 +2252,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="time_related_controls_range-picker"
         title="RangePicker"
       >
@@ -2266,43 +2266,43 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-calendar-picker"
+            class="alu-calendar-picker"
             id="time_related_controls_range-picker"
             tabindex="0"
           >
             <span
-              class="ant-calendar-picker-input ant-input"
+              class="alu-calendar-picker-input alu-input"
             >
               <input
-                class="ant-calendar-range-picker-input"
+                class="alu-calendar-range-picker-input"
                 placeholder="Start date"
                 readonly=""
                 tabindex="-1"
                 value=""
               />
               <span
-                class="ant-calendar-range-picker-separator"
+                class="alu-calendar-range-picker-separator"
               >
                  ~ 
               </span>
               <input
-                class="ant-calendar-range-picker-input"
+                class="alu-calendar-range-picker-input"
                 placeholder="End date"
                 readonly=""
                 tabindex="-1"
                 value=""
               />
               <i
-                class="anticon anticon-calendar ant-calendar-picker-icon"
+                class="anticon anticon-calendar alu-calendar-picker-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -2325,13 +2325,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="time_related_controls_range-time-picker"
         title="RangePicker[showTime]"
       >
@@ -2339,44 +2339,44 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-calendar-picker"
+            class="alu-calendar-picker"
             id="time_related_controls_range-time-picker"
             style="width:350px"
             tabindex="0"
           >
             <span
-              class="ant-calendar-picker-input ant-input"
+              class="alu-calendar-picker-input alu-input"
             >
               <input
-                class="ant-calendar-range-picker-input"
+                class="alu-calendar-range-picker-input"
                 placeholder="Start date"
                 readonly=""
                 tabindex="-1"
                 value=""
               />
               <span
-                class="ant-calendar-range-picker-separator"
+                class="alu-calendar-range-picker-separator"
               >
                  ~ 
               </span>
               <input
-                class="ant-calendar-range-picker-input"
+                class="alu-calendar-range-picker-input"
                 placeholder="End date"
                 readonly=""
                 tabindex="-1"
                 value=""
               />
               <i
-                class="anticon anticon-calendar ant-calendar-picker-icon"
+                class="anticon anticon-calendar alu-calendar-picker-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -2399,13 +2399,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-8"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-8"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="time_related_controls_time-picker"
         title="TimePicker"
       >
@@ -2413,29 +2413,29 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-16"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-16"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-time-picker "
+            class="alu-time-picker "
           >
             <input
-              class="ant-time-picker-input"
+              class="alu-time-picker-input"
               id="time_related_controls_time-picker"
               placeholder="Select time"
               type="text"
               value=""
             />
             <span
-              class="ant-time-picker-icon"
+              class="alu-time-picker-icon"
             >
               <i
-                class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+                class="anticon anticon-clock-circle alu-time-picker-clock-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -2461,19 +2461,19 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-xs-offset-0 ant-col-sm-16 ant-col-sm-offset-8"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-xs-offset-0 alu-col-sm-16 alu-col-sm-offset-8"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <button
-            class="ant-btn ant-btn-primary"
+            class="alu-btn alu-btn-primary"
             type="submit"
           >
             <span>
@@ -2489,13 +2489,13 @@ exports[`renders ./components/form/demo/time-related-controls.md correctly 1`] =
 
 exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="alu-form alu-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
         class=""
@@ -2505,16 +2505,16 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-form-text"
+            class="alu-form-text"
           >
             China
           </span>
@@ -2523,13 +2523,13 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="validate_other_select"
         title="Select"
       >
@@ -2537,16 +2537,16 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-select ant-select-enabled"
+            class="alu-select alu-select-enabled"
             id="validate_other_select"
           >
             <div
@@ -2554,7 +2554,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               aria-controls=""
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-select-selection
+              class="alu-select-selection
             ant-select-selection--single"
               data-__field="[object Object]"
               data-__meta="[object Object]"
@@ -2562,10 +2562,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               tabindex="0"
             >
               <div
-                class="ant-select-selection__rendered"
+                class="alu-select-selection__rendered"
               >
                 <div
-                  class="ant-select-selection__placeholder"
+                  class="alu-select-selection__placeholder"
                   style="display:block;user-select:none;-webkit-user-select:none"
                   unselectable="on"
                 >
@@ -2573,12 +2573,12 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 </div>
               </div>
               <span
-                class="ant-select-arrow"
+                class="alu-select-arrow"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <i
-                  class="anticon anticon-down ant-select-arrow-icon"
+                  class="anticon anticon-down alu-select-arrow-icon"
                 >
                   <svg
                     aria-hidden="true"
@@ -2602,13 +2602,13 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
-        class="ant-form-item-required"
+        class="alu-form-item-required"
         for="validate_other_select-multiple"
         title="Select[multiple]"
       >
@@ -2616,16 +2616,16 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-select ant-select-enabled"
+            class="alu-select alu-select-enabled"
             id="validate_other_select-multiple"
           >
             <div
@@ -2633,17 +2633,17 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               aria-controls=""
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-select-selection
+              class="alu-select-selection
             ant-select-selection--multiple"
               data-__field="[object Object]"
               data-__meta="[object Object]"
               role="combobox"
             >
               <div
-                class="ant-select-selection__rendered"
+                class="alu-select-selection__rendered"
               >
                 <div
-                  class="ant-select-selection__placeholder"
+                  class="alu-select-selection__placeholder"
                   style="display:block;user-select:none;-webkit-user-select:none"
                   unselectable="on"
                 >
@@ -2651,19 +2651,19 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 </div>
                 <ul>
                   <li
-                    class="ant-select-search ant-select-search--inline"
+                    class="alu-select-search alu-select-search--inline"
                   >
                     <div
-                      class="ant-select-search__field__wrap"
+                      class="alu-select-search__field__wrap"
                     >
                       <input
                         autocomplete="off"
-                        class="ant-select-search__field"
+                        class="alu-select-search__field"
                         id="validate_other_select-multiple"
                         value=""
                       />
                       <span
-                        class="ant-select-search__field__mirror"
+                        class="alu-select-search__field__mirror"
                       >
                          
                       </span>
@@ -2678,10 +2678,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
         class=""
@@ -2692,29 +2692,29 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control has-success"
+        class="alu-form-item-control has-success"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-input-number"
+            class="alu-input-number"
           >
             <div
-              class="ant-input-number-handler-wrap"
+              class="alu-input-number-handler-wrap"
             >
               <span
                 aria-disabled="false"
                 aria-label="Increase Value"
-                class="ant-input-number-handler ant-input-number-handler-up "
+                class="alu-input-number-handler alu-input-number-handler-up "
                 role="button"
                 unselectable="unselectable"
               >
                 <i
-                  class="anticon anticon-up ant-input-number-handler-up-inner"
+                  class="anticon anticon-up alu-input-number-handler-up-inner"
                 >
                   <svg
                     aria-hidden="true"
@@ -2734,12 +2734,12 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               <span
                 aria-disabled="false"
                 aria-label="Decrease Value"
-                class="ant-input-number-handler ant-input-number-handler-down "
+                class="alu-input-number-handler alu-input-number-handler-down "
                 role="button"
                 unselectable="unselectable"
               >
                 <i
-                  class="anticon anticon-down ant-input-number-handler-down-inner"
+                  class="anticon anticon-down alu-input-number-handler-down-inner"
                 >
                   <svg
                     aria-hidden="true"
@@ -2761,12 +2761,12 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               aria-valuemax="10"
               aria-valuemin="1"
               aria-valuenow="3"
-              class="ant-input-number-input-wrap"
+              class="alu-input-number-input-wrap"
               role="spinbutton"
             >
               <input
                 autocomplete="off"
-                class="ant-input-number-input"
+                class="alu-input-number-input"
                 data-__field="[object Object]"
                 data-__meta="[object Object]"
                 id="validate_other_input-number"
@@ -2778,7 +2778,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
             </div>
           </div>
           <span
-            class="ant-form-text"
+            class="alu-form-text"
           >
              machines
           </span>
@@ -2787,10 +2787,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
         class=""
@@ -2801,17 +2801,17 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <button
             aria-checked="false"
-            class="ant-switch"
+            class="alu-switch"
             data-__field="[object Object]"
             data-__meta="[object Object]"
             id="validate_other_switch"
@@ -2819,7 +2819,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
             type="button"
           >
             <span
-              class="ant-switch-inner"
+              class="alu-switch-inner"
             />
           </button>
         </span>
@@ -2827,10 +2827,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
         class=""
@@ -2841,49 +2841,49 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-slider ant-slider-with-marks"
+            class="alu-slider alu-slider-with-marks"
           >
             <div
-              class="ant-slider-rail"
+              class="alu-slider-rail"
             />
             <div
-              class="ant-slider-track"
+              class="alu-slider-track"
               style="left:0%;width:0%"
             />
             <div
-              class="ant-slider-step"
+              class="alu-slider-step"
             >
               <span
-                class="ant-slider-dot ant-slider-dot-active"
+                class="alu-slider-dot alu-slider-dot-active"
                 style="left:0%"
               />
               <span
-                class="ant-slider-dot"
+                class="alu-slider-dot"
                 style="left:20%"
               />
               <span
-                class="ant-slider-dot"
+                class="alu-slider-dot"
                 style="left:40%"
               />
               <span
-                class="ant-slider-dot"
+                class="alu-slider-dot"
                 style="left:60%"
               />
               <span
-                class="ant-slider-dot"
+                class="alu-slider-dot"
                 style="left:80%"
               />
               <span
-                class="ant-slider-dot"
+                class="alu-slider-dot"
                 style="left:100%"
               />
             </div>
@@ -2892,46 +2892,46 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               aria-valuemax="100"
               aria-valuemin="0"
               aria-valuenow="0"
-              class="ant-slider-handle"
+              class="alu-slider-handle"
               role="slider"
               style="left:0%"
               tabindex="0"
             />
             <div
-              class="ant-slider-mark"
+              class="alu-slider-mark"
             >
               <span
-                class="ant-slider-mark-text ant-slider-mark-text-active"
+                class="alu-slider-mark-text alu-slider-mark-text-active"
                 style="width:18%;margin-left:-9%;left:0%"
               >
                 A
               </span>
               <span
-                class="ant-slider-mark-text"
+                class="alu-slider-mark-text"
                 style="width:18%;margin-left:-9%;left:20%"
               >
                 B
               </span>
               <span
-                class="ant-slider-mark-text"
+                class="alu-slider-mark-text"
                 style="width:18%;margin-left:-9%;left:40%"
               >
                 C
               </span>
               <span
-                class="ant-slider-mark-text"
+                class="alu-slider-mark-text"
                 style="width:18%;margin-left:-9%;left:60%"
               >
                 D
               </span>
               <span
-                class="ant-slider-mark-text"
+                class="alu-slider-mark-text"
                 style="width:18%;margin-left:-9%;left:80%"
               >
                 E
               </span>
               <span
-                class="ant-slider-mark-text"
+                class="alu-slider-mark-text"
                 style="width:18%;margin-left:-9%;left:100%"
               >
                 F
@@ -2943,10 +2943,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
         class=""
@@ -2957,31 +2957,31 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-radio-group ant-radio-group-outline"
+            class="alu-radio-group alu-radio-group-outline"
             id="validate_other_radio-group"
           >
             <label
-              class="ant-radio-wrapper"
+              class="alu-radio-wrapper"
             >
               <span
-                class="ant-radio"
+                class="alu-radio"
               >
                 <input
-                  class="ant-radio-input"
+                  class="alu-radio-input"
                   type="radio"
                   value="a"
                 />
                 <span
-                  class="ant-radio-inner"
+                  class="alu-radio-inner"
                 />
               </span>
               <span>
@@ -2989,18 +2989,18 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               </span>
             </label>
             <label
-              class="ant-radio-wrapper"
+              class="alu-radio-wrapper"
             >
               <span
-                class="ant-radio"
+                class="alu-radio"
               >
                 <input
-                  class="ant-radio-input"
+                  class="alu-radio-input"
                   type="radio"
                   value="b"
                 />
                 <span
-                  class="ant-radio-inner"
+                  class="alu-radio-inner"
                 />
               </span>
               <span>
@@ -3008,18 +3008,18 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               </span>
             </label>
             <label
-              class="ant-radio-wrapper"
+              class="alu-radio-wrapper"
             >
               <span
-                class="ant-radio"
+                class="alu-radio"
               >
                 <input
-                  class="ant-radio-input"
+                  class="alu-radio-input"
                   type="radio"
                   value="c"
                 />
                 <span
-                  class="ant-radio-inner"
+                  class="alu-radio-inner"
                 />
               </span>
               <span>
@@ -3032,10 +3032,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
         class=""
@@ -3046,31 +3046,31 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-radio-group ant-radio-group-outline"
+            class="alu-radio-group alu-radio-group-outline"
             id="validate_other_radio-button"
           >
             <label
-              class="ant-radio-button-wrapper"
+              class="alu-radio-button-wrapper"
             >
               <span
-                class="ant-radio-button"
+                class="alu-radio-button"
               >
                 <input
-                  class="ant-radio-button-input"
+                  class="alu-radio-button-input"
                   type="radio"
                   value="a"
                 />
                 <span
-                  class="ant-radio-button-inner"
+                  class="alu-radio-button-inner"
                 />
               </span>
               <span>
@@ -3078,18 +3078,18 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               </span>
             </label>
             <label
-              class="ant-radio-button-wrapper"
+              class="alu-radio-button-wrapper"
             >
               <span
-                class="ant-radio-button"
+                class="alu-radio-button"
               >
                 <input
-                  class="ant-radio-button-input"
+                  class="alu-radio-button-input"
                   type="radio"
                   value="b"
                 />
                 <span
-                  class="ant-radio-button-inner"
+                  class="alu-radio-button-inner"
                 />
               </span>
               <span>
@@ -3097,18 +3097,18 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               </span>
             </label>
             <label
-              class="ant-radio-button-wrapper"
+              class="alu-radio-button-wrapper"
             >
               <span
-                class="ant-radio-button"
+                class="alu-radio-button"
               >
                 <input
-                  class="ant-radio-button-input"
+                  class="alu-radio-button-input"
                   type="radio"
                   value="c"
                 />
                 <span
-                  class="ant-radio-button-inner"
+                  class="alu-radio-button-inner"
                 />
               </span>
               <span>
@@ -3121,10 +3121,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
         class=""
@@ -3135,41 +3135,41 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control has-success"
+        class="alu-form-item-control has-success"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-checkbox-group"
+            class="alu-checkbox-group"
             data-__field="[object Object]"
             data-__meta="[object Object]"
             id="validate_other_checkbox-group"
             style="width:100%"
           >
             <div
-              class="ant-row"
+              class="alu-row"
             >
               <div
-                class="ant-col-8"
+                class="alu-col-8"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-checkbox-wrapper-checked"
+                  class="alu-checkbox-wrapper alu-checkbox-wrapper-checked"
                 >
                   <span
-                    class="ant-checkbox ant-checkbox-checked"
+                    class="alu-checkbox alu-checkbox-checked"
                   >
                     <input
                       checked=""
-                      class="ant-checkbox-input"
+                      class="alu-checkbox-input"
                       type="checkbox"
                       value="A"
                     />
                     <span
-                      class="ant-checkbox-inner"
+                      class="alu-checkbox-inner"
                     />
                   </span>
                   <span>
@@ -3178,23 +3178,23 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 </label>
               </div>
               <div
-                class="ant-col-8"
+                class="alu-col-8"
               >
                 <label
-                  class="ant-checkbox-wrapper ant-checkbox-wrapper-checked ant-checkbox-wrapper-disabled"
+                  class="alu-checkbox-wrapper alu-checkbox-wrapper-checked alu-checkbox-wrapper-disabled"
                 >
                   <span
-                    class="ant-checkbox ant-checkbox-checked ant-checkbox-disabled"
+                    class="alu-checkbox alu-checkbox-checked alu-checkbox-disabled"
                   >
                     <input
                       checked=""
-                      class="ant-checkbox-input"
+                      class="alu-checkbox-input"
                       disabled=""
                       type="checkbox"
                       value="B"
                     />
                     <span
-                      class="ant-checkbox-inner"
+                      class="alu-checkbox-inner"
                     />
                   </span>
                   <span>
@@ -3203,21 +3203,21 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 </label>
               </div>
               <div
-                class="ant-col-8"
+                class="alu-col-8"
               >
                 <label
-                  class="ant-checkbox-wrapper"
+                  class="alu-checkbox-wrapper"
                 >
                   <span
-                    class="ant-checkbox"
+                    class="alu-checkbox"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="alu-checkbox-input"
                       type="checkbox"
                       value="C"
                     />
                     <span
-                      class="ant-checkbox-inner"
+                      class="alu-checkbox-inner"
                     />
                   </span>
                   <span>
@@ -3226,21 +3226,21 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 </label>
               </div>
               <div
-                class="ant-col-8"
+                class="alu-col-8"
               >
                 <label
-                  class="ant-checkbox-wrapper"
+                  class="alu-checkbox-wrapper"
                 >
                   <span
-                    class="ant-checkbox"
+                    class="alu-checkbox"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="alu-checkbox-input"
                       type="checkbox"
                       value="D"
                     />
                     <span
-                      class="ant-checkbox-inner"
+                      class="alu-checkbox-inner"
                     />
                   </span>
                   <span>
@@ -3249,21 +3249,21 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 </label>
               </div>
               <div
-                class="ant-col-8"
+                class="alu-col-8"
               >
                 <label
-                  class="ant-checkbox-wrapper"
+                  class="alu-checkbox-wrapper"
                 >
                   <span
-                    class="ant-checkbox"
+                    class="alu-checkbox"
                   >
                     <input
-                      class="ant-checkbox-input"
+                      class="alu-checkbox-input"
                       type="checkbox"
                       value="E"
                     />
                     <span
-                      class="ant-checkbox-inner"
+                      class="alu-checkbox-inner"
                     />
                   </span>
                   <span>
@@ -3278,10 +3278,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
         class=""
@@ -3292,21 +3292,21 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control has-success"
+        class="alu-form-item-control has-success"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <ul
-            class="ant-rate"
+            class="alu-rate"
             role="radiogroup"
             tabindex="0"
           >
             <li
-              class="ant-rate-star ant-rate-star-full"
+              class="alu-rate-star alu-rate-star-full"
             >
               <div
                 aria-checked="true"
@@ -3316,7 +3316,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 tabindex="0"
               >
                 <div
-                  class="ant-rate-star-first"
+                  class="alu-rate-star-first"
                 >
                   <i
                     class="anticon anticon-star"
@@ -3337,7 +3337,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   </i>
                 </div>
                 <div
-                  class="ant-rate-star-second"
+                  class="alu-rate-star-second"
                 >
                   <i
                     class="anticon anticon-star"
@@ -3360,7 +3360,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               </div>
             </li>
             <li
-              class="ant-rate-star ant-rate-star-full"
+              class="alu-rate-star alu-rate-star-full"
             >
               <div
                 aria-checked="true"
@@ -3370,7 +3370,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 tabindex="0"
               >
                 <div
-                  class="ant-rate-star-first"
+                  class="alu-rate-star-first"
                 >
                   <i
                     class="anticon anticon-star"
@@ -3391,7 +3391,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   </i>
                 </div>
                 <div
-                  class="ant-rate-star-second"
+                  class="alu-rate-star-second"
                 >
                   <i
                     class="anticon anticon-star"
@@ -3414,7 +3414,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               </div>
             </li>
             <li
-              class="ant-rate-star ant-rate-star-full"
+              class="alu-rate-star alu-rate-star-full"
             >
               <div
                 aria-checked="true"
@@ -3424,7 +3424,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 tabindex="0"
               >
                 <div
-                  class="ant-rate-star-first"
+                  class="alu-rate-star-first"
                 >
                   <i
                     class="anticon anticon-star"
@@ -3445,7 +3445,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   </i>
                 </div>
                 <div
-                  class="ant-rate-star-second"
+                  class="alu-rate-star-second"
                 >
                   <i
                     class="anticon anticon-star"
@@ -3468,7 +3468,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               </div>
             </li>
             <li
-              class="ant-rate-star ant-rate-star-zero"
+              class="alu-rate-star alu-rate-star-zero"
             >
               <div
                 aria-checked="true"
@@ -3478,7 +3478,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 tabindex="0"
               >
                 <div
-                  class="ant-rate-star-first"
+                  class="alu-rate-star-first"
                 >
                   <i
                     class="anticon anticon-star"
@@ -3499,7 +3499,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   </i>
                 </div>
                 <div
-                  class="ant-rate-star-second"
+                  class="alu-rate-star-second"
                 >
                   <i
                     class="anticon anticon-star"
@@ -3522,7 +3522,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               </div>
             </li>
             <li
-              class="ant-rate-star ant-rate-star-zero"
+              class="alu-rate-star alu-rate-star-zero"
             >
               <div
                 aria-checked="false"
@@ -3532,7 +3532,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                 tabindex="0"
               >
                 <div
-                  class="ant-rate-star-first"
+                  class="alu-rate-star-first"
                 >
                   <i
                     class="anticon anticon-star"
@@ -3553,7 +3553,7 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
                   </i>
                 </div>
                 <div
-                  class="ant-rate-star-second"
+                  class="alu-rate-star-second"
                 >
                   <i
                     class="anticon anticon-star"
@@ -3581,10 +3581,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
         class=""
@@ -3595,28 +3595,28 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
             class=""
           >
             <div
-              class="ant-upload ant-upload-select ant-upload-select-picture"
+              class="alu-upload alu-upload-select alu-upload-select-picture"
               style="display:"
             />
             <div
-              class="ant-upload-list ant-upload-list-picture"
+              class="alu-upload-list alu-upload-list-picture"
             />
           </span>
         </span>
         <div
-          class="ant-form-extra"
+          class="alu-form-extra"
         >
           longgggggggggggggggggggggggggggggggggg
         </div>
@@ -3624,10 +3624,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-6 ant-form-item-label"
+      class="alu-col-6 alu-form-item-label"
     >
       <label
         class=""
@@ -3638,13 +3638,13 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-14 ant-form-item-control-wrapper"
+      class="alu-col-14 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
             class="dropbox"
@@ -3653,10 +3653,10 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
               class=""
             >
               <div
-                class="ant-upload ant-upload-drag"
+                class="alu-upload alu-upload-drag"
               />
               <div
-                class="ant-upload-list ant-upload-list-text"
+                class="alu-upload-list alu-upload-list-text"
               />
             </span>
           </div>
@@ -3665,19 +3665,19 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-col-12 ant-col-offset-6 ant-form-item-control-wrapper"
+      class="alu-col-12 alu-col-offset-6 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <button
-            class="ant-btn ant-btn-primary"
+            class="alu-btn alu-btn-primary"
             type="submit"
           >
             <span>
@@ -3693,13 +3693,13 @@ exports[`renders ./components/form/demo/validate-other.md correctly 1`] = `
 
 exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="alu-form alu-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item ant-form-item-with-help"
+    class="alu-row alu-form-item alu-form-item-with-help"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -3709,16 +3709,16 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control has-error"
+        class="alu-form-item-control has-error"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             id="error"
             placeholder="unavailable choice"
             type="text"
@@ -3726,7 +3726,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
           />
         </span>
         <div
-          class="ant-form-explain"
+          class="alu-form-explain"
         >
           Should be combination of numbers & alphabets
         </div>
@@ -3734,10 +3734,10 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -3747,16 +3747,16 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control has-warning"
+        class="alu-form-item-control has-warning"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             id="warning"
             placeholder="Warning"
             type="text"
@@ -3767,10 +3767,10 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item ant-form-item-with-help"
+    class="alu-row alu-form-item alu-form-item-with-help"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -3780,23 +3780,23 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control has-feedback is-validating"
+        class="alu-form-item-control has-feedback is-validating"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             id="validating"
             placeholder="I'm the content is being validated"
             type="text"
             value=""
           />
           <span
-            class="ant-form-item-children-icon"
+            class="alu-form-item-children-icon"
           >
             <i
               class="anticon anticon-loading"
@@ -3818,7 +3818,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
           </span>
         </span>
         <div
-          class="ant-form-explain"
+          class="alu-form-explain"
         >
           The information is being validated...
         </div>
@@ -3826,10 +3826,10 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -3839,23 +3839,23 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control has-feedback has-success"
+        class="alu-form-item-control has-feedback has-success"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             id="success"
             placeholder="I'm the content"
             type="text"
             value=""
           />
           <span
-            class="ant-form-item-children-icon"
+            class="alu-form-item-children-icon"
           >
             <i
               class="anticon anticon-check-circle"
@@ -3880,10 +3880,10 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -3893,23 +3893,23 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control has-feedback has-warning"
+        class="alu-form-item-control has-feedback has-warning"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             id="warning2"
             placeholder="Warning"
             type="text"
             value=""
           />
           <span
-            class="ant-form-item-children-icon"
+            class="alu-form-item-children-icon"
           >
             <i
               class="anticon anticon-exclamation-circle"
@@ -3934,10 +3934,10 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item ant-form-item-with-help"
+    class="alu-row alu-form-item alu-form-item-with-help"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -3947,23 +3947,23 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control has-feedback has-error"
+        class="alu-form-item-control has-feedback has-error"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <input
-            class="ant-input"
+            class="alu-input"
             id="error2"
             placeholder="unavailable choice"
             type="text"
             value=""
           />
           <span
-            class="ant-form-item-children-icon"
+            class="alu-form-item-children-icon"
           >
             <i
               class="anticon anticon-close-circle"
@@ -3985,7 +3985,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
           </span>
         </span>
         <div
-          class="ant-form-explain"
+          class="alu-form-explain"
         >
           Should be combination of numbers & alphabets
         </div>
@@ -3993,10 +3993,10 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -4006,27 +4006,27 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control has-feedback has-success"
+        class="alu-form-item-control has-feedback has-success"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-calendar-picker"
+            class="alu-calendar-picker"
             style="width:100%"
           >
             <div>
               <input
-                class="ant-calendar-picker-input ant-input"
+                class="alu-calendar-picker-input alu-input"
                 placeholder="Select date"
                 readonly=""
                 value=""
               />
               <i
-                class="anticon anticon-calendar ant-calendar-picker-icon"
+                class="anticon anticon-calendar alu-calendar-picker-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -4045,7 +4045,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             </div>
           </span>
           <span
-            class="ant-form-item-children-icon"
+            class="alu-form-item-children-icon"
           >
             <i
               class="anticon anticon-check-circle"
@@ -4070,10 +4070,10 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -4083,30 +4083,30 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control has-feedback has-warning"
+        class="alu-form-item-control has-feedback has-warning"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-time-picker "
+            class="alu-time-picker "
             style="width:100%"
           >
             <input
-              class="ant-time-picker-input"
+              class="alu-time-picker-input"
               id=""
               placeholder="Select time"
               type="text"
               value=""
             />
             <span
-              class="ant-time-picker-icon"
+              class="alu-time-picker-icon"
             >
               <i
-                class="anticon anticon-clock-circle ant-time-picker-clock-icon"
+                class="anticon anticon-clock-circle alu-time-picker-clock-icon"
               >
                 <svg
                   aria-hidden="true"
@@ -4128,7 +4128,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             </span>
           </span>
           <span
-            class="ant-form-item-children-icon"
+            class="alu-form-item-children-icon"
           >
             <i
               class="anticon anticon-exclamation-circle"
@@ -4153,10 +4153,10 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -4166,32 +4166,32 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control has-feedback has-error"
+        class="alu-form-item-control has-feedback has-error"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-select ant-select-enabled"
+            class="alu-select alu-select-enabled"
           >
             <div
               aria-autocomplete="list"
               aria-controls=""
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-select-selection
+              class="alu-select-selection
             ant-select-selection--single"
               role="combobox"
               tabindex="0"
             >
               <div
-                class="ant-select-selection__rendered"
+                class="alu-select-selection__rendered"
               >
                 <div
-                  class="ant-select-selection-selected-value"
+                  class="alu-select-selection-selected-value"
                   style="display:block;opacity:1"
                   title="Option 1"
                 >
@@ -4199,12 +4199,12 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                 </div>
               </div>
               <span
-                class="ant-select-arrow"
+                class="alu-select-arrow"
                 style="user-select:none;-webkit-user-select:none"
                 unselectable="on"
               >
                 <i
-                  class="anticon anticon-down ant-select-arrow-icon"
+                  class="anticon anticon-down alu-select-arrow-icon"
                 >
                   <svg
                     aria-hidden="true"
@@ -4224,7 +4224,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             </div>
           </div>
           <span
-            class="ant-form-item-children-icon"
+            class="alu-form-item-children-icon"
           >
             <i
               class="anticon anticon-close-circle"
@@ -4249,10 +4249,10 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item ant-form-item-with-help"
+    class="alu-row alu-form-item alu-form-item-with-help"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -4262,30 +4262,30 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control has-feedback is-validating"
+        class="alu-form-item-control has-feedback is-validating"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <span
-            class="ant-cascader-picker"
+            class="alu-cascader-picker"
             tabindex="0"
           >
             <span
-              class="ant-cascader-picker-label"
+              class="alu-cascader-picker-label"
             />
             <input
               autocomplete="off"
-              class="ant-input ant-cascader-input "
+              class="alu-input alu-cascader-input "
               readonly=""
               type="text"
               value=""
             />
             <i
-              class="anticon anticon-close-circle ant-cascader-picker-clear"
+              class="anticon anticon-close-circle alu-cascader-picker-clear"
             >
               <svg
                 aria-hidden="true"
@@ -4302,7 +4302,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
               </svg>
             </i>
             <i
-              class="anticon anticon-down ant-cascader-picker-arrow"
+              class="anticon anticon-down alu-cascader-picker-arrow"
             >
               <svg
                 aria-hidden="true"
@@ -4320,7 +4320,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             </i>
           </span>
           <span
-            class="ant-form-item-children-icon"
+            class="alu-form-item-children-icon"
           >
             <i
               class="anticon anticon-loading"
@@ -4342,7 +4342,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
           </span>
         </span>
         <div
-          class="ant-form-explain"
+          class="alu-form-explain"
         >
           The information is being validated...
         </div>
@@ -4350,11 +4350,11 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
     style="margin-bottom:0"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -4364,39 +4364,39 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-row ant-form-item ant-form-item-with-help"
+            class="alu-row alu-form-item alu-form-item-with-help"
             style="display:inline-block;width:calc(50% - 12px)"
           >
             <div
-              class="ant-form-item-control-wrapper"
+              class="alu-form-item-control-wrapper"
             >
               <div
-                class="ant-form-item-control has-error"
+                class="alu-form-item-control has-error"
               >
                 <span
-                  class="ant-form-item-children"
+                  class="alu-form-item-children"
                 >
                   <span
-                    class="ant-calendar-picker"
+                    class="alu-calendar-picker"
                   >
                     <div>
                       <input
-                        class="ant-calendar-picker-input ant-input"
+                        class="alu-calendar-picker-input alu-input"
                         placeholder="Select date"
                         readonly=""
                         value=""
                       />
                       <i
-                        class="anticon anticon-calendar ant-calendar-picker-icon"
+                        class="anticon anticon-calendar alu-calendar-picker-icon"
                       >
                         <svg
                           aria-hidden="true"
@@ -4416,7 +4416,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
                   </span>
                 </span>
                 <div
-                  class="ant-form-explain"
+                  class="alu-form-explain"
                 >
                   Please select the correct date
                 </div>
@@ -4429,30 +4429,30 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             -
           </span>
           <div
-            class="ant-row ant-form-item"
+            class="alu-row alu-form-item"
             style="display:inline-block;width:calc(50% - 12px)"
           >
             <div
-              class="ant-form-item-control-wrapper"
+              class="alu-form-item-control-wrapper"
             >
               <div
-                class="ant-form-item-control"
+                class="alu-form-item-control"
               >
                 <span
-                  class="ant-form-item-children"
+                  class="alu-form-item-children"
                 >
                   <span
-                    class="ant-calendar-picker"
+                    class="alu-calendar-picker"
                   >
                     <div>
                       <input
-                        class="ant-calendar-picker-input ant-input"
+                        class="alu-calendar-picker-input alu-input"
                         placeholder="Select date"
                         readonly=""
                         value=""
                       />
                       <i
-                        class="anticon anticon-calendar ant-calendar-picker-icon"
+                        class="anticon anticon-calendar alu-calendar-picker-icon"
                       >
                         <svg
                           aria-hidden="true"
@@ -4479,10 +4479,10 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-row ant-form-item"
+    class="alu-row alu-form-item"
   >
     <div
-      class="ant-form-item-label ant-col-xs-24 ant-col-sm-5"
+      class="alu-form-item-label alu-col-xs-24 alu-col-sm-5"
     >
       <label
         class=""
@@ -4492,30 +4492,30 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-form-item-control-wrapper ant-col-xs-24 ant-col-sm-12"
+      class="alu-form-item-control-wrapper alu-col-xs-24 alu-col-sm-12"
     >
       <div
-        class="ant-form-item-control has-feedback has-success"
+        class="alu-form-item-control has-feedback has-success"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-input-number"
+            class="alu-input-number"
             style="width:100%"
           >
             <div
-              class="ant-input-number-handler-wrap"
+              class="alu-input-number-handler-wrap"
             >
               <span
                 aria-disabled="false"
                 aria-label="Increase Value"
-                class="ant-input-number-handler ant-input-number-handler-up "
+                class="alu-input-number-handler alu-input-number-handler-up "
                 role="button"
                 unselectable="unselectable"
               >
                 <i
-                  class="anticon anticon-up ant-input-number-handler-up-inner"
+                  class="anticon anticon-up alu-input-number-handler-up-inner"
                 >
                   <svg
                     aria-hidden="true"
@@ -4535,12 +4535,12 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
               <span
                 aria-disabled="false"
                 aria-label="Decrease Value"
-                class="ant-input-number-handler ant-input-number-handler-down "
+                class="alu-input-number-handler alu-input-number-handler-down "
                 role="button"
                 unselectable="unselectable"
               >
                 <i
-                  class="anticon anticon-down ant-input-number-handler-down-inner"
+                  class="anticon anticon-down alu-input-number-handler-down-inner"
                 >
                   <svg
                     aria-hidden="true"
@@ -4560,12 +4560,12 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             </div>
             <div
               aria-valuemin="-9007199254740991"
-              class="ant-input-number-input-wrap"
+              class="alu-input-number-input-wrap"
               role="spinbutton"
             >
               <input
                 autocomplete="off"
-                class="ant-input-number-input"
+                class="alu-input-number-input"
                 min="-9007199254740991"
                 step="1"
                 value=""
@@ -4573,7 +4573,7 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
             </div>
           </div>
           <span
-            class="ant-form-item-children-icon"
+            class="alu-form-item-children-icon"
           >
             <i
               class="anticon anticon-check-circle"
@@ -4602,13 +4602,13 @@ exports[`renders ./components/form/demo/validate-static.md correctly 1`] = `
 
 exports[`renders ./components/form/demo/without-form-create.md correctly 1`] = `
 <form
-  class="ant-form ant-form-horizontal"
+  class="alu-form alu-form-horizontal"
 >
   <div
-    class="ant-row ant-form-item ant-form-item-with-help"
+    class="alu-row alu-form-item alu-form-item-with-help"
   >
     <div
-      class="ant-col-7 ant-form-item-label"
+      class="alu-col-7 alu-form-item-label"
     >
       <label
         class=""
@@ -4618,29 +4618,29 @@ exports[`renders ./components/form/demo/without-form-create.md correctly 1`] = `
       </label>
     </div>
     <div
-      class="ant-col-12 ant-form-item-control-wrapper"
+      class="alu-col-12 alu-form-item-control-wrapper"
     >
       <div
-        class="ant-form-item-control"
+        class="alu-form-item-control"
       >
         <span
-          class="ant-form-item-children"
+          class="alu-form-item-children"
         >
           <div
-            class="ant-input-number"
+            class="alu-input-number"
           >
             <div
-              class="ant-input-number-handler-wrap"
+              class="alu-input-number-handler-wrap"
             >
               <span
                 aria-disabled="false"
                 aria-label="Increase Value"
-                class="ant-input-number-handler ant-input-number-handler-up "
+                class="alu-input-number-handler alu-input-number-handler-up "
                 role="button"
                 unselectable="unselectable"
               >
                 <i
-                  class="anticon anticon-up ant-input-number-handler-up-inner"
+                  class="anticon anticon-up alu-input-number-handler-up-inner"
                 >
                   <svg
                     aria-hidden="true"
@@ -4660,12 +4660,12 @@ exports[`renders ./components/form/demo/without-form-create.md correctly 1`] = `
               <span
                 aria-disabled="false"
                 aria-label="Decrease Value"
-                class="ant-input-number-handler ant-input-number-handler-down "
+                class="alu-input-number-handler alu-input-number-handler-down "
                 role="button"
                 unselectable="unselectable"
               >
                 <i
-                  class="anticon anticon-down ant-input-number-handler-down-inner"
+                  class="anticon anticon-down alu-input-number-handler-down-inner"
                 >
                   <svg
                     aria-hidden="true"
@@ -4687,12 +4687,12 @@ exports[`renders ./components/form/demo/without-form-create.md correctly 1`] = `
               aria-valuemax="12"
               aria-valuemin="8"
               aria-valuenow="11"
-              class="ant-input-number-input-wrap"
+              class="alu-input-number-input-wrap"
               role="spinbutton"
             >
               <input
                 autocomplete="off"
-                class="ant-input-number-input"
+                class="alu-input-number-input"
                 max="12"
                 min="8"
                 step="1"
@@ -4702,7 +4702,7 @@ exports[`renders ./components/form/demo/without-form-create.md correctly 1`] = `
           </div>
         </span>
         <div
-          class="ant-form-explain"
+          class="alu-form-explain"
         >
           A prime is a natural number greater than 1 that has no positive divisors other than 1 and itself.
         </div>

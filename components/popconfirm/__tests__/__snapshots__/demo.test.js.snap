@@ -20,12 +20,12 @@ exports[`renders ./components/popconfirm/demo/dynamic-trigger.md correctly 1`] =
   Whether directly execute：
   <button
     aria-checked="true"
-    class="ant-switch ant-switch-checked"
+    class="alu-switch alu-switch-checked"
     role="switch"
     type="button"
   >
     <span
-      class="ant-switch-inner"
+      class="alu-switch-inner"
     />
   </button>
 </div>
@@ -55,7 +55,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
     style="margin-left:70px;white-space:nowrap"
   >
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -63,7 +63,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -71,7 +71,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -83,7 +83,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
     style="width:70px;float:left"
   >
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -91,7 +91,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -99,7 +99,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -111,7 +111,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
     style="width:70px;margin-left:304px"
   >
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -119,7 +119,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -127,7 +127,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -139,7 +139,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
     style="margin-left:70px;clear:both;white-space:nowrap"
   >
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -147,7 +147,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -155,7 +155,7 @@ exports[`renders ./components/popconfirm/demo/placement.md correctly 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>

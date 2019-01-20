@@ -171,6 +171,23 @@
     width: 100%;
   }
 
+  &-subtitle {
+    & > span {
+      display: block;
+      line-height: 1.2;
+    }
+    & > span:last-child {
+      font-size: 12px;
+      margin-top: 2px;
+    }
+    &.@{btn-prefix-cls}-xl > span:last-child {
+      font-size: 16px;
+    }
+    &.@{btn-prefix-cls}-lg > span:last-child {
+      font-size: 16px;
+    }
+  }
+
   // https://github.com/ant-design/ant-design/issues/12681
   &:empty {
     vertical-align: top;
@@ -179,6 +196,9 @@
 
 a.@{btn-prefix-cls} {
   line-height: @btn-height-base - 2px;
+  &-xl {
+    line-height: @btn-height-xl - 2px;
+  }
   &-lg {
     line-height: @btn-height-lg - 2px;
   }

@@ -19,7 +19,7 @@ describe('Select', () => {
 
   it('should have default notFoundContent', () => {
     const wrapper = mount(<Select mode="multiple" />);
-    wrapper.find('.ant-select').simulate('click');
+    wrapper.find('.alu-select').simulate('click');
     jest.runAllTimers();
     const dropdownWrapper = mount(
       wrapper
@@ -38,7 +38,7 @@ describe('Select', () => {
 
   it('should support set notFoundContent to null', () => {
     const wrapper = mount(<Select mode="multiple" notFoundContent={null} />);
-    wrapper.find('.ant-select').simulate('click');
+    wrapper.find('.alu-select').simulate('click');
     jest.runAllTimers();
     const dropdownWrapper = mount(
       wrapper
@@ -51,7 +51,7 @@ describe('Select', () => {
 
   it('should not have default notFoundContent when mode is combobox', () => {
     const wrapper = mount(<Select mode={Select.SECRET_COMBOBOX_MODE_DO_NOT_USE} />);
-    wrapper.find('.ant-select').simulate('click');
+    wrapper.find('.alu-select').simulate('click');
     jest.runAllTimers();
     const dropdownWrapper = mount(
       wrapper
@@ -66,7 +66,7 @@ describe('Select', () => {
     const wrapper = mount(
       <Select mode={Select.SECRET_COMBOBOX_MODE_DO_NOT_USE} notFoundContent="not at all" />,
     );
-    wrapper.find('.ant-select').simulate('click');
+    wrapper.find('.alu-select').simulate('click');
     jest.runAllTimers();
     const dropdownWrapper = mount(
       wrapper
@@ -97,7 +97,7 @@ describe('Select', () => {
         .getComponent(),
     );
     expect(dropdownWrapper.props().visible).toBe(true);
-    wrapper.find('.ant-select').simulate('click');
+    wrapper.find('.alu-select').simulate('click');
     expect(onDropdownVisibleChange).toHaveBeenLastCalledWith(false);
     expect(dropdownWrapper.props().visible).toBe(true);
 
@@ -109,7 +109,7 @@ describe('Select', () => {
         .getComponent(),
     );
     expect(dropdownWrapper.props().visible).toBe(false);
-    wrapper.find('.ant-select').simulate('click');
+    wrapper.find('.alu-select').simulate('click');
     expect(onDropdownVisibleChange).toHaveBeenLastCalledWith(true);
     expect(dropdownWrapper.props().visible).toBe(false);
   });

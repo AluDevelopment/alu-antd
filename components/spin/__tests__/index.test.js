@@ -11,13 +11,13 @@ describe('Spin', () => {
     );
     expect(
       wrapper
-        .find('.ant-spin-nested-loading')
+        .find('.alu-spin-nested-loading')
         .at(0)
         .prop('style'),
     ).toBeFalsy();
     expect(
       wrapper
-        .find('.ant-spin')
+        .find('.alu-spin')
         .at(0)
         .prop('style').background,
     ).toBe('red');
@@ -42,9 +42,9 @@ describe('Spin', () => {
       const wrapper = mount(<Spin spinning delay={500} />);
       expect(
         wrapper
-          .find('.ant-spin')
+          .find('.alu-spin')
           .at(0)
-          .hasClass('ant-spin-spinning'),
+          .hasClass('alu-spin-spinning'),
       ).toEqual(false);
     });
 
@@ -53,9 +53,9 @@ describe('Spin', () => {
 
       expect(
         wrapper
-          .find('.ant-spin')
+          .find('.alu-spin')
           .at(0)
-          .hasClass('ant-spin-spinning'),
+          .hasClass('alu-spin-spinning'),
       ).toEqual(false);
 
       jest.runAllTimers();
@@ -63,9 +63,9 @@ describe('Spin', () => {
 
       expect(
         wrapper
-          .find('.ant-spin')
+          .find('.alu-spin')
           .at(0)
-          .hasClass('ant-spin-spinning'),
+          .hasClass('alu-spin-spinning'),
       ).toEqual(true);
     });
   });

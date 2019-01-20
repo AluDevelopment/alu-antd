@@ -36,8 +36,8 @@ describe('Upload List', () => {
       </Upload>,
     );
     fileList.forEach((file, i) => {
-      const linkNode = wrapper.find('.ant-upload-list-item-thumbnail').at(i);
-      const imgNode = wrapper.find('.ant-upload-list-item-thumbnail img').at(i);
+      const linkNode = wrapper.find('.alu-upload-list-item-thumbnail').at(i);
+      const imgNode = wrapper.find('.alu-upload-list-item-thumbnail img').at(i);
       expect(linkNode.prop('href')).toBe(file.url);
       expect(imgNode.prop('src')).toBe(file.thumbUrl);
     });
@@ -66,15 +66,15 @@ describe('Upload List', () => {
         <button type="button">upload</button>
       </Upload>,
     );
-    expect(wrapper.find('.ant-upload-list-item').length).toBe(2);
+    expect(wrapper.find('.alu-upload-list-item').length).toBe(2);
     wrapper
-      .find('.ant-upload-list-item')
+      .find('.alu-upload-list-item')
       .at(0)
       .find('.anticon-close')
       .simulate('click');
     await delay(400);
     wrapper.update();
-    expect(wrapper.find('.ant-upload-list-item').hostNodes().length).toBe(1);
+    expect(wrapper.find('.alu-upload-list-item').hostNodes().length).toBe(1);
   });
 
   it('should be uploading when upload a file', done => {

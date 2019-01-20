@@ -2,25 +2,25 @@
 
 exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-line"
+  class="alu-tabs alu-tabs-top alu-tabs-line"
 >
   <div
-    class="ant-tabs-bar ant-tabs-top-bar"
+    class="alu-tabs-bar alu-tabs-top-bar"
     role="tablist"
     tabindex="0"
   >
     <div
-      class="ant-tabs-nav-container"
+      class="alu-tabs-nav-container"
     >
       <span
-        class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-prev-icon"
+          class="alu-tabs-tab-prev-icon"
         >
           <i
-            class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+            class="anticon anticon-left alu-tabs-tab-prev-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -39,14 +39,14 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
         </span>
       </span>
       <span
-        class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-next-icon"
+          class="alu-tabs-tab-next-icon"
         >
           <i
-            class="anticon anticon-right ant-tabs-tab-next-icon-target"
+            class="anticon anticon-right alu-tabs-tab-next-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -65,19 +65,19 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
         </span>
       </span>
       <div
-        class="ant-tabs-nav-wrap"
+        class="alu-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-scroll"
+          class="alu-tabs-nav-scroll"
         >
           <div
-            class="ant-tabs-nav ant-tabs-nav-animated"
+            class="alu-tabs-nav alu-tabs-nav-animated"
           >
             <div>
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-active ant-tabs-tab"
+                class="alu-tabs-tab-active alu-tabs-tab"
                 role="tab"
               >
                 Tab 1
@@ -85,7 +85,7 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class=" ant-tabs-tab"
+                class=" alu-tabs-tab"
                 role="tab"
               >
                 Tab 2
@@ -93,14 +93,14 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class=" ant-tabs-tab"
+                class=" alu-tabs-tab"
                 role="tab"
               >
                 Tab 3
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
             />
           </div>
         </div>
@@ -113,12 +113,12 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
     tabindex="0"
   />
   <div
-    class="ant-tabs-content ant-tabs-content-animated ant-tabs-top-content"
+    class="alu-tabs-content alu-tabs-content-animated alu-tabs-top-content"
     style="margin-left:0%"
   >
     <div
       aria-hidden="false"
-      class="ant-tabs-tabpane ant-tabs-tabpane-active"
+      class="alu-tabs-tabpane alu-tabs-tabpane-active"
       role="tabpanel"
     >
       <div
@@ -135,12 +135,12 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
     </div>
     <div
       aria-hidden="true"
-      class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+      class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
       role="tabpanel"
     />
     <div
       aria-hidden="true"
-      class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+      class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
       role="tabpanel"
     />
   </div>
@@ -154,25 +154,25 @@ exports[`renders ./components/tabs/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-card ant-tabs-no-animation"
+  class="alu-tabs alu-tabs-top alu-tabs-card alu-tabs-no-animation"
 >
   <div
-    class="ant-tabs-bar ant-tabs-top-bar ant-tabs-card-bar"
+    class="alu-tabs-bar alu-tabs-top-bar alu-tabs-card-bar"
     role="tablist"
     tabindex="0"
   >
     <div
-      class="ant-tabs-nav-container"
+      class="alu-tabs-nav-container"
     >
       <span
-        class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-prev-icon"
+          class="alu-tabs-tab-prev-icon"
         >
           <i
-            class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+            class="anticon anticon-left alu-tabs-tab-prev-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -191,14 +191,14 @@ exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
         </span>
       </span>
       <span
-        class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-next-icon"
+          class="alu-tabs-tab-next-icon"
         >
           <i
-            class="anticon anticon-right ant-tabs-tab-next-icon-target"
+            class="anticon anticon-right alu-tabs-tab-next-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -217,19 +217,19 @@ exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
         </span>
       </span>
       <div
-        class="ant-tabs-nav-wrap"
+        class="alu-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-scroll"
+          class="alu-tabs-nav-scroll"
         >
           <div
-            class="ant-tabs-nav ant-tabs-nav-animated"
+            class="alu-tabs-nav alu-tabs-nav-animated"
           >
             <div>
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-active ant-tabs-tab"
+                class="alu-tabs-tab-active alu-tabs-tab"
                 role="tab"
               >
                 Tab 1
@@ -237,7 +237,7 @@ exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class=" ant-tabs-tab"
+                class=" alu-tabs-tab"
                 role="tab"
               >
                 Tab 2
@@ -245,14 +245,14 @@ exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class=" ant-tabs-tab"
+                class=" alu-tabs-tab"
                 role="tab"
               >
                 Tab 3
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
             />
           </div>
         </div>
@@ -265,11 +265,11 @@ exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
     tabindex="0"
   />
   <div
-    class="ant-tabs-content ant-tabs-content-no-animated ant-tabs-top-content ant-tabs-card-content"
+    class="alu-tabs-content alu-tabs-content-no-animated alu-tabs-top-content alu-tabs-card-content"
   >
     <div
       aria-hidden="false"
-      class="ant-tabs-tabpane ant-tabs-tabpane-active"
+      class="alu-tabs-tabpane alu-tabs-tabpane-active"
       role="tabpanel"
     >
       <div
@@ -286,12 +286,12 @@ exports[`renders ./components/tabs/demo/card.md correctly 1`] = `
     </div>
     <div
       aria-hidden="true"
-      class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+      class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
       role="tabpanel"
     />
     <div
       aria-hidden="true"
-      class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+      class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
       role="tabpanel"
     />
   </div>
@@ -308,25 +308,25 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
   class="card-container"
 >
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-card ant-tabs-no-animation"
+    class="alu-tabs alu-tabs-top alu-tabs-card alu-tabs-no-animation"
   >
     <div
-      class="ant-tabs-bar ant-tabs-top-bar ant-tabs-card-bar"
+      class="alu-tabs-bar alu-tabs-top-bar alu-tabs-card-bar"
       role="tablist"
       tabindex="0"
     >
       <div
-        class="ant-tabs-nav-container"
+        class="alu-tabs-nav-container"
       >
         <span
-          class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-prev-icon"
+            class="alu-tabs-tab-prev-icon"
           >
             <i
-              class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+              class="anticon anticon-left alu-tabs-tab-prev-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -345,14 +345,14 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-next-icon"
+            class="alu-tabs-tab-next-icon"
           >
             <i
-              class="anticon anticon-right ant-tabs-tab-next-icon-target"
+              class="anticon anticon-right alu-tabs-tab-next-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -371,19 +371,19 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
           </span>
         </span>
         <div
-          class="ant-tabs-nav-wrap"
+          class="alu-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-scroll"
+            class="alu-tabs-nav-scroll"
           >
             <div
-              class="ant-tabs-nav ant-tabs-nav-animated"
+              class="alu-tabs-nav alu-tabs-nav-animated"
             >
               <div>
                 <div
                   aria-disabled="false"
                   aria-selected="true"
-                  class="ant-tabs-tab-active ant-tabs-tab"
+                  class="alu-tabs-tab-active alu-tabs-tab"
                   role="tab"
                 >
                   Tab Title 1
@@ -391,7 +391,7 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab Title 2
@@ -399,14 +399,14 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab Title 3
                 </div>
               </div>
               <div
-                class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
               />
             </div>
           </div>
@@ -419,11 +419,11 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
       tabindex="0"
     />
     <div
-      class="ant-tabs-content ant-tabs-content-no-animated ant-tabs-top-content ant-tabs-card-content"
+      class="alu-tabs-content alu-tabs-content-no-animated alu-tabs-top-content alu-tabs-card-content"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="alu-tabs-tabpane alu-tabs-tabpane-active"
         role="tabpanel"
       >
         <div
@@ -448,12 +448,12 @@ exports[`renders ./components/tabs/demo/card-top.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
     </div>
@@ -472,7 +472,7 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
     style="margin-bottom:16px"
   >
     <button
-      class="ant-btn"
+      class="alu-btn"
       type="button"
     >
       <span>
@@ -481,25 +481,25 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
     </button>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-card ant-tabs-editable-card ant-tabs-no-animation"
+    class="alu-tabs alu-tabs-top alu-tabs-card alu-tabs-editable-card alu-tabs-no-animation"
   >
     <div
-      class="ant-tabs-bar ant-tabs-top-bar ant-tabs-card-bar"
+      class="alu-tabs-bar alu-tabs-top-bar alu-tabs-card-bar"
       role="tablist"
       tabindex="0"
     >
       <div
-        class="ant-tabs-nav-container"
+        class="alu-tabs-nav-container"
       >
         <span
-          class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-prev-icon"
+            class="alu-tabs-tab-prev-icon"
           >
             <i
-              class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+              class="anticon anticon-left alu-tabs-tab-prev-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -518,14 +518,14 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-next-icon"
+            class="alu-tabs-tab-next-icon"
           >
             <i
-              class="anticon anticon-right ant-tabs-tab-next-icon-target"
+              class="anticon anticon-right alu-tabs-tab-next-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -544,25 +544,25 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
           </span>
         </span>
         <div
-          class="ant-tabs-nav-wrap"
+          class="alu-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-scroll"
+            class="alu-tabs-nav-scroll"
           >
             <div
-              class="ant-tabs-nav ant-tabs-nav-animated"
+              class="alu-tabs-nav alu-tabs-nav-animated"
             >
               <div>
                 <div
                   aria-disabled="false"
                   aria-selected="true"
-                  class="ant-tabs-tab-active ant-tabs-tab"
+                  class="alu-tabs-tab-active alu-tabs-tab"
                   role="tab"
                 >
                   <div>
                     Tab 1
                     <i
-                      class="anticon anticon-close ant-tabs-close-x"
+                      class="anticon anticon-close alu-tabs-close-x"
                     >
                       <svg
                         aria-hidden="true"
@@ -583,13 +583,13 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   <div>
                     Tab 2
                     <i
-                      class="anticon anticon-close ant-tabs-close-x"
+                      class="anticon anticon-close alu-tabs-close-x"
                     >
                       <svg
                         aria-hidden="true"
@@ -609,7 +609,7 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
                 </div>
               </div>
               <div
-                class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
               />
             </div>
           </div>
@@ -622,11 +622,11 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
       tabindex="0"
     />
     <div
-      class="ant-tabs-content ant-tabs-content-no-animated ant-tabs-top-content ant-tabs-card-content"
+      class="alu-tabs-content alu-tabs-content-no-animated alu-tabs-top-content alu-tabs-card-content"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="alu-tabs-tabpane alu-tabs-tabpane-active"
         role="tabpanel"
       >
         <div
@@ -643,7 +643,7 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
     </div>
@@ -659,28 +659,28 @@ exports[`renders ./components/tabs/demo/custom-add-trigger.md correctly 1`] = `
 exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
 <div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-line"
+    class="alu-tabs alu-tabs-top alu-tabs-line"
   >
     <div>
       <div />
       <div
-        class="ant-tabs-bar ant-tabs-top-bar"
+        class="alu-tabs-bar alu-tabs-top-bar"
         role="tablist"
         style="z-index:1;background:#fff"
         tabindex="0"
       >
         <div
-          class="ant-tabs-nav-container"
+          class="alu-tabs-nav-container"
         >
           <span
-            class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+            class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
             unselectable="unselectable"
           >
             <span
-              class="ant-tabs-tab-prev-icon"
+              class="alu-tabs-tab-prev-icon"
             >
               <i
-                class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+                class="anticon anticon-left alu-tabs-tab-prev-icon-target"
               >
                 <svg
                   aria-hidden="true"
@@ -699,14 +699,14 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
             </span>
           </span>
           <span
-            class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+            class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
             unselectable="unselectable"
           >
             <span
-              class="ant-tabs-tab-next-icon"
+              class="alu-tabs-tab-next-icon"
             >
               <i
-                class="anticon anticon-right ant-tabs-tab-next-icon-target"
+                class="anticon anticon-right alu-tabs-tab-next-icon-target"
               >
                 <svg
                   aria-hidden="true"
@@ -725,19 +725,19 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
             </span>
           </span>
           <div
-            class="ant-tabs-nav-wrap"
+            class="alu-tabs-nav-wrap"
           >
             <div
-              class="ant-tabs-nav-scroll"
+              class="alu-tabs-nav-scroll"
             >
               <div
-                class="ant-tabs-nav ant-tabs-nav-animated"
+                class="alu-tabs-nav alu-tabs-nav-animated"
               >
                 <div>
                   <div
                     aria-disabled="false"
                     aria-selected="true"
-                    class="ant-tabs-tab-active ant-tabs-tab"
+                    class="alu-tabs-tab-active alu-tabs-tab"
                     role="tab"
                   >
                     Tab 1
@@ -745,7 +745,7 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class=" ant-tabs-tab"
+                    class=" alu-tabs-tab"
                     role="tab"
                   >
                     Tab 2
@@ -753,14 +753,14 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
                   <div
                     aria-disabled="false"
                     aria-selected="false"
-                    class=" ant-tabs-tab"
+                    class=" alu-tabs-tab"
                     role="tab"
                   >
                     Tab 3
                   </div>
                 </div>
                 <div
-                  class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                  class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
                 />
               </div>
             </div>
@@ -774,12 +774,12 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
       tabindex="0"
     />
     <div
-      class="ant-tabs-content ant-tabs-content-animated ant-tabs-top-content"
+      class="alu-tabs-content alu-tabs-content-animated alu-tabs-top-content"
       style="margin-left:0%"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="alu-tabs-tabpane alu-tabs-tabpane-active"
         role="tabpanel"
         style="height:200px"
       >
@@ -797,12 +797,12 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
     </div>
@@ -817,25 +817,25 @@ exports[`renders ./components/tabs/demo/custom-tab-bar.md correctly 1`] = `
 
 exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-line"
+  class="alu-tabs alu-tabs-top alu-tabs-line"
 >
   <div
-    class="ant-tabs-bar ant-tabs-top-bar"
+    class="alu-tabs-bar alu-tabs-top-bar"
     role="tablist"
     tabindex="0"
   >
     <div
-      class="ant-tabs-nav-container"
+      class="alu-tabs-nav-container"
     >
       <span
-        class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-prev-icon"
+          class="alu-tabs-tab-prev-icon"
         >
           <i
-            class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+            class="anticon anticon-left alu-tabs-tab-prev-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -854,14 +854,14 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
         </span>
       </span>
       <span
-        class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-next-icon"
+          class="alu-tabs-tab-next-icon"
         >
           <i
-            class="anticon anticon-right ant-tabs-tab-next-icon-target"
+            class="anticon anticon-right alu-tabs-tab-next-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -880,19 +880,19 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
         </span>
       </span>
       <div
-        class="ant-tabs-nav-wrap"
+        class="alu-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-scroll"
+          class="alu-tabs-nav-scroll"
         >
           <div
-            class="ant-tabs-nav ant-tabs-nav-animated"
+            class="alu-tabs-nav alu-tabs-nav-animated"
           >
             <div>
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-active ant-tabs-tab"
+                class="alu-tabs-tab-active alu-tabs-tab"
                 role="tab"
               >
                 Tab 1
@@ -900,7 +900,7 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
               <div
                 aria-disabled="true"
                 aria-selected="false"
-                class=" ant-tabs-tab ant-tabs-tab-disabled"
+                class=" alu-tabs-tab alu-tabs-tab-disabled"
                 role="tab"
               >
                 Tab 2
@@ -908,14 +908,14 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class=" ant-tabs-tab"
+                class=" alu-tabs-tab"
                 role="tab"
               >
                 Tab 3
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
             />
           </div>
         </div>
@@ -928,12 +928,12 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
     tabindex="0"
   />
   <div
-    class="ant-tabs-content ant-tabs-content-animated ant-tabs-top-content"
+    class="alu-tabs-content alu-tabs-content-animated alu-tabs-top-content"
     style="margin-left:0%"
   >
     <div
       aria-hidden="false"
-      class="ant-tabs-tabpane ant-tabs-tabpane-active"
+      class="alu-tabs-tabpane alu-tabs-tabpane-active"
       role="tabpanel"
     >
       <div
@@ -950,12 +950,12 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
     </div>
     <div
       aria-hidden="true"
-      class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+      class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
       role="tabpanel"
     />
     <div
       aria-hidden="true"
-      class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+      class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
       role="tabpanel"
     />
   </div>
@@ -969,20 +969,20 @@ exports[`renders ./components/tabs/demo/disabled.md correctly 1`] = `
 
 exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-card ant-tabs-editable-card ant-tabs-no-animation"
+  class="alu-tabs alu-tabs-top alu-tabs-card alu-tabs-editable-card alu-tabs-no-animation"
 >
   <div
-    class="ant-tabs-bar ant-tabs-top-bar ant-tabs-card-bar"
+    class="alu-tabs-bar alu-tabs-top-bar alu-tabs-card-bar"
     role="tablist"
     tabindex="0"
   >
     <div
-      class="ant-tabs-extra-content"
+      class="alu-tabs-extra-content"
       style="float:right"
     >
       <span>
         <i
-          class="anticon anticon-plus ant-tabs-new-tab"
+          class="anticon anticon-plus alu-tabs-new-tab"
         >
           <svg
             aria-hidden="true"
@@ -1001,17 +1001,17 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-tabs-nav-container"
+      class="alu-tabs-nav-container"
     >
       <span
-        class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-prev-icon"
+          class="alu-tabs-tab-prev-icon"
         >
           <i
-            class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+            class="anticon anticon-left alu-tabs-tab-prev-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -1030,14 +1030,14 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
         </span>
       </span>
       <span
-        class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-next-icon"
+          class="alu-tabs-tab-next-icon"
         >
           <i
-            class="anticon anticon-right ant-tabs-tab-next-icon-target"
+            class="anticon anticon-right alu-tabs-tab-next-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -1056,25 +1056,25 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
         </span>
       </span>
       <div
-        class="ant-tabs-nav-wrap"
+        class="alu-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-scroll"
+          class="alu-tabs-nav-scroll"
         >
           <div
-            class="ant-tabs-nav ant-tabs-nav-animated"
+            class="alu-tabs-nav alu-tabs-nav-animated"
           >
             <div>
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-active ant-tabs-tab"
+                class="alu-tabs-tab-active alu-tabs-tab"
                 role="tab"
               >
                 <div>
                   Tab 1
                   <i
-                    class="anticon anticon-close ant-tabs-close-x"
+                    class="anticon anticon-close alu-tabs-close-x"
                   >
                     <svg
                       aria-hidden="true"
@@ -1095,13 +1095,13 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class=" ant-tabs-tab"
+                class=" alu-tabs-tab"
                 role="tab"
               >
                 <div>
                   Tab 2
                   <i
-                    class="anticon anticon-close ant-tabs-close-x"
+                    class="anticon anticon-close alu-tabs-close-x"
                   >
                     <svg
                       aria-hidden="true"
@@ -1122,18 +1122,18 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class=" ant-tabs-tab"
+                class=" alu-tabs-tab"
                 role="tab"
               >
                 <div
-                  class="ant-tabs-tab-unclosable"
+                  class="alu-tabs-tab-unclosable"
                 >
                   Tab 3
                 </div>
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
             />
           </div>
         </div>
@@ -1146,11 +1146,11 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
     tabindex="0"
   />
   <div
-    class="ant-tabs-content ant-tabs-content-no-animated ant-tabs-top-content ant-tabs-card-content"
+    class="alu-tabs-content alu-tabs-content-no-animated alu-tabs-top-content alu-tabs-card-content"
   >
     <div
       aria-hidden="false"
-      class="ant-tabs-tabpane ant-tabs-tabpane-active"
+      class="alu-tabs-tabpane alu-tabs-tabpane-active"
       role="tabpanel"
     >
       <div
@@ -1167,12 +1167,12 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
     </div>
     <div
       aria-hidden="true"
-      class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+      class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
       role="tabpanel"
     />
     <div
       aria-hidden="true"
-      class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+      class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
       role="tabpanel"
     />
   </div>
@@ -1186,19 +1186,19 @@ exports[`renders ./components/tabs/demo/editable-card.md correctly 1`] = `
 
 exports[`renders ./components/tabs/demo/extra.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-line"
+  class="alu-tabs alu-tabs-top alu-tabs-line"
 >
   <div
-    class="ant-tabs-bar ant-tabs-top-bar"
+    class="alu-tabs-bar alu-tabs-top-bar"
     role="tablist"
     tabindex="0"
   >
     <div
-      class="ant-tabs-extra-content"
+      class="alu-tabs-extra-content"
       style="float:right"
     >
       <button
-        class="ant-btn"
+        class="alu-btn"
         type="button"
       >
         <span>
@@ -1207,17 +1207,17 @@ exports[`renders ./components/tabs/demo/extra.md correctly 1`] = `
       </button>
     </div>
     <div
-      class="ant-tabs-nav-container"
+      class="alu-tabs-nav-container"
     >
       <span
-        class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-prev-icon"
+          class="alu-tabs-tab-prev-icon"
         >
           <i
-            class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+            class="anticon anticon-left alu-tabs-tab-prev-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -1236,14 +1236,14 @@ exports[`renders ./components/tabs/demo/extra.md correctly 1`] = `
         </span>
       </span>
       <span
-        class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-next-icon"
+          class="alu-tabs-tab-next-icon"
         >
           <i
-            class="anticon anticon-right ant-tabs-tab-next-icon-target"
+            class="anticon anticon-right alu-tabs-tab-next-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -1262,19 +1262,19 @@ exports[`renders ./components/tabs/demo/extra.md correctly 1`] = `
         </span>
       </span>
       <div
-        class="ant-tabs-nav-wrap"
+        class="alu-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-scroll"
+          class="alu-tabs-nav-scroll"
         >
           <div
-            class="ant-tabs-nav ant-tabs-nav-animated"
+            class="alu-tabs-nav alu-tabs-nav-animated"
           >
             <div>
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-active ant-tabs-tab"
+                class="alu-tabs-tab-active alu-tabs-tab"
                 role="tab"
               >
                 Tab 1
@@ -1282,7 +1282,7 @@ exports[`renders ./components/tabs/demo/extra.md correctly 1`] = `
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class=" ant-tabs-tab"
+                class=" alu-tabs-tab"
                 role="tab"
               >
                 Tab 2
@@ -1290,14 +1290,14 @@ exports[`renders ./components/tabs/demo/extra.md correctly 1`] = `
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class=" ant-tabs-tab"
+                class=" alu-tabs-tab"
                 role="tab"
               >
                 Tab 3
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
             />
           </div>
         </div>
@@ -1310,12 +1310,12 @@ exports[`renders ./components/tabs/demo/extra.md correctly 1`] = `
     tabindex="0"
   />
   <div
-    class="ant-tabs-content ant-tabs-content-animated ant-tabs-top-content"
+    class="alu-tabs-content alu-tabs-content-animated alu-tabs-top-content"
     style="margin-left:0%"
   >
     <div
       aria-hidden="false"
-      class="ant-tabs-tabpane ant-tabs-tabpane-active"
+      class="alu-tabs-tabpane alu-tabs-tabpane-active"
       role="tabpanel"
     >
       <div
@@ -1332,12 +1332,12 @@ exports[`renders ./components/tabs/demo/extra.md correctly 1`] = `
     </div>
     <div
       aria-hidden="true"
-      class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+      class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
       role="tabpanel"
     />
     <div
       aria-hidden="true"
-      class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+      class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
       role="tabpanel"
     />
   </div>
@@ -1351,25 +1351,25 @@ exports[`renders ./components/tabs/demo/extra.md correctly 1`] = `
 
 exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
 <div
-  class="ant-tabs ant-tabs-top ant-tabs-line"
+  class="alu-tabs alu-tabs-top alu-tabs-line"
 >
   <div
-    class="ant-tabs-bar ant-tabs-top-bar"
+    class="alu-tabs-bar alu-tabs-top-bar"
     role="tablist"
     tabindex="0"
   >
     <div
-      class="ant-tabs-nav-container"
+      class="alu-tabs-nav-container"
     >
       <span
-        class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-prev-icon"
+          class="alu-tabs-tab-prev-icon"
         >
           <i
-            class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+            class="anticon anticon-left alu-tabs-tab-prev-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -1388,14 +1388,14 @@ exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
         </span>
       </span>
       <span
-        class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+        class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
         unselectable="unselectable"
       >
         <span
-          class="ant-tabs-tab-next-icon"
+          class="alu-tabs-tab-next-icon"
         >
           <i
-            class="anticon anticon-right ant-tabs-tab-next-icon-target"
+            class="anticon anticon-right alu-tabs-tab-next-icon-target"
           >
             <svg
               aria-hidden="true"
@@ -1414,19 +1414,19 @@ exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
         </span>
       </span>
       <div
-        class="ant-tabs-nav-wrap"
+        class="alu-tabs-nav-wrap"
       >
         <div
-          class="ant-tabs-nav-scroll"
+          class="alu-tabs-nav-scroll"
         >
           <div
-            class="ant-tabs-nav ant-tabs-nav-animated"
+            class="alu-tabs-nav alu-tabs-nav-animated"
           >
             <div>
               <div
                 aria-disabled="false"
                 aria-selected="false"
-                class=" ant-tabs-tab"
+                class=" alu-tabs-tab"
                 role="tab"
               >
                 <span>
@@ -1453,7 +1453,7 @@ exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
               <div
                 aria-disabled="false"
                 aria-selected="true"
-                class="ant-tabs-tab-active ant-tabs-tab"
+                class="alu-tabs-tab-active alu-tabs-tab"
                 role="tab"
               >
                 <span>
@@ -1479,7 +1479,7 @@ exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
               </div>
             </div>
             <div
-              class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+              class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
             />
           </div>
         </div>
@@ -1492,17 +1492,17 @@ exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
     tabindex="0"
   />
   <div
-    class="ant-tabs-content ant-tabs-content-animated ant-tabs-top-content"
+    class="alu-tabs-content alu-tabs-content-animated alu-tabs-top-content"
     style="margin-left:-100%"
   >
     <div
       aria-hidden="true"
-      class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+      class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
       role="tabpanel"
     />
     <div
       aria-hidden="false"
-      class="ant-tabs-tabpane ant-tabs-tabpane-active"
+      class="alu-tabs-tabpane alu-tabs-tabpane-active"
       role="tabpanel"
     >
       <div
@@ -1529,7 +1529,7 @@ exports[`renders ./components/tabs/demo/icon.md correctly 1`] = `
 exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
 <div>
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:200px"
   >
     <div
@@ -1537,21 +1537,21 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="0"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       />
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -1571,7 +1571,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:200px"
   >
     <div
@@ -1579,21 +1579,21 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="0"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       />
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -1613,7 +1613,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:200px"
   >
     <div
@@ -1621,21 +1621,21 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="0"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       />
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -1655,7 +1655,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:200px"
   >
     <div
@@ -1663,21 +1663,21 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="0"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       />
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -1697,25 +1697,25 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-line"
+    class="alu-tabs alu-tabs-top alu-tabs-line"
   >
     <div
-      class="ant-tabs-bar ant-tabs-top-bar"
+      class="alu-tabs-bar alu-tabs-top-bar"
       role="tablist"
       tabindex="0"
     >
       <div
-        class="ant-tabs-nav-container"
+        class="alu-tabs-nav-container"
       >
         <span
-          class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-prev-icon"
+            class="alu-tabs-tab-prev-icon"
           >
             <i
-              class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+              class="anticon anticon-left alu-tabs-tab-prev-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -1734,14 +1734,14 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-next-icon"
+            class="alu-tabs-tab-next-icon"
           >
             <i
-              class="anticon anticon-right ant-tabs-tab-next-icon-target"
+              class="anticon anticon-right alu-tabs-tab-next-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -1760,19 +1760,19 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
           </span>
         </span>
         <div
-          class="ant-tabs-nav-wrap"
+          class="alu-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-scroll"
+            class="alu-tabs-nav-scroll"
           >
             <div
-              class="ant-tabs-nav ant-tabs-nav-animated"
+              class="alu-tabs-nav alu-tabs-nav-animated"
             >
               <div>
                 <div
                   aria-disabled="false"
                   aria-selected="true"
-                  class="ant-tabs-tab-active ant-tabs-tab"
+                  class="alu-tabs-tab-active alu-tabs-tab"
                   role="tab"
                 >
                   Tab 1
@@ -1780,14 +1780,14 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 2
                 </div>
               </div>
               <div
-                class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
               />
             </div>
           </div>
@@ -1800,12 +1800,12 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
       tabindex="0"
     />
     <div
-      class="ant-tabs-content ant-tabs-content-animated ant-tabs-top-content"
+      class="alu-tabs-content alu-tabs-content-animated alu-tabs-top-content"
       style="margin-left:0%"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="alu-tabs-tabpane alu-tabs-tabpane-active"
         role="tabpanel"
       >
         <div
@@ -1814,26 +1814,26 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
           tabindex="0"
         />
         <div
-          class="ant-tabs ant-tabs-top ant-tabs-line"
+          class="alu-tabs alu-tabs-top alu-tabs-line"
           style="height:300px"
         >
           <div
-            class="ant-tabs-bar ant-tabs-top-bar"
+            class="alu-tabs-bar alu-tabs-top-bar"
             role="tablist"
             tabindex="0"
           >
             <div
-              class="ant-tabs-nav-container"
+              class="alu-tabs-nav-container"
             >
               <span
-                class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+                class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
                 unselectable="unselectable"
               >
                 <span
-                  class="ant-tabs-tab-prev-icon"
+                  class="alu-tabs-tab-prev-icon"
                 >
                   <i
-                    class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+                    class="anticon anticon-left alu-tabs-tab-prev-icon-target"
                   >
                     <svg
                       aria-hidden="true"
@@ -1852,14 +1852,14 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                 </span>
               </span>
               <span
-                class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+                class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
                 unselectable="unselectable"
               >
                 <span
-                  class="ant-tabs-tab-next-icon"
+                  class="alu-tabs-tab-next-icon"
                 >
                   <i
-                    class="anticon anticon-right ant-tabs-tab-next-icon-target"
+                    class="anticon anticon-right alu-tabs-tab-next-icon-target"
                   >
                     <svg
                       aria-hidden="true"
@@ -1878,19 +1878,19 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                 </span>
               </span>
               <div
-                class="ant-tabs-nav-wrap"
+                class="alu-tabs-nav-wrap"
               >
                 <div
-                  class="ant-tabs-nav-scroll"
+                  class="alu-tabs-nav-scroll"
                 >
                   <div
-                    class="ant-tabs-nav ant-tabs-nav-animated"
+                    class="alu-tabs-nav alu-tabs-nav-animated"
                   >
                     <div>
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 0
@@ -1898,7 +1898,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="true"
-                        class="ant-tabs-tab-active ant-tabs-tab"
+                        class="alu-tabs-tab-active alu-tabs-tab"
                         role="tab"
                       >
                         Tab 1
@@ -1906,7 +1906,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 2
@@ -1914,7 +1914,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 3
@@ -1922,7 +1922,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 4
@@ -1930,7 +1930,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 5
@@ -1938,7 +1938,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 6
@@ -1946,7 +1946,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 7
@@ -1954,7 +1954,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 8
@@ -1962,7 +1962,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 9
@@ -1970,7 +1970,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 10
@@ -1978,7 +1978,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 11
@@ -1986,7 +1986,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 12
@@ -1994,7 +1994,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 13
@@ -2002,7 +2002,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 14
@@ -2010,7 +2010,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 15
@@ -2018,7 +2018,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 16
@@ -2026,7 +2026,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 17
@@ -2034,7 +2034,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 18
@@ -2042,14 +2042,14 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
                       <div
                         aria-disabled="false"
                         aria-selected="false"
-                        class=" ant-tabs-tab"
+                        class=" alu-tabs-tab"
                         role="tab"
                       >
                         Tab 19
                       </div>
                     </div>
                     <div
-                      class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                      class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
                     />
                   </div>
                 </div>
@@ -2062,17 +2062,17 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
             tabindex="0"
           />
           <div
-            class="ant-tabs-content ant-tabs-content-animated ant-tabs-top-content"
+            class="alu-tabs-content alu-tabs-content-animated alu-tabs-top-content"
             style="margin-left:-100%"
           >
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="false"
-              class="ant-tabs-tabpane ant-tabs-tabpane-active"
+              class="alu-tabs-tabpane alu-tabs-tabpane-active"
               role="tabpanel"
             >
               <div
@@ -2089,92 +2089,92 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
             </div>
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
             <div
               aria-hidden="true"
-              class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+              class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
               role="tabpanel"
             />
           </div>
@@ -2192,7 +2192,7 @@ exports[`renders ./components/tabs/demo/nest.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
     </div>
@@ -2212,23 +2212,23 @@ exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
   >
     Tab position：
     <div
-      class="ant-select ant-select-enabled"
+      class="alu-select alu-select-enabled"
     >
       <div
         aria-autocomplete="list"
         aria-controls=""
         aria-expanded="false"
         aria-haspopup="true"
-        class="ant-select-selection
+        class="alu-select-selection
             ant-select-selection--single"
         role="combobox"
         tabindex="0"
       >
         <div
-          class="ant-select-selection__rendered"
+          class="alu-select-selection__rendered"
         >
           <div
-            class="ant-select-selection-selected-value"
+            class="alu-select-selection-selected-value"
             style="display:block;opacity:1"
             title="top"
           >
@@ -2236,12 +2236,12 @@ exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
           </div>
         </div>
         <span
-          class="ant-select-arrow"
+          class="alu-select-arrow"
           style="user-select:none;-webkit-user-select:none"
           unselectable="on"
         >
           <i
-            class="anticon anticon-down ant-select-arrow-icon"
+            class="anticon anticon-down alu-select-arrow-icon"
           >
             <svg
               aria-hidden="true"
@@ -2262,25 +2262,25 @@ exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-line"
+    class="alu-tabs alu-tabs-top alu-tabs-line"
   >
     <div
-      class="ant-tabs-bar ant-tabs-top-bar"
+      class="alu-tabs-bar alu-tabs-top-bar"
       role="tablist"
       tabindex="0"
     >
       <div
-        class="ant-tabs-nav-container"
+        class="alu-tabs-nav-container"
       >
         <span
-          class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-prev-icon"
+            class="alu-tabs-tab-prev-icon"
           >
             <i
-              class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+              class="anticon anticon-left alu-tabs-tab-prev-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -2299,14 +2299,14 @@ exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-next-icon"
+            class="alu-tabs-tab-next-icon"
           >
             <i
-              class="anticon anticon-right ant-tabs-tab-next-icon-target"
+              class="anticon anticon-right alu-tabs-tab-next-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -2325,19 +2325,19 @@ exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
           </span>
         </span>
         <div
-          class="ant-tabs-nav-wrap"
+          class="alu-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-scroll"
+            class="alu-tabs-nav-scroll"
           >
             <div
-              class="ant-tabs-nav ant-tabs-nav-animated"
+              class="alu-tabs-nav alu-tabs-nav-animated"
             >
               <div>
                 <div
                   aria-disabled="false"
                   aria-selected="true"
-                  class="ant-tabs-tab-active ant-tabs-tab"
+                  class="alu-tabs-tab-active alu-tabs-tab"
                   role="tab"
                 >
                   Tab 1
@@ -2345,7 +2345,7 @@ exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 2
@@ -2353,14 +2353,14 @@ exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 3
                 </div>
               </div>
               <div
-                class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
               />
             </div>
           </div>
@@ -2373,12 +2373,12 @@ exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
       tabindex="0"
     />
     <div
-      class="ant-tabs-content ant-tabs-content-animated ant-tabs-top-content"
+      class="alu-tabs-content alu-tabs-content-animated alu-tabs-top-content"
       style="margin-left:0%"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="alu-tabs-tabpane alu-tabs-tabpane-active"
         role="tabpanel"
       >
         <div
@@ -2395,12 +2395,12 @@ exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
     </div>
@@ -2416,23 +2416,23 @@ exports[`renders ./components/tabs/demo/position.md correctly 1`] = `
 exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
 <div>
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="alu-radio-group alu-radio-group-outline"
     style="margin-bottom:16px"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="alu-radio-button alu-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="alu-radio-button-input"
           type="radio"
           value="small"
         />
         <span
-          class="ant-radio-button-inner"
+          class="alu-radio-button-inner"
         />
       </span>
       <span>
@@ -2440,18 +2440,18 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="alu-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="alu-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="alu-radio-button-input"
           type="radio"
           value="default"
         />
         <span
-          class="ant-radio-button-inner"
+          class="alu-radio-button-inner"
         />
       </span>
       <span>
@@ -2459,18 +2459,18 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="alu-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="alu-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="alu-radio-button-input"
           type="radio"
           value="large"
         />
         <span
-          class="ant-radio-button-inner"
+          class="alu-radio-button-inner"
         />
       </span>
       <span>
@@ -2479,25 +2479,25 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
     </label>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-small ant-tabs-line"
+    class="alu-tabs alu-tabs-top alu-tabs-small alu-tabs-line"
   >
     <div
-      class="ant-tabs-bar ant-tabs-top-bar ant-tabs-small-bar"
+      class="alu-tabs-bar alu-tabs-top-bar alu-tabs-small-bar"
       role="tablist"
       tabindex="0"
     >
       <div
-        class="ant-tabs-nav-container"
+        class="alu-tabs-nav-container"
       >
         <span
-          class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-prev-icon"
+            class="alu-tabs-tab-prev-icon"
           >
             <i
-              class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+              class="anticon anticon-left alu-tabs-tab-prev-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -2516,14 +2516,14 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-next-icon"
+            class="alu-tabs-tab-next-icon"
           >
             <i
-              class="anticon anticon-right ant-tabs-tab-next-icon-target"
+              class="anticon anticon-right alu-tabs-tab-next-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -2542,19 +2542,19 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
           </span>
         </span>
         <div
-          class="ant-tabs-nav-wrap"
+          class="alu-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-scroll"
+            class="alu-tabs-nav-scroll"
           >
             <div
-              class="ant-tabs-nav ant-tabs-nav-animated"
+              class="alu-tabs-nav alu-tabs-nav-animated"
             >
               <div>
                 <div
                   aria-disabled="false"
                   aria-selected="true"
-                  class="ant-tabs-tab-active ant-tabs-tab"
+                  class="alu-tabs-tab-active alu-tabs-tab"
                   role="tab"
                 >
                   Tab 1
@@ -2562,7 +2562,7 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 2
@@ -2570,14 +2570,14 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 3
                 </div>
               </div>
               <div
-                class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
               />
             </div>
           </div>
@@ -2590,12 +2590,12 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
       tabindex="0"
     />
     <div
-      class="ant-tabs-content ant-tabs-content-animated ant-tabs-top-content"
+      class="alu-tabs-content alu-tabs-content-animated alu-tabs-top-content"
       style="margin-left:0%"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="alu-tabs-tabpane alu-tabs-tabpane-active"
         role="tabpanel"
       >
         <div
@@ -2612,12 +2612,12 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
     </div>
@@ -2633,23 +2633,23 @@ exports[`renders ./components/tabs/demo/size.md correctly 1`] = `
 exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
 <div>
   <div
-    class="ant-radio-group ant-radio-group-outline"
+    class="alu-radio-group alu-radio-group-outline"
     style="margin-bottom:8px"
   >
     <label
-      class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+      class="alu-radio-button-wrapper alu-radio-button-wrapper-checked"
     >
       <span
-        class="ant-radio-button ant-radio-button-checked"
+        class="alu-radio-button alu-radio-button-checked"
       >
         <input
           checked=""
-          class="ant-radio-button-input"
+          class="alu-radio-button-input"
           type="radio"
           value="top"
         />
         <span
-          class="ant-radio-button-inner"
+          class="alu-radio-button-inner"
         />
       </span>
       <span>
@@ -2657,18 +2657,18 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
       </span>
     </label>
     <label
-      class="ant-radio-button-wrapper"
+      class="alu-radio-button-wrapper"
     >
       <span
-        class="ant-radio-button"
+        class="alu-radio-button"
       >
         <input
-          class="ant-radio-button-input"
+          class="alu-radio-button-input"
           type="radio"
           value="left"
         />
         <span
-          class="ant-radio-button-inner"
+          class="alu-radio-button-inner"
         />
       </span>
       <span>
@@ -2677,26 +2677,26 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
     </label>
   </div>
   <div
-    class="ant-tabs ant-tabs-top ant-tabs-line"
+    class="alu-tabs alu-tabs-top alu-tabs-line"
     style="height:220px"
   >
     <div
-      class="ant-tabs-bar ant-tabs-top-bar"
+      class="alu-tabs-bar alu-tabs-top-bar"
       role="tablist"
       tabindex="0"
     >
       <div
-        class="ant-tabs-nav-container"
+        class="alu-tabs-nav-container"
       >
         <span
-          class="ant-tabs-tab-prev ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-prev alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-prev-icon"
+            class="alu-tabs-tab-prev-icon"
           >
             <i
-              class="anticon anticon-left ant-tabs-tab-prev-icon-target"
+              class="anticon anticon-left alu-tabs-tab-prev-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -2715,14 +2715,14 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
           </span>
         </span>
         <span
-          class="ant-tabs-tab-next ant-tabs-tab-btn-disabled"
+          class="alu-tabs-tab-next alu-tabs-tab-btn-disabled"
           unselectable="unselectable"
         >
           <span
-            class="ant-tabs-tab-next-icon"
+            class="alu-tabs-tab-next-icon"
           >
             <i
-              class="anticon anticon-right ant-tabs-tab-next-icon-target"
+              class="anticon anticon-right alu-tabs-tab-next-icon-target"
             >
               <svg
                 aria-hidden="true"
@@ -2741,19 +2741,19 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
           </span>
         </span>
         <div
-          class="ant-tabs-nav-wrap"
+          class="alu-tabs-nav-wrap"
         >
           <div
-            class="ant-tabs-nav-scroll"
+            class="alu-tabs-nav-scroll"
           >
             <div
-              class="ant-tabs-nav ant-tabs-nav-animated"
+              class="alu-tabs-nav alu-tabs-nav-animated"
             >
               <div>
                 <div
                   aria-disabled="false"
                   aria-selected="true"
-                  class="ant-tabs-tab-active ant-tabs-tab"
+                  class="alu-tabs-tab-active alu-tabs-tab"
                   role="tab"
                 >
                   Tab 1
@@ -2761,7 +2761,7 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 2
@@ -2769,7 +2769,7 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 3
@@ -2777,7 +2777,7 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 4
@@ -2785,7 +2785,7 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 5
@@ -2793,7 +2793,7 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 6
@@ -2801,7 +2801,7 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 7
@@ -2809,7 +2809,7 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 8
@@ -2817,7 +2817,7 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 9
@@ -2825,7 +2825,7 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 10
@@ -2833,14 +2833,14 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
                 <div
                   aria-disabled="false"
                   aria-selected="false"
-                  class=" ant-tabs-tab"
+                  class=" alu-tabs-tab"
                   role="tab"
                 >
                   Tab 11
                 </div>
               </div>
               <div
-                class="ant-tabs-ink-bar ant-tabs-ink-bar-animated"
+                class="alu-tabs-ink-bar alu-tabs-ink-bar-animated"
               />
             </div>
           </div>
@@ -2853,12 +2853,12 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
       tabindex="0"
     />
     <div
-      class="ant-tabs-content ant-tabs-content-animated ant-tabs-top-content"
+      class="alu-tabs-content alu-tabs-content-animated alu-tabs-top-content"
       style="margin-left:0%"
     >
       <div
         aria-hidden="false"
-        class="ant-tabs-tabpane ant-tabs-tabpane-active"
+        class="alu-tabs-tabpane alu-tabs-tabpane-active"
         role="tabpanel"
       >
         <div
@@ -2875,52 +2875,52 @@ exports[`renders ./components/tabs/demo/slide.md correctly 1`] = `
       </div>
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
       <div
         aria-hidden="true"
-        class="ant-tabs-tabpane ant-tabs-tabpane-inactive"
+        class="alu-tabs-tabpane alu-tabs-tabpane-inactive"
         role="tabpanel"
       />
     </div>

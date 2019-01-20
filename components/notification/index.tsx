@@ -124,7 +124,7 @@ export interface ArgsProps {
 }
 
 function notice(args: ArgsProps) {
-  const outerPrefixCls = args.prefixCls || 'ant-notification';
+  const outerPrefixCls = args.prefixCls || 'alu-notification';
   const prefixCls = `${outerPrefixCls}-notice`;
   const duration = args.duration === undefined ? defaultDuration : args.duration;
 

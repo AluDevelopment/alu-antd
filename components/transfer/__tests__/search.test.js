@@ -56,7 +56,7 @@ describe('Search', () => {
     );
 
     wrapper
-      .find('.ant-input')
+      .find('.alu-input')
       .at(0)
       .simulate('change', { target: { value: 'a' } });
     expect(onSearch).toBeCalledWith('left', 'a');
@@ -64,7 +64,7 @@ describe('Search', () => {
     onSearch.mockReset();
 
     wrapper
-      .find('.ant-transfer-list-search-action')
+      .find('.alu-transfer-list-search-action')
       .at(0)
       .simulate('click');
     expect(onSearch).toBeCalledWith('left', '');
@@ -78,7 +78,7 @@ describe('Search', () => {
     );
 
     wrapper
-      .find('.ant-input')
+      .find('.alu-input')
       .at(0)
       .simulate('change', { target: { value: 'a' } });
 

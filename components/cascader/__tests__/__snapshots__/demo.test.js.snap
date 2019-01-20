@@ -2,22 +2,22 @@
 
 exports[`renders ./components/cascader/demo/basic.md correctly 1`] = `
 <span
-  class="ant-cascader-picker"
+  class="alu-cascader-picker"
   tabindex="0"
 >
   <span
-    class="ant-cascader-picker-label"
+    class="alu-cascader-picker-label"
   />
   <input
     autocomplete="off"
-    class="ant-input ant-cascader-input "
+    class="alu-input alu-cascader-input "
     placeholder="Please select"
     readonly=""
     type="text"
     value=""
   />
   <i
-    class="anticon anticon-down ant-cascader-picker-arrow"
+    class="anticon anticon-down alu-cascader-picker-arrow"
   >
     <svg
       aria-hidden="true"
@@ -38,22 +38,22 @@ exports[`renders ./components/cascader/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/cascader/demo/change-on-select.md correctly 1`] = `
 <span
-  class="ant-cascader-picker"
+  class="alu-cascader-picker"
   tabindex="0"
 >
   <span
-    class="ant-cascader-picker-label"
+    class="alu-cascader-picker-label"
   />
   <input
     autocomplete="off"
-    class="ant-input ant-cascader-input "
+    class="alu-input alu-cascader-input "
     placeholder="Please select"
     readonly=""
     type="text"
     value=""
   />
   <i
-    class="anticon anticon-down ant-cascader-picker-arrow"
+    class="anticon anticon-down alu-cascader-picker-arrow"
   >
     <svg
       aria-hidden="true"
@@ -74,12 +74,12 @@ exports[`renders ./components/cascader/demo/change-on-select.md correctly 1`] = 
 
 exports[`renders ./components/cascader/demo/custom-render.md correctly 1`] = `
 <span
-  class="ant-cascader-picker"
+  class="alu-cascader-picker"
   style="width:100%"
   tabindex="0"
 >
   <span
-    class="ant-cascader-picker-label"
+    class="alu-cascader-picker-label"
   >
     <span>
       Zhejiang / 
@@ -97,13 +97,13 @@ exports[`renders ./components/cascader/demo/custom-render.md correctly 1`] = `
   </span>
   <input
     autocomplete="off"
-    class="ant-input ant-cascader-input "
+    class="alu-input alu-cascader-input "
     readonly=""
     type="text"
     value=""
   />
   <i
-    class="anticon anticon-close-circle ant-cascader-picker-clear"
+    class="anticon anticon-close-circle alu-cascader-picker-clear"
   >
     <svg
       aria-hidden="true"
@@ -120,7 +120,7 @@ exports[`renders ./components/cascader/demo/custom-render.md correctly 1`] = `
     </svg>
   </i>
   <i
-    class="anticon anticon-down ant-cascader-picker-arrow"
+    class="anticon anticon-down alu-cascader-picker-arrow"
   >
     <svg
       aria-hidden="true"
@@ -153,23 +153,23 @@ exports[`renders ./components/cascader/demo/custom-trigger.md correctly 1`] = `
 
 exports[`renders ./components/cascader/demo/default-value.md correctly 1`] = `
 <span
-  class="ant-cascader-picker"
+  class="alu-cascader-picker"
   tabindex="0"
 >
   <span
-    class="ant-cascader-picker-label"
+    class="alu-cascader-picker-label"
   >
     Zhejiang / Hangzhou / West Lake
   </span>
   <input
     autocomplete="off"
-    class="ant-input ant-cascader-input "
+    class="alu-input alu-cascader-input "
     readonly=""
     type="text"
     value=""
   />
   <i
-    class="anticon anticon-close-circle ant-cascader-picker-clear"
+    class="anticon anticon-close-circle alu-cascader-picker-clear"
   >
     <svg
       aria-hidden="true"
@@ -186,7 +186,7 @@ exports[`renders ./components/cascader/demo/default-value.md correctly 1`] = `
     </svg>
   </i>
   <i
-    class="anticon anticon-down ant-cascader-picker-arrow"
+    class="anticon anticon-down alu-cascader-picker-arrow"
   >
     <svg
       aria-hidden="true"
@@ -207,22 +207,22 @@ exports[`renders ./components/cascader/demo/default-value.md correctly 1`] = `
 
 exports[`renders ./components/cascader/demo/disabled-option.md correctly 1`] = `
 <span
-  class="ant-cascader-picker"
+  class="alu-cascader-picker"
   tabindex="0"
 >
   <span
-    class="ant-cascader-picker-label"
+    class="alu-cascader-picker-label"
   />
   <input
     autocomplete="off"
-    class="ant-input ant-cascader-input "
+    class="alu-input alu-cascader-input "
     placeholder="Please select"
     readonly=""
     type="text"
     value=""
   />
   <i
-    class="anticon anticon-down ant-cascader-picker-arrow"
+    class="anticon anticon-down alu-cascader-picker-arrow"
   >
     <svg
       aria-hidden="true"
@@ -243,22 +243,22 @@ exports[`renders ./components/cascader/demo/disabled-option.md correctly 1`] = `
 
 exports[`renders ./components/cascader/demo/fields-name.md correctly 1`] = `
 <span
-  class="ant-cascader-picker"
+  class="alu-cascader-picker"
   tabindex="0"
 >
   <span
-    class="ant-cascader-picker-label"
+    class="alu-cascader-picker-label"
   />
   <input
     autocomplete="off"
-    class="ant-input ant-cascader-input "
+    class="alu-input alu-cascader-input "
     placeholder="Please select"
     readonly=""
     type="text"
     value=""
   />
   <i
-    class="anticon anticon-down ant-cascader-picker-arrow"
+    class="anticon anticon-down alu-cascader-picker-arrow"
   >
     <svg
       aria-hidden="true"
@@ -279,22 +279,22 @@ exports[`renders ./components/cascader/demo/fields-name.md correctly 1`] = `
 
 exports[`renders ./components/cascader/demo/hover.md correctly 1`] = `
 <span
-  class="ant-cascader-picker"
+  class="alu-cascader-picker"
   tabindex="0"
 >
   <span
-    class="ant-cascader-picker-label"
+    class="alu-cascader-picker-label"
   />
   <input
     autocomplete="off"
-    class="ant-input ant-cascader-input "
+    class="alu-input alu-cascader-input "
     placeholder="Please select"
     readonly=""
     type="text"
     value=""
   />
   <i
-    class="anticon anticon-down ant-cascader-picker-arrow"
+    class="anticon anticon-down alu-cascader-picker-arrow"
   >
     <svg
       aria-hidden="true"
@@ -315,22 +315,22 @@ exports[`renders ./components/cascader/demo/hover.md correctly 1`] = `
 
 exports[`renders ./components/cascader/demo/lazy.md correctly 1`] = `
 <span
-  class="ant-cascader-picker"
+  class="alu-cascader-picker"
   tabindex="0"
 >
   <span
-    class="ant-cascader-picker-label"
+    class="alu-cascader-picker-label"
   />
   <input
     autocomplete="off"
-    class="ant-input ant-cascader-input "
+    class="alu-input alu-cascader-input "
     placeholder="Please select"
     readonly=""
     type="text"
     value=""
   />
   <i
-    class="anticon anticon-down ant-cascader-picker-arrow"
+    class="anticon anticon-down alu-cascader-picker-arrow"
   >
     <svg
       aria-hidden="true"
@@ -351,21 +351,21 @@ exports[`renders ./components/cascader/demo/lazy.md correctly 1`] = `
 
 exports[`renders ./components/cascader/demo/search.md correctly 1`] = `
 <span
-  class="ant-cascader-picker ant-cascader-picker-show-search"
+  class="alu-cascader-picker alu-cascader-picker-show-search"
   tabindex="0"
 >
   <span
-    class="ant-cascader-picker-label"
+    class="alu-cascader-picker-label"
   />
   <input
     autocomplete="off"
-    class="ant-input ant-cascader-input "
+    class="alu-input alu-cascader-input "
     placeholder="Please select"
     type="text"
     value=""
   />
   <i
-    class="anticon anticon-down ant-cascader-picker-arrow"
+    class="anticon anticon-down alu-cascader-picker-arrow"
   >
     <svg
       aria-hidden="true"
@@ -387,22 +387,22 @@ exports[`renders ./components/cascader/demo/search.md correctly 1`] = `
 exports[`renders ./components/cascader/demo/size.md correctly 1`] = `
 <div>
   <span
-    class="ant-cascader-picker ant-cascader-picker-large"
+    class="alu-cascader-picker alu-cascader-picker-large"
     tabindex="0"
   >
     <span
-      class="ant-cascader-picker-label"
+      class="alu-cascader-picker-label"
     />
     <input
       autocomplete="off"
-      class="ant-input ant-cascader-input ant-input-lg"
+      class="alu-input alu-cascader-input alu-input-lg"
       placeholder="Please select"
       readonly=""
       type="text"
       value=""
     />
     <i
-      class="anticon anticon-down ant-cascader-picker-arrow"
+      class="anticon anticon-down alu-cascader-picker-arrow"
     >
       <svg
         aria-hidden="true"
@@ -422,22 +422,22 @@ exports[`renders ./components/cascader/demo/size.md correctly 1`] = `
   <br />
   <br />
   <span
-    class="ant-cascader-picker"
+    class="alu-cascader-picker"
     tabindex="0"
   >
     <span
-      class="ant-cascader-picker-label"
+      class="alu-cascader-picker-label"
     />
     <input
       autocomplete="off"
-      class="ant-input ant-cascader-input "
+      class="alu-input alu-cascader-input "
       placeholder="Please select"
       readonly=""
       type="text"
       value=""
     />
     <i
-      class="anticon anticon-down ant-cascader-picker-arrow"
+      class="anticon anticon-down alu-cascader-picker-arrow"
     >
       <svg
         aria-hidden="true"
@@ -457,22 +457,22 @@ exports[`renders ./components/cascader/demo/size.md correctly 1`] = `
   <br />
   <br />
   <span
-    class="ant-cascader-picker ant-cascader-picker-small"
+    class="alu-cascader-picker alu-cascader-picker-small"
     tabindex="0"
   >
     <span
-      class="ant-cascader-picker-label"
+      class="alu-cascader-picker-label"
     />
     <input
       autocomplete="off"
-      class="ant-input ant-cascader-input ant-input-sm"
+      class="alu-input alu-cascader-input alu-input-sm"
       placeholder="Please select"
       readonly=""
       type="text"
       value=""
     />
     <i
-      class="anticon anticon-down ant-cascader-picker-arrow"
+      class="anticon anticon-down alu-cascader-picker-arrow"
     >
       <svg
         aria-hidden="true"
@@ -497,22 +497,22 @@ exports[`renders ./components/cascader/demo/size.md correctly 1`] = `
 exports[`renders ./components/cascader/demo/suffix.md correctly 1`] = `
 <div>
   <span
-    class="ant-cascader-picker"
+    class="alu-cascader-picker"
     tabindex="0"
   >
     <span
-      class="ant-cascader-picker-label"
+      class="alu-cascader-picker-label"
     />
     <input
       autocomplete="off"
-      class="ant-input ant-cascader-input "
+      class="alu-input alu-cascader-input "
       placeholder="Please select"
       readonly=""
       type="text"
       value=""
     />
     <i
-      class="anticon anticon-smile ant-cascader-picker-arrow"
+      class="anticon anticon-smile alu-cascader-picker-arrow"
     >
       <svg
         aria-hidden="true"
@@ -530,23 +530,23 @@ exports[`renders ./components/cascader/demo/suffix.md correctly 1`] = `
     </i>
   </span>
   <span
-    class="ant-cascader-picker"
+    class="alu-cascader-picker"
     style="margin-top:1rem"
     tabindex="0"
   >
     <span
-      class="ant-cascader-picker-label"
+      class="alu-cascader-picker-label"
     />
     <input
       autocomplete="off"
-      class="ant-input ant-cascader-input "
+      class="alu-input alu-cascader-input "
       placeholder="Please select"
       readonly=""
       type="text"
       value=""
     />
     <span
-      class="ant-cascader-picker-arrow"
+      class="alu-cascader-picker-arrow"
     >
       ab
     </span>

@@ -57,7 +57,7 @@ ReactDOM.render(
 ````
 
 ````css
-#components-dropdown-demo-placement .ant-btn {
+#components-dropdown-demo-placement .alu-btn {
   margin-right: 8px;
   margin-bottom: 8px;
 }

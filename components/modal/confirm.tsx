@@ -37,7 +37,7 @@ const ConfirmDialog = (props: ConfirmDialogProps) => {
   );
   const icon = props.icon ? props.icon : iconType;
   const okType = props.okType || 'primary';
-  const prefixCls = props.prefixCls || 'ant-modal';
+  const prefixCls = props.prefixCls || 'alu-modal';
   const contentPrefixCls = `${prefixCls}-confirm`;
   // 默认为 true，保持向下兼容
   const okCancel = 'okCancel' in props ? props.okCancel! : true;

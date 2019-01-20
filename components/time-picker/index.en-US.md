@@ -58,4 +58,4 @@ import moment from 'moment';
 | blur() | remove focus |
 | focus() | get focus |
 
-<style>.code-box-demo .ant-time-picker { margin: 0 8px 12px 0; }</style>
+<style>.code-box-demo .alu-time-picker { margin: 0 8px 12px 0; }</style>

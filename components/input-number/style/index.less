@@ -12,19 +12,20 @@
   display: inline-block;
   border: @border-width-base @border-style-base @border-color-base;
   border-radius: @border-radius-base;
-  width: 90px;
+  width: 120px;
 
   &-handler {
     text-align: center;
-    line-height: 0;
-    height: 50%;
+    line-height: @input-height-base - 2px;
+    height: 100%;
     overflow: hidden;
     color: @text-color-secondary;
-    position: relative;
+    position: absolute;
     transition: all 0.1s linear;
     display: block;
-    width: 100%;
+    width: 30px;
     font-weight: bold;
+    cursor: pointer;
     &:active {
       background: @input-number-handler-active-bg;
     }
@@ -32,18 +33,24 @@
     &:hover &-down-inner {
       color: @primary-5;
     }
+    &-up {
+      right: 0;
+      border-radius: 0 @border-radius-base @border-radius-base 0;
+    }
+    &-down {
+      left: 0;
+      border-radius: @border-radius-base 0 0 @border-radius-base;
+    }
   }
 
   &-handler-up-inner,
   &-handler-down-inner {
     .iconfont-mixin();
-    line-height: 12px;
+    line-height: 16px;
     user-select: none;
-    position: absolute;
-    width: 12px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
     transition: all 0.1s linear;
-    .iconfont-size-under-12px(7px);
     right: 4px;
     color: @text-color-secondary;
   }
@@ -61,14 +68,24 @@
     .@{input-number-prefix-cls}-input {
       cursor: not-allowed;
     }
-    .@{input-number-prefix-cls}-handler-wrap {
-      display: none;
+    .@{input-number-prefix-cls}-handler {
+      cursor: not-allowed;
+      .@{input-number-prefix-cls}-handler-up-inner,
+      .@{input-number-prefix-cls}-handler-down-inner {
+        color: @disabled-color;
+      }
+      &:hover {
+        .@{input-number-prefix-cls}-handler-up-inner,
+        .@{input-number-prefix-cls}-handler-down-inner {
+          color: @disabled-color;
+        }
+      }
     }
   }
 
   &-input {
     width: 100%;
-    text-align: left;
+    text-align: center;
     outline: 0;
     -moz-appearance: textfield;
     height: @input-height-base - 2px;
@@ -76,16 +93,23 @@
     background-color: transparent;
     border: 0;
     border-radius: @border-radius-base;
-    padding: 0 @control-padding-horizontal - 1px;
+    padding: 0 30px;
     .placeholder();
   }
 
   &-lg {
     padding: 0;
     font-size: @font-size-lg;
-
+    width: 140px;
     input {
       height: @input-height-lg - 2px;
+    }
+    .@{input-number-prefix-cls}-input {
+      padding: 0 36px;
+    }
+    .@{input-number-prefix-cls}-handler {
+      width: 36px;
+      line-height: @input-height-lg - 2px;
     }
   }
 
@@ -96,62 +120,29 @@
       height: @input-height-sm - 2px;
       padding: 0 @control-padding-horizontal-sm - 1px;
     }
-  }
-
-  &-handler-wrap {
-    border-left: @border-width-base @border-style-base @border-color-base;
-    width: 22px;
-    height: 100%;
-    background: @component-background;
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 0;
-    border-radius: 0 @border-radius-base @border-radius-base 0;
-    transition: opacity 0.24s linear 0.1s;
-  }
-
-  &-handler-wrap:hover &-handler {
-    height: 40%;
-  }
-
-  &:hover &-handler-wrap {
-    opacity: 1;
-  }
-
-  &-handler-up {
-    cursor: pointer;
-    &-inner {
-      top: 50%;
-      margin-top: -5px;
-      text-align: center;
+    .@{input-number-prefix-cls}-handler {
+      line-height: @input-height-sm - 2px;
     }
-    &:hover {
-      height: 60% !important;
-    }
-  }
-
-  &-handler-down {
-    border-top: @border-width-base @border-style-base @border-color-base;
-    top: 0;
-    cursor: pointer;
-    &-inner {
-      top: 50%;
-      margin-top: -6px;
-      text-align: center;
-    }
-    &:hover {
-      height: 60% !important;
-    }
-  }
-
-  &-handler-up-disabled,
-  &-handler-down-disabled {
-    cursor: not-allowed;
   }
 
   &-handler-up-disabled:hover &-handler-up-inner,
   &-handler-down-disabled:hover &-handler-down-inner {
     color: @disabled-color;
+  }
+
+  &-handler-up-disabled,
+  &-handler-down-disabled {
+    cursor: not-allowed;
+    .@{input-number-prefix-cls}-handler-up-inner,
+    .@{input-number-prefix-cls}-handler-down-inner {
+      color: @disabled-color;
+      cursor: not-allowed;
+    }
+    &:hover {
+      .@{input-number-prefix-cls}-handler-up-inner,
+      .@{input-number-prefix-cls}-handler-down-inner {
+        color: @disabled-color;
+      }
+    }
   }
 }

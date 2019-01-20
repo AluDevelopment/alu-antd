@@ -295,7 +295,7 @@ const icons = [
   'google',
   'codepen-circle',
   'alipay',
-  'ant-design',
+  'alu-design',
   'aliyun',
   'zhihu',
   'slack',

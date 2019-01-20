@@ -2,131 +2,131 @@
 
 exports[`renders ./components/steps/demo/customized-progress-dot.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-label-vertical ant-steps-dot"
+  class="alu-steps alu-steps-horizontal alu-steps-label-vertical alu-steps-dot"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="alu-steps-item alu-steps-item-finish"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <span
-          class="ant-steps-icon-dot"
+          class="alu-steps-icon-dot"
         />
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Finished
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         You can hover on the dot.
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="alu-steps-item alu-steps-item-process"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <span
-          class="ant-steps-icon-dot"
+          class="alu-steps-icon-dot"
         />
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         In Progress
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         You can hover on the dot.
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="alu-steps-item alu-steps-item-wait"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <span
-          class="ant-steps-icon-dot"
+          class="alu-steps-icon-dot"
         />
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Waiting
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         You can hover on the dot.
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="alu-steps-item alu-steps-item-wait"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <span
-          class="ant-steps-icon-dot"
+          class="alu-steps-icon-dot"
         />
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Waiting
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         You can hover on the dot.
       </div>
@@ -137,22 +137,22 @@ exports[`renders ./components/steps/demo/customized-progress-dot.md correctly 1`
 
 exports[`renders ./components/steps/demo/error.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
+  class="alu-steps alu-steps-horizontal alu-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish ant-steps-next-error"
+    class="alu-steps-item alu-steps-item-finish alu-steps-next-error"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <i
-          class="anticon anticon-check ant-steps-finish-icon"
+          class="anticon anticon-check alu-steps-finish-icon"
         >
           <svg
             aria-hidden="true"
@@ -171,34 +171,34 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Finished
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-error"
+    class="alu-steps-item alu-steps-item-error"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <i
-          class="anticon anticon-close ant-steps-error-icon"
+          class="anticon anticon-close alu-steps-error-icon"
         >
           <svg
             aria-hidden="true"
@@ -217,45 +217,45 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         In Process
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="alu-steps-item alu-steps-item-wait"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         3
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Waiting
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description
       </div>
@@ -266,19 +266,19 @@ exports[`renders ./components/steps/demo/error.md correctly 1`] = `
 
 exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
+  class="alu-steps alu-steps-horizontal alu-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-custom"
+    class="alu-steps-item alu-steps-item-finish alu-steps-item-custom"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <i
           class="anticon anticon-user"
@@ -300,26 +300,26 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Login
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-finish ant-steps-item-custom"
+    class="alu-steps-item alu-steps-item-finish alu-steps-item-custom"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <i
           class="anticon anticon-solution"
@@ -341,26 +341,26 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Verification
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process ant-steps-item-custom"
+    class="alu-steps-item alu-steps-item-process alu-steps-item-custom"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <i
           class="anticon anticon-loading"
@@ -382,26 +382,26 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Pay
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait ant-steps-item-custom"
+    class="alu-steps-item alu-steps-item-wait alu-steps-item-custom"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <i
           class="anticon anticon-smile-o"
@@ -423,10 +423,10 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Done
       </div>
@@ -437,99 +437,99 @@ exports[`renders ./components/steps/demo/icon.md correctly 1`] = `
 
 exports[`renders ./components/steps/demo/progress-dot.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-label-vertical ant-steps-dot"
+  class="alu-steps alu-steps-horizontal alu-steps-label-vertical alu-steps-dot"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="alu-steps-item alu-steps-item-finish"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <span
-          class="ant-steps-icon-dot"
+          class="alu-steps-icon-dot"
         />
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Finished
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="alu-steps-item alu-steps-item-process"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <span
-          class="ant-steps-icon-dot"
+          class="alu-steps-icon-dot"
         />
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         In Progress
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="alu-steps-item alu-steps-item-wait"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <span
-          class="ant-steps-icon-dot"
+          class="alu-steps-icon-dot"
         />
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Waiting
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>
@@ -540,22 +540,22 @@ exports[`renders ./components/steps/demo/progress-dot.md correctly 1`] = `
 
 exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
+  class="alu-steps alu-steps-horizontal alu-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="alu-steps-item alu-steps-item-finish"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <i
-          class="anticon anticon-check ant-steps-finish-icon"
+          class="anticon anticon-check alu-steps-finish-icon"
         >
           <svg
             aria-hidden="true"
@@ -574,75 +574,75 @@ exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Finished
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="alu-steps-item alu-steps-item-process"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         2
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         In Progress
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="alu-steps-item alu-steps-item-wait"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         3
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Waiting
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>
@@ -653,22 +653,22 @@ exports[`renders ./components/steps/demo/simple.md correctly 1`] = `
 
 exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-horizontal ant-steps-small ant-steps-label-horizontal"
+  class="alu-steps alu-steps-horizontal alu-steps-small alu-steps-label-horizontal"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="alu-steps-item alu-steps-item-finish"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <i
-          class="anticon anticon-check ant-steps-finish-icon"
+          class="anticon anticon-check alu-steps-finish-icon"
         >
           <svg
             aria-hidden="true"
@@ -687,60 +687,60 @@ exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Finished
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="alu-steps-item alu-steps-item-process"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         2
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         In Progress
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="alu-steps-item alu-steps-item-wait"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         3
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Waiting
       </div>
@@ -752,78 +752,78 @@ exports[`renders ./components/steps/demo/small-size.md correctly 1`] = `
 exports[`renders ./components/steps/demo/step-next.md correctly 1`] = `
 <div>
   <div
-    class="ant-steps ant-steps-horizontal ant-steps-label-horizontal"
+    class="alu-steps alu-steps-horizontal alu-steps-label-horizontal"
   >
     <div
-      class="ant-steps-item ant-steps-item-process"
+      class="alu-steps-item alu-steps-item-process"
     >
       <div
-        class="ant-steps-item-tail"
+        class="alu-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="alu-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="alu-steps-icon"
         >
           1
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="alu-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="alu-steps-item-title"
         >
           First
         </div>
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="alu-steps-item alu-steps-item-wait"
     >
       <div
-        class="ant-steps-item-tail"
+        class="alu-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="alu-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="alu-steps-icon"
         >
           2
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="alu-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="alu-steps-item-title"
         >
           Second
         </div>
       </div>
     </div>
     <div
-      class="ant-steps-item ant-steps-item-wait"
+      class="alu-steps-item alu-steps-item-wait"
     >
       <div
-        class="ant-steps-item-tail"
+        class="alu-steps-item-tail"
       />
       <div
-        class="ant-steps-item-icon"
+        class="alu-steps-item-icon"
       >
         <span
-          class="ant-steps-icon"
+          class="alu-steps-icon"
         >
           3
         </span>
       </div>
       <div
-        class="ant-steps-item-content"
+        class="alu-steps-item-content"
       >
         <div
-          class="ant-steps-item-title"
+          class="alu-steps-item-title"
         >
           Last
         </div>
@@ -839,7 +839,7 @@ exports[`renders ./components/steps/demo/step-next.md correctly 1`] = `
     class="steps-action"
   >
     <button
-      class="ant-btn ant-btn-primary"
+      class="alu-btn alu-btn-primary"
       type="button"
     >
       <span>
@@ -852,22 +852,22 @@ exports[`renders ./components/steps/demo/step-next.md correctly 1`] = `
 
 exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-vertical"
+  class="alu-steps alu-steps-vertical"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="alu-steps-item alu-steps-item-finish"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <i
-          class="anticon anticon-check ant-steps-finish-icon"
+          class="anticon anticon-check alu-steps-finish-icon"
         >
           <svg
             aria-hidden="true"
@@ -886,75 +886,75 @@ exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Finished
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="alu-steps-item alu-steps-item-process"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         2
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         In Progress
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="alu-steps-item alu-steps-item-wait"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         3
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Waiting
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>
@@ -965,22 +965,22 @@ exports[`renders ./components/steps/demo/vertical.md correctly 1`] = `
 
 exports[`renders ./components/steps/demo/vertical-small.md correctly 1`] = `
 <div
-  class="ant-steps ant-steps-vertical ant-steps-small"
+  class="alu-steps alu-steps-vertical alu-steps-small"
 >
   <div
-    class="ant-steps-item ant-steps-item-finish"
+    class="alu-steps-item alu-steps-item-finish"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         <i
-          class="anticon anticon-check ant-steps-finish-icon"
+          class="anticon anticon-check alu-steps-finish-icon"
         >
           <svg
             aria-hidden="true"
@@ -999,75 +999,75 @@ exports[`renders ./components/steps/demo/vertical-small.md correctly 1`] = `
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Finished
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-process"
+    class="alu-steps-item alu-steps-item-process"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         2
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         In Progress
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>
     </div>
   </div>
   <div
-    class="ant-steps-item ant-steps-item-wait"
+    class="alu-steps-item alu-steps-item-wait"
   >
     <div
-      class="ant-steps-item-tail"
+      class="alu-steps-item-tail"
     />
     <div
-      class="ant-steps-item-icon"
+      class="alu-steps-item-icon"
     >
       <span
-        class="ant-steps-icon"
+        class="alu-steps-icon"
       >
         3
       </span>
     </div>
     <div
-      class="ant-steps-item-content"
+      class="alu-steps-item-content"
     >
       <div
-        class="ant-steps-item-title"
+        class="alu-steps-item-title"
       >
         Waiting
       </div>
       <div
-        class="ant-steps-item-description"
+        class="alu-steps-item-description"
       >
         This is a description.
       </div>

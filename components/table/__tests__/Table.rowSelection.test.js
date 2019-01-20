@@ -246,7 +246,7 @@ describe('Table.rowSelection', () => {
         .getComponent(),
     );
     dropdownWrapper
-      .find('.ant-dropdown-menu-item > div')
+      .find('.alu-dropdown-menu-item > div')
       .first()
       .simulate('click');
 
@@ -270,7 +270,7 @@ describe('Table.rowSelection', () => {
         .getComponent(),
     );
     dropdownWrapper
-      .find('.ant-dropdown-menu-item > div')
+      .find('.alu-dropdown-menu-item > div')
       .last()
       .simulate('click');
 
@@ -302,16 +302,16 @@ describe('Table.rowSelection', () => {
         .instance()
         .getComponent(),
     );
-    expect(dropdownWrapper.find('.ant-dropdown-menu-item').length).toBe(4);
+    expect(dropdownWrapper.find('.alu-dropdown-menu-item').length).toBe(4);
 
     dropdownWrapper
-      .find('.ant-dropdown-menu-item > div')
+      .find('.alu-dropdown-menu-item > div')
       .at(2)
       .simulate('click');
     expect(handleSelectOdd).toBeCalledWith([0, 1, 2, 3]);
 
     dropdownWrapper
-      .find('.ant-dropdown-menu-item > div')
+      .find('.alu-dropdown-menu-item > div')
       .at(3)
       .simulate('click');
     expect(handleSelectEven).toBeCalledWith([0, 1, 2, 3]);
@@ -338,7 +338,7 @@ describe('Table.rowSelection', () => {
         .instance()
         .getComponent(),
     );
-    expect(dropdownWrapper.find('.ant-dropdown-menu-item').length).toBe(2);
+    expect(dropdownWrapper.find('.alu-dropdown-menu-item').length).toBe(2);
   });
 
   it('handle custom selection onSelect correctly when hide default selection options', () => {
@@ -367,16 +367,16 @@ describe('Table.rowSelection', () => {
         .instance()
         .getComponent(),
     );
-    expect(dropdownWrapper.find('.ant-dropdown-menu-item').length).toBe(2);
+    expect(dropdownWrapper.find('.alu-dropdown-menu-item').length).toBe(2);
 
     dropdownWrapper
-      .find('.ant-dropdown-menu-item > div')
+      .find('.alu-dropdown-menu-item > div')
       .at(0)
       .simulate('click');
     expect(handleSelectOdd).toBeCalledWith([0, 1, 2, 3]);
 
     dropdownWrapper
-      .find('.ant-dropdown-menu-item > div')
+      .find('.alu-dropdown-menu-item > div')
       .at(1)
       .simulate('click');
     expect(handleSelectEven).toBeCalledWith([0, 1, 2, 3]);
@@ -476,7 +476,7 @@ describe('Table.rowSelection', () => {
       wrapper
         .find('tbody tr')
         .at(0)
-        .hasClass('ant-table-row-selected'),
+        .hasClass('alu-table-row-selected'),
     ).toBe(true);
   });
 
@@ -583,18 +583,18 @@ describe('Table.rowSelection', () => {
     function clickFilter(indexList) {
       indexList.forEach(index => {
         wrapper
-          .find('.ant-dropdown-menu-item .ant-checkbox-wrapper')
+          .find('.alu-dropdown-menu-item .alu-checkbox-wrapper')
           .at(index)
           .simulate('click');
       });
       wrapper
-        .find('.ant-table-filter-dropdown-btns .ant-table-filter-dropdown-link.confirm')
+        .find('.alu-table-filter-dropdown-btns .alu-table-filter-dropdown-link.confirm')
         .simulate('click');
     }
 
     function clickItem() {
       wrapper
-        .find('tbody .ant-table-selection-column .ant-checkbox-input')
+        .find('tbody .alu-table-selection-column .alu-checkbox-input')
         .at(0)
         .simulate('change', {
           target: { checked: true },

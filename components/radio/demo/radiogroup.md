@@ -32,12 +32,24 @@ class App extends React.Component {
 
   render() {
     return (
-      <RadioGroup onChange={this.onChange} value={this.state.value}>
-        <Radio value={1}>A</Radio>
-        <Radio value={2}>B</Radio>
-        <Radio value={3}>C</Radio>
-        <Radio value={4}>D</Radio>
-      </RadioGroup>
+      <div>
+        <div>
+          <RadioGroup onChange={this.onChange} value={this.state.value}>
+             <Radio value={1}>A</Radio>
+             <Radio value={2}>B</Radio>
+             <Radio value={3}>C</Radio>
+             <Radio value={4}>D</Radio>
+           </RadioGroup>
+        </div>
+        <div style={{ marginTop: 16 }}>
+          <RadioGroup border onChange={this.onChange} value={this.state.value}>
+             <Radio value={1}>A</Radio>
+             <Radio value={2}>B</Radio>
+             <Radio value={3}>C</Radio>
+             <Radio value={4}>D</Radio>
+           </RadioGroup>
+        </div>
+      </div>
     );
   }
 }

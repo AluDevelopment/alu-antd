@@ -3,19 +3,19 @@
 exports[`renders ./components/badge/demo/basic.md correctly 1`] = `
 <div>
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <a
       class="head-example"
       href="#"
     />
     <sup
-      class="ant-scroll-number ant-badge-count"
+      class="alu-scroll-number alu-badge-count"
       data-show="true"
       title="5"
     >
       <span
-        class="ant-scroll-number-only"
+        class="alu-scroll-number-only"
         style="transition:none;-ms-transform:translateY(-1500%);-webkit-transform:translateY(-1500%);transform:translateY(-1500%)"
       >
         <p
@@ -172,14 +172,14 @@ exports[`renders ./components/badge/demo/basic.md correctly 1`] = `
     </sup>
   </span>
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <a
       class="head-example"
       href="#"
     />
     <sup
-      class="ant-scroll-number ant-badge-count"
+      class="alu-scroll-number alu-badge-count"
       data-show="true"
       title="0"
     >
@@ -187,14 +187,14 @@ exports[`renders ./components/badge/demo/basic.md correctly 1`] = `
     </sup>
   </span>
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <a
       class="head-example"
       href="#"
     />
     <i
-      class="anticon anticon-clock-circle ant-scroll-number-custom-component"
+      class="anticon anticon-clock-circle alu-scroll-number-custom-component"
       style="color:#f5222d"
     >
       <svg
@@ -222,19 +222,19 @@ exports[`renders ./components/badge/demo/change.md correctly 1`] = `
 <div>
   <div>
     <span
-      class="ant-badge"
+      class="alu-badge"
     >
       <a
         class="head-example"
         href="#"
       />
       <sup
-        class="ant-scroll-number ant-badge-count"
+        class="alu-scroll-number alu-badge-count"
         data-show="true"
         title="5"
       >
         <span
-          class="ant-scroll-number-only"
+          class="alu-scroll-number-only"
           style="transition:none;-ms-transform:translateY(-1500%);-webkit-transform:translateY(-1500%);transform:translateY(-1500%)"
         >
           <p
@@ -391,10 +391,10 @@ exports[`renders ./components/badge/demo/change.md correctly 1`] = `
       </sup>
     </span>
     <div
-      class="ant-btn-group"
+      class="alu-btn-group"
     >
       <button
-        class="ant-btn"
+        class="alu-btn"
         type="button"
       >
         <i
@@ -416,7 +416,7 @@ exports[`renders ./components/badge/demo/change.md correctly 1`] = `
         </i>
       </button>
       <button
-        class="ant-btn"
+        class="alu-btn"
         type="button"
       >
         <i
@@ -443,26 +443,26 @@ exports[`renders ./components/badge/demo/change.md correctly 1`] = `
     style="margin-top:10px"
   >
     <span
-      class="ant-badge"
+      class="alu-badge"
     >
       <a
         class="head-example"
         href="#"
       />
       <sup
-        class="ant-scroll-number ant-badge-dot"
+        class="alu-scroll-number alu-badge-dot"
         data-show="true"
       />
     </span>
     <button
       aria-checked="true"
       checked=""
-      class="ant-switch ant-switch-checked"
+      class="alu-switch alu-switch-checked"
       role="switch"
       type="button"
     >
       <span
-        class="ant-switch-inner"
+        class="alu-switch-inner"
       />
     </button>
   </div>
@@ -472,7 +472,7 @@ exports[`renders ./components/badge/demo/change.md correctly 1`] = `
 exports[`renders ./components/badge/demo/dot.md correctly 1`] = `
 <div>
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <i
       class="anticon anticon-notification"
@@ -492,12 +492,12 @@ exports[`renders ./components/badge/demo/dot.md correctly 1`] = `
       </svg>
     </i>
     <sup
-      class="ant-scroll-number ant-badge-dot"
+      class="alu-scroll-number alu-badge-dot"
       data-show="true"
     />
   </span>
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <i
       class="anticon anticon-notification"
@@ -518,7 +518,7 @@ exports[`renders ./components/badge/demo/dot.md correctly 1`] = `
     </i>
   </span>
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <a
       href="#"
@@ -526,7 +526,7 @@ exports[`renders ./components/badge/demo/dot.md correctly 1`] = `
       Link something
     </a>
     <sup
-      class="ant-scroll-number ant-badge-dot"
+      class="alu-scroll-number alu-badge-dot"
       data-show="true"
     />
   </span>
@@ -538,18 +538,18 @@ exports[`renders ./components/badge/demo/link.md correctly 1`] = `
   href="#"
 >
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <span
       class="head-example"
     />
     <sup
-      class="ant-scroll-number ant-badge-count"
+      class="alu-scroll-number alu-badge-count"
       data-show="true"
       title="5"
     >
       <span
-        class="ant-scroll-number-only"
+        class="alu-scroll-number-only"
         style="transition:none;-ms-transform:translateY(-1500%);-webkit-transform:translateY(-1500%);transform:translateY(-1500%)"
       >
         <p
@@ -711,15 +711,15 @@ exports[`renders ./components/badge/demo/link.md correctly 1`] = `
 exports[`renders ./components/badge/demo/no-wrapper.md correctly 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-not-a-wrapper"
   >
     <sup
-      class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+      class="alu-scroll-number alu-badge-count alu-badge-multiple-words"
       data-show="true"
       title="25"
     >
       <span
-        class="ant-scroll-number-only"
+        class="alu-scroll-number-only"
         style="transition:none;-ms-transform:translateY(-1200%);-webkit-transform:translateY(-1200%);transform:translateY(-1200%)"
       >
         <p
@@ -874,7 +874,7 @@ exports[`renders ./components/badge/demo/no-wrapper.md correctly 1`] = `
         </p>
       </span>
       <span
-        class="ant-scroll-number-only"
+        class="alu-scroll-number-only"
         style="transition:none;-ms-transform:translateY(-1500%);-webkit-transform:translateY(-1500%);transform:translateY(-1500%)"
       >
         <p
@@ -1031,16 +1031,16 @@ exports[`renders ./components/badge/demo/no-wrapper.md correctly 1`] = `
     </sup>
   </span>
   <span
-    class="ant-badge ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-not-a-wrapper"
   >
     <sup
-      class="ant-scroll-number ant-badge-count"
+      class="alu-scroll-number alu-badge-count"
       data-show="true"
       style="background-color:#fff;color:#999;box-shadow:0 0 0 1px #d9d9d9 inset"
       title="4"
     >
       <span
-        class="ant-scroll-number-only"
+        class="alu-scroll-number-only"
         style="transition:none;-ms-transform:translateY(-1400%);-webkit-transform:translateY(-1400%);transform:translateY(-1400%)"
       >
         <p
@@ -1197,10 +1197,10 @@ exports[`renders ./components/badge/demo/no-wrapper.md correctly 1`] = `
     </sup>
   </span>
   <span
-    class="ant-badge ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-not-a-wrapper"
   >
     <sup
-      class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+      class="alu-scroll-number alu-badge-count alu-badge-multiple-words"
       data-show="true"
       style="background-color:#52c41a"
       title="109"
@@ -1214,19 +1214,19 @@ exports[`renders ./components/badge/demo/no-wrapper.md correctly 1`] = `
 exports[`renders ./components/badge/demo/overflow.md correctly 1`] = `
 <div>
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <a
       class="head-example"
       href="#"
     />
     <sup
-      class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+      class="alu-scroll-number alu-badge-count alu-badge-multiple-words"
       data-show="true"
       title="99"
     >
       <span
-        class="ant-scroll-number-only"
+        class="alu-scroll-number-only"
         style="transition:none;-ms-transform:translateY(-1900%);-webkit-transform:translateY(-1900%);transform:translateY(-1900%)"
       >
         <p
@@ -1381,7 +1381,7 @@ exports[`renders ./components/badge/demo/overflow.md correctly 1`] = `
         </p>
       </span>
       <span
-        class="ant-scroll-number-only"
+        class="alu-scroll-number-only"
         style="transition:none;-ms-transform:translateY(-1900%);-webkit-transform:translateY(-1900%);transform:translateY(-1900%)"
       >
         <p
@@ -1538,14 +1538,14 @@ exports[`renders ./components/badge/demo/overflow.md correctly 1`] = `
     </sup>
   </span>
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <a
       class="head-example"
       href="#"
     />
     <sup
-      class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+      class="alu-scroll-number alu-badge-count alu-badge-multiple-words"
       data-show="true"
       title="100"
     >
@@ -1553,14 +1553,14 @@ exports[`renders ./components/badge/demo/overflow.md correctly 1`] = `
     </sup>
   </span>
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <a
       class="head-example"
       href="#"
     />
     <sup
-      class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+      class="alu-scroll-number alu-badge-count alu-badge-multiple-words"
       data-show="true"
       title="99"
     >
@@ -1568,14 +1568,14 @@ exports[`renders ./components/badge/demo/overflow.md correctly 1`] = `
     </sup>
   </span>
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <a
       class="head-example"
       href="#"
     />
     <sup
-      class="ant-scroll-number ant-badge-count ant-badge-multiple-words"
+      class="alu-scroll-number alu-badge-count alu-badge-multiple-words"
       data-show="true"
       title="1000"
     >
@@ -1588,116 +1588,116 @@ exports[`renders ./components/badge/demo/overflow.md correctly 1`] = `
 exports[`renders ./components/badge/demo/status.md correctly 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-status alu-badge-not-a-wrapper"
   >
     <span
-      class="ant-badge-status-dot ant-badge-status-success"
+      class="alu-badge-status-dot alu-badge-status-success"
     />
     <span
-      class="ant-badge-status-text"
+      class="alu-badge-status-text"
     />
   </span>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-status alu-badge-not-a-wrapper"
   >
     <span
-      class="ant-badge-status-dot ant-badge-status-error"
+      class="alu-badge-status-dot alu-badge-status-error"
     />
     <span
-      class="ant-badge-status-text"
+      class="alu-badge-status-text"
     />
   </span>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-status alu-badge-not-a-wrapper"
   >
     <span
-      class="ant-badge-status-dot ant-badge-status-default"
+      class="alu-badge-status-dot alu-badge-status-default"
     />
     <span
-      class="ant-badge-status-text"
+      class="alu-badge-status-text"
     />
   </span>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-status alu-badge-not-a-wrapper"
   >
     <span
-      class="ant-badge-status-dot ant-badge-status-processing"
+      class="alu-badge-status-dot alu-badge-status-processing"
     />
     <span
-      class="ant-badge-status-text"
+      class="alu-badge-status-text"
     />
   </span>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-status alu-badge-not-a-wrapper"
   >
     <span
-      class="ant-badge-status-dot ant-badge-status-warning"
+      class="alu-badge-status-dot alu-badge-status-warning"
     />
     <span
-      class="ant-badge-status-text"
+      class="alu-badge-status-text"
     />
   </span>
   <br />
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-status alu-badge-not-a-wrapper"
   >
     <span
-      class="ant-badge-status-dot ant-badge-status-success"
+      class="alu-badge-status-dot alu-badge-status-success"
     />
     <span
-      class="ant-badge-status-text"
+      class="alu-badge-status-text"
     >
       Success
     </span>
   </span>
   <br />
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-status alu-badge-not-a-wrapper"
   >
     <span
-      class="ant-badge-status-dot ant-badge-status-error"
+      class="alu-badge-status-dot alu-badge-status-error"
     />
     <span
-      class="ant-badge-status-text"
+      class="alu-badge-status-text"
     >
       Error
     </span>
   </span>
   <br />
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-status alu-badge-not-a-wrapper"
   >
     <span
-      class="ant-badge-status-dot ant-badge-status-default"
+      class="alu-badge-status-dot alu-badge-status-default"
     />
     <span
-      class="ant-badge-status-text"
+      class="alu-badge-status-text"
     >
       Default
     </span>
   </span>
   <br />
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-status alu-badge-not-a-wrapper"
   >
     <span
-      class="ant-badge-status-dot ant-badge-status-processing"
+      class="alu-badge-status-dot alu-badge-status-processing"
     />
     <span
-      class="ant-badge-status-text"
+      class="alu-badge-status-text"
     >
       Processing
     </span>
   </span>
   <br />
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="alu-badge alu-badge-status alu-badge-not-a-wrapper"
   >
     <span
-      class="ant-badge-status-dot ant-badge-status-warning"
+      class="alu-badge-status-dot alu-badge-status-warning"
     />
     <span
-      class="ant-badge-status-text"
+      class="alu-badge-status-text"
     >
       Warning
     </span>
@@ -1708,19 +1708,19 @@ exports[`renders ./components/badge/demo/status.md correctly 1`] = `
 exports[`renders ./components/badge/demo/title.md correctly 1`] = `
 <div>
   <span
-    class="ant-badge"
+    class="alu-badge"
   >
     <a
       class="head-example"
       href="#"
     />
     <sup
-      class="ant-scroll-number ant-badge-count"
+      class="alu-scroll-number alu-badge-count"
       data-show="true"
       title="Custom hover text"
     >
       <span
-        class="ant-scroll-number-only"
+        class="alu-scroll-number-only"
         style="transition:none;-ms-transform:translateY(-1500%);-webkit-transform:translateY(-1500%);transform:translateY(-1500%)"
       >
         <p

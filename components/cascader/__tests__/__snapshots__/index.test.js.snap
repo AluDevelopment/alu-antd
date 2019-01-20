@@ -3,19 +3,19 @@
 exports[`Cascader can be selected 1`] = `
 <div>
   <div
-    class="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
+    class="alu-cascader-menus  alu-cascader-menus-placement-bottomLeft "
   >
     <div>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand alu-cascader-menu-item-active"
           title="Zhejiang"
         >
           Zhejiang
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -37,12 +37,12 @@ exports[`Cascader can be selected 1`] = `
           </span>
         </li>
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand"
           title="Jiangsu"
         >
           Jiangsu
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -65,15 +65,15 @@ exports[`Cascader can be selected 1`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand"
           title="Hangzhou"
         >
           Hangzhou
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -103,19 +103,19 @@ exports[`Cascader can be selected 1`] = `
 exports[`Cascader can be selected 2`] = `
 <div>
   <div
-    class="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
+    class="alu-cascader-menus  alu-cascader-menus-placement-bottomLeft "
   >
     <div>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand alu-cascader-menu-item-active"
           title="Zhejiang"
         >
           Zhejiang
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -137,12 +137,12 @@ exports[`Cascader can be selected 2`] = `
           </span>
         </li>
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand"
           title="Jiangsu"
         >
           Jiangsu
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -165,15 +165,15 @@ exports[`Cascader can be selected 2`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand alu-cascader-menu-item-active"
           title="Hangzhou"
         >
           Hangzhou
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -196,10 +196,10 @@ exports[`Cascader can be selected 2`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item"
+          class="alu-cascader-menu-item"
           title="West Lake"
         >
           West Lake
@@ -213,19 +213,19 @@ exports[`Cascader can be selected 2`] = `
 exports[`Cascader can be selected 3`] = `
 <div>
   <div
-    class="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft  ant-cascader-menus-hidden"
+    class="alu-cascader-menus  alu-cascader-menus-placement-bottomLeft  alu-cascader-menus-hidden"
   >
     <div>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand alu-cascader-menu-item-active"
           title="Zhejiang"
         >
           Zhejiang
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -247,12 +247,12 @@ exports[`Cascader can be selected 3`] = `
           </span>
         </li>
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand"
           title="Jiangsu"
         >
           Jiangsu
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -275,15 +275,15 @@ exports[`Cascader can be selected 3`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand alu-cascader-menu-item-active"
           title="Hangzhou"
         >
           Hangzhou
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -306,10 +306,10 @@ exports[`Cascader can be selected 3`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-active"
+          class="alu-cascader-menu-item alu-cascader-menu-item-active"
           title="West Lake"
         >
           West Lake
@@ -323,7 +323,7 @@ exports[`Cascader can be selected 3`] = `
 exports[`Cascader popup correctly when panel is hidden 1`] = `
 <div>
   <div
-    class="ant-cascader-menus  ant-cascader-menus-empty ant-cascader-menus-placement-bottomLeft  ant-cascader-menus-hidden"
+    class="alu-cascader-menus  alu-cascader-menus-empty alu-cascader-menus-placement-bottomLeft  alu-cascader-menus-hidden"
   >
     <div />
   </div>
@@ -333,19 +333,19 @@ exports[`Cascader popup correctly when panel is hidden 1`] = `
 exports[`Cascader popup correctly when panel is open 1`] = `
 <div>
   <div
-    class="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
+    class="alu-cascader-menus  alu-cascader-menus-placement-bottomLeft "
   >
     <div>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand"
           title="Zhejiang"
         >
           Zhejiang
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -367,12 +367,12 @@ exports[`Cascader popup correctly when panel is open 1`] = `
           </span>
         </li>
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand"
           title="Jiangsu"
         >
           Jiangsu
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -402,19 +402,19 @@ exports[`Cascader popup correctly when panel is open 1`] = `
 exports[`Cascader popup correctly with defaultValue 1`] = `
 <div>
   <div
-    class="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
+    class="alu-cascader-menus  alu-cascader-menus-placement-bottomLeft "
   >
     <div>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand alu-cascader-menu-item-active"
           title="Zhejiang"
         >
           Zhejiang
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -436,12 +436,12 @@ exports[`Cascader popup correctly with defaultValue 1`] = `
           </span>
         </li>
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand"
           title="Jiangsu"
         >
           Jiangsu
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -464,15 +464,15 @@ exports[`Cascader popup correctly with defaultValue 1`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item ant-cascader-menu-item-expand ant-cascader-menu-item-active"
+          class="alu-cascader-menu-item alu-cascader-menu-item-expand alu-cascader-menu-item-active"
           title="Hangzhou"
         >
           Hangzhou
           <span
-            class="ant-cascader-menu-item-expand-icon"
+            class="alu-cascader-menu-item-expand-icon"
           >
             <i
               class="anticon anticon-right"
@@ -495,10 +495,10 @@ exports[`Cascader popup correctly with defaultValue 1`] = `
         </li>
       </ul>
       <ul
-        class="ant-cascader-menu"
+        class="alu-cascader-menu"
       >
         <li
-          class="ant-cascader-menu-item"
+          class="alu-cascader-menu-item"
           title="West Lake"
         >
           West Lake
@@ -600,8 +600,8 @@ exports[`Cascader should highlight keyword and filter when search in Cascader 1`
           xVisible={true}
         >
           <PopupInner
-            className="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
-            hiddenClassName="ant-cascader-menus-hidden"
+            className="alu-cascader-menus  alu-cascader-menus-placement-bottomLeft "
+            hiddenclassName="alu-cascader-menus-hidden"
             onMouseDown={[Function]}
             onTouchStart={[Function]}
             prefixCls="ant-cascader-menus"
@@ -609,13 +609,13 @@ exports[`Cascader should highlight keyword and filter when search in Cascader 1`
             visible={true}
           >
             <div
-              className="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
+              className="alu-cascader-menus  alu-cascader-menus-placement-bottomLeft "
               onMouseDown={[Function]}
               onTouchStart={[Function]}
               style={Object {}}
             >
               <LazyRenderBox
-                className="ant-cascader-menus-content"
+                className="alu-cascader-menus-content"
                 visible={true}
               >
                 <Menus
@@ -709,7 +709,7 @@ exports[`Cascader should highlight keyword and filter when search in Cascader 1`
                   }
                   loadingIcon={
                     <span
-                      className="ant-cascader-menu-item-loading-icon"
+                      className="alu-cascader-menu-item-loading-icon"
                     >
                       <Icon
                         spin={true}
@@ -786,7 +786,7 @@ exports[`Cascader should highlight keyword and filter when search in Cascader 1`
                               "Hang",
                               Array [
                                 <span
-                                  className="ant-cascader-menu-item-keyword"
+                                  className="alu-cascader-menu-item-keyword"
                                 >
                                   z
                                 </span>,
@@ -855,7 +855,7 @@ exports[`Cascader should highlight keyword and filter when search in Cascader 1`
                 >
                   <div>
                     <ul
-                      className="ant-cascader-menu"
+                      className="alu-cascader-menu"
                       key="0"
                       style={
                         Object {
@@ -864,7 +864,7 @@ exports[`Cascader should highlight keyword and filter when search in Cascader 1`
                       }
                     >
                       <li
-                        className="ant-cascader-menu-item"
+                        className="alu-cascader-menu-item"
                         key="jiangsu,nanjing,zhonghuamen"
                         onClick={[Function]}
                         onDoubleClick={[Function]}
@@ -877,7 +877,7 @@ exports[`Cascader should highlight keyword and filter when search in Cascader 1`
                         Zhong Hua Men
                       </li>
                       <li
-                        className="ant-cascader-menu-item"
+                        className="alu-cascader-menu-item"
                         key="zhejiang,hangzhou,xihu"
                         onClick={[Function]}
                         onDoubleClick={[Function]}
@@ -887,7 +887,7 @@ exports[`Cascader should highlight keyword and filter when search in Cascader 1`
                          / 
                         Hang
                         <span
-                          className="ant-cascader-menu-item-keyword"
+                          className="alu-cascader-menu-item-keyword"
                           key="seperator"
                         >
                           z
@@ -1000,8 +1000,8 @@ exports[`Cascader should render not found content 1`] = `
           xVisible={true}
         >
           <PopupInner
-            className="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
-            hiddenClassName="ant-cascader-menus-hidden"
+            className="alu-cascader-menus  alu-cascader-menus-placement-bottomLeft "
+            hiddenclassName="alu-cascader-menus-hidden"
             onMouseDown={[Function]}
             onTouchStart={[Function]}
             prefixCls="ant-cascader-menus"
@@ -1009,13 +1009,13 @@ exports[`Cascader should render not found content 1`] = `
             visible={true}
           >
             <div
-              className="ant-cascader-menus  ant-cascader-menus-placement-bottomLeft "
+              className="alu-cascader-menus  alu-cascader-menus-placement-bottomLeft "
               onMouseDown={[Function]}
               onTouchStart={[Function]}
               style={Object {}}
             >
               <LazyRenderBox
-                className="ant-cascader-menus-content"
+                className="alu-cascader-menus-content"
                 visible={true}
               >
                 <Menus
@@ -1110,7 +1110,7 @@ exports[`Cascader should render not found content 1`] = `
                   }
                   loadingIcon={
                     <span
-                      className="ant-cascader-menu-item-loading-icon"
+                      className="alu-cascader-menu-item-loading-icon"
                     >
                       <Icon
                         spin={true}
@@ -1149,7 +1149,7 @@ exports[`Cascader should render not found content 1`] = `
                 >
                   <div>
                     <ul
-                      className="ant-cascader-menu"
+                      className="alu-cascader-menu"
                       key="0"
                       style={
                         Object {
@@ -1159,7 +1159,7 @@ exports[`Cascader should render not found content 1`] = `
                       }
                     >
                       <li
-                        className="ant-cascader-menu-item ant-cascader-menu-item-disabled"
+                        className="alu-cascader-menu-item alu-cascader-menu-item-disabled"
                         key="ANT_CASCADER_NOT_FOUND"
                         onClick={[Function]}
                         onDoubleClick={[Function]}
@@ -1167,7 +1167,7 @@ exports[`Cascader should render not found content 1`] = `
                       >
                         <Consumer>
                           <Empty
-                            className="ant-empty-small"
+                            className="alu-empty-small"
                             image="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNjRweCIgaGVpZ2h0PSI0MXB4IiB2aWV3Qm94PSIwIDAgNjQgNDEiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjUgKDY3NDY5KSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDxnIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00NzIuMDAwMDAwLCAtMTMzNS4wMDAwMDApIj4KICAgICAgICAgICAgPGcgIHRyYW5zZm9ybT0idHJhbnNsYXRlKDY0LjAwMDAwMCwgMTExNC4wMDAwMDApIj4KICAgICAgICAgICAgICAgIDxnICB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MC4wMDAwMDAsIDc4LjAwMDAwMCkiPgogICAgICAgICAgICAgICAgICAgIDxnICB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzNjguMDAwMDAwLCAxNDQuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICAgICAgICAgIDxnID4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxlbGxpcHNlICBmaWxsPSIjRjVGNUY1IiBjeD0iMzIiIGN5PSIzMyIgcng9IjMyIiByeT0iNyI+PC9lbGxpcHNlPgogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGcgICB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5LjAwMDAwMCwgMC4wMDAwMDApIiBmaWxsLXJ1bGU9Im5vbnplcm8iIHN0cm9rZT0iI0Q5RDlEOSI+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTQ2LDEyLjc2MDU2MDQgTDM1Ljg1NDMwNDcsMS4yNTczOTYzMyBDMzUuMzY3NDQxNCwwLjQ3MzgyNjYwNSAzNC42NTU4Nzg5LDAgMzMuOTA2NzYxNywwIEwxMi4wOTMyMzgzLDAgQzExLjM0NDEyMTEsMCAxMC42MzI1NTg2LDAuNDczOTUwMjU1IDEwLjE0NTY5NTMsMS4yNTczOTYzMyBMMi42MTQ3OTcyN2UtMTIsMTIuNzYwNTYwNCBMMCwyMiBMNDYsMjIgTDQ2LDEyLjc2MDU2MDQgWiIgID48L3BhdGg+CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTMyLjYxMzI4MTMsMTUuOTMxNSBDMzIuNjEzMjgxMywxNC4zMjU4NTExIDMzLjYwNjk1MzEsMTMuMDAwMjM0IDM0LjgzOTY5OTIsMTMgTDQ2LDEzIEw0NiwzMS4xMzcxMjc3IEM0NiwzMy4yNTg5NTc0IDQ0LjY3OTM4NjcsMzUgNDMuMDUwNDI5NywzNSBMMi45NDk1NzAzMSwzNSBDMS4zMjA1MjM0NCwzNSAwLDMzLjI1ODg0MDQgMCwzMS4xMzcxMjc3IEwwLDEzIEwxMS4xNjAzMDA4LDEzIEMxMi4zOTMwNDY5LDEzIDEzLjM4NjcxODgsMTQuMzIyODA4NSAxMy4zODY3MTg4LDE1LjkyODQ1NzQgTDEzLjM4NjcxODgsMTUuOTQ5NjM4MyBDMTMuMzg2NzE4OCwxNy41NTUyODcyIDE0LjM5MTcxMDksMTguODUxMTgwOSAxNS42MjQ0NTcsMTguODUxMTgwOSBMMzAuMzc1NTQzLDE4Ljg1MTE4MDkgQzMxLjYwODI4OTEsMTguODUxMTgwOSAzMi42MTMyODEzLDE3LjU0MzM1MTEgMzIuNjEzMjgxMywxNS45Mzc3MDIxIEwzMi42MTMyODEzLDE1LjkzMTUgWiIgIGZpbGw9IiNGQUZBRkEiPjwvcGF0aD4KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+"
                           >
                             <Consumer>
@@ -1175,10 +1175,10 @@ exports[`Cascader should render not found content 1`] = `
                                 componentName="Empty"
                               >
                                 <div
-                                  className="ant-empty ant-empty-small"
+                                  className="alu-empty alu-empty-small"
                                 >
                                   <div
-                                    className="ant-empty-image"
+                                    className="alu-empty-image"
                                   >
                                     <img
                                       alt="No Data"
@@ -1186,7 +1186,7 @@ exports[`Cascader should render not found content 1`] = `
                                     />
                                   </div>
                                   <p
-                                    className="ant-empty-description"
+                                    className="alu-empty-description"
                                   >
                                     No Data
                                   </p>
@@ -1211,23 +1211,23 @@ exports[`Cascader should render not found content 1`] = `
 
 exports[`Cascader support controlled mode 1`] = `
 <span
-  class="ant-cascader-picker"
+  class="alu-cascader-picker"
   tabindex="0"
 >
   <span
-    class="ant-cascader-picker-label"
+    class="alu-cascader-picker-label"
   >
     Zhejiang / Hangzhou / West Lake
   </span>
   <input
     autocomplete="off"
-    class="ant-input ant-cascader-input "
+    class="alu-input alu-cascader-input "
     readonly=""
     type="text"
     value=""
   />
   <i
-    class="anticon anticon-close-circle ant-cascader-picker-clear"
+    class="anticon anticon-close-circle alu-cascader-picker-clear"
   >
     <svg
       aria-hidden="true"
@@ -1244,7 +1244,7 @@ exports[`Cascader support controlled mode 1`] = `
     </svg>
   </i>
   <i
-    class="anticon anticon-down ant-cascader-picker-arrow"
+    class="anticon anticon-down alu-cascader-picker-arrow"
   >
     <svg
       aria-hidden="true"

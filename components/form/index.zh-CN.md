@@ -234,7 +234,7 @@ class UserForm extends React.Component<UserFormProps, any> {
 ```
 
 <style>
-.code-box-demo .ant-form:not(.ant-form-inline):not(.ant-form-vertical) {
+.code-box-demo .alu-form:not(.alu-form-inline):not(.alu-form-vertical) {
   max-width: 600px;
 }
 .markdown.api-container table td:last-child {

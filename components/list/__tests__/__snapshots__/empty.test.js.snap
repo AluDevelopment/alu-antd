@@ -2,22 +2,22 @@
 
 exports[`List renders empty list 1`] = `
 <div
-  class="ant-list ant-list-split"
+  class="alu-list alu-list-split"
 >
   <div
-    class="ant-spin-nested-loading"
+    class="alu-spin-nested-loading"
   >
     <div
-      class="ant-spin-container"
+      class="alu-spin-container"
     >
       <div
-        class="ant-list-empty-text"
+        class="alu-list-empty-text"
       >
         <div
-          class="ant-empty ant-empty-normal"
+          class="alu-empty alu-empty-normal"
         >
           <div
-            class="ant-empty-image"
+            class="alu-empty-image"
           >
             <img
               alt="No Data"
@@ -25,7 +25,7 @@ exports[`List renders empty list 1`] = `
             />
           </div>
           <p
-            class="ant-empty-description"
+            class="alu-empty-description"
           >
             No Data
           </p>

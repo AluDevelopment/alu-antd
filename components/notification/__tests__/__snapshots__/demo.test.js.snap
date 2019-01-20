@@ -2,7 +2,7 @@
 
 exports[`renders ./components/notification/demo/basic.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="alu-btn alu-btn-primary"
   type="button"
 >
   <span>
@@ -13,7 +13,7 @@ exports[`renders ./components/notification/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/notification/demo/custom-icon.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="alu-btn alu-btn-primary"
   type="button"
 >
   <span>
@@ -24,7 +24,7 @@ exports[`renders ./components/notification/demo/custom-icon.md correctly 1`] = `
 
 exports[`renders ./components/notification/demo/custom-style.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="alu-btn alu-btn-primary"
   type="button"
 >
   <span>
@@ -35,7 +35,7 @@ exports[`renders ./components/notification/demo/custom-style.md correctly 1`] = 
 
 exports[`renders ./components/notification/demo/duration.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="alu-btn alu-btn-primary"
   type="button"
 >
   <span>
@@ -47,7 +47,7 @@ exports[`renders ./components/notification/demo/duration.md correctly 1`] = `
 exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
 <div>
   <div
-    class="ant-select ant-select-enabled"
+    class="alu-select alu-select-enabled"
     style="width:120px;margin-right:10px"
   >
     <div
@@ -55,16 +55,16 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
       aria-controls=""
       aria-expanded="false"
       aria-haspopup="true"
-      class="ant-select-selection
+      class="alu-select-selection
             ant-select-selection--single"
       role="combobox"
       tabindex="0"
     >
       <div
-        class="ant-select-selection__rendered"
+        class="alu-select-selection__rendered"
       >
         <div
-          class="ant-select-selection-selected-value"
+          class="alu-select-selection-selected-value"
           style="display:block;opacity:1"
           title="topRight"
         >
@@ -72,12 +72,12 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
         </div>
       </div>
       <span
-        class="ant-select-arrow"
+        class="alu-select-arrow"
         style="user-select:none;-webkit-user-select:none"
         unselectable="on"
       >
         <i
-          class="anticon anticon-down ant-select-arrow-icon"
+          class="anticon anticon-down alu-select-arrow-icon"
         >
           <svg
             aria-hidden="true"
@@ -97,7 +97,7 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
     </div>
   </div>
   <button
-    class="ant-btn ant-btn-primary"
+    class="alu-btn alu-btn-primary"
     type="button"
   >
     <span>
@@ -109,7 +109,7 @@ exports[`renders ./components/notification/demo/placement.md correctly 1`] = `
 
 exports[`renders ./components/notification/demo/update.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="alu-btn alu-btn-primary"
   type="button"
 >
   <span>
@@ -120,7 +120,7 @@ exports[`renders ./components/notification/demo/update.md correctly 1`] = `
 
 exports[`renders ./components/notification/demo/with-btn.md correctly 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="alu-btn alu-btn-primary"
   type="button"
 >
   <span>
@@ -132,7 +132,7 @@ exports[`renders ./components/notification/demo/with-btn.md correctly 1`] = `
 exports[`renders ./components/notification/demo/with-icon.md correctly 1`] = `
 <div>
   <button
-    class="ant-btn"
+    class="alu-btn"
     type="button"
   >
     <span>
@@ -140,7 +140,7 @@ exports[`renders ./components/notification/demo/with-icon.md correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn"
+    class="alu-btn"
     type="button"
   >
     <span>
@@ -148,7 +148,7 @@ exports[`renders ./components/notification/demo/with-icon.md correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn"
+    class="alu-btn"
     type="button"
   >
     <span>
@@ -156,7 +156,7 @@ exports[`renders ./components/notification/demo/with-icon.md correctly 1`] = `
     </span>
   </button>
   <button
-    class="ant-btn"
+    class="alu-btn"
     type="button"
   >
     <span>

@@ -12,13 +12,13 @@ describe('Form', () => {
     );
     expect(
       wrapper
-        .find('.ant-form-item-label label')
+        .find('.alu-form-item-label label')
         .at(0)
         .text(),
     ).not.toContain(':');
     expect(
       wrapper
-        .find('.ant-form-item-label label')
+        .find('.alu-form-item-label label')
         .at(1)
         .text(),
     ).not.toContain('：');
@@ -37,13 +37,13 @@ describe('Form', () => {
     );
     expect(
       wrapper
-        .find('.ant-form-item-label label')
+        .find('.alu-form-item-label label')
         .at(0)
         .text(),
     ).toContain(':');
     expect(
       wrapper
-        .find('.ant-form-item-label label')
+        .find('.alu-form-item-label label')
         .at(1)
         .text(),
     ).toContain('：');
@@ -58,19 +58,19 @@ describe('Form', () => {
     );
     expect(
       wrapper
-        .find('.ant-form-item-label label')
+        .find('.alu-form-item-label label')
         .at(0)
         .text(),
     ).toContain(':');
     expect(
       wrapper
-        .find('.ant-form-item-label label')
+        .find('.alu-form-item-label label')
         .at(1)
         .text(),
     ).toContain('：');
   });
 
-  it('should has dom with .ant-form-item-control-wrapper', () => {
+  it('should has dom with .alu-form-item-control-wrapper', () => {
     const formItemLayout = {
       labelCol: { span: 6 },
       wrapperCol: { span: 14 },
@@ -81,8 +81,8 @@ describe('Form', () => {
         <Form.Item>input</Form.Item>
       </Form>,
     );
-    expect(wrapper.find('.ant-form-item-control-wrapper').hostNodes().length).toBe(2);
-    expect(wrapper.find('.ant-form-item-control-wrapper.ant-col-14').length).toBe(1);
+    expect(wrapper.find('.alu-form-item-control-wrapper').hostNodes().length).toBe(2);
+    expect(wrapper.find('.alu-form-item-control-wrapper.alu-col-14').length).toBe(1);
   });
 
   // https://github.com/ant-design/ant-design/issues/7351

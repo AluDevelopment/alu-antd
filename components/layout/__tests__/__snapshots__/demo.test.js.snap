@@ -3,118 +3,118 @@
 exports[`renders ./components/layout/demo/basic.md correctly 1`] = `
 <div>
   <div
-    class="ant-layout"
+    class="alu-layout"
   >
     <div
-      class="ant-layout-header"
+      class="alu-layout-header"
     >
       Header
     </div>
     <div
-      class="ant-layout-content"
+      class="alu-layout-content"
     >
       Content
     </div>
     <div
-      class="ant-layout-footer"
+      class="alu-layout-footer"
     >
       Footer
     </div>
   </div>
   <div
-    class="ant-layout"
+    class="alu-layout"
   >
     <div
-      class="ant-layout-header"
+      class="alu-layout-header"
     >
       Header
     </div>
     <div
-      class="ant-layout"
+      class="alu-layout"
     >
       <div
-        class="ant-layout-sider ant-layout-sider-dark"
+        class="alu-layout-sider alu-layout-sider-dark"
         style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
       >
         <div
-          class="ant-layout-sider-children"
+          class="alu-layout-sider-children"
         >
           Sider
         </div>
       </div>
       <div
-        class="ant-layout-content"
+        class="alu-layout-content"
       >
         Content
       </div>
     </div>
     <div
-      class="ant-layout-footer"
+      class="alu-layout-footer"
     >
       Footer
     </div>
   </div>
   <div
-    class="ant-layout"
+    class="alu-layout"
   >
     <div
-      class="ant-layout-header"
+      class="alu-layout-header"
     >
       Header
     </div>
     <div
-      class="ant-layout"
+      class="alu-layout"
     >
       <div
-        class="ant-layout-content"
+        class="alu-layout-content"
       >
         Content
       </div>
       <div
-        class="ant-layout-sider ant-layout-sider-dark"
+        class="alu-layout-sider alu-layout-sider-dark"
         style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
       >
         <div
-          class="ant-layout-sider-children"
+          class="alu-layout-sider-children"
         >
           Sider
         </div>
       </div>
     </div>
     <div
-      class="ant-layout-footer"
+      class="alu-layout-footer"
     >
       Footer
     </div>
   </div>
   <div
-    class="ant-layout"
+    class="alu-layout"
   >
     <div
-      class="ant-layout-sider ant-layout-sider-dark"
+      class="alu-layout-sider alu-layout-sider-dark"
       style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
     >
       <div
-        class="ant-layout-sider-children"
+        class="alu-layout-sider-children"
       >
         Sider
       </div>
     </div>
     <div
-      class="ant-layout"
+      class="alu-layout"
     >
       <div
-        class="ant-layout-header"
+        class="alu-layout-header"
       >
         Header
       </div>
       <div
-        class="ant-layout-content"
+        class="alu-layout-content"
       >
         Content
       </div>
       <div
-        class="ant-layout-footer"
+        class="alu-layout-footer"
       >
         Footer
       </div>
@@ -125,24 +125,24 @@ exports[`renders ./components/layout/demo/basic.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
 <div
-  class="ant-layout"
+  class="alu-layout"
 >
   <div
-    class="ant-layout-sider ant-layout-sider-dark"
+    class="alu-layout-sider alu-layout-sider-dark"
     style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
   >
     <div
-      class="ant-layout-sider-children"
+      class="alu-layout-sider-children"
     >
       <div
         class="logo"
       />
       <ul
-        class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
+        class="alu-menu alu-menu-dark alu-menu-root alu-menu-inline"
         role="menu"
       >
         <li
-          class="ant-menu-item ant-menu-item-selected"
+          class="alu-menu-item alu-menu-item-selected"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -168,7 +168,7 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -194,7 +194,7 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -223,10 +223,10 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-layout"
+    class="alu-layout"
   >
     <div
-      class="ant-layout-header"
+      class="alu-layout-header"
       style="background:#fff;padding:0"
     >
       <i
@@ -248,7 +248,7 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
       </i>
     </div>
     <div
-      class="ant-layout-content"
+      class="alu-layout-content"
       style="margin:24px 16px;padding:24px;background:#fff;min-height:280px"
     >
       Content
@@ -259,152 +259,152 @@ exports[`renders ./components/layout/demo/custom-trigger.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
 <div
-  class="ant-layout"
+  class="alu-layout"
 >
   <div
-    class="ant-layout-header"
+    class="alu-layout-header"
     style="position:fixed;z-index:1;width:100%"
   >
     <div
       class="logo"
     />
     <ul
-      class="ant-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
+      class="alu-menu alu-menu-dark alu-menu-root alu-menu-horizontal"
       role="menu"
       style="line-height:64px"
     >
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
       >
         nav 1
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item ant-menu-item-selected"
+        class="alu-menu-item alu-menu-item-selected"
         role="menuitem"
       >
         nav 2
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
       >
         nav 3
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;visibility:hidden;position:absolute"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
     </ul>
   </div>
   <div
-    class="ant-layout-content"
+    class="alu-layout-content"
     style="padding:0 50px;margin-top:64px"
   >
     <div
-      class="ant-breadcrumb"
+      class="alu-breadcrumb"
       style="margin:16px 0"
     >
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="alu-breadcrumb-link"
         >
           Home
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="alu-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="alu-breadcrumb-link"
         >
           List
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="alu-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="alu-breadcrumb-link"
         >
           App
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="alu-breadcrumb-separator"
         >
           /
         </span>
@@ -417,7 +417,7 @@ exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-layout-footer"
+    class="alu-layout-footer"
     style="text-align:center"
   >
     Ant Design ©2018 Created by Ant UED
@@ -427,24 +427,24 @@ exports[`renders ./components/layout/demo/fixed.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
 <div
-  class="ant-layout"
+  class="alu-layout"
 >
   <div
-    class="ant-layout-sider ant-layout-sider-dark"
+    class="alu-layout-sider alu-layout-sider-dark"
     style="overflow:auto;height:100vh;position:fixed;left:0;flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
   >
     <div
-      class="ant-layout-sider-children"
+      class="alu-layout-sider-children"
     >
       <div
         class="logo"
       />
       <ul
-        class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
+        class="alu-menu alu-menu-dark alu-menu-root alu-menu-inline"
         role="menu"
       >
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -472,7 +472,7 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -500,7 +500,7 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -528,7 +528,7 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-selected"
+          class="alu-menu-item alu-menu-item-selected"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -556,7 +556,7 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -584,7 +584,7 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -612,7 +612,7 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -640,7 +640,7 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -671,15 +671,15 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-layout"
+    class="alu-layout"
     style="margin-left:200px"
   >
     <div
-      class="ant-layout-header"
+      class="alu-layout-header"
       style="background:#fff;padding:0"
     />
     <div
-      class="ant-layout-content"
+      class="alu-layout-content"
       style="margin:24px 16px 0;overflow:initial"
     >
       <div
@@ -783,7 +783,7 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-layout-footer"
+      class="alu-layout-footer"
       style="text-align:center"
     >
       Ant Design ©2018 Created by Ant UED
@@ -794,24 +794,24 @@ exports[`renders ./components/layout/demo/fixed-sider.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
 <div
-  class="ant-layout"
+  class="alu-layout"
 >
   <div
-    class="ant-layout-sider ant-layout-sider-dark"
+    class="alu-layout-sider alu-layout-sider-dark"
     style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
   >
     <div
-      class="ant-layout-sider-children"
+      class="alu-layout-sider-children"
     >
       <div
         class="logo"
       />
       <ul
-        class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
+        class="alu-menu alu-menu-dark alu-menu-root alu-menu-inline"
         role="menu"
       >
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -839,7 +839,7 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -867,7 +867,7 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -895,7 +895,7 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item ant-menu-item-selected"
+          class="alu-menu-item alu-menu-item-selected"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -926,14 +926,14 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-layout"
+    class="alu-layout"
   >
     <div
-      class="ant-layout-header"
+      class="alu-layout-header"
       style="background:#fff;padding:0"
     />
     <div
-      class="ant-layout-content"
+      class="alu-layout-content"
       style="margin:24px 16px 0"
     >
       <div
@@ -943,7 +943,7 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-layout-footer"
+      class="alu-layout-footer"
       style="text-align:center"
     >
       Ant Design ©2018 Created by Ant UED
@@ -954,25 +954,25 @@ exports[`renders ./components/layout/demo/responsive.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/side.md correctly 1`] = `
 <div
-  class="ant-layout"
+  class="alu-layout"
   style="min-height:100vh"
 >
   <div
-    class="ant-layout-sider ant-layout-sider-dark ant-layout-sider-has-trigger"
+    class="alu-layout-sider alu-layout-sider-dark alu-layout-sider-has-trigger"
     style="flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
   >
     <div
-      class="ant-layout-sider-children"
+      class="alu-layout-sider-children"
     >
       <div
         class="logo"
       />
       <ul
-        class="ant-menu ant-menu-dark ant-menu-root ant-menu-inline"
+        class="alu-menu alu-menu-dark alu-menu-root alu-menu-inline"
         role="menu"
       >
         <li
-          class="ant-menu-item ant-menu-item-selected"
+          class="alu-menu-item alu-menu-item-selected"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -998,7 +998,7 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -1024,13 +1024,13 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
           </span>
         </li>
         <li
-          class="ant-menu-submenu ant-menu-submenu-inline"
+          class="alu-menu-submenu alu-menu-submenu-inline"
           role="menuitem"
         >
           <div
             aria-expanded="false"
             aria-haspopup="true"
-            class="ant-menu-submenu-title"
+            class="alu-menu-submenu-title"
             style="padding-left:24px"
           >
             <span>
@@ -1056,19 +1056,19 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
               </span>
             </span>
             <i
-              class="ant-menu-submenu-arrow"
+              class="alu-menu-submenu-arrow"
             />
           </div>
           <div />
         </li>
         <li
-          class="ant-menu-submenu ant-menu-submenu-inline"
+          class="alu-menu-submenu alu-menu-submenu-inline"
           role="menuitem"
         >
           <div
             aria-expanded="false"
             aria-haspopup="true"
-            class="ant-menu-submenu-title"
+            class="alu-menu-submenu-title"
             style="padding-left:24px"
           >
             <span>
@@ -1094,13 +1094,13 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
               </span>
             </span>
             <i
-              class="ant-menu-submenu-arrow"
+              class="alu-menu-submenu-arrow"
             />
           </div>
           <div />
         </li>
         <li
-          class="ant-menu-item"
+          class="alu-menu-item"
           role="menuitem"
           style="padding-left:24px"
         >
@@ -1128,7 +1128,7 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
       </ul>
     </div>
     <div
-      class="ant-layout-sider-trigger"
+      class="alu-layout-sider-trigger"
       style="width:200px"
     >
       <i
@@ -1151,40 +1151,40 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-layout"
+    class="alu-layout"
   >
     <div
-      class="ant-layout-header"
+      class="alu-layout-header"
       style="background:#fff;padding:0"
     />
     <div
-      class="ant-layout-content"
+      class="alu-layout-content"
       style="margin:0 16px"
     >
       <div
-        class="ant-breadcrumb"
+        class="alu-breadcrumb"
         style="margin:16px 0"
       >
         <span>
           <span
-            class="ant-breadcrumb-link"
+            class="alu-breadcrumb-link"
           >
             User
           </span>
           <span
-            class="ant-breadcrumb-separator"
+            class="alu-breadcrumb-separator"
           >
             /
           </span>
         </span>
         <span>
           <span
-            class="ant-breadcrumb-link"
+            class="alu-breadcrumb-link"
           >
             Bill
           </span>
           <span
-            class="ant-breadcrumb-separator"
+            class="alu-breadcrumb-separator"
           >
             /
           </span>
@@ -1197,7 +1197,7 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-layout-footer"
+      class="alu-layout-footer"
       style="text-align:center"
     >
       Ant Design ©2018 Created by Ant UED
@@ -1208,151 +1208,151 @@ exports[`renders ./components/layout/demo/side.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/top.md correctly 1`] = `
 <div
-  class="layout ant-layout"
+  class="layout alu-layout"
 >
   <div
-    class="ant-layout-header"
+    class="alu-layout-header"
   >
     <div
       class="logo"
     />
     <ul
-      class="ant-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
+      class="alu-menu alu-menu-dark alu-menu-root alu-menu-horizontal"
       role="menu"
       style="line-height:64px"
     >
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
       >
         nav 1
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item ant-menu-item-selected"
+        class="alu-menu-item alu-menu-item-selected"
         role="menuitem"
       >
         nav 2
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
       >
         nav 3
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;visibility:hidden;position:absolute"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
     </ul>
   </div>
   <div
-    class="ant-layout-content"
+    class="alu-layout-content"
     style="padding:0 50px"
   >
     <div
-      class="ant-breadcrumb"
+      class="alu-breadcrumb"
       style="margin:16px 0"
     >
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="alu-breadcrumb-link"
         >
           Home
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="alu-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="alu-breadcrumb-link"
         >
           List
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="alu-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="alu-breadcrumb-link"
         >
           App
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="alu-breadcrumb-separator"
         >
           /
         </span>
@@ -1365,7 +1365,7 @@ exports[`renders ./components/layout/demo/top.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-layout-footer"
+    class="alu-layout-footer"
     style="text-align:center"
   >
     Ant Design ©2018 Created by Ant UED
@@ -1375,181 +1375,181 @@ exports[`renders ./components/layout/demo/top.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
 <div
-  class="ant-layout"
+  class="alu-layout"
 >
   <div
-    class="header ant-layout-header"
+    class="header alu-layout-header"
   >
     <div
       class="logo"
     />
     <ul
-      class="ant-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
+      class="alu-menu alu-menu-dark alu-menu-root alu-menu-horizontal"
       role="menu"
       style="line-height:64px"
     >
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
       >
         nav 1
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item ant-menu-item-selected"
+        class="alu-menu-item alu-menu-item-selected"
         role="menuitem"
       >
         nav 2
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
       >
         nav 3
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;visibility:hidden;position:absolute"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
     </ul>
   </div>
   <div
-    class="ant-layout-content"
+    class="alu-layout-content"
     style="padding:0 50px"
   >
     <div
-      class="ant-breadcrumb"
+      class="alu-breadcrumb"
       style="margin:16px 0"
     >
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="alu-breadcrumb-link"
         >
           Home
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="alu-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="alu-breadcrumb-link"
         >
           List
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="alu-breadcrumb-separator"
         >
           /
         </span>
       </span>
       <span>
         <span
-          class="ant-breadcrumb-link"
+          class="alu-breadcrumb-link"
         >
           App
         </span>
         <span
-          class="ant-breadcrumb-separator"
+          class="alu-breadcrumb-separator"
         >
           /
         </span>
       </span>
     </div>
     <div
-      class="ant-layout"
+      class="alu-layout"
       style="padding:24px 0;background:#fff"
     >
       <div
-        class="ant-layout-sider ant-layout-sider-dark"
+        class="alu-layout-sider alu-layout-sider-dark"
         style="background:#fff;flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
       >
         <div
-          class="ant-layout-sider-children"
+          class="alu-layout-sider-children"
         >
           <ul
-            class="ant-menu ant-menu-light ant-menu-root ant-menu-inline"
+            class="alu-menu alu-menu-light alu-menu-root alu-menu-inline"
             role="menu"
             style="height:100%"
           >
             <li
-              class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open ant-menu-submenu-selected"
+              class="alu-menu-submenu alu-menu-submenu-inline alu-menu-submenu-open alu-menu-submenu-selected"
               role="menuitem"
             >
               <div
                 aria-expanded="true"
                 aria-haspopup="true"
                 aria-owns="sub1$Menu"
-                class="ant-menu-submenu-title"
+                class="alu-menu-submenu-title"
                 style="padding-left:24px"
               >
                 <span>
@@ -1573,37 +1573,37 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
                   subnav 1
                 </span>
                 <i
-                  class="ant-menu-submenu-arrow"
+                  class="alu-menu-submenu-arrow"
                 />
               </div>
               <ul
-                class="ant-menu  ant-menu-sub ant-menu-inline"
+                class="alu-menu  alu-menu-sub alu-menu-inline"
                 id="sub1$Menu"
                 role="menu"
               >
                 <li
-                  class="ant-menu-item ant-menu-item-selected"
+                  class="alu-menu-item alu-menu-item-selected"
                   role="menuitem"
                   style="padding-left:48px"
                 >
                   option1
                 </li>
                 <li
-                  class="ant-menu-item"
+                  class="alu-menu-item"
                   role="menuitem"
                   style="padding-left:48px"
                 >
                   option2
                 </li>
                 <li
-                  class="ant-menu-item"
+                  class="alu-menu-item"
                   role="menuitem"
                   style="padding-left:48px"
                 >
                   option3
                 </li>
                 <li
-                  class="ant-menu-item"
+                  class="alu-menu-item"
                   role="menuitem"
                   style="padding-left:48px"
                 >
@@ -1612,13 +1612,13 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
               </ul>
             </li>
             <li
-              class="ant-menu-submenu ant-menu-submenu-inline"
+              class="alu-menu-submenu alu-menu-submenu-inline"
               role="menuitem"
             >
               <div
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="ant-menu-submenu-title"
+                class="alu-menu-submenu-title"
                 style="padding-left:24px"
               >
                 <span>
@@ -1642,19 +1642,19 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
                   subnav 2
                 </span>
                 <i
-                  class="ant-menu-submenu-arrow"
+                  class="alu-menu-submenu-arrow"
                 />
               </div>
               <div />
             </li>
             <li
-              class="ant-menu-submenu ant-menu-submenu-inline"
+              class="alu-menu-submenu alu-menu-submenu-inline"
               role="menuitem"
             >
               <div
                 aria-expanded="false"
                 aria-haspopup="true"
-                class="ant-menu-submenu-title"
+                class="alu-menu-submenu-title"
                 style="padding-left:24px"
               >
                 <span>
@@ -1678,7 +1678,7 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
                   subnav 3
                 </span>
                 <i
-                  class="ant-menu-submenu-arrow"
+                  class="alu-menu-submenu-arrow"
                 />
               </div>
               <div />
@@ -1687,7 +1687,7 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
         </div>
       </div>
       <div
-        class="ant-layout-content"
+        class="alu-layout-content"
         style="padding:0 24px;min-height:280px"
       >
         Content
@@ -1695,7 +1695,7 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
     </div>
   </div>
   <div
-    class="ant-layout-footer"
+    class="alu-layout-footer"
     style="text-align:center"
   >
     Ant Design ©2018 Created by Ant UED
@@ -1705,135 +1705,135 @@ exports[`renders ./components/layout/demo/top-side.md correctly 1`] = `
 
 exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
 <div
-  class="ant-layout"
+  class="alu-layout"
 >
   <div
-    class="header ant-layout-header"
+    class="header alu-layout-header"
   >
     <div
       class="logo"
     />
     <ul
-      class="ant-menu ant-menu-dark ant-menu-root ant-menu-horizontal"
+      class="alu-menu alu-menu-dark alu-menu-root alu-menu-horizontal"
       role="menu"
       style="line-height:64px"
     >
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
       >
         nav 1
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item ant-menu-item-selected"
+        class="alu-menu-item alu-menu-item-selected"
         role="menuitem"
       >
         nav 2
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;display:none"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
       <li
-        class="ant-menu-item"
+        class="alu-menu-item"
         role="menuitem"
       >
         nav 3
       </li>
       <li
-        class="ant-menu-submenu ant-menu-submenu-horizontal ant-menu-overflowed-submenu"
+        class="alu-menu-submenu alu-menu-submenu-horizontal alu-menu-overflowed-submenu"
         role="menuitem"
         style="line-height:64px;visibility:hidden;position:absolute"
       >
         <div
           aria-expanded="false"
           aria-haspopup="true"
-          class="ant-menu-submenu-title"
+          class="alu-menu-submenu-title"
         >
           <span>
             ···
           </span>
           <i
-            class="ant-menu-submenu-arrow"
+            class="alu-menu-submenu-arrow"
           />
         </div>
       </li>
     </ul>
   </div>
   <div
-    class="ant-layout"
+    class="alu-layout"
   >
     <div
-      class="ant-layout-sider ant-layout-sider-dark"
+      class="alu-layout-sider alu-layout-sider-dark"
       style="background:#fff;flex:0 0 200px;max-width:200px;min-width:200px;width:200px"
     >
       <div
-        class="ant-layout-sider-children"
+        class="alu-layout-sider-children"
       >
         <ul
-          class="ant-menu ant-menu-light ant-menu-root ant-menu-inline"
+          class="alu-menu alu-menu-light alu-menu-root alu-menu-inline"
           role="menu"
           style="height:100%;border-right:0"
         >
           <li
-            class="ant-menu-submenu ant-menu-submenu-inline ant-menu-submenu-open ant-menu-submenu-selected"
+            class="alu-menu-submenu alu-menu-submenu-inline alu-menu-submenu-open alu-menu-submenu-selected"
             role="menuitem"
           >
             <div
               aria-expanded="true"
               aria-haspopup="true"
               aria-owns="sub1$Menu"
-              class="ant-menu-submenu-title"
+              class="alu-menu-submenu-title"
               style="padding-left:24px"
             >
               <span>
@@ -1857,37 +1857,37 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
                 subnav 1
               </span>
               <i
-                class="ant-menu-submenu-arrow"
+                class="alu-menu-submenu-arrow"
               />
             </div>
             <ul
-              class="ant-menu  ant-menu-sub ant-menu-inline"
+              class="alu-menu  alu-menu-sub alu-menu-inline"
               id="sub1$Menu"
               role="menu"
             >
               <li
-                class="ant-menu-item ant-menu-item-selected"
+                class="alu-menu-item alu-menu-item-selected"
                 role="menuitem"
                 style="padding-left:48px"
               >
                 option1
               </li>
               <li
-                class="ant-menu-item"
+                class="alu-menu-item"
                 role="menuitem"
                 style="padding-left:48px"
               >
                 option2
               </li>
               <li
-                class="ant-menu-item"
+                class="alu-menu-item"
                 role="menuitem"
                 style="padding-left:48px"
               >
                 option3
               </li>
               <li
-                class="ant-menu-item"
+                class="alu-menu-item"
                 role="menuitem"
                 style="padding-left:48px"
               >
@@ -1896,13 +1896,13 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
             </ul>
           </li>
           <li
-            class="ant-menu-submenu ant-menu-submenu-inline"
+            class="alu-menu-submenu alu-menu-submenu-inline"
             role="menuitem"
           >
             <div
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-menu-submenu-title"
+              class="alu-menu-submenu-title"
               style="padding-left:24px"
             >
               <span>
@@ -1926,19 +1926,19 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
                 subnav 2
               </span>
               <i
-                class="ant-menu-submenu-arrow"
+                class="alu-menu-submenu-arrow"
               />
             </div>
             <div />
           </li>
           <li
-            class="ant-menu-submenu ant-menu-submenu-inline"
+            class="alu-menu-submenu alu-menu-submenu-inline"
             role="menuitem"
           >
             <div
               aria-expanded="false"
               aria-haspopup="true"
-              class="ant-menu-submenu-title"
+              class="alu-menu-submenu-title"
               style="padding-left:24px"
             >
               <span>
@@ -1962,7 +1962,7 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
                 subnav 3
               </span>
               <i
-                class="ant-menu-submenu-arrow"
+                class="alu-menu-submenu-arrow"
               />
             </div>
             <div />
@@ -1971,52 +1971,52 @@ exports[`renders ./components/layout/demo/top-side-2.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-layout"
+      class="alu-layout"
       style="padding:0 24px 24px"
     >
       <div
-        class="ant-breadcrumb"
+        class="alu-breadcrumb"
         style="margin:16px 0"
       >
         <span>
           <span
-            class="ant-breadcrumb-link"
+            class="alu-breadcrumb-link"
           >
             Home
           </span>
           <span
-            class="ant-breadcrumb-separator"
+            class="alu-breadcrumb-separator"
           >
             /
           </span>
         </span>
         <span>
           <span
-            class="ant-breadcrumb-link"
+            class="alu-breadcrumb-link"
           >
             List
           </span>
           <span
-            class="ant-breadcrumb-separator"
+            class="alu-breadcrumb-separator"
           >
             /
           </span>
         </span>
         <span>
           <span
-            class="ant-breadcrumb-link"
+            class="alu-breadcrumb-link"
           >
             App
           </span>
           <span
-            class="ant-breadcrumb-separator"
+            class="alu-breadcrumb-separator"
           >
             /
           </span>
         </span>
       </div>
       <div
-        class="ant-layout-content"
+        class="alu-layout-content"
         style="background:#fff;padding:24px;margin:0;min-height:280px"
       >
         Content

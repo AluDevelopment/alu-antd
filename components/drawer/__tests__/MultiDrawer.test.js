@@ -97,7 +97,7 @@ describe('Drawer', () => {
     const wrapper = mount(<MultiDrawer placement="right" />);
     wrapper.find('button#open_drawer').simulate('click');
     wrapper.find('button#open_two_drawer').simulate('click');
-    const translateX = wrapper.find('.ant-drawer.test_drawer').get(0).props.style.transform;
+    const translateX = wrapper.find('.alu-drawer.test_drawer').get(0).props.style.transform;
     expect(translateX).toEqual('translateX(-180px)');
     expect(wrapper.find('#two_drawer_text').exists()).toBe(true);
   });
@@ -106,10 +106,10 @@ describe('Drawer', () => {
     const wrapper = mount(<MultiDrawer placement="left" />);
     wrapper.find('button#open_drawer').simulate('click');
     wrapper.find('button#open_two_drawer').simulate('click');
-    const translateX = wrapper.find('.ant-drawer.test_drawer').get(0).props.style.transform;
+    const translateX = wrapper.find('.alu-drawer.test_drawer').get(0).props.style.transform;
     expect(translateX).toEqual('translateX(180px)');
     expect(wrapper.find('#two_drawer_text').exists()).toBe(true);
-    wrapper.find('.Two-level .ant-drawer-close').simulate('click');
+    wrapper.find('.Two-level .alu-drawer-close').simulate('click');
     expect(wrapper.state().childrenDrawer).toBe(false);
   });
 
@@ -117,7 +117,7 @@ describe('Drawer', () => {
     const wrapper = mount(<MultiDrawer placement="top" />);
     wrapper.find('button#open_drawer').simulate('click');
     wrapper.find('button#open_two_drawer').simulate('click');
-    const translateX = wrapper.find('.ant-drawer.test_drawer').get(0).props.style.transform;
+    const translateX = wrapper.find('.alu-drawer.test_drawer').get(0).props.style.transform;
     expect(translateX).toEqual('translateY(180px)');
     expect(wrapper.find('#two_drawer_text').exists()).toBe(true);
   });

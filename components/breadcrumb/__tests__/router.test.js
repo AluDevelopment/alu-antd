@@ -71,7 +71,7 @@ describe('react router', () => {
     expect(wrapper.find('BreadcrumbItem').length).toBe(1);
     expect(
       wrapper
-        .find('BreadcrumbItem .ant-breadcrumb-link')
+        .find('BreadcrumbItem .alu-breadcrumb-link')
         .at(0)
         .text(),
     ).toBe('Home');
@@ -82,7 +82,7 @@ describe('react router', () => {
     expect(wrapper.find('BreadcrumbItem').length).toBe(2);
     expect(
       wrapper
-        .find('BreadcrumbItem .ant-breadcrumb-link')
+        .find('BreadcrumbItem .alu-breadcrumb-link')
         .at(1)
         .text(),
     ).toBe('Application List');

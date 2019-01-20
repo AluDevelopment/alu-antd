@@ -24,7 +24,7 @@ const ConfigContext: Context<ConfigConsumerProps | null> = createReactContext({
   getPrefixCls: (suffixCls: string, customizePrefixCls?: string) => {
     if (customizePrefixCls) return customizePrefixCls;
 
-    return `ant-${suffixCls}`;
+    return `alu-${suffixCls}`;
   },
 
   renderEmpty: defaultRenderEmpty,
@@ -34,7 +34,7 @@ export const ConfigConsumer = ConfigContext.Consumer;
 
 class ConfigProvider extends React.Component<ConfigProviderProps> {
   getPrefixCls = (suffixCls: string, customizePrefixCls?: string) => {
-    const { prefixCls = 'ant' } = this.props;
+    const { prefixCls = 'alu' } = this.props;
 
     if (customizePrefixCls) return customizePrefixCls;
 

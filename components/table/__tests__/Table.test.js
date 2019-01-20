@@ -61,16 +61,16 @@ describe('Table', () => {
       delay: 500,
     };
     const wrapper = mount(<Table loading={loading} />);
-    expect(wrapper.find('.ant-spin')).toHaveLength(0);
-    expect(wrapper.find('.ant-table-placeholder').text()).not.toEqual('');
+    expect(wrapper.find('.alu-spin')).toHaveLength(0);
+    expect(wrapper.find('.alu-table-placeholder').text()).not.toEqual('');
 
     loading.spinning = true;
     wrapper.setProps({ loading });
-    expect(wrapper.find('.ant-spin')).toHaveLength(0);
+    expect(wrapper.find('.alu-spin')).toHaveLength(0);
 
     await new Promise(resolve => setTimeout(resolve, 500));
     wrapper.update();
-    expect(wrapper.find('.ant-spin')).toHaveLength(1);
+    expect(wrapper.find('.alu-spin')).toHaveLength(1);
   });
 
   it('renders custom components correctly when it changes', () => {

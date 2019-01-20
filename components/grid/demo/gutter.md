@@ -42,7 +42,7 @@ ReactDOM.render(
 ````
 
 ````css
-.gutter-example .ant-row > div {
+.gutter-example .alu-row > div {
   background: transparent;
   border: 0;
 }

@@ -3,11 +3,11 @@
 exports[`renders ./components/alert/demo/banner.md correctly 1`] = `
 <div>
   <div
-    class="ant-alert ant-alert-warning ant-alert-banner"
+    class="alu-alert alu-alert-warning alu-alert-banner"
     data-show="true"
   >
     <i
-      class="anticon anticon-exclamation-circle ant-alert-icon"
+      class="anticon anticon-exclamation-circle alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -24,21 +24,21 @@ exports[`renders ./components/alert/demo/banner.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Warning text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <br />
   <div
-    class="ant-alert ant-alert-warning ant-alert-banner ant-alert-closable"
+    class="alu-alert alu-alert-warning alu-alert-banner alu-alert-closable"
     data-show="true"
   >
     <i
-      class="anticon anticon-exclamation-circle ant-alert-icon"
+      class="anticon anticon-exclamation-circle alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -55,15 +55,15 @@ exports[`renders ./components/alert/demo/banner.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Very long warning text warning text text text text text text text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
     <a
-      class="ant-alert-close-icon"
+      class="alu-alert-close-icon"
     >
       <i
         class="anticon anticon-close"
@@ -86,25 +86,25 @@ exports[`renders ./components/alert/demo/banner.md correctly 1`] = `
   </div>
   <br />
   <div
-    class="ant-alert ant-alert-warning ant-alert-no-icon ant-alert-banner"
+    class="alu-alert alu-alert-warning alu-alert-no-icon alu-alert-banner"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Warning text without icon
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <br />
   <div
-    class="ant-alert ant-alert-error ant-alert-banner"
+    class="alu-alert alu-alert-error alu-alert-banner"
     data-show="true"
   >
     <i
-      class="anticon anticon-close-circle ant-alert-icon"
+      class="anticon anticon-close-circle alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -121,12 +121,12 @@ exports[`renders ./components/alert/demo/banner.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Error text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
 </div>
@@ -134,16 +134,16 @@ exports[`renders ./components/alert/demo/banner.md correctly 1`] = `
 
 exports[`renders ./components/alert/demo/basic.md correctly 1`] = `
 <div
-  class="ant-alert ant-alert-success ant-alert-no-icon"
+  class="alu-alert alu-alert-success alu-alert-no-icon"
   data-show="true"
 >
   <span
-    class="ant-alert-message"
+    class="alu-alert-message"
   >
     Success Text
   </span>
   <span
-    class="ant-alert-description"
+    class="alu-alert-description"
   />
 </div>
 `;
@@ -151,19 +151,19 @@ exports[`renders ./components/alert/demo/basic.md correctly 1`] = `
 exports[`renders ./components/alert/demo/closable.md correctly 1`] = `
 <div>
   <div
-    class="ant-alert ant-alert-warning ant-alert-no-icon ant-alert-closable"
+    class="alu-alert alu-alert-warning alu-alert-no-icon alu-alert-closable"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Warning Text Warning Text Warning TextW arning Text Warning Text Warning TextWarning Text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
     <a
-      class="ant-alert-close-icon"
+      class="alu-alert-close-icon"
     >
       <i
         class="anticon anticon-close"
@@ -185,21 +185,21 @@ exports[`renders ./components/alert/demo/closable.md correctly 1`] = `
     </a>
   </div>
   <div
-    class="ant-alert ant-alert-error ant-alert-with-description ant-alert-no-icon ant-alert-closable"
+    class="alu-alert alu-alert-error alu-alert-with-description alu-alert-no-icon alu-alert-closable"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Error Text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       Error Description Error Description Error Description Error Description Error Description Error Description
     </span>
     <a
-      class="ant-alert-close-icon"
+      class="alu-alert-close-icon"
     >
       <i
         class="anticon anticon-close"
@@ -225,19 +225,19 @@ exports[`renders ./components/alert/demo/closable.md correctly 1`] = `
 
 exports[`renders ./components/alert/demo/close-text.md correctly 1`] = `
 <div
-  class="ant-alert ant-alert-info ant-alert-no-icon ant-alert-closable"
+  class="alu-alert alu-alert-info alu-alert-no-icon alu-alert-closable"
   data-show="true"
 >
   <span
-    class="ant-alert-message"
+    class="alu-alert-message"
   >
     Info Text
   </span>
   <span
-    class="ant-alert-description"
+    class="alu-alert-description"
   />
   <a
-    class="ant-alert-close-icon"
+    class="alu-alert-close-icon"
   >
     Close Now
   </a>
@@ -247,24 +247,24 @@ exports[`renders ./components/alert/demo/close-text.md correctly 1`] = `
 exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
 <div>
   <div
-    class="ant-alert ant-alert-success ant-alert-no-icon"
+    class="alu-alert alu-alert-success alu-alert-no-icon"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       showIcon = false
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-success"
+    class="alu-alert alu-alert-success"
     data-show="true"
   >
     <i
-      class="anticon anticon-smile ant-alert-icon"
+      class="anticon anticon-smile alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -281,20 +281,20 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Success Tips
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-info"
+    class="alu-alert alu-alert-info"
     data-show="true"
   >
     <i
-      class="anticon anticon-smile ant-alert-icon"
+      class="anticon anticon-smile alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -311,20 +311,20 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Informational Notes
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-warning"
+    class="alu-alert alu-alert-warning"
     data-show="true"
   >
     <i
-      class="anticon anticon-smile ant-alert-icon"
+      class="anticon anticon-smile alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -341,20 +341,20 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Warning
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-error"
+    class="alu-alert alu-alert-error"
     data-show="true"
   >
     <i
-      class="anticon anticon-smile ant-alert-icon"
+      class="anticon anticon-smile alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -371,20 +371,20 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Error
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-success ant-alert-with-description"
+    class="alu-alert alu-alert-success alu-alert-with-description"
     data-show="true"
   >
     <i
-      class="anticon anticon-smile ant-alert-icon"
+      class="anticon anticon-smile alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -401,22 +401,22 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Success Tips
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       Detailed description and advices about successful copywriting.
     </span>
   </div>
   <div
-    class="ant-alert ant-alert-info ant-alert-with-description"
+    class="alu-alert alu-alert-info alu-alert-with-description"
     data-show="true"
   >
     <i
-      class="anticon anticon-smile ant-alert-icon"
+      class="anticon anticon-smile alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -433,22 +433,22 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Informational Notes
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       Additional description and informations about copywriting.
     </span>
   </div>
   <div
-    class="ant-alert ant-alert-warning ant-alert-with-description"
+    class="alu-alert alu-alert-warning alu-alert-with-description"
     data-show="true"
   >
     <i
-      class="anticon anticon-smile ant-alert-icon"
+      class="anticon anticon-smile alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -465,22 +465,22 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Warning
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       This is a warning notice about copywriting.
     </span>
   </div>
   <div
-    class="ant-alert ant-alert-error ant-alert-with-description"
+    class="alu-alert alu-alert-error alu-alert-with-description"
     data-show="true"
   >
     <i
-      class="anticon anticon-smile ant-alert-icon"
+      class="anticon anticon-smile alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -497,12 +497,12 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Error
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       This is an error message about copywriting.
     </span>
@@ -513,61 +513,61 @@ exports[`renders ./components/alert/demo/custom-icon.md correctly 1`] = `
 exports[`renders ./components/alert/demo/description.md correctly 1`] = `
 <div>
   <div
-    class="ant-alert ant-alert-success ant-alert-with-description ant-alert-no-icon"
+    class="alu-alert alu-alert-success alu-alert-with-description alu-alert-no-icon"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Success Text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       Success Description Success Description Success Description
     </span>
   </div>
   <div
-    class="ant-alert ant-alert-info ant-alert-with-description ant-alert-no-icon"
+    class="alu-alert alu-alert-info alu-alert-with-description alu-alert-no-icon"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Info Text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       Info Description Info Description Info Description Info Description
     </span>
   </div>
   <div
-    class="ant-alert ant-alert-warning ant-alert-with-description ant-alert-no-icon"
+    class="alu-alert alu-alert-warning alu-alert-with-description alu-alert-no-icon"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Warning Text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       Warning Description Warning Description Warning Description Warning Description
     </span>
   </div>
   <div
-    class="ant-alert ant-alert-error ant-alert-with-description ant-alert-no-icon"
+    class="alu-alert alu-alert-error alu-alert-with-description alu-alert-no-icon"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Error Text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       Error Description Error Description Error Description Error Description
     </span>
@@ -578,11 +578,11 @@ exports[`renders ./components/alert/demo/description.md correctly 1`] = `
 exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
 <div>
   <div
-    class="ant-alert ant-alert-success"
+    class="alu-alert alu-alert-success"
     data-show="true"
   >
     <i
-      class="anticon anticon-check-circle ant-alert-icon"
+      class="anticon anticon-check-circle alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -599,20 +599,20 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Success Tips
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-info"
+    class="alu-alert alu-alert-info"
     data-show="true"
   >
     <i
-      class="anticon anticon-info-circle ant-alert-icon"
+      class="anticon anticon-info-circle alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -629,20 +629,20 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Informational Notes
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-warning"
+    class="alu-alert alu-alert-warning"
     data-show="true"
   >
     <i
-      class="anticon anticon-exclamation-circle ant-alert-icon"
+      class="anticon anticon-exclamation-circle alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -659,20 +659,20 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Warning
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-error"
+    class="alu-alert alu-alert-error"
     data-show="true"
   >
     <i
-      class="anticon anticon-close-circle ant-alert-icon"
+      class="anticon anticon-close-circle alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -689,20 +689,20 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Error
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-success ant-alert-with-description"
+    class="alu-alert alu-alert-success alu-alert-with-description"
     data-show="true"
   >
     <i
-      class="anticon anticon-check-circle ant-alert-icon"
+      class="anticon anticon-check-circle alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -722,22 +722,22 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Success Tips
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       Detailed description and advices about successful copywriting.
     </span>
   </div>
   <div
-    class="ant-alert ant-alert-info ant-alert-with-description"
+    class="alu-alert alu-alert-info alu-alert-with-description"
     data-show="true"
   >
     <i
-      class="anticon anticon-info-circle ant-alert-icon"
+      class="anticon anticon-info-circle alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -757,22 +757,22 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Informational Notes
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       Additional description and informations about copywriting.
     </span>
   </div>
   <div
-    class="ant-alert ant-alert-warning ant-alert-with-description"
+    class="alu-alert alu-alert-warning alu-alert-with-description"
     data-show="true"
   >
     <i
-      class="anticon anticon-exclamation-circle ant-alert-icon"
+      class="anticon anticon-exclamation-circle alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -792,22 +792,22 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Warning
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       This is a warning notice about copywriting.
     </span>
   </div>
   <div
-    class="ant-alert ant-alert-error ant-alert-with-description"
+    class="alu-alert alu-alert-error alu-alert-with-description"
     data-show="true"
   >
     <i
-      class="anticon anticon-close-circle ant-alert-icon"
+      class="anticon anticon-close-circle alu-alert-icon"
     >
       <svg
         aria-hidden="true"
@@ -827,12 +827,12 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
       </svg>
     </i>
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Error
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     >
       This is an error message about copywriting.
     </span>
@@ -843,19 +843,19 @@ exports[`renders ./components/alert/demo/icon.md correctly 1`] = `
 exports[`renders ./components/alert/demo/smooth-closed.md correctly 1`] = `
 <div>
   <div
-    class="ant-alert ant-alert-success ant-alert-no-icon ant-alert-closable"
+    class="alu-alert alu-alert-success alu-alert-no-icon alu-alert-closable"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Alert Message Text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
     <a
-      class="ant-alert-close-icon"
+      class="alu-alert-close-icon"
     >
       <i
         class="anticon anticon-close"
@@ -885,55 +885,55 @@ exports[`renders ./components/alert/demo/smooth-closed.md correctly 1`] = `
 exports[`renders ./components/alert/demo/style.md correctly 1`] = `
 <div>
   <div
-    class="ant-alert ant-alert-success ant-alert-no-icon"
+    class="alu-alert alu-alert-success alu-alert-no-icon"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Success Text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-info ant-alert-no-icon"
+    class="alu-alert alu-alert-info alu-alert-no-icon"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Info Text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-warning ant-alert-no-icon"
+    class="alu-alert alu-alert-warning alu-alert-no-icon"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Warning Text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
   <div
-    class="ant-alert ant-alert-error ant-alert-no-icon"
+    class="alu-alert alu-alert-error alu-alert-no-icon"
     data-show="true"
   >
     <span
-      class="ant-alert-message"
+      class="alu-alert-message"
     >
       Error Text
     </span>
     <span
-      class="ant-alert-description"
+      class="alu-alert-description"
     />
   </div>
 </div>

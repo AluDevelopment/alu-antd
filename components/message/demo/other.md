@@ -39,7 +39,7 @@ ReactDOM.render(
 ````
 
 <style>
-#components-message-demo-other .ant-btn {
+#components-message-demo-other .alu-btn {
   margin-right: 8px;
 }
 </style>

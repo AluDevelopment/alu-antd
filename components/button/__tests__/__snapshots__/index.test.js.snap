@@ -2,7 +2,7 @@
 
 exports[`Button fixbug renders {0} , 0 and {false} 1`] = `
 <button
-  class="ant-btn"
+  class="alu-btn"
   type="button"
 >
   0
@@ -11,7 +11,7 @@ exports[`Button fixbug renders {0} , 0 and {false} 1`] = `
 
 exports[`Button fixbug renders {0} , 0 and {false} 2`] = `
 <button
-  class="ant-btn"
+  class="alu-btn"
   type="button"
 >
   <span>
@@ -22,14 +22,14 @@ exports[`Button fixbug renders {0} , 0 and {false} 2`] = `
 
 exports[`Button fixbug renders {0} , 0 and {false} 3`] = `
 <button
-  class="ant-btn"
+  class="alu-btn"
   type="button"
 />
 `;
 
 exports[`Button renders Chinese characters correctly 1`] = `
 <button
-  class="ant-btn"
+  class="alu-btn"
   type="button"
 >
   <span>
@@ -40,7 +40,7 @@ exports[`Button renders Chinese characters correctly 1`] = `
 
 exports[`Button renders Chinese characters correctly 2`] = `
 <button
-  class="ant-btn"
+  class="alu-btn"
   type="button"
 >
   <i
@@ -68,7 +68,7 @@ exports[`Button renders Chinese characters correctly 2`] = `
 
 exports[`Button renders Chinese characters correctly 3`] = `
 <button
-  class="ant-btn"
+  class="alu-btn"
   type="button"
 >
   <i
@@ -96,7 +96,7 @@ exports[`Button renders Chinese characters correctly 3`] = `
 
 exports[`Button renders Chinese characters correctly 4`] = `
 <button
-  class="ant-btn"
+  class="alu-btn"
   type="button"
 >
   <i
@@ -124,7 +124,7 @@ exports[`Button renders Chinese characters correctly 4`] = `
 
 exports[`Button renders Chinese characters correctly 5`] = `
 <button
-  class="ant-btn ant-btn-loading"
+  class="alu-btn alu-btn-loading"
   type="button"
 >
   <i
@@ -152,7 +152,7 @@ exports[`Button renders Chinese characters correctly 5`] = `
 
 exports[`Button renders Chinese characters correctly 6`] = `
 <button
-  class="ant-btn ant-btn-loading"
+  class="alu-btn alu-btn-loading"
   type="button"
 >
   <i
@@ -180,7 +180,7 @@ exports[`Button renders Chinese characters correctly 6`] = `
 
 exports[`Button renders correctly 1`] = `
 <button
-  class="ant-btn"
+  class="alu-btn"
   type="button"
 >
   <span>
@@ -192,7 +192,7 @@ exports[`Button renders correctly 1`] = `
 exports[`Button should has click wave effect 1`] = `
 <button
   ant-click-animating-without-extra-node="true"
-  class="ant-btn ant-btn-primary"
+  class="alu-btn alu-btn-primary"
   type="button"
 >
   <span>
@@ -203,7 +203,7 @@ exports[`Button should has click wave effect 1`] = `
 
 exports[`Button should not render as link button when href is undefined 1`] = `
 <button
-  class="ant-btn ant-btn-primary"
+  class="alu-btn alu-btn-primary"
   type="button"
 >
   <span>
@@ -214,7 +214,7 @@ exports[`Button should not render as link button when href is undefined 1`] = `
 
 exports[`Button should support link button 1`] = `
 <a
-  class="ant-btn"
+  class="alu-btn"
   href="http://ant.design"
   target="_blank"
 >

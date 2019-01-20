@@ -6,7 +6,7 @@ import Form from '..';
 describe('Form', () => {
   it('hideRequiredMark', () => {
     const wrapper = mount(<Form hideRequiredMark />);
-    expect(wrapper.find('form').hasClass('ant-form-hide-required-mark')).toBe(true);
+    expect(wrapper.find('form').hasClass('alu-form-hide-required-mark')).toBe(true);
   });
 
   describe('wrappedComponentRef', () => {

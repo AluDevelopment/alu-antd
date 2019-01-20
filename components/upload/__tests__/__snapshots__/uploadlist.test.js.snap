@@ -5,10 +5,10 @@ exports[`Upload List handle error 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="alu-upload alu-upload-select alu-upload-select-text"
   >
     <span
-      class="ant-upload"
+      class="alu-upload"
       role="button"
       tabindex="0"
     >
@@ -25,13 +25,13 @@ exports[`Upload List handle error 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="alu-upload-list alu-upload-list-text"
   >
     <div
-      class="ant-upload-list-item ant-upload-list-item-error"
+      class="alu-upload-list-item alu-upload-list-item-error"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <i
@@ -52,7 +52,7 @@ exports[`Upload List handle error 1`] = `
             </svg>
           </i>
           <span
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             title="foo.png"
           >
             foo.png
@@ -78,20 +78,20 @@ exports[`Upload List handle error 1`] = `
         </svg>
       </i>
       <div
-        class="ant-upload-list-item-progress fade-leave"
+        class="alu-upload-list-item-progress fade-leave"
       >
         <div
-          class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-default"
+          class="alu-progress alu-progress-line alu-progress-status-normal alu-progress-default"
         >
           <div>
             <div
-              class="ant-progress-outer"
+              class="alu-progress-outer"
             >
               <div
-                class="ant-progress-inner"
+                class="alu-progress-inner"
               >
                 <div
-                  class="ant-progress-bg"
+                  class="alu-progress-bg"
                   style="width: 0%; height: 2px; border-radius: 100px;"
                 />
               </div>
@@ -109,10 +109,10 @@ exports[`Upload List should be uploading when upload a file 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="alu-upload alu-upload-select alu-upload-select-text"
   >
     <span
-      class="ant-upload"
+      class="alu-upload"
       role="button"
       tabindex="0"
     >
@@ -129,13 +129,13 @@ exports[`Upload List should be uploading when upload a file 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="alu-upload-list alu-upload-list-text"
   >
     <div
-      class="ant-upload-list-item ant-upload-list-item-uploading ant-upload-animate-enter"
+      class="alu-upload-list-item alu-upload-list-item-uploading alu-upload-animate-enter"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <i
@@ -156,7 +156,7 @@ exports[`Upload List should be uploading when upload a file 1`] = `
             </svg>
           </i>
           <span
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             title="foo.png"
           >
             foo.png
@@ -182,20 +182,20 @@ exports[`Upload List should be uploading when upload a file 1`] = `
         </svg>
       </i>
       <div
-        class="ant-upload-list-item-progress"
+        class="alu-upload-list-item-progress"
       >
         <div
-          class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-default"
+          class="alu-progress alu-progress-line alu-progress-status-normal alu-progress-default"
         >
           <div>
             <div
-              class="ant-progress-outer"
+              class="alu-progress-outer"
             >
               <div
-                class="ant-progress-inner"
+                class="alu-progress-inner"
               >
                 <div
-                  class="ant-progress-bg"
+                  class="alu-progress-bg"
                   style="width: 0%; height: 2px; border-radius: 100px;"
                 />
               </div>
@@ -213,10 +213,10 @@ exports[`Upload List should be uploading when upload a file 2`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="alu-upload alu-upload-select alu-upload-select-text"
   >
     <span
-      class="ant-upload"
+      class="alu-upload"
       role="button"
       tabindex="0"
     >
@@ -233,13 +233,13 @@ exports[`Upload List should be uploading when upload a file 2`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="alu-upload-list alu-upload-list-text"
   >
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <i
@@ -260,7 +260,7 @@ exports[`Upload List should be uploading when upload a file 2`] = `
             </svg>
           </i>
           <span
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             title="foo.png"
           >
             foo.png
@@ -286,20 +286,20 @@ exports[`Upload List should be uploading when upload a file 2`] = `
         </svg>
       </i>
       <div
-        class="ant-upload-list-item-progress fade-leave"
+        class="alu-upload-list-item-progress fade-leave"
       >
         <div
-          class="ant-progress ant-progress-line ant-progress-status-normal ant-progress-default"
+          class="alu-progress alu-progress-line alu-progress-status-normal alu-progress-default"
         >
           <div>
             <div
-              class="ant-progress-outer"
+              class="alu-progress-outer"
             >
               <div
-                class="ant-progress-inner"
+                class="alu-progress-inner"
               >
                 <div
-                  class="ant-progress-bg"
+                  class="alu-progress-bg"
                   style="width: 0%; height: 2px; border-radius: 100px;"
                 />
               </div>
@@ -317,10 +317,10 @@ exports[`Upload List should non-image format file preview 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-picture"
+    class="alu-upload alu-upload-select alu-upload-select-picture"
   >
     <span
-      class="ant-upload"
+      class="alu-upload"
       role="button"
       tabindex="0"
     >
@@ -337,23 +337,23 @@ exports[`Upload List should non-image format file preview 1`] = `
     </span>
   </div>
   <div
-    class="ant-upload-list ant-upload-list-picture"
+    class="alu-upload-list alu-upload-list-picture"
   >
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <a
-            class="ant-upload-list-item-thumbnail"
+            class="alu-upload-list-item-thumbnail"
             href="https://cdn.xxx.com/aaa.zip"
             rel="noopener noreferrer"
             target="_blank"
           >
             <i
-              class="anticon anticon-file ant-upload-list-item-icon"
+              class="anticon anticon-file alu-upload-list-item-icon"
             >
               <svg
                 aria-hidden="true"
@@ -376,7 +376,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             </i>
           </a>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="https://cdn.xxx.com/aaa.zip"
             rel="noopener noreferrer"
             target="_blank"
@@ -406,14 +406,14 @@ exports[`Upload List should non-image format file preview 1`] = `
       </i>
     </div>
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <a
-            class="ant-upload-list-item-thumbnail"
+            class="alu-upload-list-item-thumbnail"
             href="https://cdn.xxx.com/aaa"
             rel="noopener noreferrer"
             target="_blank"
@@ -424,7 +424,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             />
           </a>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="https://cdn.xxx.com/aaa"
             rel="noopener noreferrer"
             target="_blank"
@@ -454,20 +454,20 @@ exports[`Upload List should non-image format file preview 1`] = `
       </i>
     </div>
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <a
-            class="ant-upload-list-item-thumbnail"
+            class="alu-upload-list-item-thumbnail"
             href="https://cdn.xxx.com/aaa.xx"
             rel="noopener noreferrer"
             target="_blank"
           >
             <i
-              class="anticon anticon-file ant-upload-list-item-icon"
+              class="anticon anticon-file alu-upload-list-item-icon"
             >
               <svg
                 aria-hidden="true"
@@ -490,7 +490,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             </i>
           </a>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="https://cdn.xxx.com/aaa.xx"
             rel="noopener noreferrer"
             target="_blank"
@@ -520,20 +520,20 @@ exports[`Upload List should non-image format file preview 1`] = `
       </i>
     </div>
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <a
-            class="ant-upload-list-item-thumbnail"
+            class="alu-upload-list-item-thumbnail"
             href="https://cdn.xxx.com/aaa.png/xx.xx"
             rel="noopener noreferrer"
             target="_blank"
           >
             <i
-              class="anticon anticon-file ant-upload-list-item-icon"
+              class="anticon anticon-file alu-upload-list-item-icon"
             >
               <svg
                 aria-hidden="true"
@@ -556,7 +556,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             </i>
           </a>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="https://cdn.xxx.com/aaa.png/xx.xx"
             rel="noopener noreferrer"
             target="_blank"
@@ -586,14 +586,14 @@ exports[`Upload List should non-image format file preview 1`] = `
       </i>
     </div>
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <a
-            class="ant-upload-list-item-thumbnail"
+            class="alu-upload-list-item-thumbnail"
             href="https://cdn.xxx.com/xx.xx/aaa.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -604,7 +604,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             />
           </a>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="https://cdn.xxx.com/xx.xx/aaa.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -634,14 +634,14 @@ exports[`Upload List should non-image format file preview 1`] = `
       </i>
     </div>
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <a
-            class="ant-upload-list-item-thumbnail"
+            class="alu-upload-list-item-thumbnail"
             href="https://cdn.xxx.com/xx.xx/aaa.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -652,7 +652,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             />
           </a>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="https://cdn.xxx.com/xx.xx/aaa.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -682,14 +682,14 @@ exports[`Upload List should non-image format file preview 1`] = `
       </i>
     </div>
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <a
-            class="ant-upload-list-item-thumbnail"
+            class="alu-upload-list-item-thumbnail"
             href="https://cdn.xxx.com/xx.xx/aaa.png?query=123"
             rel="noopener noreferrer"
             target="_blank"
@@ -700,7 +700,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             />
           </a>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="https://cdn.xxx.com/xx.xx/aaa.png?query=123"
             rel="noopener noreferrer"
             target="_blank"
@@ -730,14 +730,14 @@ exports[`Upload List should non-image format file preview 1`] = `
       </i>
     </div>
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <a
-            class="ant-upload-list-item-thumbnail"
+            class="alu-upload-list-item-thumbnail"
             href="https://cdn.xxx.com/xx.xx/aaa.png#anchor"
             rel="noopener noreferrer"
             target="_blank"
@@ -748,7 +748,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             />
           </a>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="https://cdn.xxx.com/xx.xx/aaa.png#anchor"
             rel="noopener noreferrer"
             target="_blank"
@@ -778,14 +778,14 @@ exports[`Upload List should non-image format file preview 1`] = `
       </i>
     </div>
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <a
-            class="ant-upload-list-item-thumbnail"
+            class="alu-upload-list-item-thumbnail"
             href="https://cdn.xxx.com/xx.xx/aaa.png?query=some.query.with.dot"
             rel="noopener noreferrer"
             target="_blank"
@@ -796,7 +796,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             />
           </a>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="https://cdn.xxx.com/xx.xx/aaa.png?query=some.query.with.dot"
             rel="noopener noreferrer"
             target="_blank"
@@ -826,14 +826,14 @@ exports[`Upload List should non-image format file preview 1`] = `
       </i>
     </div>
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <a
-            class="ant-upload-list-item-thumbnail"
+            class="alu-upload-list-item-thumbnail"
             href="https://publish-pic-cpu.baidu.com/1296beb3-50d9-4276-885f-52645cbb378e.jpeg@w_228%2ch_152"
             rel="noopener noreferrer"
             target="_blank"
@@ -844,7 +844,7 @@ exports[`Upload List should non-image format file preview 1`] = `
             />
           </a>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="https://publish-pic-cpu.baidu.com/1296beb3-50d9-4276-885f-52645cbb378e.jpeg@w_228%2ch_152"
             rel="noopener noreferrer"
             target="_blank"

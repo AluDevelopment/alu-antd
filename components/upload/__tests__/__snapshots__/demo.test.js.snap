@@ -5,7 +5,7 @@ exports[`renders ./components/upload/demo/avatar.md correctly 1`] = `
   class="avatar-uploader"
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-picture-card"
+    class="alu-upload alu-upload-select alu-upload-select-picture-card"
     style="display:"
   />
 </span>
@@ -16,11 +16,11 @@ exports[`renders ./components/upload/demo/basic.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="alu-upload alu-upload-select alu-upload-select-text"
     style="display:"
   />
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="alu-upload-list alu-upload-list-text"
   />
 </span>
 `;
@@ -30,17 +30,17 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="alu-upload alu-upload-select alu-upload-select-text"
     style="display:"
   />
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="alu-upload-list alu-upload-list-text"
   >
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <i
@@ -61,7 +61,7 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
             </svg>
           </i>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="http://www.baidu.com/xxx.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -91,10 +91,10 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
       </i>
     </div>
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <i
@@ -115,7 +115,7 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
             </svg>
           </i>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="http://www.baidu.com/yyy.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -145,10 +145,10 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
       </i>
     </div>
     <div
-      class="ant-upload-list-item ant-upload-list-item-error"
+      class="alu-upload-list-item alu-upload-list-item-error"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <i
@@ -169,7 +169,7 @@ exports[`renders ./components/upload/demo/defaultFileList.md correctly 1`] = `
             </svg>
           </i>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="http://www.baidu.com/zzz.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -207,11 +207,11 @@ exports[`renders ./components/upload/demo/directory.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="alu-upload alu-upload-select alu-upload-select-text"
     style="display:"
   />
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="alu-upload-list alu-upload-list-text"
   />
 </span>
 `;
@@ -221,10 +221,10 @@ exports[`renders ./components/upload/demo/drag.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-drag"
+    class="alu-upload alu-upload-drag"
   />
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="alu-upload-list alu-upload-list-text"
   />
 </span>
 `;
@@ -234,17 +234,17 @@ exports[`renders ./components/upload/demo/fileList.md correctly 1`] = `
   class=""
 >
   <div
-    class="ant-upload ant-upload-select ant-upload-select-text"
+    class="alu-upload alu-upload-select alu-upload-select-text"
     style="display:"
   />
   <div
-    class="ant-upload-list ant-upload-list-text"
+    class="alu-upload-list alu-upload-list-text"
   >
     <div
-      class="ant-upload-list-item ant-upload-list-item-done"
+      class="alu-upload-list-item alu-upload-list-item-done"
     >
       <div
-        class="ant-upload-list-item-info"
+        class="alu-upload-list-item-info"
       >
         <span>
           <i
@@ -265,7 +265,7 @@ exports[`renders ./components/upload/demo/fileList.md correctly 1`] = `
             </svg>
           </i>
           <a
-            class="ant-upload-list-item-name"
+            class="alu-upload-list-item-name"
             href="http://www.baidu.com/xxx.png"
             rel="noopener noreferrer"
             target="_blank"
@@ -306,17 +306,17 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
     class=""
   >
     <div
-      class="ant-upload-list ant-upload-list-picture-card"
+      class="alu-upload-list alu-upload-list-picture-card"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="alu-upload-list-item alu-upload-list-item-done"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="alu-upload-list-item-info"
         >
           <span>
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="alu-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -327,7 +327,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="alu-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -338,7 +338,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
           </span>
         </div>
         <span
-          class="ant-upload-list-item-actions"
+          class="alu-upload-list-item-actions"
         >
           <a
             href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
@@ -386,7 +386,7 @@ exports[`renders ./components/upload/demo/picture-card.md correctly 1`] = `
       </div>
     </div>
     <div
-      class="ant-upload ant-upload-select ant-upload-select-picture-card"
+      class="alu-upload alu-upload-select alu-upload-select-picture-card"
       style="display:"
     />
   </span>
@@ -399,21 +399,21 @@ exports[`renders ./components/upload/demo/picture-style.md correctly 1`] = `
     class=""
   >
     <div
-      class="ant-upload ant-upload-select ant-upload-select-picture"
+      class="alu-upload alu-upload-select alu-upload-select-picture"
       style="display:"
     />
     <div
-      class="ant-upload-list ant-upload-list-picture"
+      class="alu-upload-list alu-upload-list-picture"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="alu-upload-list-item alu-upload-list-item-done"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="alu-upload-list-item-info"
         >
           <span>
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="alu-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -424,7 +424,7 @@ exports[`renders ./components/upload/demo/picture-style.md correctly 1`] = `
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="alu-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -454,14 +454,14 @@ exports[`renders ./components/upload/demo/picture-style.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="alu-upload-list-item alu-upload-list-item-done"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="alu-upload-list-item-info"
         >
           <span>
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="alu-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -472,7 +472,7 @@ exports[`renders ./components/upload/demo/picture-style.md correctly 1`] = `
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="alu-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -509,21 +509,21 @@ exports[`renders ./components/upload/demo/picture-style.md correctly 1`] = `
     class="upload-list-inline"
   >
     <div
-      class="ant-upload ant-upload-select ant-upload-select-picture"
+      class="alu-upload alu-upload-select alu-upload-select-picture"
       style="display:"
     />
     <div
-      class="ant-upload-list ant-upload-list-picture"
+      class="alu-upload-list alu-upload-list-picture"
     >
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="alu-upload-list-item alu-upload-list-item-done"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="alu-upload-list-item-info"
         >
           <span>
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="alu-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -534,7 +534,7 @@ exports[`renders ./components/upload/demo/picture-style.md correctly 1`] = `
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="alu-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -564,14 +564,14 @@ exports[`renders ./components/upload/demo/picture-style.md correctly 1`] = `
         </i>
       </div>
       <div
-        class="ant-upload-list-item ant-upload-list-item-done"
+        class="alu-upload-list-item alu-upload-list-item-done"
       >
         <div
-          class="ant-upload-list-item-info"
+          class="alu-upload-list-item-info"
         >
           <span>
             <a
-              class="ant-upload-list-item-thumbnail"
+              class="alu-upload-list-item-thumbnail"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -582,7 +582,7 @@ exports[`renders ./components/upload/demo/picture-style.md correctly 1`] = `
               />
             </a>
             <a
-              class="ant-upload-list-item-name"
+              class="alu-upload-list-item-name"
               href="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
               rel="noopener noreferrer"
               target="_blank"
@@ -622,15 +622,15 @@ exports[`renders ./components/upload/demo/upload-manually.md correctly 1`] = `
     class=""
   >
     <div
-      class="ant-upload ant-upload-select ant-upload-select-text"
+      class="alu-upload alu-upload-select alu-upload-select-text"
       style="display:"
     />
     <div
-      class="ant-upload-list ant-upload-list-text"
+      class="alu-upload-list alu-upload-list-text"
     />
   </span>
   <button
-    class="ant-btn ant-btn-primary"
+    class="alu-btn alu-btn-primary"
     disabled=""
     style="margin-top:16px"
     type="button"

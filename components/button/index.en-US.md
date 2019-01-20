@@ -28,6 +28,8 @@ To get a customized button, just set `type`/`shape`/`size`/`loading`/`disabled`.
 | type | can be set to `primary` `ghost` `dashed` `danger`(added in 2.7) or omitted (meaning `default`) | string | `default` |
 | onClick | set the handler to handle `click` event | (event) => void | - |
 | block | option to fit button width to its parent width | boolean | `false` |
+| spaceInCN | insert one space between two chinese characters automatically | boolean | `false` |
+| subtitle | set the subtitle | string | - |
 
 It accepts all props which native button support.
 
@@ -36,12 +38,12 @@ It accepts all props which native button support.
 `<Button href="http://example.com">Hello world!</Button>` will be rendered into `<a href="http://example.com"><span>Hello world!</span></a>`.
 
 <style>
-[id^=components-button-demo-] .ant-btn {
+[id^=components-button-demo-] .alu-btn {
   margin-right: 8px;
   margin-bottom: 12px;
 }
-[id^=components-button-demo-] .ant-btn-group > .ant-btn,
-[id^=components-button-demo-] .ant-btn-group > span > .ant-btn {
+[id^=components-button-demo-] .alu-btn-group > .alu-btn,
+[id^=components-button-demo-] .alu-btn-group > span > .alu-btn {
   margin-right: 0;
 }
 </style>
