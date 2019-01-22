@@ -12,6 +12,7 @@ import {
 } from './utils';
 import warning from '../_util/warning';
 import { getTwoToneColor, setTwoToneColor } from './twoTonePrimaryColor';
+import aluIcon from './alu-icon';
 
 // Initial setting
 ReactIcon.add(...Object.keys(allIcons).map(key => (allIcons as any)[key]));
@@ -94,8 +95,9 @@ const Icon: IconComponent<IconProps> = props => {
 
   let innerNode;
 
-  // component > children > type
-  if (Component) {
+  // 自定义的type对应组件
+  if (type && aluIcon[type as 'vip']) {
+    let AluComponent = aluIcon[type as 'vip'];
     const innerSvgProps: CustomIconComponentProps = {
       ...svgBaseProps,
       className: svgClassString,
@@ -105,46 +107,61 @@ const Icon: IconComponent<IconProps> = props => {
       delete innerSvgProps.viewBox;
     }
 
-    innerNode = <Component {...innerSvgProps}>{children}</Component>;
-  }
+    innerNode = <AluComponent {...innerSvgProps}>{children}</AluComponent>;
+  } else {
 
-  if (children) {
-    warning(
-      Boolean(viewBox) ||
+    // component > children > type
+    if (Component) {
+      const innerSvgProps: CustomIconComponentProps = {
+        ...svgBaseProps,
+        className: svgClassString,
+        viewBox,
+      };
+      if (!viewBox) {
+        delete innerSvgProps.viewBox;
+      }
+
+      innerNode = <Component {...innerSvgProps}>{children}</Component>;
+    }
+
+    if (children) {
+      warning(
+        Boolean(viewBox) ||
         (React.Children.count(children) === 1 &&
           React.isValidElement(children) &&
           React.Children.only(children).type === 'use'),
-      'Make sure that you provide correct `viewBox`' +
+        'Make sure that you provide correct `viewBox`' +
         ' prop (default `0 0 1024 1024`) to the icon.',
-    );
-    const innerSvgProps: CustomIconComponentProps = {
-      ...svgBaseProps,
-      className: svgClassString,
-    };
-    innerNode = (
-      <svg {...innerSvgProps} viewBox={viewBox}>
-        {children}
-      </svg>
-    );
-  }
-
-  if (typeof type === 'string') {
-    let computedType = type;
-    if (theme) {
-      const themeInName = getThemeFromTypeName(type);
-      warning(
-        !themeInName || theme === themeInName,
-        `The icon name '${type}' already specify a theme '${themeInName}',` +
-          ` the 'theme' prop '${theme}' will be ignored.`,
+      );
+      const innerSvgProps: CustomIconComponentProps = {
+        ...svgBaseProps,
+        className: svgClassString,
+      };
+      innerNode = (
+        <svg {...innerSvgProps} viewBox={viewBox}>
+          {children}
+        </svg>
       );
     }
-    computedType = withThemeSuffix(
-      removeTypeTheme(alias(computedType)),
-      dangerousTheme || theme || defaultTheme,
-    );
-    innerNode = (
-      <ReactIcon className={svgClassString} type={computedType} primaryColor={twoToneColor} />
-    );
+
+    if (typeof type === 'string') {
+      let computedType = type;
+      if (theme) {
+        const themeInName = getThemeFromTypeName(type);
+        warning(
+          !themeInName || theme === themeInName,
+          `The icon name '${type}' already specify a theme '${themeInName}',` +
+          ` the 'theme' prop '${theme}' will be ignored.`,
+        );
+      }
+      computedType = withThemeSuffix(
+        removeTypeTheme(alias(computedType)),
+        dangerousTheme || theme || defaultTheme,
+      );
+      innerNode = (
+        <ReactIcon className={svgClassString} type={computedType} primaryColor={twoToneColor} />
+      );
+    }
   }
 
   return (
