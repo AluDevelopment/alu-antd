@@ -96,8 +96,8 @@ const Icon: IconComponent<IconProps> = props => {
   let innerNode;
 
   // 自定义的type对应组件
-  if (type && aluIcon[type as 'vip']) {
-    let AluComponent = aluIcon[type as 'vip'];
+  if (type && aluIcon[type]) {
+    const AluComponent = aluIcon[type];
     const innerSvgProps: CustomIconComponentProps = {
       ...svgBaseProps,
       className: svgClassString,
@@ -109,7 +109,6 @@ const Icon: IconComponent<IconProps> = props => {
 
     innerNode = <AluComponent {...innerSvgProps}>{children}</AluComponent>;
   } else {
-
     // component > children > type
     if (Component) {
       const innerSvgProps: CustomIconComponentProps = {
@@ -127,11 +126,11 @@ const Icon: IconComponent<IconProps> = props => {
     if (children) {
       warning(
         Boolean(viewBox) ||
-        (React.Children.count(children) === 1 &&
-          React.isValidElement(children) &&
-          React.Children.only(children).type === 'use'),
+          (React.Children.count(children) === 1 &&
+            React.isValidElement(children) &&
+            React.Children.only(children).type === 'use'),
         'Make sure that you provide correct `viewBox`' +
-        ' prop (default `0 0 1024 1024`) to the icon.',
+          ' prop (default `0 0 1024 1024`) to the icon.',
       );
       const innerSvgProps: CustomIconComponentProps = {
         ...svgBaseProps,
@@ -151,7 +150,7 @@ const Icon: IconComponent<IconProps> = props => {
         warning(
           !themeInName || theme === themeInName,
           `The icon name '${type}' already specify a theme '${themeInName}',` +
-          ` the 'theme' prop '${theme}' will be ignored.`,
+            ` the 'theme' prop '${theme}' will be ignored.`,
         );
       }
       computedType = withThemeSuffix(

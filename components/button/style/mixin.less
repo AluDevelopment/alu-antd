@@ -220,6 +220,17 @@
     text-decoration: none;
   }
 }
+// secondary button style
+.btn-secondary() {
+  .button-variant-other(@primary-color; @btn-default-bg; @primary-color);
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    background: @btn-default-bg;
+    text-decoration: none;
+  }
+}
 // ghost button style
 .btn-ghost() {
   .button-variant-other(@btn-ghost-color, @btn-ghost-bg, @btn-ghost-border);

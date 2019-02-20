@@ -1,0 +1,48 @@
+@import '../../style/themes/default';
+@import '../../style/mixins/index';
+
+@header-height: 60px;
+@header-prefix-cls: ~'@{ant-prefix}-header';
+
+.@{header-prefix-cls} {
+  background: #fff;
+  .flex-row(flex-start, stretch);
+  &-logo {
+    flex: 0 0 210px;
+    height: @header-height;
+    .flex-row(center, center);
+  }
+  &-content {
+    flex: 1;
+    .flex-row(flex-start, stretch);
+  }
+  &-menu {
+    .clearfix();
+    &-item {
+      float: left;
+      height: @header-height;
+      line-height: @header-height - 10px;
+      padding: 0 18px;
+      color: #a1a2a8;
+      font-size: 16px;
+      display: inline-block;
+      cursor: pointer;
+      border-top: 6px solid #fff;
+      &:hover {
+        color: @primary-color;
+        border-top-color: @primary-2;
+        background-color: @primary-2;
+      }
+      &-active {
+        cursor: default;
+        line-height: @header-height - 6px;
+        border-top-color: @primary-color;
+        color: @primary-color;
+        background-color: @primary-2;
+        &:hover {
+          border-top-color: @primary-color;
+        }
+      }
+    }
+  }
+}

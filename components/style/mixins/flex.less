@@ -1,0 +1,36 @@
+// flex
+
+.flex(@direction:row, @justify:flex-start, @align: flex-start) {
+  display: flex;
+  flex-direction: @direction;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.flex-column(@justify:flex-start, @align: stretch) {
+  display: flex;
+  flex-direction: column;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.inline-flex-column(@justify:flex-start, @align: stretch) {
+  display: flex;
+  flex-direction: column;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.flex-row(@justify:flex-start, @align: flex-start) {
+  display: flex;
+  flex-direction: row;
+  justify-content: @justify;
+  align-items: @align;
+}
+
+.inline-flex-row(@justify:flex-start, @align: flex-start) {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: @justify;
+  align-items: @align;
+}
