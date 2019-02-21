@@ -12,7 +12,7 @@ export interface EmptyProps {
   prefixCls?: string;
   className?: string;
   style?: React.CSSProperties;
-  image?: string;
+  image?: React.ReactNode;
   description?: React.ReactNode;
   children?: React.ReactNode;
 }
@@ -20,8 +20,15 @@ export interface EmptyProps {
 const Empty: React.SFC<EmptyProps> = (props: EmptyProps) => (
   <ConfigConsumer>
     {({ getPrefixCls }: ConfigConsumerProps) => {
-      const { className, image, description, children, ...restProps } = props;
-      const prefixCls = getPrefixCls('empty', props.prefixCls);
+      const {
+        className,
+        prefixCls: customizePrefixCls,
+        image,
+        description,
+        children,
+        ...restProps
+      } = props;
+      const prefixCls = getPrefixCls('empty', customizePrefixCls);
 
       return (
         <LocaleReceiver componentName="Empty">

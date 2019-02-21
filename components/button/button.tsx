@@ -196,7 +196,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
     return !!spaceInCN && React.Children.count(children) === 1 && !icon;
   }
 
-  renderButton = ({ getPrefixCls }: ConfigConsumerProps) => {
+  renderButton = ({ getPrefixCls, autoInsertSpaceInButton }: ConfigConsumerProps) => {
     const {
       prefixCls: customizePrefixCls,
       type,
@@ -214,6 +214,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
     const { loading, hasTwoCNChar } = this.state;
 
     const prefixCls = getPrefixCls('btn', customizePrefixCls);
+    const autoInsertSpace = autoInsertSpaceInButton !== false;
 
     // large => lg
     // small => sm
@@ -247,7 +248,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
     const iconNode = iconType ? <Icon type={iconType} /> : null;
     const kids =
       children || children === 0
-        ? React.Children.map(children, child => insertSpace(child, this.isNeedInserted()))
+        ? React.Children.map(children, child => insertSpace(child as React.ReactChild, this.isNeedInserted() && autoInsertSpace),)
         : null;
 
     const linkButtonRestProps = omit(rest as AnchorButtonProps, ['htmlType']);

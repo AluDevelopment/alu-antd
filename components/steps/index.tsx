@@ -18,6 +18,13 @@ export interface StepsProps {
   style?: React.CSSProperties;
 }
 
+export interface StepProps {
+  description?: React.ReactNode;
+  icon?: React.ReactNode;
+  status?: 'wait' | 'process' | 'finish' | 'error';
+  title?: React.ReactNode;
+}
+
 export default class Steps extends React.Component<StepsProps, any> {
   static Step = RcSteps.Step;
 

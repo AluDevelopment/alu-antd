@@ -5,11 +5,17 @@ import defaultRenderEmpty, { RenderEmptyHandler } from './renderEmpty';
 
 export { RenderEmptyHandler };
 
+export interface CSPConfig {
+  nonce?: string;
+}
+
 export interface ConfigConsumerProps {
   getPopupContainer?: (triggerNode?: HTMLElement) => HTMLElement;
   rootPrefixCls?: string;
   getPrefixCls: (suffixCls: string, customizePrefixCls?: string) => string;
   renderEmpty: RenderEmptyHandler;
+  csp?: CSPConfig;
+  autoInsertSpaceInButton?: boolean;
 }
 
 interface ConfigProviderProps {
@@ -17,6 +23,8 @@ interface ConfigProviderProps {
   prefixCls?: string;
   children?: React.ReactNode;
   renderEmpty?: RenderEmptyHandler;
+  csp?: CSPConfig;
+  autoInsertSpaceInButton?: boolean;
 }
 
 const ConfigContext: Context<ConfigConsumerProps | null> = createReactContext({
