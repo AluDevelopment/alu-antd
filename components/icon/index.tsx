@@ -14,6 +14,10 @@ import warning from '../_util/warning';
 import { getTwoToneColor, setTwoToneColor } from './twoTonePrimaryColor';
 import aluIcon from './alu-icon';
 
+export interface TransferLocale {
+  icon: string;
+}
+
 // Initial setting
 ReactIcon.add(...Object.keys(allIcons).map(key => (allIcons as any)[key]));
 setTwoToneColor('#1890ff');
@@ -27,12 +31,15 @@ export interface CustomIconComponentProps {
   viewBox?: string;
   className?: string;
   style?: React.CSSProperties;
+  spin?: boolean;
+  rotate?: number;
   ['aria-hidden']?: string;
 }
 
 export type ThemeType = 'filled' | 'outlined' | 'twoTone';
 
 export interface IconProps {
+  tabIndex?: number;
   type?: string;
   className?: string;
   theme?: ThemeType;
@@ -42,6 +49,7 @@ export interface IconProps {
   twoToneColor?: string;
   viewBox?: string;
   spin?: boolean;
+  rotate?: number;
   style?: React.CSSProperties;
   prefixCls?: string;
   role?: string;
@@ -65,6 +73,10 @@ const Icon: IconComponent<IconProps> = props => {
     component: Component,
     viewBox,
     spin,
+    rotate,
+
+    tabIndex,
+    onClick,
 
     // children
     children,
@@ -93,7 +105,21 @@ const Icon: IconComponent<IconProps> = props => {
     [`anticon-spin`]: !!spin || type === 'loading',
   });
 
-  let innerNode;
+  let innerNode: React.ReactNode;
+
+  const svgStyle = rotate
+    ? {
+        msTransform: `rotate(${rotate}deg)`,
+        transform: `rotate(${rotate}deg)`,
+      }
+    : undefined;
+
+  const innerSvgProps: CustomIconComponentProps = {
+    ...svgBaseProps,
+    className: svgClassString,
+    style: svgStyle,
+    viewBox,
+  };
 
   // 自定义的type对应组件
   if (type && aluIcon[type]) {
@@ -111,15 +137,6 @@ const Icon: IconComponent<IconProps> = props => {
   } else {
     // component > children > type
     if (Component) {
-      const innerSvgProps: CustomIconComponentProps = {
-        ...svgBaseProps,
-        className: svgClassString,
-        viewBox,
-      };
-      if (!viewBox) {
-        delete innerSvgProps.viewBox;
-      }
-
       innerNode = <Component {...innerSvgProps}>{children}</Component>;
     }
 
@@ -132,10 +149,6 @@ const Icon: IconComponent<IconProps> = props => {
         'Make sure that you provide correct `viewBox`' +
           ' prop (default `0 0 1024 1024`) to the icon.',
       );
-      const innerSvgProps: CustomIconComponentProps = {
-        ...svgBaseProps,
-        className: svgClassString,
-      };
       innerNode = (
         <svg {...innerSvgProps} viewBox={viewBox}>
           {children}
@@ -158,7 +171,12 @@ const Icon: IconComponent<IconProps> = props => {
         dangerousTheme || theme || defaultTheme,
       );
       innerNode = (
-        <ReactIcon className={svgClassString} type={computedType} primaryColor={twoToneColor} />
+        <ReactIcon
+          className={svgClassString}
+          type={computedType}
+          primaryColor={twoToneColor}
+          style={svgStyle}
+        />
       );
     }
   }
