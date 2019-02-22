@@ -24,6 +24,24 @@ ReactDOM.render(
 );
 ````
 
+````jsx
+import { Header } from 'antd';
+ReactDOM.render(
+  <div>
+    <Header 
+      rightComponent={
+        <div>
+          <span>置信店</span>
+          <span>xxx医生</span>
+        </div>
+      }
+    />
+  </div>,
+  mountNode
+);
+
+````
+
 <style>
 .alu-header { border: 1px solid #ccc; }
 </style>
