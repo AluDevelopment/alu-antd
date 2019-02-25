@@ -16,18 +16,21 @@ Common Header.
 ````jsx
 import { Header } from 'antd';
 ReactDOM.render(
-  <div>
-    <Header
-      logoCls="custom-logo"
-      contentCls="custom-content"
-      rightCls="custom-right"
-      right={
-        <div>
-          <span style={{ marginRight: '1.927%' }}>置信店</span>
-          <span>xxx医生</span>
-        </div>
-      }
-    />
+  <div className="container">
+    <div className="page">
+      <Header
+        env='dev'
+        logoCls="custom-logo"
+        contentCls="custom-content"
+        rightCls="custom-right"
+        right={
+          <div>
+            <span style={{ marginRight: '1.927%' }}>置信店</span>
+            <span>xxx医生</span>
+          </div>
+        }
+      />
+    </div>
   </div>,
   mountNode
 );
@@ -35,17 +38,20 @@ ReactDOM.render(
 ````
 
 <style>
+.container {
+  overflow-x: scroll;
+}
+.page {
+  width: 100vw;
+  height: 100px;
+}
 .alu-header { border: 1px solid #ccc; }
 .custom-logo {
-  flex: 0.14;
-  justify-content: left;
-  padding-left: 10px;
 }
 .custom-content {
-  flex: 0.72;
+  flex: 1;
 }
 .custom-right {
-  flex: 0.14;
   line-height: 60px;
 }
 .

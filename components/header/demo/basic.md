@@ -18,28 +18,10 @@ import { Header } from 'antd';
 
 ReactDOM.render(
   <div>
-    <Header />
+    <Header env='dev' />
   </div>,
   mountNode
 );
-````
-
-````jsx
-import { Header } from 'antd';
-ReactDOM.render(
-  <div>
-    <Header 
-      rightComponent={
-        <div>
-          <span>置信店</span>
-          <span>xxx医生</span>
-        </div>
-      }
-    />
-  </div>,
-  mountNode
-);
-
 ````
 
 <style>
