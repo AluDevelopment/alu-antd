@@ -11,18 +11,18 @@ import {
   alias,
 } from './utils';
 import warning from '../_util/warning';
+import LocaleReceiver from '../locale-provider/LocaleReceiver';
 import { getTwoToneColor, setTwoToneColor } from './twoTonePrimaryColor';
-import aluIcon from './alu-icon';
-
-export interface TransferLocale {
-  icon: string;
-}
 
 // Initial setting
 ReactIcon.add(...Object.keys(allIcons).map(key => (allIcons as any)[key]));
 setTwoToneColor('#1890ff');
 let defaultTheme: ThemeType = 'outlined';
 let dangerousTheme: ThemeType | undefined = undefined;
+
+export interface TransferLocale {
+  icon: string;
+}
 
 export interface CustomIconComponentProps {
   width: string | number;
@@ -121,70 +121,70 @@ const Icon: IconComponent<IconProps> = props => {
     viewBox,
   };
 
-  // 自定义的type对应组件
-  if (type && aluIcon[type]) {
-    const AluComponent = aluIcon[type];
-    const innerSvgProps: CustomIconComponentProps = {
-      ...svgBaseProps,
-      className: svgClassString,
-      viewBox,
-    };
-    if (!viewBox) {
-      delete innerSvgProps.viewBox;
-    }
+  // component > children > type
+  if (Component) {
+    innerNode = <Component {...innerSvgProps}>{children}</Component>;
+  }
 
-    innerNode = <AluComponent {...innerSvgProps}>{children}</AluComponent>;
-  } else {
-    // component > children > type
-    if (Component) {
-      innerNode = <Component {...innerSvgProps}>{children}</Component>;
-    }
+  if (children) {
+    warning(
+      Boolean(viewBox) ||
+        (React.Children.count(children) === 1 &&
+          React.isValidElement(children) &&
+          React.Children.only(children).type === 'use'),
+      'Make sure that you provide correct `viewBox`' +
+        ' prop (default `0 0 1024 1024`) to the icon.',
+    );
+    innerNode = (
+      <svg {...innerSvgProps} viewBox={viewBox}>
+        {children}
+      </svg>
+    );
+  }
 
-    if (children) {
+  if (typeof type === 'string') {
+    let computedType = type;
+    if (theme) {
+      const themeInName = getThemeFromTypeName(type);
       warning(
-        Boolean(viewBox) ||
-          (React.Children.count(children) === 1 &&
-            React.isValidElement(children) &&
-            React.Children.only(children).type === 'use'),
-        'Make sure that you provide correct `viewBox`' +
-          ' prop (default `0 0 1024 1024`) to the icon.',
-      );
-      innerNode = (
-        <svg {...innerSvgProps} viewBox={viewBox}>
-          {children}
-        </svg>
+        !themeInName || theme === themeInName,
+        `The icon name '${type}' already specify a theme '${themeInName}',` +
+          ` the 'theme' prop '${theme}' will be ignored.`,
       );
     }
+    computedType = withThemeSuffix(
+      removeTypeTheme(alias(computedType)),
+      dangerousTheme || theme || defaultTheme,
+    );
+    innerNode = (
+      <ReactIcon
+        className={svgClassString}
+        type={computedType}
+        primaryColor={twoToneColor}
+        style={svgStyle}
+      />
+    );
+  }
 
-    if (typeof type === 'string') {
-      let computedType = type;
-      if (theme) {
-        const themeInName = getThemeFromTypeName(type);
-        warning(
-          !themeInName || theme === themeInName,
-          `The icon name '${type}' already specify a theme '${themeInName}',` +
-            ` the 'theme' prop '${theme}' will be ignored.`,
-        );
-      }
-      computedType = withThemeSuffix(
-        removeTypeTheme(alias(computedType)),
-        dangerousTheme || theme || defaultTheme,
-      );
-      innerNode = (
-        <ReactIcon
-          className={svgClassString}
-          type={computedType}
-          primaryColor={twoToneColor}
-          style={svgStyle}
-        />
-      );
-    }
+  let iconTabIndex = tabIndex;
+  if (iconTabIndex === undefined && onClick) {
+    iconTabIndex = -1;
   }
 
   return (
-    <i {...restProps} className={classString}>
-      {innerNode}
-    </i>
+    <LocaleReceiver componentName="Icon">
+      {(locale: TransferLocale) => (
+        <i
+          aria-label={`${locale.icon}: ${type}`}
+          {...restProps}
+          tabIndex={iconTabIndex}
+          onClick={onClick}
+          className={classString}
+        >
+          {innerNode}
+        </i>
+      )}
+    </LocaleReceiver>
   );
 };
 
