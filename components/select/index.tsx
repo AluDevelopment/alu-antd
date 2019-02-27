@@ -26,6 +26,7 @@ export interface AbstractSelectProps {
   tabIndex?: number;
   placeholder?: string | React.ReactNode;
   defaultActiveFirstOption?: boolean;
+  showDropdownScrollStyle?: boolean;
   dropdownClassName?: string;
   dropdownStyle?: React.CSSProperties;
   dropdownMenuStyle?: React.CSSProperties;
@@ -204,11 +205,20 @@ export default class Select<T = SelectValue> extends React.Component<SelectProps
       removeIcon,
       clearIcon,
       menuItemSelectedIcon,
+      showDropdownScrollStyle = true,
+      dropdownClassName = '',
       ...restProps
     } = this.props;
     const rest = omit(restProps, ['inputIcon']);
 
+
     const prefixCls = getPrefixCls('select', customizePrefixCls);
+    const dropdownCls = classNames(
+      {
+        [dropdownClassName]: !!dropdownClassName,
+        ['alu-select-dropdown-scroll-style']: showDropdownScrollStyle,
+      }
+    )
     const cls = classNames(
       {
         [`${prefixCls}-lg`]: size === 'large',
@@ -261,6 +271,7 @@ export default class Select<T = SelectValue> extends React.Component<SelectProps
         removeIcon={finalRemoveIcon}
         clearIcon={finalClearIcon}
         menuItemSelectedIcon={finalMenuItemSelectedIcon}
+        dropdownClassName={dropdownCls}
         {...rest}
         {...modeConfig}
         prefixCls={prefixCls}
