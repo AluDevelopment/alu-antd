@@ -164,7 +164,6 @@
   border: @border-width-base @border-style-base transparent;
   white-space: nowrap;
   .button-size(@btn-height-base; @btn-padding-base; @btn-font-size-base; @btn-border-radius-base);
-  min-width: 120px;
   user-select: none;
   transition: all 0.3s @ease-in-out;
   position: relative;
@@ -194,15 +193,12 @@
   }
   &-xl {
     .button-size(@btn-height-xl; @btn-padding-lg; @btn-font-size-lg; @btn-border-radius-base);
-    min-width: 500px;
   }
   &-lg {
     .button-size(@btn-height-lg; @btn-padding-lg; @btn-font-size-lg; @btn-border-radius-base);
-    min-width: 130px;
   }
   &-sm {
     .button-size(@btn-height-sm; @btn-padding-sm; @btn-font-size-sm; @btn-border-radius-sm);
-    min-width: 80px;
   }
 }
 // primary button style
@@ -248,7 +244,6 @@
 .btn-circle(@btnClassName: btn) {
   .square(@btn-circle-size);
   .button-size(@btn-circle-size; 0; @btn-font-size-base + 2px; 50%);
-  min-width: auto;
   &.@{btnClassName}-xl {
     .square(@btn-circle-size-xl);
     .button-size(@btn-circle-size-xl; 0; @btn-font-size-xl + 2px; 50%);

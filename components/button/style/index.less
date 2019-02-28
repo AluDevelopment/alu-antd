@@ -19,6 +19,20 @@
   .btn;
   .btn-default;
 
+  &.@{btn-prefix-cls}-min-width {
+    min-width: 120px;
+  }
+
+  &-xl.@{btn-prefix-cls}-min-width {
+    min-width: 500px;
+  }
+  &-lg.@{btn-prefix-cls}-min-width {
+    min-width: 130px;
+  }
+  &-sm.@{btn-prefix-cls}-min-width {
+    min-width: 80px;
+  }
+
   // Make sure that the target of Button's click event always be `button`
   // Ref: https://github.com/ant-design/ant-design/issues/7034
   > i,

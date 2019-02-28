@@ -34,6 +34,7 @@ cols: 1
 | block | 将按钮宽度调整为其父宽度的选项 | boolean | `false` |
 | spaceInCN | 设置中文之间是否默认插入空格 | boolean | `false` |
 | subtitle | 设置按钮副标题（小字） | string | - |
+| minWidth | 设置最小宽度 | boolean | `false` |
 
 支持原生 button 的其他所有属性。
 

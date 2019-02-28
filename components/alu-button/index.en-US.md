@@ -31,6 +31,7 @@ To get a customized button, just set `type`/`shape`/`size`/`loading`/`disabled`.
 | block | option to fit button width to its parent width | boolean | `false` |
 | spaceInCN | insert one space between two chinese characters automatically | boolean | `false` |
 | subtitle | set the subtitle | string | - |
+| minWidth | set the min-width | boolean | `false` |
 
 It accepts all props which native button support.
 

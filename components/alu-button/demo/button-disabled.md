@@ -20,10 +20,10 @@ ReactDOM.render(
   <div>
     <Row>
       <Col span={6}>
-        <Button size="large" disabled>已收费</Button>
+        <Button minWidth size="large" disabled>已收费</Button>
       </Col>
       <Col span={12}>
-        <Button disabled>诊后收费</Button>
+        <Button minWidth disabled>诊后收费</Button>
       </Col>
     </Row>
   </div>,

@@ -61,6 +61,7 @@ export interface BaseButtonProps {
   block?: boolean;
   spaceInCN?: boolean;
   subtitle?: string;
+  minWidth?: boolean,
   children?: React.ReactNode;
 }
 
@@ -106,6 +107,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
     icon: PropTypes.string,
     block: PropTypes.bool,
     spaceInCN: PropTypes.bool,
+    minWidth: PropTypes.bool,
     subtitle: PropTypes.string,
   };
 
@@ -207,6 +209,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
       icon,
       ghost,
       subtitle,
+      minWidth,
       loading: _loadingProp,
       block,
       ...rest
@@ -242,6 +245,7 @@ class Button extends React.Component<ButtonProps, ButtonState> {
       [`${prefixCls}-two-chinese-chars`]: hasTwoCNChar,
       [`${prefixCls}-block`]: block,
       [`${prefixCls}-subtitle`]: subtitle,
+      [`${prefixCls}-min-width`]: minWidth,
     });
 
     const iconType = loading ? 'loading' : icon;
