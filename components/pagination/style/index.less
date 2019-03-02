@@ -3,6 +3,7 @@
 @import '../../input/style/mixin';
 
 @pagination-prefix-cls: ~'@{ant-prefix}-pagination';
+@select-prefix-cls: ~'@{ant-prefix}-select';
 
 .@{pagination-prefix-cls} {
   .reset-component;
@@ -21,6 +22,33 @@
     clear: both;
     overflow: hidden;
     visibility: hidden;
+  }
+
+  // select small style
+  .@{select-prefix-cls} {
+    .@{select-prefix-cls}-selection--single {
+      height: @input-height-sm;
+    }
+    .@{select-prefix-cls}-selection__rendered {
+      line-height: @input-height-sm - 2px;
+      margin: 0 @control-padding-horizontal-sm - 1px;
+    }
+    .@{select-prefix-cls}-selection--multiple {
+      min-height: @input-height-sm;
+      .@{select-prefix-cls}-selection__rendered {
+        li {
+          height: @input-height-sm - 8px;
+          line-height: @input-height-sm - 10px;
+        }
+      }
+      .@{select-prefix-cls}-selection__clear {
+        top: @input-height-sm / 2;
+      }
+    }
+    .@{select-prefix-cls}-selection__clear,
+    .@{select-prefix-cls}-arrow {
+      right: @control-padding-horizontal-sm;
+    }
   }
 
   &-total-text {
@@ -220,11 +248,12 @@
     &-quick-jumper {
       display: inline-block;
       vertical-align: top;
-      height: @input-height-base;
-      line-height: @input-height-base;
+      height: @pagination-item-size;
+      line-height: @pagination-item-size;
 
       input {
         .input;
+        height: @pagination-item-size;
         margin: 0 8px;
         width: 50px;
       }
