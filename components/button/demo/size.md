@@ -38,6 +38,7 @@ class ButtonSize extends React.Component {
           <Radio.Button value="large">Large</Radio.Button>
           <Radio.Button value="default">Default</Radio.Button>
           <Radio.Button value="small">Small</Radio.Button>
+          <Radio.Button value="xsmall">xSmall</Radio.Button>
         </Radio.Group>
         <br /><br />
         <Button type="primary" size={size} subtitle={size==='large'||size==='default'?'subtitle':''}>Primary</Button>

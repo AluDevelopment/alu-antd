@@ -44,7 +44,7 @@ const ButtonTypes = tuple('default', 'primary', 'secondary', 'ghost', 'dashed', 
 export type ButtonType = (typeof ButtonTypes)[number];
 const ButtonShapes = tuple('circle', 'circle-outline');
 export type ButtonShape = (typeof ButtonShapes)[number];
-const ButtonSizes = tuple('xlarge', 'large', 'default', 'small');
+const ButtonSizes = tuple('xlarge', 'large', 'default', 'small', 'xsmall');
 export type ButtonSize = (typeof ButtonSizes)[number];
 const ButtonHTMLTypes = tuple('submit', 'button', 'reset');
 export type ButtonHTMLType = (typeof ButtonHTMLTypes)[number];
@@ -231,6 +231,10 @@ class Button extends React.Component<ButtonProps, ButtonState> {
         break;
       case 'small':
         sizeCls = 'sm';
+        break;
+      case 'xsmall':
+        sizeCls = 'xs';
+        break;
       default:
         break;
     }

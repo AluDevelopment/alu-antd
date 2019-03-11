@@ -32,6 +32,9 @@
   &-sm.@{btn-prefix-cls}-min-width {
     min-width: 80px;
   }
+  &-xs.@{btn-prefix-cls}-min-width {
+    min-width: 60px;
+  }
 
   // Make sure that the target of Button's click event always be `button`
   // Ref: https://github.com/ant-design/ant-design/issues/7034
@@ -141,6 +144,13 @@
     }
   }
 
+  &-xs&-loading:not(&-circle):not(&-circle-outline):not(&-icon-only) {
+    padding-left: 24px;
+    .@{iconfont-css-prefix} {
+      margin-left: -17px;
+    }
+  }
+
   &-group {
     .btn-group(@btn-prefix-cls);
   }
@@ -221,6 +231,9 @@ a.@{btn-prefix-cls} {
     line-height: @btn-height-lg - 2px;
   }
   &-sm {
+    line-height: @btn-height-sm - 2px;
+  }
+  &-xs {
     line-height: @btn-height-sm - 2px;
   }
 }
