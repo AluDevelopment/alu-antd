@@ -20,14 +20,18 @@ export interface RangePickerState {
   hoverValue?: RangePickerValue;
 }
 
-function getShowDateFromValue(value: RangePickerValue) {
+function getShowDateFromValue(value: RangePickerValue, mode?: string | string[]) {
   const [start, end] = value;
   // value could be an empty array, then we should not reset showDate
   if (!start && !end) {
     return;
   }
-  const newEnd = end && end.isSame(start, 'month') ? end.clone().add(1, 'month') : end;
-  return [start, newEnd] as RangePickerValue;
+  if (mode && mode[0] === 'month') {
+    return [start, end] as RangePickerValue;	    return [start, end] as RangePickerValue;
+  } else {
+    const newEnd = end && end.isSame(start, 'month') ? end.clone().add(1, 'month') : end;
+    return [start, newEnd] as RangePickerValue;
+  }
 }
 
 function formatValue(value: moment.Moment | undefined, format: string): string {
@@ -85,7 +89,7 @@ class RangePicker extends React.Component<any, RangePickerState> {
       if (!shallowequal(nextProps.value, prevState.value)) {
         state = {
           ...state,
-          showDate: getShowDateFromValue(value) || prevState.showDate,
+          showDate: getShowDateFromValue(value, nextProps.mode) || prevState.showDate,
         };
       }
     }
