@@ -136,7 +136,7 @@ const Icon: IconComponent<IconProps> = props => {
         ' prop (default `0 0 1024 1024`) to the icon.',
     );
     innerNode = (
-      <svg {...innerSvgProps} viewBox={viewBox}>
+      <svg {...innerSvgProps} viewBox={viewBox} aria-hidden={true}>
         {children}
       </svg>
     );

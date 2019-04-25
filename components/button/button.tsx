@@ -68,17 +68,17 @@ export interface BaseButtonProps {
 export type AnchorButtonProps = {
   href: string;
   target?: string;
-  onClick?: React.MouseEventHandler<HTMLAnchorElement>;
+  onClick?: React.MouseEventHandler<any>;
 } & BaseButtonProps &
-  Omit<React.AnchorHTMLAttributes<HTMLAnchorElement>, 'type'>;
+  Omit<React.AnchorHTMLAttributes<any>, 'type'>;
 
 export type NativeButtonProps = {
   htmlType?: ButtonHTMLType;
-  onClick?: React.MouseEventHandler<HTMLButtonElement>;
+  onClick?: React.MouseEventHandler<any>;
 } & BaseButtonProps &
-  Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, 'type'>;
+  Omit<React.ButtonHTMLAttributes<any>, 'type'>;
 
-export type ButtonProps = AnchorButtonProps | NativeButtonProps;
+export type ButtonProps = Partial<AnchorButtonProps & NativeButtonProps>;
 
 interface ButtonState {
   loading?: boolean | { delay?: number };
