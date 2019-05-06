@@ -16,6 +16,7 @@ export interface RadioGroupProps extends AbstractCheckboxGroupProps {
   id?: string;
   border?: boolean;
   buttonStyle?: RadioGroupButtonStyle;
+  groupBox?: boolean;
 }
 
 export interface RadioGroupState {

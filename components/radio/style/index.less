@@ -11,6 +11,7 @@
   .reset-component;
   display: inline-block;
   line-height: unset;
+
   &-border {
     border-radius: @border-radius-base;
     border: 1px solid @border-color-base;
@@ -32,6 +33,23 @@
       }
     }
   }
+
+  &-box-border {
+    border: 1px solid #C0C0C0;
+    height: 40px;
+    border-radius: 4px;
+
+    .@{radio-prefix-cls}-wrapper-box {
+      border-right: 1px solid #C0C0C0;
+      height: 39px;
+      padding: 0 16px;
+      line-height: 39px;
+    
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
 }
 
 // 一般状态
@@ -43,6 +61,10 @@
   margin-right: 8px;
   cursor: pointer;
 }
+
+
+
+
 
 .@{radio-prefix-cls} {
   .reset-component;

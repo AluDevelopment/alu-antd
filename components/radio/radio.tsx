@@ -70,6 +70,7 @@ export default class Radio extends React.Component<RadioProps, {}> {
       [`${prefixCls}-wrapper`]: true,
       [`${prefixCls}-wrapper-checked`]: radioProps.checked,
       [`${prefixCls}-wrapper-disabled`]: radioProps.disabled,
+      [`${prefixCls}-wrapper-box`]: true
     });
 
     return (

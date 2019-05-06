@@ -42,7 +42,7 @@ class App extends React.Component {
            </RadioGroup>
         </div>
         <div style={{ marginTop: 16 }}>
-          <RadioGroup border onChange={this.onChange} value={this.state.value}>
+          <RadioGroup groupBox={true} onChange={this.onChange} value={this.state.value}>
              <Radio value={1}>A</Radio>
              <Radio value={2}>B</Radio>
              <Radio value={3}>C</Radio>

@@ -29,6 +29,7 @@ class RadioGroup extends React.Component<RadioGroupProps, RadioGroupState> {
     border: false,
     disabled: false,
     buttonStyle: 'outline' as RadioGroupButtonStyle,
+    groupBox: false
   };
 
   static childContextTypes = {
@@ -108,6 +109,7 @@ class RadioGroup extends React.Component<RadioGroupProps, RadioGroupState> {
       {
         [`${groupPrefixCls}-${props.size}`]: props.size,
         [`${groupPrefixCls}-border`]: props.border,
+        [`${prefixCls}-group-box-border`]: props.groupBox
       },
       className,
     );

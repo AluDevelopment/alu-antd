@@ -17,6 +17,10 @@
 }
 
 .@{form-prefix-cls}-item-required:before {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -6px;
   display: inline-block;
   margin-right: 4px;
   content: '*';
@@ -107,7 +111,7 @@ input[type='checkbox'] {
         & when not (@form-item-trailing-colon=true) {
           content: ' ';
         }
-        margin: 0 8px 0 2px;
+        margin: 0 15px 0 2px;
         position: relative;
         top: -0.5px;
       }
