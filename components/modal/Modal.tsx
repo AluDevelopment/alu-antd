@@ -213,12 +213,12 @@ export default class Modal extends React.Component<ModalProps, {}> {
       <span className={`${prefixCls}-close-x`}>
         <Icon className={`${prefixCls}-close-icon`} component={() => (
           <svg className={`${prefixCls}-close-icon`} width="24px" height="24px" viewBox="0 0 24 24" version="1.1">
-            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                <g id="费用设置-自定义费用项目管理-新增" transform="translate(-1228.000000, -265.000000)">
-                    <g id="分组-6" transform="translate(858.000000, 245.000000)">
-                        <g id="分组-2" transform="translate(370.000000, 20.000000)">
-                            <g id="分组-16">
-                                <circle id="Oval-6" fill="#FFC4C4" cx="12" cy="12" r="12"></circle>
+            <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                <g transform="translate(-1228.000000, -265.000000)">
+                    <g transform="translate(858.000000, 245.000000)">
+                        <g transform="translate(370.000000, 20.000000)">
+                            <g>
+                                <circle fill="#FFC4C4" cx="12" cy="12" r="12"></circle>
                                 <path d="M12.2426407,10.8284271 L15.7781746,7.29289322 C16.1686989,6.90236893 16.8018639,6.90236893 17.1923882,7.29289322 C17.5829124,7.68341751 17.5829124,8.31658249 17.1923882,8.70710678 L13.6568542,12.2426407 L17.1923882,15.7781746 C17.5829124,16.1686989 17.5829124,16.8018639 17.1923882,17.1923882 C16.8018639,17.5829124 16.1686989,17.5829124 15.7781746,17.1923882 L12.2426407,13.6568542 L8.70710678,17.1923882 C8.31658249,17.5829124 7.68341751,17.5829124 7.29289322,17.1923882 C6.90236893,16.8018639 6.90236893,16.1686989 7.29289322,15.7781746 L10.8284271,12.2426407 L7.29289322,8.70710678 C6.90236893,8.31658249 6.90236893,7.68341751 7.29289322,7.29289322 C7.68341751,6.90236893 8.31658249,6.90236893 8.70710678,7.29289322 L12.2426407,10.8284271 Z" id="Combined-Shape" fill="#FF0000"></path>
                             </g>
                         </g>
